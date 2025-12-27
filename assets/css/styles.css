@@ -279,6 +279,16 @@ h1{font-size:44px;margin:12px 0 10px}
   margin-top: 12px;
 }
 
+.certs-preview{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:14px;
+  margin-top: 12px;
+}
+@media (max-width: 900px){
+  .certs-preview{grid-template-columns: 1fr;}
+}
+
 @media (max-width: 900px){
   .about{grid-template-columns: 1fr;}
   .about .card:nth-child(3){grid-column:auto;}
