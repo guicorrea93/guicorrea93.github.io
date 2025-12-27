@@ -32,7 +32,7 @@ async function loadProjects(){
   if (!grid) return; // não está na página de projetos
 
   try{
-    const resp = await fetch('data/projetos.json', { cache: 'no-store' });
+    const resp = await fetch('/data/projetos.json', { cache: 'no-store' });
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const projects = await resp.json();
 
