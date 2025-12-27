@@ -1,0 +1,20 @@
+[
+  {
+    "id": "certificados-repo",
+    "titulo": "Certificados (repositório)",
+    "instituicao": "Vários",
+    "ano": "",
+    "descricao": "Coleção de certificados reunidos em um repositório público.",
+    "link": "https://github.com/guicorrea93/certificados",
+    "tipo": "repositório"
+  },
+  {
+    "id": "diplomas-repo",
+    "titulo": "Diplomas (repositório)",
+    "instituicao": "Vários",
+    "ano": "",
+    "descricao": "Diplomas reunidos em um repositório público.",
+    "link": "https://github.com/guicorrea93/diplomas",
+    "tipo": "repositório"
+  }
+]
