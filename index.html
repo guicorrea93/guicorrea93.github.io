@@ -5,19 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Portfólio | Guilherme Corrêa</title>
 
-  <!-- CSS -->
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 
 <body>
+  <!-- Topbar é injetada pelo JS aqui -->
   <header class="topbar" id="topbar"></header>
 
   <main class="container">
-    <h1>Olá, eu sou o Guilherme</h1>
-    <p>Meu portfólio está no ar 🚀</p>
+    <section class="hero">
+      <div>
+        <p class="badge">Data Analytics • BI • Python • SQL</p>
+        <h1>Olá, eu sou o Guilherme</h1>
+        <p class="lead">
+          Portfólio com projetos em Power BI, dashboards em HTML e análises em Python.
+        </p>
+
+        <div class="actions">
+          <a class="btn primary" href="projetos.html">Ver projetos</a>
+          <a class="btn ghost" href="projetos.html">Repositórios</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Status</div>
+        <div class="card-value">Portal no ar ✅</div>
+        <div class="card-sub">Agora vamos escalar com projetos e certificados.</div>
+      </div>
+    </section>
   </main>
 
-  <!-- JS -->
+  <footer class="footer">
+    <span>© <span id="year"></span> Guilherme Corrêa</span>
+    <span class="muted">GitHub Pages</span>
+  </footer>
+
   <script src="assets/js/main.js"></script>
 </body>
 </html>
