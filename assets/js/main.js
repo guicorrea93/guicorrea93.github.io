@@ -10,14 +10,15 @@ function setTopbar(){
   const page = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
   const isActive = (file) => (page === file ? 'active' : '');
 
-  const html = `
+    const html = `
     <nav class="nav">
       <div class="brand">Guilherme <b>Corrêa</b></div>
+
       <div class="menu">
-        <a class="${isActive('index.html')}" href="index.html">Início</a>
-        <a class="${isActive('projetos.html')}" href="projetos.html">Projetos</a>
-        <a class="${isActive('certificados.html')}" href="certificados.html">Certificados</a>
-        <a class="${isActive('sobre.html')}" href="sobre.html">Sobre</a>
+        <a class="${isActive('index.html')}" href="index.html#inicio">Início</a>
+        <a href="index.html#projetos">Projetos</a>
+        <a href="index.html#certificados">Certificados</a>
+        <a href="index.html#sobre">Sobre</a>
       </div>
     </nav>
   `;
