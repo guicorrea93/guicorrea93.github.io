@@ -249,3 +249,17 @@ h1{font-size:44px;margin:12px 0 10px}
   border-radius:10px;
   font-size:13px;
 }
+
+/* ===== Sobre ===== */
+.about{
+  display:grid;
+  grid-template-columns: 1.2fr .8fr;
+  gap:14px;
+}
+.about .card:nth-child(3){
+  grid-column: 1 / -1;
+}
+@media (max-width: 900px){
+  .about{grid-template-columns: 1fr;}
+  .about .card:nth-child(3){grid-column:auto;}
+}
