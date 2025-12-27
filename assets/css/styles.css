@@ -303,3 +303,17 @@ h1{font-size:44px;margin:12px 0 10px}
 @media (max-width: 900px){
   .about-preview{grid-template-columns: 1fr;}
 }
+
+.brand{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
+}
