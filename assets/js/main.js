@@ -17,6 +17,7 @@ function setTopbar(){
         <a class="${isActive('index.html')}" href="index.html">Início</a>
         <a class="${isActive('projetos.html')}" href="projetos.html">Projetos</a>
         <a class="${isActive('certificados.html')}" href="certificados.html">Certificados</a>
+        <a class="${isActive('sobre.html')}" href="sobre.html">Sobre</a>
       </div>
     </nav>
   `;
