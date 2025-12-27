@@ -16,6 +16,7 @@ function setTopbar(){
       <div class="menu">
         <a class="${isActive('index.html')}" href="index.html">Início</a>
         <a class="${isActive('projetos.html')}" href="projetos.html">Projetos</a>
+        <a class="${isActive('certificados.html')}" href="certificados.html">Certificados</a>
       </div>
     </nav>
   `;
@@ -123,6 +124,75 @@ function escapeHTML(str){
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#039;');
 }
+// ===============================
+// Certificados (somente certificados.html)
+// ===============================
+async function loadCerts(){
+  const grid = document.getElementById('certsGrid');
+  if (!grid) return; // não está na página de certificados
+
+  try{
+    const resp = await fetch('/data/certificados.json', { cache: 'no-store' });
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const certs = await resp.json();
+
+    renderCerts(certs);
+
+  }catch(err){
+    grid.innerHTML = `
+      <div class="card">
+        <div class="card-title">Erro ao carregar certificados</div>
+        <div class="card-sub muted">
+          Verifique o caminho <b>data/certificados.json</b> e se o arquivo está com JSON válido.
+          <br/>Detalhe: ${String(err)}
+        </div>
+      </div>
+    `;
+  }
+}
+
+function renderCerts(certs){
+  const grid = document.getElementById('certsGrid');
+  if (!grid) return;
+
+  if (!certs.length){
+    grid.innerHTML = `
+      <div class="card">
+        <div class="card-title">Nenhum certificado cadastrado</div>
+        <div class="card-sub muted">Adicione itens no <b>data/certificados.json</b>.</div>
+      </div>
+    `;
+    return;
+  }
+
+  grid.innerHTML = certs.map(c => certCard(c)).join('');
+}
+
+function certCard(c){
+  const inst = c.instituicao ? `<span class="tag">${escapeHTML(c.instituicao)}</span>` : '';
+  const ano  = c.ano ? `<span class="tag">${escapeHTML(c.ano)}</span>` : '';
+  const tipo = c.tipo ? `<span class="p-type">${escapeHTML(c.tipo)}</span>` : `<span class="p-type">certificado</span>`;
+
+  return `
+    <article class="pcard">
+      <div class="p-top">
+        <h3 class="p-title">${escapeHTML(c.titulo || 'Certificado')}</h3>
+        ${tipo}
+      </div>
+
+      <p class="p-desc">${escapeHTML(c.descricao || '')}</p>
+
+      <div class="tags">
+        ${inst}
+        ${ano}
+      </div>
+
+      <div class="p-actions">
+        <a class="btn small primary" href="${c.link || '#'}" target="_blank" rel="noopener">Abrir</a>
+      </div>
+    </article>
+  `;
+}
 
 // ===============================
 // Boot
@@ -130,3 +200,4 @@ function escapeHTML(str){
 setTopbar();
 setYear();
 loadProjects();
+loadCerts();
