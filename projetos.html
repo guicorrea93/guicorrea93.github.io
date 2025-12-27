@@ -1,1 +1,41 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projetos | Guilherme Corrêa</title>
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <header class="topbar" id="topbar"></header>
+
+  <main class="container">
+    <section class="pagehead">
+      <h1>Projetos</h1>
+      <p class="lead">
+        Seleção de trabalhos em Power BI, dashboards em HTML e análises em Python/SQL.
+      </p>
+    </section>
+
+    <section class="filters">
+      <button class="chip active" data-filter="all">Todos</button>
+      <button class="chip" data-filter="Power BI">Power BI</button>
+      <button class="chip" data-filter="HTML + JS">HTML + JS</button>
+    </section>
+
+    <section id="projectsGrid" class="grid">
+      <!-- Cards serão renderizados pelo JS -->
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Guilherme Corrêa</span>
+    <span class="muted">GitHub Pages</span>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
 
