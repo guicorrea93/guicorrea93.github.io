@@ -13,7 +13,7 @@ function setTopbar(){
     const html = `
     <nav class="nav">
       <div class="brand">
-        <img src="assets/img/avatar.jpg" alt="Foto de Guilherme Corrêa" class="avatar" />
+        <img src="assets/img/avatar.jpeg" alt="Foto de Guilherme Corrêa" class="avatar" />
         <span>Guilherme <b>Corrêa</b></span>
       </div>
 
