@@ -1,1 +1,36 @@
+[
+  {
+    "id": "projeto-1",
+    "titulo": "Projeto 1 — Power BI (Dashboard)",
+    "tipo": "Power BI",
+    "descricao": "Dashboard publicado no Power BI Service com foco em indicadores e análise executiva.",
+    "tags": ["Power BI", "DAX", "Modelagem"],
+    "links": {
+      "ver": "https://app.powerbi.com/view?r=eyJrIjoiNWJkNzQyMzUtOTcxMC00NDI2LWJiNTUtMDRkMTMzNjVjZGRmIiwidCI6IjhjYzJkZWQ2LWEzYjktNDk4My04ZDcxLTY3OGZjN2E2NjRiZSJ9",
+      "repo": "https://github.com/guicorrea93/PortifolioProjetos/tree/main/projeto_1"
+    }
+  },
+  {
+    "id": "projeto-2",
+    "titulo": "Projeto 2 — Dashboard HTML (GitHub Pages)",
+    "tipo": "HTML + JS",
+    "descricao": "Dashboard interativo estático em HTML/CSS/JS (Plotly), publicado via GitHub Pages.",
+    "tags": ["HTML", "CSS", "JavaScript", "Plotly"],
+    "links": {
+      "ver": "https://guicorrea93.github.io/PortifolioProjetos/projeto_2/report/",
+      "repo": "https://github.com/guicorrea93/PortifolioProjetos/tree/main/projeto_2"
+    }
+  },
+  {
+    "id": "projeto-3",
+    "titulo": "Projeto 3 — Power BI (Dashboard)",
+    "tipo": "Power BI",
+    "descricao": "Dashboard publicado no Power BI Service com foco em performance e indicadores do negócio.",
+    "tags": ["Power BI", "DAX", "Storytelling"],
+    "links": {
+      "ver": "https://app.powerbi.com/view?r=eyJrIjoiN2JmMDFiOGItMzAxMS00NjI1LWE2ZGMtNmIzOTI0YzBlMjk4IiwidCI6IjhjYzJkZWQ2LWEzYjktNDk4My04ZDcxLTY3OGZjN2E2NjRiZSJ9",
+      "repo": "https://github.com/guicorrea93/PortifolioProjetos/tree/main/projeto_3"
+    }
+  }
+]
 
