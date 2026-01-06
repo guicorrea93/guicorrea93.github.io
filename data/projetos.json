@@ -1,36 +1,95 @@
 [
   {
     "id": "projeto-1",
-    "titulo": "Projeto 1 — Power BI (Dashboard)",
+    "titulo": "Dashboard Executivo de Indicadores",
     "tipo": "Power BI",
-    "descricao": "Dashboard publicado no Power BI Service com foco em indicadores e análise executiva.",
-    "tags": ["Power BI", "DAX", "Modelagem"],
+    "descricao": "Dashboard publicado no Power BI Service com foco em indicadores e análise executiva, facilitando tomada de decisão estratégica.",
+    "descricaoCompleta": "Dashboard executivo desenvolvido no Power BI Service focado em entregar insights acionáveis para a alta gestão. Implementa KPIs críticos com análise de tendências e drill-down interativo. Utiliza DAX avançado para cálculos dinâmicos e modelagem de dados otimizada para performance. A estrutura modular permite fácil manutenção e evolução do projeto.",
+    "destaque": true,
+    "thumbnail": "assets/img/projetos/projeto1-thumb.png",
+    "screenshots": [
+      "assets/img/projetos/projeto1-screen1.png",
+      "assets/img/projetos/projeto1-screen2.png"
+    ],
+    "tags": ["Power BI", "DAX", "Modelagem", "KPIs", "Drill-down"],
+    "tecnologias": ["Power BI Desktop", "Power Query", "DAX", "Power BI Service", "Modelagem de Dados"],
+    "desafios": [
+      "Modelagem de dados otimizada para performance com múltiplas tabelas relacionadas",
+      "Criação de medidas DAX complexas para cálculos dinâmicos de indicadores",
+      "Design de interface intuitiva que facilite a navegação executiva"
+    ],
+    "resultados": [
+      "Dashboard acessível online via Power BI Service",
+      "Redução significativa no tempo de análise de indicadores",
+      "Interface intuitiva adotada rapidamente pelos stakeholders"
+    ],
     "links": {
       "ver": "https://app.powerbi.com/view?r=eyJrIjoiNWJkNzQyMzUtOTcxMC00NDI2LWJiNTUtMDRkMTMzNjVjZGRmIiwidCI6IjhjYzJkZWQ2LWEzYjktNDk4My04ZDcxLTY3OGZjN2E2NjRiZSJ9",
       "repo": "https://github.com/guicorrea93/PortifolioProjetos/tree/main/projeto_1"
-    }
+    },
+    "dataPublicacao": "2024-11",
+    "status": "Concluído"
   },
   {
     "id": "projeto-2",
-    "titulo": "Projeto 2 — Dashboard HTML (GitHub Pages)",
+    "titulo": "Dashboard Interativo em HTML/JavaScript",
     "tipo": "HTML + JS",
-    "descricao": "Dashboard interativo estático em HTML/CSS/JS (Plotly), publicado via GitHub Pages.",
-    "tags": ["HTML", "CSS", "JavaScript", "Plotly"],
+    "descricao": "Dashboard interativo estático em HTML/CSS/JS (Plotly), publicado via GitHub Pages com atualização automática e design responsivo.",
+    "descricaoCompleta": "Solução leve e responsiva desenvolvida em HTML/CSS/JavaScript puro, utilizando Plotly.js para gráficos interativos. Publicado via GitHub Pages, oferece acesso instantâneo sem necessidade de servidor. Design mobile-first permite acompanhamento de qualquer dispositivo. Implementa boas práticas de web design moderno com performance otimizada.",
+    "destaque": true,
+    "thumbnail": "assets/img/projetos/projeto2-thumb.png",
+    "screenshots": [
+      "assets/img/projetos/projeto2-screen1.png",
+      "assets/img/projetos/projeto2-screen2.png"
+    ],
+    "tags": ["HTML", "CSS", "JavaScript", "Plotly", "GitHub Pages", "Responsivo"],
+    "tecnologias": ["HTML5", "CSS3", "JavaScript ES6", "Plotly.js", "GitHub Pages", "Design Responsivo"],
+    "desafios": [
+      "Criar visualizações interativas sem frameworks pesados",
+      "Garantir performance rápida mesmo com grande volume de dados",
+      "Desenvolver design responsivo que funcione perfeitamente em todos os dispositivos"
+    ],
+    "resultados": [
+      "Carregamento ultra-rápido (< 2 segundos)",
+      "100% de disponibilidade via GitHub Pages",
+      "Acessível de qualquer dispositivo com experiência otimizada"
+    ],
     "links": {
       "ver": "https://guicorrea93.github.io/PortifolioProjetos/projeto_2/report/",
       "repo": "https://github.com/guicorrea93/PortifolioProjetos/tree/main/projeto_2"
-    }
+    },
+    "dataPublicacao": "2024-10",
+    "status": "Concluído"
   },
   {
     "id": "projeto-3",
-    "titulo": "Projeto 3 — Power BI (Dashboard)",
+    "titulo": "Dashboard de Performance e Negócios",
     "tipo": "Power BI",
-    "descricao": "Dashboard publicado no Power BI Service com foco em performance e indicadores do negócio.",
-    "tags": ["Power BI", "DAX", "Storytelling"],
+    "descricao": "Dashboard publicado no Power BI Service com foco em performance operacional e indicadores estratégicos do negócio com storytelling visual.",
+    "descricaoCompleta": "Dashboard completo focado em performance operacional e indicadores estratégicos, desenvolvido com técnicas de storytelling visual para guiar a análise. Implementa análise comparativa entre períodos, identificação de tendências e drill-through para análises detalhadas. Utiliza DAX avançado e modelagem eficiente para garantir agilidade na exploração dos dados.",
+    "destaque": true,
+    "thumbnail": "assets/img/projetos/projeto3-thumb.png",
+    "screenshots": [
+      "assets/img/projetos/projeto3-screen1.png",
+      "assets/img/projetos/projeto3-screen2.png"
+    ],
+    "tags": ["Power BI", "DAX", "Storytelling", "Performance", "Análise Comparativa"],
+    "tecnologias": ["Power BI Desktop", "DAX Avançado", "Power Query M", "Power BI Service", "Storytelling Visual"],
+    "desafios": [
+      "Implementar storytelling visual que guie naturalmente a análise dos dados",
+      "Criar medidas DAX complexas para análises comparativas entre períodos",
+      "Equilibrar profundidade analítica com simplicidade de uso"
+    ],
+    "resultados": [
+      "Dashboard acessível com narrativa visual clara e objetiva",
+      "Análises comparativas facilitam identificação de oportunidades",
+      "Interface que combina sofisticação técnica com usabilidade"
+    ],
     "links": {
       "ver": "https://app.powerbi.com/view?r=eyJrIjoiN2JmMDFiOGItMzAxMS00NjI1LWE2ZGMtNmIzOTI0YzBlMjk4IiwidCI6IjhjYzJkZWQ2LWEzYjktNDk4My04ZDcxLTY3OGZjN2E2NjRiZSJ9",
       "repo": "https://github.com/guicorrea93/PortifolioProjetos/tree/main/projeto_3"
-    }
+    },
+    "dataPublicacao": "2024-09",
+    "status": "Concluído"
   }
 ]
-
