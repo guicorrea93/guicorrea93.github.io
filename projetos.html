@@ -1,8 +1,9 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfólio completo de projetos em Power BI, Python, SQL e dashboards web" />
   <title>Projetos | Guilherme Corrêa</title>
 
   <link rel="stylesheet" href="assets/css/styles.css" />
@@ -13,29 +14,103 @@
 
   <main class="container">
     <section class="pagehead">
-      <h1>Projetos</h1>
+      <h1>Todos os Projetos</h1>
       <p class="lead">
-        Seleção de trabalhos em Power BI, dashboards em HTML e análises em Python/SQL.
+        Coleção completa de trabalhos desenvolvidos em Power BI, Python, SQL e tecnologias web.<br>
+        Cada projeto representa um problema real, uma solução técnica e resultados mensuráveis.
       </p>
     </section>
 
+    <!-- Filtros -->
     <section class="filters">
-      <button class="chip active" data-filter="all">Todos</button>
-      <button class="chip" data-filter="Power BI">Power BI</button>
-      <button class="chip" data-filter="HTML + JS">HTML + JS</button>
+      <button class="chip active" data-filter="all" aria-label="Mostrar todos os projetos">
+        Todos
+      </button>
+      <button class="chip" data-filter="Power BI" aria-label="Filtrar projetos Power BI">
+        Power BI
+      </button>
+      <button class="chip" data-filter="Python" aria-label="Filtrar projetos Python">
+        Python
+      </button>
+      <button class="chip" data-filter="HTML + JS" aria-label="Filtrar projetos Web">
+        HTML + JS
+      </button>
     </section>
 
+    <!-- Grid de projetos -->
     <section id="projectsGrid" class="grid">
-      <!-- Cards serão renderizados pelo JS -->
+      <!-- Será preenchido via JavaScript -->
     </section>
   </main>
 
+  <!-- Modal de detalhes do projeto -->
+  <div class="modal" id="projectModal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-overlay" data-close-modal></div>
+    <div class="modal-content">
+      <button class="modal-close" data-close-modal aria-label="Fechar modal">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+
+      <div class="modal-body">
+        <!-- Header do modal -->
+        <div class="modal-header">
+          <div class="modal-meta">
+            <span class="modal-type" id="modalType">Power BI</span>
+            <span class="modal-status" id="modalStatus">Concluído</span>
+          </div>
+          <h2 class="modal-title" id="modalTitle">Título do Projeto</h2>
+          <p class="modal-desc" id="modalDesc">Descrição breve</p>
+        </div>
+
+        <!-- Screenshots -->
+        <div class="modal-screenshots" id="modalScreenshots">
+          <!-- Será preenchido dinamicamente -->
+        </div>
+
+        <!-- Descrição completa -->
+        <div class="modal-section">
+          <h3>Sobre o projeto</h3>
+          <p id="modalDescCompleta"></p>
+        </div>
+
+        <!-- Tecnologias -->
+        <div class="modal-section">
+          <h3>Tecnologias utilizadas</h3>
+          <div class="modal-tags" id="modalTecnologias"></div>
+        </div>
+
+        <!-- Desafios -->
+        <div class="modal-section" id="modalDesafiosSection">
+          <h3>Principais desafios</h3>
+          <ul class="modal-list" id="modalDesafios"></ul>
+        </div>
+
+        <!-- Resultados -->
+        <div class="modal-section" id="modalResultadosSection">
+          <h3>Resultados alcançados</h3>
+          <ul class="modal-list modal-list-success" id="modalResultados"></ul>
+        </div>
+
+        <!-- Actions -->
+        <div class="modal-actions">
+          <a class="btn primary" id="modalVerBtn" href="#" target="_blank" rel="noopener noreferrer">
+            Ver projeto
+          </a>
+          <a class="btn ghost" id="modalRepoBtn" href="#" target="_blank" rel="noopener noreferrer">
+            Ver repositório
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <footer class="footer">
-    <span>© <span id="year"></span> Guilherme Corrêa</span>
+    <span>&copy; <span id="year"></span> Guilherme Corrêa</span>
     <span class="muted">GitHub Pages</span>
   </footer>
 
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>
-
