@@ -1634,6 +1634,53 @@ window.portfolioApp = {
 };
 
 // ===============================
+// TIMELINE TOGGLE (VER MAIS)
+// ===============================
+
+function initTimelineToggle() {
+  const timeline = document.getElementById('timelineContent');
+  const toggleBtn = document.getElementById('toggleTimeline');
+  
+  if (!timeline || !toggleBtn) return;
+
+  const toggleText = toggleBtn.querySelector('.toggle-text');
+  
+  toggleBtn.addEventListener('click', function() {
+    const isExpanded = this.getAttribute('aria-expanded') === 'true';
+    
+    if (isExpanded) {
+      // Colapsar
+      timeline.classList.remove('expanded');
+      this.setAttribute('aria-expanded', 'false');
+      toggleText.textContent = 'Ver mais sobre minha trajetória';
+      
+      // Scroll suave para o topo da timeline
+      setTimeout(() => {
+        timeline.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 100);
+      
+    } else {
+      // Expandir
+      timeline.classList.add('expanded');
+      this.setAttribute('aria-expanded', 'true');
+      toggleText.textContent = 'Ver menos';
+    }
+    
+    announceToScreenReader(
+      isExpanded ? 'Seção recolhida' : 'Seção expandida'
+    );
+  });
+  
+  // Adiciona suporte para teclado
+  toggleBtn.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      this.click();
+    }
+  });
+}
+
+// ===============================
 // INICIALIZAÇÃO PRINCIPAL
 // ===============================
 
@@ -1645,6 +1692,7 @@ function init() {
     initScrollSpy();
     initLazyLoading();
     manageFocus();
+    initTimelineToggle();
     
     // ✅ Inicializa projetos
     initProjects();
