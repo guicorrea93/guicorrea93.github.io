@@ -464,7 +464,7 @@
     "instituicao": "Alura",
     "categoria": "Liderança e Comunicação",
     "duracao": "",
-    "destaque": false,
+    "destaque": true,
     "thumbnail": "assets/img/certificados/comunicacao-lideres-thumb.png",
     "competencias": [
       "Comunicação Assertiva",
@@ -992,7 +992,7 @@
     "instituicao": "Alura",
     "categoria": "Gestão Ágil e Projetos",
     "duracao": "",
-    "destaque": false,
+    "destaque": true,
     "thumbnail": "assets/img/certificados/gestao-agil-projetos-thumb.png",
     "competencias": [
       "Gestão Ágil",
@@ -1620,7 +1620,7 @@
     "instituicao": "Alura",
     "categoria": "Data Science",
     "duracao": "",
-    "destaque": false,
+    "destaque": true,
     "thumbnail": "assets/img/certificados/data-science-python-thumb.png",
     "competencias": [
       "Python",
