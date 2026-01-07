@@ -335,6 +335,85 @@
       </div>
     </div>
   </div>
+
+  <!-- Modal de detalhes do certificado -->
+  <div class="modal" id="certModal" aria-hidden="true" role="dialog" aria-labelledby="certModalTitle">
+    <div class="modal-overlay" data-close-cert-modal></div>
+    <div class="modal-content">
+      <button class="modal-close" data-close-cert-modal aria-label="Fechar modal">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+
+      <div class="modal-body">
+        <!-- Header do modal -->
+        <div class="modal-header">
+          <div class="modal-meta">
+            <span class="modal-type" id="certModalCategoria">Categoria</span>
+            <span class="modal-status cert-status" id="certModalStatus">Concluído</span>
+          </div>
+
+          <h2 class="modal-title" id="certModalTitle">Título do Certificado</h2>
+
+          <div class="cert-info">
+            <span class="cert-info-item">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M8 5V8L10 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              <span id="certModalDuracao">40 horas</span>
+            </span>
+
+            <span class="cert-info-item">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M8 2V8L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+              <span id="certModalAno">2024</span>
+            </span>
+
+            <span class="cert-info-item">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M2 6L8 2L14 6L8 10L2 6Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 10L8 14L14 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span id="certModalInstituicao">Instituição</span>
+            </span>
+          </div>
+
+          <p class="modal-desc" id="certModalDesc">Descrição breve</p>
+        </div>
+
+        <!-- Preview do certificado -->
+        <div class="cert-preview" id="certModalPreview">
+          <!-- Será preenchido dinamicamente -->
+        </div>
+
+        <!-- Descrição completa -->
+        <div class="modal-section">
+          <h3>Sobre o certificado</h3>
+          <p id="certModalDescCompleta"></p>
+        </div>
+
+        <!-- Competências -->
+        <div class="modal-section">
+          <h3>Competências adquiridas</h3>
+          <div class="modal-tags cert-competencias" id="certModalCompetencias"></div>
+        </div>
+
+        <!-- Actions -->
+        <div class="modal-actions">
+          <a class="btn primary" id="certModalVerBtn" href="#" target="_blank" rel="noopener noreferrer">
+            Ver certificado
+          </a>
+          <a class="btn ghost" id="certModalRepoBtn" href="https://github.com/guicorrea93/certificados" target="_blank" rel="noopener noreferrer">
+            Ver repositório
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
     
     <section id="certificados" class="section">
       <div class="pagehead">
