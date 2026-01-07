@@ -67,11 +67,8 @@ function setTopbar() {
       </div>
 
       <div class="menu">
-        <a class="${isActivePage('index.html')}" 
-           href="index.html#inicio"
-           aria-label="Ir para o início">
-          Início
-        </a>
+        <a href="index.html#inicio" aria-label="Ir para o início">Início</a>
+
         <a href="index.html#sobre"
            aria-label="Ir para seção sobre">
           Sobre
@@ -114,6 +111,73 @@ function initSmoothScroll() {
       });
     });
   }
+}
+
+// ===============================
+// SCROLLSPY (MENU ATIVO POR SCROLL)
+// ===============================
+function initScrollSpy() {
+  // Só no index
+  if (getCurrentPage() !== 'index.html') return;
+
+  const links = Array.from(document.querySelectorAll('.menu a[href*="#"]'));
+  if (!links.length) return;
+
+  // Pega IDs das seções a partir do href (#inicio, #sobre, etc.)
+  const ids = links
+    .map(a => (a.hash || '').replace('#', ''))
+    .filter(Boolean);
+
+  const sections = ids
+    .map(id => document.getElementById(id))
+    .filter(Boolean);
+
+  if (!sections.length) return;
+
+  const setActive = (id) => {
+    links.forEach(a => {
+      const isThis = a.hash === `#${id}`;
+      a.classList.toggle('active', isThis);
+      if (isThis) a.setAttribute('aria-current', 'page');
+      else a.removeAttribute('aria-current');
+    });
+  };
+
+  // Marca inicial
+  setActive((location.hash || '#inicio').replace('#', ''));
+
+  let ticking = false;
+
+  const onScroll = () => {
+    if (ticking) return;
+    ticking = true;
+
+    requestAnimationFrame(() => {
+      ticking = false;
+
+      // Linha de referência: um pouco abaixo do topo (por causa da navbar fixa)
+      const refY = window.scrollY + 140;
+
+      let currentId = sections[0].id;
+
+      for (const sec of sections) {
+        if (sec.offsetTop <= refY) currentId = sec.id;
+      }
+
+      setActive(currentId);
+    });
+  };
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+
+  // Se mudar hash (ex: link direto)
+  window.addEventListener('hashchange', () => {
+    setActive((location.hash || '#inicio').replace('#', ''));
+  });
+
+  // Roda uma vez pra ajustar se você já abriu no meio da página
+  onScroll();
 }
 
 // ===============================
@@ -1540,6 +1604,7 @@ function init() {
     setTopbar();
     setYear();
     initSmoothScroll();
+    initScrollSpy();
     initLazyLoading();
     manageFocus();
     
