@@ -54,34 +54,72 @@ function setTopbar() {
   const topbarElement = document.getElementById('topbar');
   if (!topbarElement) return;
 
-  const navHTML = `
-    <nav class="nav" role="navigation" aria-label="Navegação principal">
-      <div class="brand">
-        <img src="assets/img/avatar.jpeg" 
-             alt="Foto de perfil de Guilherme Corrêa" 
-             class="avatar" 
-             loading="lazy" />
-        <span>Guilherme <b>Corrêa</b> <a class="btn small primary" href="https://www.linkedin.com/in/guilherme-corr%C3%AAa-893781169/" target="_blank" rel="noopener">LinkedIn</a>
-            <a class="btn small ghost" href="https://github.com/guicorrea93" target="_blank" rel="noopener">GitHub</a>
-            <a class="btn small ghost" href="mailto:guilherme93_correa@hotmail.com">Email</a> </span>
-      </div>
+  const currentPage = getCurrentPage(); // ex: index.html, certificados.html, projetos.html
 
+  // MENU: só existe completo no index.html
+  const menuHTML = (currentPage === 'index.html')
+    ? `
       <div class="menu">
         <a href="index.html#inicio" aria-label="Ir para o início">Início</a>
 
-        <a href="index.html#sobre"
-           aria-label="Ir para seção sobre">
+        <a href="index.html#sobre" aria-label="Ir para seção sobre">
           Sobre
         </a>
-        <a href="index.html#projetos"
-           aria-label="Ir para seção de projetos">
+
+        <a href="index.html#projetos" aria-label="Ir para seção de projetos">
           Projetos
         </a>
-        <a href="index.html#certificados"
-           aria-label="Ir para seção de certificados">
+
+        <a href="index.html#certificados" aria-label="Ir para seção de certificados">
           Certificados
         </a>
       </div>
+    `
+    : `
+      <div class="menu">
+        <a href="index.html"
+           class="active back-home"
+           aria-label="Voltar para a página inicial">
+          ← Voltar ao início
+        </a>
+      </div>
+    `;
+
+  const navHTML = `
+    <nav class="nav" role="navigation" aria-label="Navegação principal">
+      <div class="brand">
+        <img
+          src="assets/img/avatar.jpeg"
+          alt="Foto de perfil de Guilherme Corrêa"
+          class="avatar"
+          loading="lazy"
+        />
+
+        <span>
+          Guilherme <b>Corrêa</b>
+
+          <a class="btn small primary"
+             href="https://www.linkedin.com/in/guilherme-corr%C3%AAa-893781169/"
+             target="_blank"
+             rel="noopener">
+            LinkedIn
+          </a>
+
+          <a class="btn small ghost"
+             href="https://github.com/guicorrea93"
+             target="_blank"
+             rel="noopener">
+            GitHub
+          </a>
+
+          <a class="btn small ghost"
+             href="mailto:guilherme93_correa@hotmail.com">
+            Email
+          </a>
+        </span>
+      </div>
+
+      ${menuHTML}
     </nav>
   `;
 
