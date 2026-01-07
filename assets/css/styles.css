@@ -349,10 +349,17 @@ h3 {
 .timeline{
   position: relative;
   margin-top: 1.25rem;
-  padding-left: 0;                 /* antes tinha padding-left */
+  padding-left: 0;
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+  max-height: 800px;
+  overflow: hidden;
+  transition: max-height 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.timeline.expanded {
+  max-height: 5000px;
 }
 
 /* linha vertical no centro */
@@ -538,6 +545,60 @@ h3 {
   }
 }
 
+/* ===============================
+   TIMELINE TOGGLE
+   =============================== */
+.timeline-toggle {
+  position: relative;
+  z-index: 10;
+}
+
+.timeline-toggle::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--bg));
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
+.timeline.expanded + .timeline-toggle::before {
+  opacity: 0;
+}
+
+#toggleTimeline {
+  min-width: 280px;
+  font-size: 1rem;
+  padding: 0.875rem 1.5rem;
+}
+
+#toggleTimeline .toggle-icon {
+  transition: transform 0.3s ease;
+}
+
+#toggleTimeline[aria-expanded="true"] .toggle-icon {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 640px) {
+  .timeline {
+    max-height: 600px;
+  }
+  
+  .timeline-toggle::before {
+    height: 100px;
+  }
+  
+  #toggleTimeline {
+    min-width: auto;
+    width: 100%;
+    font-size: 0.9375rem;
+  }
+}
 
 /* ===============================
    ABOUT PANEL (Fase 8 e 9)
