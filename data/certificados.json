@@ -68,7 +68,8 @@
     "totalCertificados": 7,
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Agilidade%20abordagens%20e%20pr%C3%A1ticas%20avan%C3%A7adas",
     "status": "Concluído",
-    "ano": "2025"
+    "ano": "2025",
+    "lastUpdated": "2026-01-08T14:06:36.937772"
   },
   {
     "id": "avancando-data-science-python",
@@ -157,7 +158,8 @@
     "totalCertificados": 10,
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python",
     "status": "Concluído",
-    "ano": "2025"
+    "ano": "2025",
+    "lastUpdated": "2026-01-08T14:06:38.847489"
   },
   {
     "id": "business-agility",
@@ -239,7 +241,8 @@
     "totalCertificados": 9,
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Business%20Agility",
     "status": "Concluído",
-    "ano": "2025"
+    "ano": "2025",
+    "lastUpdated": "2026-01-08T14:06:42.666041"
   },
   {
     "id": "business-intelligence-excel",
@@ -308,7 +311,8 @@
     "totalCertificados": 7,
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Business%20Intelligence%20com%20Excel",
     "status": "Concluído",
-    "ano": "2025"
+    "ano": "2025",
+    "lastUpdated": "2026-01-08T14:06:44.605164"
   },
   {
     "id": "business-intelligence-data-warehouse",
@@ -379,7 +383,8 @@
     "totalCertificados": 7,
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/BI%20e%20Data%20Warehouse%20com%20SQL%20Server%20e%20Power%20BI",
     "status": "Concluído",
-    "ano": "2025"
+    "ano": "2025",
+    "lastUpdated": "2026-01-08T14:06:40.758774"
   },
   {
     "id": "comunicacao",
@@ -455,7 +460,8 @@
     "totalCertificados": 8,
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Comunica%C3%A7%C3%A3o",
     "status": "Concluído",
-    "ano": "2025"
+    "ano": "2025",
+    "lastUpdated": "2026-01-08T14:06:46.531175"
   },
   {
     "id": "comunicacao-lideres",
@@ -525,7 +531,8 @@
     "totalCertificados": 7,
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Comunica%C3%A7%C3%A3o%20para%20l%C3%ADderes",
     "status": "Concluído",
-    "ano": "2025"
+    "ano": "2025",
+    "lastUpdated": "2026-01-08T14:06:48.573941"
   },
   {
     "id": "data-science",
@@ -589,7 +596,8 @@
     "totalCertificados": 6,
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Data%20Science",
     "status": "Concluído",
-    "ano": "2025"
+    "ano": "2025",
+    "lastUpdated": "2026-01-08T14:06:50.462333"
   },
   {
     "id": "data-science-academy",
@@ -650,7 +658,8 @@
     "totalCertificados": 7,
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Data%20Science%20Academy",
     "status": "Concluído",
-    "ano": "2025"
+    "ano": "2025",
+    "lastUpdated": "2026-01-08T14:06:52.117041"
   },
   {
     "id": "data-science-python",
@@ -814,7 +823,8 @@
     "totalCertificados": 9,
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Digital%20%26%20Agile%20Thinking",
     "status": "Concluído",
-    "ano": "2025"
+    "ano": "2025",
+    "lastUpdated": "2026-01-08T14:06:54.798784"
   },
   {
     "id": "dominando-power-bi",
@@ -885,7 +895,8 @@
     "totalCertificados": 7,
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Dominando%20o%20Power%20BI",
     "status": "Concluído",
-    "ano": "2025"
+    "ano": "2025",
+    "lastUpdated": "2026-01-08T14:06:56.703578"
   },
   {
     "id": "empreendedorismo-digital",
@@ -974,7 +985,8 @@
     "totalCertificados": 10,
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Empreendedorismo%20Digital",
     "status": "Concluído",
-    "ano": "2025"
+    "ano": "2025",
+    "lastUpdated": "2026-01-08T14:06:58.722643"
   },
   {
     "id": "estatistica-python",
@@ -1057,7 +1069,8 @@
     "totalCertificados": 9,
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Estat%C3%ADstica%20com%20Python",
     "status": "Concluído",
-    "ano": "2025"
+    "ano": "2025",
+    "lastUpdated": "2026-01-08T14:07:00.878359"
   },
   {
     "id": "excel",
@@ -1126,7 +1139,8 @@
     "totalCertificados": 7,
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Excel",
     "status": "Concluído",
-    "ano": "2025"
+    "ano": "2025",
+    "lastUpdated": "2026-01-08T14:07:02.762894"
   },
   {
     "id": "ferramentas-essenciais-para-devs",
