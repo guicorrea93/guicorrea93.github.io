@@ -1267,65 +1267,6 @@ function createFeaturedCertCard(cert) {
   `;
 }
 
-// ✅ FUNÇÃO UNIFICADA - Carrega todos os certificados (certificados.html)
-async function loadAllCertificates() {
-  const grid = document.getElementById('certsGrid');
-  if (!grid) return;
-
-  showLoading(grid, 'Carregando certificados...');
-
-  try {
-    const certificates = await fetchWithRetry(CONFIG.certsPath);
-
-    if (!Array.isArray(certificates)) {
-      throw new Error('Formato de dados inválido');
-    }
-
-    allCertificates = certificates;
-    renderAllCertificates(certificates, 'all'); // ✅ Renomeada para evitar conflito
-    bindCertFilters(certificates);
-    initCertModalHandlers();
-
-  } catch (error) {
-    console.error('Erro ao carregar certificados:', error);
-    showError(grid, 'Erro ao carregar certificados', `Detalhes: ${error.message}`);
-  }
-}
-
-// ✅ RENDERIZAÇÃO UNIFICADA - Usa sempre a mesma estrutura
-function renderAllCertificates(certificates, filter) {
-  const grid = document.getElementById('certsGrid');
-  if (!grid) return;
-
-  const filtered = (filter === 'all')
-    ? certificates
-    : certificates.filter(c => (c.categoria || '').toLowerCase() === filter.toLowerCase());
-
-  if (!filtered.length) {
-    grid.innerHTML = `
-      <div class="card">
-        <div class="card-title">Nenhum certificado encontrado</div>
-        <div class="card-sub muted">Tente outro filtro.</div>
-      </div>
-    `;
-    return;
-  }
-
-  const fragment = document.createDocumentFragment();
-  const tempDiv = document.createElement('div');
-
-  filtered.forEach(cert => {
-    tempDiv.innerHTML = createCertificateCard(cert); // ✅ Sempre a mesma estrutura
-    const card = tempDiv.firstElementChild;
-    card.addEventListener('click', () => openCertificateModal(cert));
-    fragment.appendChild(card);
-  });
-
-  grid.innerHTML = '';
-  grid.appendChild(fragment);
-  animateCertCards(grid);
-}
-
 // ✅ CARD UNIFICADO - Estrutura consistente
 function createCertificateCard(cert) {
   const {
@@ -1402,33 +1343,6 @@ function createCertificateCard(cert) {
   `;
 }
 
-// Bind filtros de certificados
-function bindCertFilters(certificates) {
-  const chips = document.querySelectorAll('.chip');
-  if (!chips.length) return;
-
-  chips.forEach(chip => {
-    chip.addEventListener('click', function() {
-      chips.forEach(c => c.classList.remove('active'));
-      this.classList.add('active');
-
-      const filter = this.getAttribute('data-filter') || 'all';
-      renderAllCertificates(certificates, filter); // ✅ Usa a função unificada
-
-      announceToScreenReader(`Filtro aplicado: ${this.textContent}`);
-    });
-
-    chip.setAttribute('role', 'button');
-    chip.setAttribute('tabindex', '0');
-    chip.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        this.click();
-      }
-    });
-  });
-}
-
 // Animação de entrada dos cards
 function animateCertCards(container) {
   setTimeout(() => {
@@ -1443,6 +1357,342 @@ function animateCertCards(container) {
     });
   }, 10);
 }
+
+// ===============================
+// SISTEMA COMPLETO DE FILTROS E BUSCA
+// Adicione este código ao seu main.js
+// ===============================
+
+// ===============================
+// 1. GERAÇÃO DINÂMICA DE FILTROS
+// ===============================
+
+function generateDynamicFilters(certificates) {
+  const filtersSection = document.querySelector('.filters');
+  if (!filtersSection) return;
+
+  // Coleta categorias únicas e conta certificados
+  const categoryCounts = {};
+  
+  certificates.forEach(cert => {
+    const categoria = cert.categoria || 'Sem Categoria';
+    categoryCounts[categoria] = (categoryCounts[categoria] || 0) + 1;
+  });
+
+  // Ordena categorias alfabeticamente
+  const sortedCategories = Object.keys(categoryCounts).sort();
+
+  // Conta total
+  const totalCount = certificates.length;
+
+  // Gera HTML dos chips
+  const chipsHTML = [
+    // Chip "Todos"
+    `<button class="chip active" data-filter="all" aria-label="Mostrar todos os certificados">
+      Todos <span style="opacity: 0.7; font-size: 0.75em; margin-left: 4px;">(${totalCount})</span>
+    </button>`,
+    
+    // Chips por categoria
+    ...sortedCategories.map(categoria => {
+      const count = categoryCounts[categoria];
+      const slug = categoria.toLowerCase().replace(/\s+/g, '-');
+      
+      return `<button class="chip" data-filter="${categoria}" aria-label="Filtrar ${categoria}">
+        ${categoria} <span style="opacity: 0.7; font-size: 0.75em; margin-left: 4px;">(${count})</span>
+      </button>`;
+    })
+  ].join('');
+
+  filtersSection.innerHTML = chipsHTML;
+
+  // Re-bind eventos
+  bindCertFilters(certificates);
+}
+
+// ===============================
+// 2. RENDERIZAÇÃO INTELIGENTE
+// ===============================
+
+function renderAllCertificates(certificates, filter = 'all', searchTerm = '') {
+  const grid = document.getElementById('certsGrid');
+  if (!grid) return;
+
+  let filtered = certificates;
+
+  // Aplica filtro de categoria
+  if (filter !== 'all') {
+    filtered = filtered.filter(cert => {
+      const categoria = (cert.categoria || '').toLowerCase();
+      const filterLower = filter.toLowerCase();
+      
+      // Match exato ou parcial
+      return categoria === filterLower || categoria.includes(filterLower);
+    });
+  }
+
+  // Aplica busca textual
+  if (searchTerm) {
+    const searchLower = searchTerm.toLowerCase();
+    
+    filtered = filtered.filter(cert => {
+      const titulo = (cert.titulo || '').toLowerCase();
+      const instituicao = (cert.instituicao || '').toLowerCase();
+      const descricao = (cert.descricao || '').toLowerCase();
+      const competencias = (cert.competencias || []).join(' ').toLowerCase();
+      const tipo = (cert.tipo || '').toLowerCase();
+      const ano = (cert.ano || '').toString();
+      
+      return titulo.includes(searchLower) ||
+             instituicao.includes(searchLower) ||
+             descricao.includes(searchLower) ||
+             competencias.includes(searchLower) ||
+             tipo.includes(searchLower) ||
+             ano.includes(searchLower);
+    });
+  }
+
+  // Mostra mensagem se não encontrou nada
+  if (!filtered.length) {
+    const message = searchTerm 
+      ? `Nenhum certificado encontrado para "${escapeHTML(searchTerm)}"`
+      : 'Nenhum certificado encontrado';
+    
+    const suggestion = searchTerm
+      ? 'Tente outro termo de busca ou limpe o filtro.'
+      : 'Tente outro filtro.';
+    
+    grid.innerHTML = `
+      <div class="card">
+        <div class="card-title">${message}</div>
+        <div class="card-sub muted">${suggestion}</div>
+        ${searchTerm ? `
+          <button class="btn small primary" onclick="document.getElementById('certSearch').value = ''; document.getElementById('certSearch').dispatchEvent(new Event('input'));" style="margin-top: 1rem;">
+            Limpar busca
+          </button>
+        ` : ''}
+      </div>
+    `;
+    return;
+  }
+
+  // Renderiza certificados
+  const fragment = document.createDocumentFragment();
+  const tempDiv = document.createElement('div');
+
+  filtered.forEach(cert => {
+    tempDiv.innerHTML = createCertificateCard(cert);
+    const card = tempDiv.firstElementChild;
+    card.addEventListener('click', () => openCertificateModal(cert));
+    fragment.appendChild(card);
+  });
+
+  grid.innerHTML = '';
+  grid.appendChild(fragment);
+  animateCertCards(grid);
+
+  // Anuncia resultado para leitores de tela
+  announceToScreenReader(`${filtered.length} certificado${filtered.length !== 1 ? 's' : ''} encontrado${filtered.length !== 1 ? 's' : ''}`);
+}
+
+// ===============================
+// 3. BIND DE FILTROS
+// ===============================
+
+function bindCertFilters(certificates) {
+  const chips = document.querySelectorAll('.chip');
+  const searchInput = document.getElementById('certSearch');
+  
+  if (!chips.length) return;
+
+  chips.forEach(chip => {
+    chip.addEventListener('click', function() {
+      // Remove active de todos
+      chips.forEach(c => c.classList.remove('active'));
+      
+      // Adiciona active no clicado
+      this.classList.add('active');
+
+      // Pega filtro e busca atual
+      const filter = this.getAttribute('data-filter') || 'all';
+      const searchTerm = searchInput ? searchInput.value.trim() : '';
+      
+      // Renderiza
+      renderAllCertificates(certificates, filter, searchTerm);
+    });
+
+    // Suporte para teclado
+    chip.setAttribute('role', 'button');
+    chip.setAttribute('tabindex', '0');
+    chip.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        this.click();
+      }
+    });
+  });
+}
+
+// ===============================
+// 4. BUSCA TEXTUAL
+// ===============================
+
+function initCertSearch(certificates) {
+  const searchInput = document.getElementById('certSearch');
+  if (!searchInput) return;
+
+  const handleSearch = debounce((searchTerm) => {
+    // Pega filtro ativo
+    const activeChip = document.querySelector('.chip.active');
+    const currentFilter = activeChip ? activeChip.getAttribute('data-filter') : 'all';
+    
+    // Renderiza com filtro + busca
+    renderAllCertificates(certificates, currentFilter, searchTerm);
+  }, 300);
+
+  searchInput.addEventListener('input', (e) => {
+    handleSearch(e.target.value.trim());
+  });
+
+  // Limpar busca com ESC
+  searchInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      searchInput.value = '';
+      handleSearch('');
+      searchInput.blur();
+    }
+  });
+}
+
+// ===============================
+// 5. CARREGAMENTO COMPLETO
+// ===============================
+
+async function loadAllCertificates() {
+  const grid = document.getElementById('certsGrid');
+  if (!grid) return;
+
+  showLoading(grid, 'Carregando certificados...');
+
+  try {
+    const certificates = await fetchWithRetry(CONFIG.certsPath);
+
+    if (!Array.isArray(certificates)) {
+      throw new Error('Formato de dados inválido');
+    }
+
+    allCertificates = certificates;
+    
+    // 1. Gera filtros dinâmicos com contagem
+    generateDynamicFilters(certificates);
+    
+    // 2. Inicializa busca
+    initCertSearch(certificates);
+    
+    // 3. Renderiza todos inicialmente
+    renderAllCertificates(certificates, 'all', '');
+    
+    // 4. Inicializa handlers do modal
+    initCertModalHandlers();
+
+    console.log('✅ Certificados carregados:', certificates.length);
+
+  } catch (error) {
+    console.error('Erro ao carregar certificados:', error);
+    showError(
+      grid, 
+      'Erro ao carregar certificados', 
+      `Detalhes: ${error.message}`
+    );
+  }
+}
+
+// ===============================
+// 6. SUBSTITUIR FUNÇÃO ANTIGA
+// ===============================
+
+// ⚠️ IMPORTANTE: Substitua a função bindCertFilters ANTIGA por esta:
+// A antiga está na linha ~1083 do seu main.js atual
+
+// ===============================
+// 7. MELHORIAS VISUAIS (OPCIONAL)
+// ===============================
+
+// Adiciona highlight no termo buscado (opcional)
+function highlightSearchTerm(text, searchTerm) {
+  if (!searchTerm) return escapeHTML(text);
+  
+  const escapedText = escapeHTML(text);
+  const escapedTerm = escapeHTML(searchTerm);
+  
+  const regex = new RegExp(`(${escapedTerm})`, 'gi');
+  return escapedText.replace(regex, '<mark style="background: rgba(242, 140, 40, 0.3); color: var(--accent); padding: 0 2px; border-radius: 2px;">$1</mark>');
+}
+
+// Uso: na função createCertificateCard, você pode fazer:
+// <h3 class="p-title">${highlightSearchTerm(titulo, currentSearchTerm)}</h3>
+
+// ===============================
+// 8. INICIALIZAÇÃO
+// ===============================
+
+// A função initCertificates já deve chamar loadAllCertificates
+// Certifique-se que está assim:
+
+function initCertificates() {
+  // Index.html - Certificados em destaque
+  if (document.getElementById('featuredCertsGrid')) {
+    loadFeaturedCertificates();
+  }
+
+  // Certificados.html - Todos os certificados
+  if (document.getElementById('certsGrid') && 
+      !document.getElementById('featuredCertsGrid')) {
+    loadAllCertificates(); // ← Esta função agora tem tudo integrado
+  }
+
+  // Inicializa modal em qualquer página que o tenha
+  if (document.getElementById('certModal')) {
+    initCertModalHandlers();
+  }
+}
+
+// ===============================
+// 9. ESTATÍSTICAS (BONUS)
+// ===============================
+
+function showCertStatistics(certificates) {
+  const statsContainer = document.querySelector('.cert-stats');
+  if (!statsContainer) return;
+
+  const total = certificates.length;
+  const emDestaque = certificates.filter(c => c.destaque).length;
+  const categorias = new Set(certificates.map(c => c.categoria)).size;
+  const instituicoes = new Set(certificates.map(c => c.instituicao)).size;
+
+  statsContainer.innerHTML = `
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">${total}</div>
+        <div class="stat-label">Total de Certificados</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">${categorias}</div>
+        <div class="stat-label">Categorias</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">${instituicoes}</div>
+        <div class="stat-label">Instituições</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">${emDestaque}</div>
+        <div class="stat-label">Em Destaque</div>
+      </div>
+    </div>
+  `;
+}
+
+// Para usar: chame após carregar os certificados
+// showCertStatistics(certificates);
 
 // ✅ INICIALIZAÇÃO UNIFICADA
 function initCertificates() {
@@ -1652,7 +1902,7 @@ function initTimelineToggle() {
       // Colapsar
       timeline.classList.remove('expanded');
       this.setAttribute('aria-expanded', 'false');
-      toggleText.textContent = 'Ver mais sobre minha trajetória';
+      toggleText.textContent = 'Ver mais'; // ✅ Corrigido
       
       // Scroll suave para o topo da timeline
       setTimeout(() => {
@@ -1663,7 +1913,7 @@ function initTimelineToggle() {
       // Expandir
       timeline.classList.add('expanded');
       this.setAttribute('aria-expanded', 'true');
-      toggleText.textContent = 'Ver menos';
+      toggleText.textContent = 'Ver menos'; // ✅ Corrigido
     }
     
     announceToScreenReader(

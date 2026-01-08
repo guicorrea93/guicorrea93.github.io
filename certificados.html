@@ -21,29 +21,31 @@
       </p>
     </section>
 
-    <!-- Filtros por categoria -->
+    <!-- ✅ BARRA DE BUSCA -->
+    <section class="cert-search-section">
+      <div class="search-wrapper">
+        <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="2"/>
+          <path d="M14 14L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <input 
+          type="search" 
+          id="certSearch" 
+          placeholder="Buscar por nome, instituição, ano ou competência..."
+          class="search-input"
+          aria-label="Buscar certificados"
+        />
+        <button class="search-clear" id="searchClear" aria-label="Limpar busca" style="display: none;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M12 4L4 12M4 4L12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- Filtros por categoria (gerados dinamicamente) -->
     <section class="filters">
-      <button class="chip active" data-filter="all" aria-label="Mostrar todos os certificados">
-        Todos
-      </button>
-      <button class="chip" data-filter="Pós-Graduação" aria-label="Filtrar pós-graduação">
-        Pós-Graduação
-      </button>
-      <button class="chip" data-filter="Power BI" aria-label="Filtrar certificados Power BI">
-        Power BI
-      </button>
-      <button class="chip" data-filter="Python" aria-label="Filtrar certificados Python">
-        Python
-      </button>
-      <button class="chip" data-filter="SQL" aria-label="Filtrar certificados SQL">
-        SQL
-      </button>
-      <button class="chip" data-filter="Excel" aria-label="Filtrar certificados Excel">
-        Excel
-      </button>
-      <button class="chip" data-filter="BI" aria-label="Filtrar certificados BI">
-        BI & Visualização
-      </button>
+      <!-- Será preenchido via JavaScript -->
     </section>
 
     <!-- Grid de certificados -->
@@ -132,5 +134,27 @@
   </footer>
 
   <script src="assets/js/main.js" defer></script>
+  
+  <!-- ✅ Script para funcionalidade do botão limpar -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const searchInput = document.getElementById('certSearch');
+      const clearBtn = document.getElementById('searchClear');
+      
+      if (searchInput && clearBtn) {
+        // Mostra/esconde botão de limpar
+        searchInput.addEventListener('input', () => {
+          clearBtn.style.display = searchInput.value ? 'flex' : 'none';
+        });
+        
+        // Limpa busca
+        clearBtn.addEventListener('click', () => {
+          searchInput.value = '';
+          searchInput.dispatchEvent(new Event('input'));
+          searchInput.focus();
+        });
+      }
+    });
+  </script>
 </body>
 </html>
