@@ -1,26 +1,26 @@
 [
   {
     "id": "agilidade-abordagens-praticas-avancadas",
-    "titulo": "Agilidade: abordagens e práticas avançadas",
+    "titulo": "Agilidade: Abordagens e Práticas Avançadas",
     "tipo": "Formação",
     "instituicao": "Alura",
-    "categoria": "Agilidade",
-    "duracao": "45h",
+    "categoria": "Metodologias Ágeis",
+    "duracao": "50 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/agilidade-abordagens-praticas-avancadas-thumb.png",
     "competencias": [
       "Agilidade",
       "Scrum",
       "Kanban",
-      "Lean",
-      "Gestão Ágil",
-      "Liderança",
-      "Facilitação",
-      "Cultura Organizacional",
-      "Melhoria Contínua"
+      "Agilidade Escalada",
+      "Lean-Ágil",
+      "Agile Coaching",
+      "Liderança Ágil",
+      "Cultura Ágil",
+      "Gestão Ágil"
     ],
-    "descricao": "Formação focada no aprofundamento de práticas ágeis, abordando frameworks, métodos e técnicas avançadas para atuação em contextos complexos, times maduros e organizações em transformação.",
-    "descricaoCompleta": "A formação **Agilidade: abordagens e práticas avançadas** da Alura é voltada para profissionais que já possuem contato com métodos ágeis e desejam avançar para um nível mais estratégico e prático de atuação.\n\nAo longo da formação, são exploradas abordagens como **Scrum**, **Kanban**, **Lean**, **gestão de fluxo**, **facilitação de times**, **liderança ágil** e **transformação organizacional**, com foco na aplicação real em ambientes corporativos complexos.\n\nO conteúdo prepara o aluno para atuar como **Agile Coach**, **Scrum Master**, **Líder Ágil** ou profissional de apoio à transformação cultural, desenvolvendo visão sistêmica, capacidade de facilitação, tomada de decisão e melhoria contínua.\n\n---",
+    "descricao": "Formação avançada em **metodologias ágeis**, focada em cultura, escalabilidade, liderança e práticas modernas de gestão ágil.",
+    "descricaoCompleta": "A formação **Agilidade: Abordagens e Práticas Avançadas** da Alura aprofunda o uso das metodologias ágeis em contextos organizacionais mais complexos, indo além da aplicação básica de frameworks.\n\nAo longo da formação, são explorados temas como **cultura e métodos ágeis**, **agilidade escalada**, **Lean-Ágil**, **Agile Coaching** e **liderança ágil**, preparando o profissional para atuar como agente de transformação em ambientes corporativos.\n\nO foco está na disseminação da mentalidade ágil, no desenvolvimento de líderes e na aplicação de práticas que promovem **qualidade, geração de valor, colaboração e melhoria contínua** em diferentes níveis da organização.\n\n---",
     "certificados": [
       {
         "nome": "Agilidade abordagens e práticas avançadas - Formação.pdf",
@@ -1954,6 +1954,70 @@
     ],
     "totalCertificados": 8,
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Tableau",
+    "status": "Concluído",
+    "ano": "2025"
+  },
+  {
+    "id": "times-alta-performance",
+    "titulo": "Times de Alta Performance",
+    "tipo": "Formação",
+    "instituicao": "Alura",
+    "categoria": "Liderança e Gestão",
+    "duracao": "46 horas",
+    "destaque": false,
+    "thumbnail": "assets/img/certificados/times-alta-performance-thumb.png",
+    "competencias": [
+      "Liderança",
+      "Gestão de Pessoas",
+      "Times de Alta Performance",
+      "Management 3.0",
+      "Delegação",
+      "Comunicação",
+      "Trabalho em Equipe",
+      "Agilidade"
+    ],
+    "descricao": "Formação focada na **construção e gestão de times de alta performance**, abordando liderança, comunicação, delegação e práticas ágeis.",
+    "descricaoCompleta": "A formação **Times de Alta Performance** da Alura desenvolve competências essenciais para liderar e fortalecer equipes em ambientes colaborativos e orientados a resultados.\n\nAo longo da formação, são explorados conceitos de **Management 3.0**, **delegação eficaz**, **comunicação participativa**, **trabalho em equipe** e **agilidade**, com foco no engajamento, autonomia e melhoria contínua dos times.\n\nA formação prepara o profissional para criar ambientes seguros, colaborativos e produtivos, promovendo alinhamento entre pessoas, objetivos e resultados, além de fortalecer habilidades de liderança adaptativa em contextos dinâmicos.\n\n---",
+    "certificados": [
+      {
+        "nome": "Times de alta performance - Formação.pdf",
+        "url": "https://github.com/guicorrea93/certificados/blob/main/Times%20de%20alta%20performance/Times%20de%20alta%20performance%20-%20Forma%C3%A7%C3%A3o.pdf",
+        "preview": "assets/img/certificados/times-alta-performance/times-de-alta-performance-formacao.png",
+        "isFormacao": true
+      },
+      {
+        "nome": "Times de alta performance 01 - Curso Management 3.0 - gerencie o ambiente, não as pessoas.pdf",
+        "url": "https://github.com/guicorrea93/certificados/blob/main/Times%20de%20alta%20performance/Times%20de%20alta%20performance%2001%20-%20Curso%20Management%203.0%20-%20gerencie%20o%20ambiente%2C%20n%C3%A3o%20as%20pessoas.pdf",
+        "preview": "assets/img/certificados/times-alta-performance/times-de-alta-performance-01-curso-management-30-g.png",
+        "isFormacao": false
+      },
+      {
+        "nome": "Times de alta performance 02 - Curso Delegação de tarefas - obtenha o melhor do seu time.pdf",
+        "url": "https://github.com/guicorrea93/certificados/blob/main/Times%20de%20alta%20performance/Times%20de%20alta%20performance%2002%20-%20Curso%20Delega%C3%A7%C3%A3o%20de%20tarefas%20-%20obtenha%20o%20melhor%20do%20seu%20time.pdf",
+        "preview": "assets/img/certificados/times-alta-performance/times-de-alta-performance-02-curso-delegacao-de-ta.png",
+        "isFormacao": false
+      },
+      {
+        "nome": "Times de alta performance 03 - Curso Comunicação participativa - liderança eficaz e motivadora.pdf",
+        "url": "https://github.com/guicorrea93/certificados/blob/main/Times%20de%20alta%20performance/Times%20de%20alta%20performance%2003%20-%20Curso%20Comunica%C3%A7%C3%A3o%20participativa%20-%20lideran%C3%A7a%20eficaz%20e%20motivadora.pdf",
+        "preview": "assets/img/certificados/times-alta-performance/times-de-alta-performance-03-curso-comunicacao-par.png",
+        "isFormacao": false
+      },
+      {
+        "nome": "Times de alta performance 04 - Curso Princípios do trabalho em equipe_ relações colaborativas.pdf",
+        "url": "https://github.com/guicorrea93/certificados/blob/main/Times%20de%20alta%20performance/Times%20de%20alta%20performance%2004%20-%20Curso%20Princ%C3%ADpios%20do%20trabalho%20em%20equipe_%20rela%C3%A7%C3%B5es%20colaborativas.pdf",
+        "preview": "assets/img/certificados/times-alta-performance/times-de-alta-performance-04-curso-principios-do-t.png",
+        "isFormacao": false
+      },
+      {
+        "nome": "Times de alta performance 05 - Curso Agilidade - como ela pode ajudar a criar um time de alta performance.pdf",
+        "url": "https://github.com/guicorrea93/certificados/blob/main/Times%20de%20alta%20performance/Times%20de%20alta%20performance%2005%20-%20Curso%20Agilidade%20-%20como%20ela%20pode%20ajudar%20a%20criar%20um%20time%20de%20alta%20performance.pdf",
+        "preview": "assets/img/certificados/times-alta-performance/times-de-alta-performance-05-curso-agilidade-como.png",
+        "isFormacao": false
+      }
+    ],
+    "totalCertificados": 6,
+    "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Times%20de%20alta%20performance",
     "status": "Concluído",
     "ano": "2025"
   }
