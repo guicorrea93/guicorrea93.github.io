@@ -169,11 +169,17 @@
 
       <!-- Botão Ver Mais -->
       <div class="timeline-toggle" style="text-align: center; margin-top: 2rem;">
-        <button class="btn primary" id="toggleTimeline" aria-expanded="false" aria-controls="timelineContent">
-          <span class="toggle-text">Ver mais sobre minha trajetória</span>
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" class="toggle-icon" style="margin-left: 8px; transition: transform 0.3s ease;">
-            <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
+        <button 
+          id="toggleTimeline" 
+          aria-expanded="false" 
+          aria-controls="timelineContent"
+          aria-label="Ver mais sobre minha trajetória"
+        >
+          <span class="toggle-text">Ver mais</span>
+          <div class="toggle-chevrons">
+            <span class="toggle-chevron" aria-hidden="true"></span>
+            <span class="toggle-chevron" aria-hidden="true"></span>
+          </div>
         </button>
       </div>
 
