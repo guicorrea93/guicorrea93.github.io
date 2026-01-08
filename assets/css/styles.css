@@ -194,7 +194,7 @@ h3 {
   align-items: start;
   gap: 2rem;*/
   
-  background-image: url("../img/fundo_hero_avatar3.png");
+  background-image: url("../img/fundo_hero_avatar.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -1625,7 +1625,7 @@ body.modal-open {
 /* Base Hero (mantém o mesmo) */
 .hero {
   position: relative;
-  background-image: url("../img/fundo_hero_avatar3.png");
+  background-image: url("../img/fundo_hero_avatar.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
