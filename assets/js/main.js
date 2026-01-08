@@ -89,7 +89,7 @@ function setTopbar() {
     <nav class="nav" role="navigation" aria-label="Navegação principal">
       <div class="brand">
         <img
-          src="assets/img/avatar.jpeg"
+          src="assets/img/avatares/avatar.jpeg"
           alt="Foto de perfil de Guilherme Corrêa"
           class="avatar"
           loading="lazy"
