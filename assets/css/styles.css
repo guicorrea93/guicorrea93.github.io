@@ -194,7 +194,7 @@ h3 {
   align-items: start;
   gap: 2rem;*/
   
-  background-image: url("../img/fundo_hero_avatar.png");
+  background-image: url("../img/avatares/fundo_hero_avatar.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -1625,7 +1625,7 @@ body.modal-open {
 /* Base Hero (mantém o mesmo) */
 .hero {
   position: relative;
-  background-image: url("../img/fundo_hero_avatar.png");
+  background-image: url("../img/avatares/fundo_hero_avatar.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -1660,7 +1660,7 @@ body.modal-open {
     aspect-ratio: unset;
     min-height: auto;
 
-    background-image: url("../img/fundo_hero_avatar_mobile.png");
+    background-image: url("../img/avatares/fundo_hero_avatar_mobile.png");
     background-size: cover;
     background-position: center bottom;
     background-position: center calc(100% + 180px);
