@@ -3344,3 +3344,694 @@ mark {
     background: rgba(27, 127, 92, 0.3);
   }
 }
+
+/* ===============================
+   DIPLOMAS - ESTILOS COMPLETOS
+   Adicione este código ao final do seu styles.css
+   =============================== */
+
+/* ===============================
+   DIPLOMAS - CORES TEMÁTICAS
+   =============================== */
+
+:root {
+  --diploma-gold: #D4AF37;
+  --diploma-gold-soft: #E8D090;
+  --diploma-gold-bg: rgba(212, 175, 55, 0.1);
+  --diploma-gold-border: rgba(212, 175, 55, 0.3);
+  
+  --diploma-silver: #C0C0C0;
+  --diploma-silver-soft: #E0E0E0;
+  --diploma-silver-bg: rgba(192, 192, 192, 0.1);
+  --diploma-silver-border: rgba(192, 192, 192, 0.3);
+  
+  --diploma-bronze: #CD7F32;
+  --diploma-bronze-soft: #E6A35C;
+  --diploma-bronze-bg: rgba(205, 127, 50, 0.1);
+  --diploma-bronze-border: rgba(205, 127, 50, 0.3);
+}
+
+/* ===============================
+   FEATURED DIPLOMAS (Index)
+   =============================== */
+
+.featured-diplomas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.featured-diploma-card {
+  background: var(--diploma-gold-bg);
+  border: 1px solid var(--diploma-gold-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: var(--transition);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 
+    0 10px 40px rgba(212, 175, 55, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.featured-diploma-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--diploma-gold);
+  box-shadow: 
+    0 20px 60px rgba(212, 175, 55, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+/* Selo de diploma */
+.diploma-seal {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 2;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle, var(--diploma-gold) 0%, var(--diploma-gold-soft) 100%);
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  box-shadow: 
+    0 4px 12px rgba(0, 0, 0, 0.3),
+    inset 0 2px 4px rgba(255, 255, 255, 0.3);
+  animation: sealPulse 3s ease-in-out infinite;
+}
+
+@keyframes sealPulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 
+      0 4px 12px rgba(0, 0, 0, 0.3),
+      inset 0 2px 4px rgba(255, 255, 255, 0.3);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 
+      0 6px 20px rgba(212, 175, 55, 0.5),
+      inset 0 2px 4px rgba(255, 255, 255, 0.4);
+  }
+}
+
+.diploma-seal svg {
+  width: 32px;
+  height: 32px;
+  color: #1F2937;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.featured-diploma-thumb {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: 50% 20%;
+  background: linear-gradient(135deg, var(--diploma-gold-bg), rgba(212, 175, 55, 0.2));
+  border-bottom: 1px solid var(--diploma-gold-border);
+}
+
+.featured-diploma-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  flex-grow: 1;
+}
+
+.featured-diploma-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.featured-diploma-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.featured-diploma-type {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--diploma-gold);
+  background: var(--diploma-gold-bg);
+  border: 1px solid var(--diploma-gold-border);
+  padding: 0.25rem 0.625rem;
+  border-radius: 999px;
+  align-self: flex-start;
+}
+
+.diploma-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  font-size: 0.8125rem;
+  color: var(--text-2);
+}
+
+.diploma-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.diploma-meta-item svg {
+  width: 14px;
+  height: 14px;
+  opacity: 0.7;
+  color: var(--diploma-gold);
+}
+
+.featured-diploma-desc {
+  color: var(--text-2);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.featured-diploma-footer {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.featured-diploma-nivel {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--diploma-gold);
+  background: var(--diploma-gold-bg);
+  border: 1px solid var(--diploma-gold-border);
+  padding: 0.25rem 0.625rem;
+  border-radius: 999px;
+}
+
+.featured-diploma-link {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  color: var(--diploma-gold);
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: var(--transition);
+}
+
+.featured-diploma-link:hover {
+  gap: 0.625rem;
+  color: var(--diploma-gold-soft);
+}
+
+/* ===============================
+   VARIAÇÕES DE COR POR TIPO
+   =============================== */
+
+/* MBA - Ouro */
+.featured-diploma-card.diploma-mba,
+.diploma-card-with-thumb.diploma-card-mba {
+  border-color: var(--diploma-gold-border);
+  background: var(--diploma-gold-bg);
+}
+
+.featured-diploma-card.diploma-mba:hover,
+.diploma-card-with-thumb.diploma-card-mba:hover {
+  border-color: var(--diploma-gold);
+  box-shadow: 
+    0 20px 60px rgba(212, 175, 55, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.diploma-mba .diploma-seal {
+  background: radial-gradient(circle, var(--diploma-gold) 0%, var(--diploma-gold-soft) 100%);
+}
+
+/* Especialização - Prata */
+.featured-diploma-card.diploma-especializacao,
+.diploma-card-with-thumb.diploma-card-especializacao {
+  border-color: var(--diploma-silver-border);
+  background: var(--diploma-silver-bg);
+}
+
+.featured-diploma-card.diploma-especializacao:hover,
+.diploma-card-with-thumb.diploma-card-especializacao:hover {
+  border-color: var(--diploma-silver);
+  box-shadow: 
+    0 20px 60px rgba(192, 192, 192, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.diploma-especializacao .diploma-seal {
+  background: radial-gradient(circle, var(--diploma-silver) 0%, var(--diploma-silver-soft) 100%);
+}
+
+.diploma-especializacao .featured-diploma-type,
+.diploma-especializacao .featured-diploma-nivel,
+.diploma-especializacao .featured-diploma-link,
+.diploma-especializacao .diploma-meta-item svg {
+  color: var(--diploma-silver);
+}
+
+/* Graduação - Bronze */
+.featured-diploma-card.diploma-graduacao,
+.diploma-card-with-thumb.diploma-card-graduacao {
+  border-color: var(--diploma-bronze-border);
+  background: var(--diploma-bronze-bg);
+}
+
+.featured-diploma-card.diploma-graduacao:hover,
+.diploma-card-with-thumb.diploma-card-graduacao:hover {
+  border-color: var(--diploma-bronze);
+  box-shadow: 
+    0 20px 60px rgba(205, 127, 50, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.diploma-graduacao .diploma-seal {
+  background: radial-gradient(circle, var(--diploma-bronze) 0%, var(--diploma-bronze-soft) 100%);
+}
+
+.diploma-graduacao .featured-diploma-type,
+.diploma-graduacao .featured-diploma-nivel,
+.diploma-graduacao .featured-diploma-link,
+.diploma-graduacao .diploma-meta-item svg {
+  color: var(--diploma-bronze);
+}
+
+/* ===============================
+   DIPLOMA CARD COM THUMBNAIL (diplomas.html)
+   =============================== */
+
+.diplomas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.diploma-card-with-thumb {
+  background: var(--diploma-gold-bg);
+  border: 1px solid var(--diploma-gold-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: var(--transition);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 
+    0 8px 32px rgba(212, 175, 55, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.diploma-card-with-thumb:hover {
+  transform: translateY(-4px);
+  border-color: var(--diploma-gold);
+  box-shadow: 
+    0 16px 48px rgba(212, 175, 55, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.diploma-badge {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 2;
+  background: radial-gradient(circle, var(--diploma-gold) 0%, var(--diploma-gold-soft) 100%);
+  color: #1F2937;
+  padding: 0.375rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.diploma-thumb {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 20%;
+  background: linear-gradient(135deg, var(--diploma-gold-bg), rgba(212, 175, 55, 0.2));
+  border-bottom: 1px solid var(--diploma-gold-border);
+}
+
+.diploma-card-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex-grow: 1;
+}
+
+/* ===============================
+   TIMELINE DE DIPLOMAS (diplomas.html)
+   =============================== */
+
+.diploma-timeline {
+  margin: 2rem 0 3rem;
+}
+
+.timeline-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.timeline-header h2 {
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content {
+  position: relative;
+  margin-top: 2rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Linha vertical central */
+.timeline-content::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  transform: translateX(-1.5px);
+  background: linear-gradient(
+    to bottom,
+    var(--diploma-gold) 0%,
+    var(--diploma-silver) 50%,
+    var(--diploma-bronze) 100%
+  );
+  border-radius: 2px;
+}
+
+.diploma-timeline-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2rem 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.timeline-dot {
+  grid-column: 2;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: var(--diploma-gold);
+  border: 3px solid var(--bg);
+  box-shadow: 0 0 0 3px var(--diploma-gold-border);
+  justify-self: center;
+  z-index: 2;
+  transition: var(--transition);
+}
+
+.diploma-timeline-item:hover .timeline-dot {
+  transform: scale(1.2);
+  box-shadow: 0 0 0 6px var(--diploma-gold-border);
+}
+
+.timeline-card {
+  background: var(--diploma-gold-bg);
+  border: 1px solid var(--diploma-gold-border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.timeline-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--diploma-gold);
+  box-shadow: 0 12px 32px rgba(212, 175, 55, 0.25);
+}
+
+/* Posicionamento alternado */
+.diploma-timeline-item.left .timeline-card {
+  grid-column: 1;
+  justify-self: end;
+}
+
+.diploma-timeline-item.right .timeline-card {
+  grid-column: 3;
+  justify-self: start;
+}
+
+.timeline-year {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--diploma-gold);
+  background: var(--diploma-gold-bg);
+  border: 1px solid var(--diploma-gold-border);
+  padding: 0.25rem 0.625rem;
+  border-radius: 999px;
+  margin-bottom: 0.75rem;
+}
+
+.timeline-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.timeline-institution {
+  font-size: 0.875rem;
+  color: var(--text-2);
+  margin: 0 0 0.75rem;
+}
+
+.timeline-type {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--diploma-gold);
+  background: var(--diploma-gold-bg);
+  border: 1px solid var(--diploma-gold-border);
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+}
+
+/* ===============================
+   MODAL DE DIPLOMA
+   =============================== */
+
+.diploma-type {
+  background: var(--diploma-gold-bg);
+  border-color: var(--diploma-gold-border);
+  color: var(--diploma-gold);
+}
+
+.diploma-status {
+  background: rgba(27, 127, 92, 0.2);
+  border-color: rgba(27, 127, 92, 0.4);
+  color: var(--success);
+}
+
+.diploma-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin: 1rem 0 0.75rem;
+  padding: 1.25rem;
+  background: var(--diploma-gold-bg);
+  border: 1px solid var(--diploma-gold-border);
+  border-radius: 0.75rem;
+}
+
+.diploma-info-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9375rem;
+  color: var(--text-2);
+}
+
+.diploma-info-item svg {
+  width: 16px;
+  height: 16px;
+  color: var(--diploma-gold);
+  flex-shrink: 0;
+}
+
+.diploma-preview {
+  margin: 2rem 0;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: 1px solid var(--diploma-gold-border);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.diploma-preview img {
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: zoom-in;
+  transition: var(--transition);
+}
+
+.diploma-preview img:hover {
+  transform: scale(1.02);
+}
+
+/* Preview para PDFs */
+.diploma-pdf-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem;
+  background: var(--diploma-gold-bg);
+  border: 2px dashed var(--diploma-gold-border);
+  border-radius: 0.75rem;
+  gap: 1.5rem;
+}
+
+.diploma-pdf-preview svg {
+  width: 64px;
+  height: 64px;
+  color: var(--diploma-gold);
+  opacity: 0.8;
+}
+
+.diploma-pdf-preview p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-2);
+  margin: 0;
+}
+
+.diploma-competencias {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.625rem;
+}
+
+.diploma-competencias .tag {
+  background: var(--diploma-gold-bg);
+  border-color: var(--diploma-gold-border);
+  color: var(--diploma-gold);
+  font-weight: 600;
+  padding: 0.5rem 0.875rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.diploma-competencias .tag:hover {
+  background: rgba(212, 175, 55, 0.2);
+  border-color: var(--diploma-gold);
+  transform: translateY(-2px);
+}
+
+/* ===============================
+   RESPONSIVO - DIPLOMAS
+   =============================== */
+
+@media (max-width: 900px) {
+  .timeline-content::before {
+    left: 1rem;
+    transform: none;
+  }
+
+  .diploma-timeline-item {
+    grid-template-columns: 2rem 1fr;
+    gap: 1rem;
+  }
+
+  .timeline-dot {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+  }
+
+  .diploma-timeline-item.left .timeline-card,
+  .diploma-timeline-item.right .timeline-card {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: stretch;
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .featured-diplomas {
+    gap: 1.25rem;
+  }
+
+  .featured-diploma-thumb,
+  .diploma-thumb {
+    height: 180px;
+  }
+
+  .diploma-seal {
+    width: 50px;
+    height: 50px;
+    top: 0.75rem;
+    right: 0.75rem;
+  }
+
+  .diploma-seal svg {
+    width: 26px;
+    height: 26px;
+  }
+
+  .diploma-info {
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1rem;
+  }
+
+  .diploma-competencias {
+    grid-template-columns: 1fr;
+  }
+
+  .diploma-timeline-item {
+    gap: 0.75rem;
+  }
+
+  .timeline-card {
+    padding: 1.125rem;
+  }
+}
+
+/* ===============================
+   ANIMAÇÕES ESPECIAIS
+   =============================== */
+
+@keyframes diplomaShine {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.featured-diploma-card.highlight::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(212, 175, 55, 0.2),
+    transparent
+  );
+  background-size: 200% 100%;
+  animation: diplomaShine 3s ease-in-out infinite;
+  pointer-events: none;
+}
