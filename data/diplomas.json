@@ -11,7 +11,7 @@
     "descricaoCompleta": "MBA em Data Science & Analytics pela USP/ESALQ com 432 horas de formação intensiva. O curso abrangeu desde fundamentos estatísticos e programação até técnicas avançadas de machine learning, deep learning, big data e analytics. Desenvolvimento de projetos práticos com dados reais, incluindo análises preditivas, clusterização, segmentação de clientes e construção de dashboards interativos. Formação completa em Python, R, SQL, Power BI, Tableau e ferramentas de cloud computing.",
     "destaque": true,
     "preview": "https://raw.githubusercontent.com/guicorrea93/diplomas/main/MBA.pdf",
-    "thumbnail": "assets/img/diplomas/mba-thumb.jpg",
+    "thumbnail": "assets/img/diplomas/mba-thumb.png",
     "link": "https://github.com/guicorrea93/diplomas/blob/main/MBA.pdf",
     "competencias": [
       "Machine Learning",
@@ -47,7 +47,7 @@
     "descricaoCompleta": "Pós-Graduação pela FGV com 360 horas focada em Gestão Estratégica de Negócios. Formação completa em planejamento estratégico, análise de mercado, finanças corporativas, marketing estratégico e gestão de pessoas. Desenvolvimento de habilidades em análise de dados para tomada de decisão, elaboração de planos de negócios, gestão de projetos e liderança. O curso preparou para atuar em posições estratégicas com visão analítica e orientada a resultados.",
     "destaque": true,
     "preview": "https://raw.githubusercontent.com/guicorrea93/diplomas/main/Pós-Graduação%20-%20Gestão%20Estratégica%20de%20Negócios.pdf",
-    "thumbnail": "assets/img/diplomas/pos-gestao-thumb.jpg",
+    "thumbnail": "assets/img/diplomas/pos-gestao-thumb.png",
     "link": "https://github.com/guicorrea93/diplomas/blob/main/Pós-Graduação%20-%20Gestão%20Estratégica%20de%20Negócios.pdf",
     "competencias": [
       "Planejamento Estratégico",
@@ -72,6 +72,40 @@
     ]
   },
   {
+    "id": "licenciatura-formacao-pedagogica",
+    "titulo": "Licenciado em Formação Pedagógica para Graduados não Licenciados em Química, Física e Matemática",
+    "instituicao": "Unifran - Universidade de Franca",
+    "tipo": "Especialização",
+    "nivel": "Licenciatura",
+    "ano": "2020",
+    "duracao": "180 horas",
+    "descricao": "Formação pedagógica voltada a bacharéis, conferindo habilitação em licenciatura para atuação docente nas áreas de Química, Física e Matemática.",
+    "descricaoCompleta": "Licenciatura em Formação Pedagógica para Graduados não Licenciados, oferecida pela Universidade de Franca (Unifran), com carga horária de 180 horas. O curso tem como objetivo habilitar bacharéis das áreas de Química, Física e Matemática para o exercício da docência, fornecendo fundamentos pedagógicos, didáticos e metodológicos. A formação abrange práticas de ensino, planejamento pedagógico, avaliação da aprendizagem, legislação educacional e fundamentos da educação, preparando o profissional para atuar no ensino formal com base teórica sólida e aplicação prática.",
+    "destaque": false,
+    "preview": "https://raw.githubusercontent.com/guicorrea93/diplomas/main/Especializa%C3%A7%C3%A3o.jpg",
+    "thumbnail": "assets/img/diplomas/licenciatura-thumb.png",
+    "link": "https://github.com/guicorrea93/diplomas/blob/main/Especializa%C3%A7%C3%A3o.jpg",
+    "competencias": [
+      "Didática",
+      "Planejamento Pedagógico",
+      "Práticas de Ensino",
+      "Avaliação da Aprendizagem",
+      "Legislação Educacional",
+      "Metodologia do Ensino",
+      "Gestão de Sala de Aula",
+      "Comunicação Educacional",
+      "Fundamentos da Educação",
+      "Atuação Docente"
+    ],
+    "destaques": [
+      "Habilitação para docência",
+      "Formação pedagógica para bacharéis",
+      "Licenciatura reconhecida",
+      "Atuação nas áreas de Química, Física e Matemática",
+      "Formação pela Unifran"
+    ]
+  },
+  {
     "id": "graduacao-quimica",
     "titulo": "Bacharelado em Química (Ênfase em Química Forense)",
     "instituicao": "USP - Universidade de São Paulo",
@@ -83,7 +117,7 @@
     "descricaoCompleta": "Bacharelado em Química com ênfase em Química Forense pela USP - Ribeirão Preto. Formação completa em química orgânica, inorgânica, analítica e físico-química, com especialização em técnicas forenses. Desenvolvimento de forte base em método científico, análise de dados, instrumentação analítica e pesquisa laboratorial. A formação em química proporcionou habilidades essenciais de resolução de problemas, análise crítica e rigor metodológico que são fundamentais para trabalhar com dados e análises complexas.",
     "destaque": true,
     "preview": "https://raw.githubusercontent.com/guicorrea93/diplomas/main/Graduação.jpg",
-    "thumbnail": "assets/img/diplomas/graduacao-thumb.jpg",
+    "thumbnail": "assets/img/diplomas/graduacao-thumb.png",
     "link": "https://github.com/guicorrea93/diplomas/blob/main/Graduação.jpg",
     "competencias": [
       "Método Científico",
