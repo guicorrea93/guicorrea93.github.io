@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Livros lidos - Ficção, fantasia, técnicos e desenvolvimento pessoal" />
+  <title>Livros | Guilherme Corrêa</title>
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <header class="topbar" id="topbar"></header>
+
+  <main class="container">
+    <section class="pagehead">
+      <h1>📚 Biblioteca Pessoal</h1>
+      <p class="lead">
+        Jornada literária através de ficção, fantasia, desenvolvimento e conhecimento técnico.<br>
+        Cada livro representa uma perspectiva, um aprendizado e uma história que moldou minha forma de pensar.
+      </p>
+    </section>
+
+    <!-- Barra de Busca -->
+    <section class="book-search-section">
+      <div class="search-wrapper">
+        <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="2"/>
+          <path d="M14 14L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <input 
+          type="search" 
+          id="bookSearch" 
+          placeholder="Buscar por título, autor, coleção ou gênero..."
+          class="search-input"
+          aria-label="Buscar livros"
+        />
+        <button class="search-clear" id="searchClear" aria-label="Limpar busca" style="display: none;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M12 4L4 12M4 4L12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- Estatísticas Rápidas -->
+    <section class="book-stats" id="bookStats">
+      <!-- Será preenchido via JavaScript -->
+    </section>
+
+    <!-- Filtros Dinâmicos -->
+    <section class="filters" id="bookFilters">
+      <!-- Será preenchido via JavaScript -->
+    </section>
+
+    <!-- Grid de Livros -->
+    <section id="booksGrid" class="books-grid">
+      <!-- Será preenchido via JavaScript -->
+    </section>
+  </main>
+
+  <!-- Modal de Detalhes do Livro -->
+  <div class="modal" id="bookModal" aria-hidden="true" role="dialog" aria-labelledby="bookModalTitle">
+    <div class="modal-overlay" data-close-book-modal></div>
+    <div class="modal-content modal-book">
+      <button class="modal-close" data-close-book-modal aria-label="Fechar modal">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+
+      <div class="modal-body">
+        <!-- Header do modal com capa -->
+        <div class="modal-book-header">
+          <div class="book-cover-container">
+            <img id="bookModalCapa" src="" alt="" class="book-modal-cover" />
+            <div class="book-rating" id="bookModalRating">
+              <!-- Estrelas serão preenchidas via JS -->
+            </div>
+          </div>
+          
+          <div class="book-header-info">
+            <div class="modal-meta">
+              <span class="modal-type book-genre" id="bookModalGenero">Fantasia</span>
+              <span class="book-collection" id="bookModalColecao">Coleção</span>
+            </div>
+
+            <h2 class="modal-title" id="bookModalTitle">Título do Livro</h2>
+            <p class="book-original-title" id="bookModalTituloOriginal">Original Title</p>
+
+            <div class="book-meta-info">
+              <span class="book-meta-item">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M8 7V11M8 5H8.01M14 8C14 11.3137 11.3137 14 8 14C4.68629 14 2 11.3137 2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8Z" 
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+                <strong>Autor:</strong> <span id="bookModalAutor">Autor</span>
+              </span>
+              
+              <span class="book-meta-item">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M8 2V8L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5"/>
+                </svg>
+                <strong>Leitura:</strong> <span id="bookModalLeitura">2024</span>
+              </span>
+
+              <span class="book-meta-item" id="bookModalPaginasContainer">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M4 2H12C12.5304 2 13.0391 2.21071 13.4142 2.58579C13.7893 2.96086 14 3.46957 14 4V14L8 11L2 14V4C2 3.46957 2.21071 2.96086 2.58579 2.58579C2.96086 2.21071 3.46957 2 4 2Z" 
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span id="bookModalPaginas">500</span> páginas
+              </span>
+
+              <span class="book-meta-item" id="bookModalTempoContainer">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" 
+                        stroke="currentColor" stroke-width="1.5"/>
+                  <path d="M8 5V8L10 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+                <span id="bookModalTempo">21 dias</span>
+              </span>
+            </div>
+
+            <p class="modal-desc" id="bookModalSinopse">Sinopse breve</p>
+          </div>
+        </div>
+
+        <!-- Sinopse Completa -->
+        <div class="modal-section">
+          <h3>📖 Sobre o livro</h3>
+          <p id="bookModalSinopseCompleta"></p>
+        </div>
+
+        <!-- Citação Favorita -->
+        <div class="modal-section book-quote-section" id="bookModalQuoteSection">
+          <h3>💬 Citação Favorita</h3>
+          <blockquote class="book-quote" id="bookModalQuote">
+            "Citação aqui"
+          </blockquote>
+        </div>
+
+        <!-- Tags -->
+        <div class="modal-section">
+          <h3>🏷️ Tags & Temas</h3>
+          <div class="modal-tags book-tags" id="bookModalTags"></div>
+        </div>
+
+        <!-- Por que ler -->
+        <div class="modal-section" id="bookModalPorqueSection">
+          <h3>✨ Por que vale a pena ler</h3>
+          <ul class="modal-list modal-list-success" id="bookModalPorque"></ul>
+        </div>
+
+        <!-- Aprendizados -->
+        <div class="modal-section" id="bookModalAprendizadosSection">
+          <h3>🎓 Principais aprendizados</h3>
+          <ul class="modal-list" id="bookModalAprendizados"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <span>&copy; <span id="year"></span> Guilherme Corrêa</span>
+    <span class="muted">GitHub Pages</span>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+  
+  <!-- Script para funcionalidade do botão limpar -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const searchInput = document.getElementById('bookSearch');
+      const clearBtn = document.getElementById('searchClear');
+      
+      if (searchInput && clearBtn) {
+        searchInput.addEventListener('input', () => {
+          clearBtn.style.display = searchInput.value ? 'flex' : 'none';
+        });
+        
+        clearBtn.addEventListener('click', () => {
+          searchInput.value = '';
+          searchInput.dispatchEvent(new Event('input'));
+          searchInput.focus();
+        });
+      }
+    });
+  </script>
+</body>
+</html>
