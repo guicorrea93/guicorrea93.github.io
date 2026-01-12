@@ -2660,5 +2660,110 @@
       "Trabalho em equipe",
       "Renovação contínua"
     ]
+  },
+  {
+    "id": "estrategia-oriental-1",
+    "titulo": "A Arte da Guerra",
+    "tituloOriginal": "The Art of War",
+    "autor": "Sun Tzu",
+    "colecao": "O Essencial da Estratégia Oriental",
+    "volumeColecao": 1,
+    "capa": "assets/img/livros/a-arte-da-guerra.jpg",
+    "anoLeitura": 2025,
+    "mesLeitura": "Setembro",
+    "destaque": false,
+    "generos": ["Estratégia", "Filosofia", "Militar"],
+    "tags": ["Guerra", "Liderança", "Tática", "Decisão", "Competição"],
+    "sinopse": "Um clássico milenar sobre estratégia: como vencer com inteligência, leitura de cenário e uso eficiente de recursos.",
+    "sinopseCompleta": "Escrito por Sun Tzu, este tratado reúne princípios atemporais de estratégia e liderança. Os capítulos abordam planejamento, posicionamento, vantagens competitivas, uso do terreno, disciplina e a importância de conhecer o inimigo e a si mesmo. Apesar da origem militar, tornou-se referência para negócios, gestão e tomada de decisão em ambientes competitivos.",
+    "paginas": 154,
+    "editora": "Hunter Books",
+    "avaliacao": null,
+    "tempoLeitura": "",
+    "citacaoFavorita": "",
+    "porqueLer": [
+      "Estratégia aplicável a negócios e vida",
+      "Leitura rápida e objetiva",
+      "Princípios atemporais sobre competição",
+      "Ajuda a pensar em cenários e trade-offs",
+      "Excelente para liderança e tomada de decisão"
+    ],
+    "aprendizados": [
+      "Vencer nem sempre exige confronto direto",
+      "Preparação e informação geram vantagem",
+      "Posicionamento vale mais do que força bruta",
+      "Gestão de recursos é parte da estratégia",
+      "Disciplina e foco sustentam resultados"
+    ]
+  },
+  {
+    "id": "estrategia-oriental-2",
+    "titulo": "O Livro dos Cinco Anéis",
+    "tituloOriginal": "Gorin no Sho",
+    "autor": "Miyamoto Musashi",
+    "colecao": "O Essencial da Estratégia Oriental",
+    "volumeColecao": 2,
+    "capa": "assets/img/livros/o-livro-dos-cinco-aneis.jpg",
+    "anoLeitura": 2025,
+    "mesLeitura": "Agosto",
+    "destaque": false,
+    "generos": ["Estratégia", "Filosofia", "Artes Marciais"],
+    "tags": ["Disciplina", "Foco", "Prática", "Combate", "Mentalidade"],
+    "sinopse": "Musashi explica sua visão de estratégia e domínio técnico por meio de cinco “livros”: Terra, Água, Fogo, Vento e Vazio.",
+    "sinopseCompleta": "Escrito no século XVII por Miyamoto Musashi, o livro organiza princípios de combate e estratégia em cinco partes. Ele fala de base sólida (Terra), adaptação (Água), intensidade e execução (Fogo), análise de estilos e escolas (Vento) e a compreensão do essencial além da técnica (Vazio). É um texto curto, mas denso, sobre prática deliberada, postura mental e tomada de decisão sob pressão.",
+    "paginas": 151,
+    "editora": "Hunter Books",
+    "avaliacao": null,
+    "tempoLeitura": "",
+    "citacaoFavorita": "",
+    "porqueLer": [
+      "Visão prática sobre excelência e execução",
+      "Bom para mentalidade de performance",
+      "Curto, mas muito profundo",
+      "Ajuda a pensar em adaptação e vantagem",
+      "Aplicável a trabalho e desenvolvimento pessoal"
+    ],
+    "aprendizados": [
+      "Execução vence teoria sem prática",
+      "Adaptabilidade é vantagem competitiva",
+      "Consistência constrói domínio",
+      "Clareza mental melhora decisões rápidas",
+      "Conhecer estilos alheios evita cegueira estratégica"
+    ]
+  },
+  {
+    "id": "estrategia-oriental-3",
+    "titulo": "Bushido: O Caminho do Guerreiro",
+    "tituloOriginal": "Budo Shoshinshu",
+    "autor": "Daidoji Yuzan",
+    "colecao": "O Essencial da Estratégia Oriental",
+    "volumeColecao": 3,
+    "capa": "assets/img/livros/bushido-o-caminho-do-guerreiro.jpg",
+    "anoLeitura": 2025,
+    "mesLeitura": "Julho",
+    "destaque": false,
+    "generos": ["Filosofia", "Ética", "Cultura Japonesa"],
+    "tags": ["Honra", "Dever", "Autocontrole", "Conduta", "Virtude"],
+    "sinopse": "Reflexões sobre o código de conduta do guerreiro: disciplina, honra, humildade e responsabilidade.",
+    "sinopseCompleta": "Daidoji Yuzan apresenta ensinamentos morais e comportamentais associados ao bushido. O texto enfatiza a formação do caráter, a postura diante de desafios, o controle das emoções, a lealdade e o senso de dever. Mais do que um manual histórico, funciona como um guia de valores e autocontrole aplicáveis à vida moderna.",
+    "paginas": 160,
+    "editora": "Hunter Books",
+    "avaliacao": null,
+    "tempoLeitura": "",
+    "citacaoFavorita": "",
+    "porqueLer": [
+      "Leitura direta sobre valores e caráter",
+      "Ajuda a construir disciplina e autocontrole",
+      "Boa ponte entre filosofia e prática",
+      "Curto e fácil de reler",
+      "Excelente para liderança pelo exemplo"
+    ],
+    "aprendizados": [
+      "Caráter aparece sob pressão",
+      "Disciplina é liberdade no longo prazo",
+      "Humildade melhora aprendizado",
+      "Responsabilidade fortalece confiança",
+      "Valores claros guiam decisões difíceis"
+    ]
   }
 ]
