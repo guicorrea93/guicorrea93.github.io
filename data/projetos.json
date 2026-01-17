@@ -5,7 +5,7 @@
     "tipo": "Power BI",
     "descricao": "Dashboard publicado no Power BI Service com foco em indicadores e análise executiva, facilitando tomada de decisão estratégica.",
     "descricaoCompleta": "Dashboard executivo desenvolvido no Power BI Service focado em entregar insights acionáveis para a alta gestão. Implementa KPIs críticos com análise de tendências e drill-down interativo. Utiliza DAX avançado para cálculos dinâmicos e modelagem de dados otimizada para performance. A estrutura modular permite fácil manutenção e evolução do projeto.",
-    "destaque": true,
+    "destaque": false,
     "thumbnail": "assets/img/projetos/projeto1-thumb.png",
     "screenshots": [
       "assets/img/projetos/projeto1-screen1.png",
@@ -90,6 +90,58 @@
       "repo": "https://github.com/guicorrea93/PortifolioProjetos/tree/main/projeto_3"
     },
     "dataPublicacao": "2024-09",
+    "status": "Concluído"
+  },
+  {
+    "id": "projeto-4",
+    "titulo": "Forecasting de Vendas com ML",
+    "tipo": "Data Science + Machine Learning",
+    "descricao": "Projeto completo de previsão de vendas utilizando séries temporais e Machine Learning, com análise exploratória, feature engineering avançado e relatório executivo interativo em HTML.",
+    "descricaoCompleta": "Projeto de Data Science aplicado ao problema real de forecasting de vendas no varejo, utilizando o dataset da rede Rossmann. Inclui análise exploratória aprofundada, engenharia de atributos temporais e de histórico (lags e médias móveis), validação temporal adequada e comparação entre múltiplos algoritmos de Machine Learning. O resultado final é apresentado em um relatório interativo em HTML, voltado para decisão executiva e comunicação clara de insights de negócio.",
+    "destaque": true,
+    "thumbnail": "assets/img/projetos/projeto4-thumb.png",
+    "screenshots": [
+      "assets/img/projetos/projeto4-screen1.png",
+      "assets/img/projetos/projeto4-screen2.png"
+    ],
+    "tags": [
+      "Machine Learning",
+      "Forecasting",
+      "Séries Temporais",
+      "Data Science",
+      "XGBoost",
+      "HTML Report"
+    ],
+    "tecnologias": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "XGBoost",
+      "LightGBM",
+      "Plotly",
+      "Matplotlib",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "desafios": [
+      "Evitar vazamento de informação em dados temporais (data leakage)",
+      "Criar features de histórico e tendência sem comprometer a generalização",
+      "Lidar com mais de 1 milhão de registros mantendo performance",
+      "Comparar modelos garantindo validação justa e interpretável"
+    ],
+    "resultados": [
+      "Modelo XGBoost com R² de 96,1% em dados de teste",
+      "Erro percentual médio (MAPE) inferior a 8%",
+      "Identificação clara dos principais drivers de vendas",
+      "Relatório executivo interativo pronto para tomada de decisão"
+    ],
+    "links": {
+      "ver": "https://guicorrea93.github.io/PortifolioProjetos/projeto_4/",
+      "repo": "https://github.com/guicorrea93/PortifolioProjetos/tree/main/projeto_4"
+    },
+    "dataPublicacao": "2026-01",
     "status": "Concluído"
   }
 ]
