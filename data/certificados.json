@@ -62,7 +62,8 @@
     "totalCertificados": 6,
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Machine%20Learning%20na%20pr%C3%A1tica",
     "status": "Concluído",
-    "ano": "2025"
+    "ano": "2025",
+    "lastUpdated": "2026-01-25T14:33:18.293220"
   },
   {
     "id": "agilidade-abordagens-praticas-avancadas",
@@ -71,7 +72,7 @@
     "instituicao": "Alura",
     "categoria": "Metodologias Ágeis",
     "duracao": "50 horas",
-    "destaque": true,
+    "destaque": false,
     "thumbnail": "assets/img/certificados/agilidade-abordagens-praticas-avancadas-thumb.png",
     "competencias": [
       "Agilidade",
@@ -134,7 +135,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Agilidade%20abordagens%20e%20pr%C3%A1ticas%20avan%C3%A7adas",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:16:43.091325"
+    "lastUpdated": "2026-01-25T14:32:33.533952"
   },
   {
     "id": "avancando-data-science-python",
@@ -143,7 +144,7 @@
     "instituicao": "Alura",
     "categoria": "Data Science",
     "duracao": "86h",
-    "destaque": true,
+    "destaque": false,
     "thumbnail": "assets/img/certificados/avancando-data-science-python-thumb.png",
     "competencias": [
       "Python",
@@ -224,7 +225,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:16:44.908411"
+    "lastUpdated": "2026-01-25T14:32:35.856251"
   },
   {
     "id": "business-agility",
@@ -307,7 +308,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Business%20Agility",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:16:48.562043"
+    "lastUpdated": "2026-01-25T14:32:40.103915"
   },
   {
     "id": "business-intelligence-excel",
@@ -377,7 +378,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Business%20Intelligence%20com%20Excel",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:16:50.349949"
+    "lastUpdated": "2026-01-25T14:32:42.522476"
   },
   {
     "id": "business-intelligence-data-warehouse",
@@ -449,7 +450,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/BI%20e%20Data%20Warehouse%20com%20SQL%20Server%20e%20Power%20BI",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:16:46.635578"
+    "lastUpdated": "2026-01-25T14:32:37.914834"
   },
   {
     "id": "comunicacao",
@@ -526,7 +527,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Comunica%C3%A7%C3%A3o",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:16:52.114639"
+    "lastUpdated": "2026-01-25T14:32:44.665119"
   },
   {
     "id": "comunicacao-lideres",
@@ -597,7 +598,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Comunica%C3%A7%C3%A3o%20para%20l%C3%ADderes",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:16:53.863706"
+    "lastUpdated": "2026-01-25T14:32:46.810053"
   },
   {
     "id": "data-science",
@@ -662,7 +663,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Data%20Science",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:16:55.539140"
+    "lastUpdated": "2026-01-25T14:32:48.976380"
   },
   {
     "id": "data-science-academy",
@@ -724,7 +725,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Data%20Science%20Academy",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:16:57.531670"
+    "lastUpdated": "2026-01-25T14:32:51.599681"
   },
   {
     "id": "data-science-python",
@@ -807,7 +808,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Python%20para%20Data%20Science",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:17:30.014264"
+    "lastUpdated": "2026-01-25T14:33:37.439874"
   },
   {
     "id": "digital-e-agile-thinking",
@@ -890,7 +891,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Digital%20%26%20Agile%20Thinking",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:16:59.258181"
+    "lastUpdated": "2026-01-25T14:32:53.897864"
   },
   {
     "id": "dominando-power-bi",
@@ -962,7 +963,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Dominando%20o%20Power%20BI",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:17:00.988476"
+    "lastUpdated": "2026-01-25T14:32:56.022522"
   },
   {
     "id": "empreendedorismo-digital",
@@ -1052,7 +1053,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Empreendedorismo%20Digital",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:17:02.776664"
+    "lastUpdated": "2026-01-25T14:32:58.270151"
   },
   {
     "id": "estatistica-python",
@@ -1136,7 +1137,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Estat%C3%ADstica%20com%20Python",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:17:04.672261"
+    "lastUpdated": "2026-01-25T14:33:00.603584"
   },
   {
     "id": "excel",
@@ -1206,7 +1207,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Excel",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:17:06.578296"
+    "lastUpdated": "2026-01-25T14:33:02.695378"
   },
   {
     "id": "ferramentas-essenciais-para-devs",
@@ -1239,6 +1240,49 @@
     "status": "Concluído",
     "ano": "2026",
     "lastUpdated": "2026-01-12T09:17:07.796460"
+  },
+  {
+    "id": "ferramentas-desenvolvedores-produtividade-engenharia",
+    "titulo": "Ferramentas para Desenvolvedores: Produtividade e Engenharia",
+    "tipo": "Formação",
+    "instituicao": "Alura",
+    "categoria": "Ferramentas de Desenvolvimento",
+    "duracao": "8 horas",
+    "destaque": false,
+    "thumbnail": "assets/img/certificados/ferramentas-desenvolvedores-produtividade-engenharia-thumb.png",
+    "competencias": [
+      "Git e GitHub",
+      "Controle de Versão",
+      "Linha de Comando",
+      "Automação",
+      "Expressões Regulares",
+      "APIs REST",
+      "Documentação de APIs",
+      "NGINX",
+      "DevTools",
+      "Produtividade para Desenvolvedores",
+      "IA aplicada ao Desenvolvimento"
+    ],
+    "descricao": "Formação prática em **ferramentas essenciais para desenvolvedores**, focada em produtividade, colaboração, automação, APIs e uso estratégico de IA no desenvolvimento de software.",
+    "descricaoCompleta": "A formação **Ferramentas para Desenvolvedores: Produtividade e Engenharia** da Alura reúne as principais ferramentas utilizadas no dia a dia de profissionais de tecnologia, cobrindo desde **controle de versão**, **linha de comando** e **APIs**, até **infraestrutura**, **documentação**, **automação** e **uso de inteligência artificial no desenvolvimento**.\n\nAo longo da formação, são explorados temas como **Git e GitHub**, **terminal e prompt de comando**, **expressões regulares**, **modelagem e documentação de APIs**, **NGINX como servidor web, proxy reverso e API Gateway**, além de boas práticas de produtividade no **VS Code**.\n\nA formação também aborda o uso estratégico de **IA generativa**, incluindo **ChatGPT** e **GitHub Copilot**, como ferramentas de apoio à programação, revisão de código, automação de tarefas e aumento de qualidade e eficiência no desenvolvimento.\n\n---",
+    "certificados": [
+      {
+        "nome": "Ferramentas essenciais para Devs 01 - Curso Git e GitHub - compartilhando e colaborando em projetos.pdf",
+        "url": "https://github.com/guicorrea93/certificados/blob/main/Ferramentas%20essenciais%20para%20Devs/Ferramentas%20essenciais%20para%20Devs%2001%20-%20Curso%20Git%20e%20GitHub%20-%20compartilhando%20e%20colaborando%20em%20projetos.pdf",
+        "preview": "assets/img/certificados/ferramentas-desenvolvedores-produtividade-engenharia/ferramentas-essenciais-para-devs-01-curso-git-e-gi.png",
+        "isFormacao": false
+      },
+      {
+        "nome": "Ferramentas essenciais para Devs 04 - Curso Windows Prompt - utilizando o CMD.pdf",
+        "url": "https://github.com/guicorrea93/certificados/blob/main/Ferramentas%20essenciais%20para%20Devs/Ferramentas%20essenciais%20para%20Devs%2004%20-%20Curso%20Windows%20Prompt%20-%20utilizando%20o%20CMD.pdf",
+        "preview": "assets/img/certificados/ferramentas-desenvolvedores-produtividade-engenharia/ferramentas-essenciais-para-devs-04-curso-windows.png",
+        "isFormacao": false
+      }
+    ],
+    "totalCertificados": 2,
+    "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Ferramentas%20essenciais%20para%20Devs",
+    "status": "Concluído",
+    "ano": "2025"
   },
   {
     "id": "gestao-agil-projetos",
@@ -1339,7 +1383,44 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Gest%C3%A3o%20%C3%81gil%20de%20Projetos",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:17:09.716112"
+    "lastUpdated": "2026-01-25T14:33:08.677444"
+  },
+  {
+    "id": "governanca-ti-estrategia-gestao-valor",
+    "titulo": "Governança de TI: Estratégia, Gestão e Geração de Valor",
+    "tipo": "Formação",
+    "instituicao": "Alura",
+    "categoria": "Governança e Gestão de TI",
+    "duracao": "8 horas",
+    "destaque": false,
+    "thumbnail": "assets/img/certificados/governanca-ti-estrategia-gestao-valor-thumb.png",
+    "competencias": [
+      "Governança de TI",
+      "Alinhamento Estratégico",
+      "Gestão de Portfólios",
+      "Gestão de Projetos, Programas e Produtos",
+      "Arquitetura de TI",
+      "Gestão de Serviços",
+      "Segurança da Informação",
+      "Gestão de Requisitos",
+      "Gestão da Mudança Organizacional",
+      "Gestão do Conhecimento",
+      "COBIT 2019"
+    ],
+    "descricao": "Formação completa em **Governança de TI**, focada no alinhamento estratégico, gestão eficiente de recursos, controle, geração de valor e suporte à tomada de decisão organizacional.",
+    "descricaoCompleta": "A formação **Governança de TI: Estratégia, Gestão e Geração de Valor** da Alura aborda de forma estruturada os principais pilares da governança aplicada à tecnologia da informação, conectando **estratégia de negócio**, **gestão**, **arquitetura**, **serviços** e **controle**.\n\nAo longo da formação, são explorados temas como **alinhamento estratégico**, **modelos de gestão de TI**, **gestão de portfólios**, **projetos, programas e produtos**, além de práticas relacionadas à **segurança da informação**, **gestão de mudanças organizacionais** e **gestão do conhecimento**.\n\nO conteúdo prepara o profissional para atuar de forma estratégica, garantindo que a TI gere valor ao negócio, suporte decisões corporativas e opere com eficiência, governança e conformidade, utilizando boas práticas consolidadas do mercado, como o **COBIT 2019**.\n\n---",
+    "certificados": [
+      {
+        "nome": "Governança de TI 01 - Curso Governança de TI - alinhamento estratégico.pdf",
+        "url": "https://github.com/guicorrea93/certificados/blob/main/Governan%C3%A7a%20de%20TI/Governan%C3%A7a%20de%20TI%2001%20-%20Curso%20Governan%C3%A7a%20de%20TI%20-%20alinhamento%20estrat%C3%A9gico.pdf",
+        "preview": "assets/img/certificados/governanca-ti-estrategia-gestao-valor/governanca-de-ti-01-curso-governanca-de-ti-alinham.png",
+        "isFormacao": false
+      }
+    ],
+    "totalCertificados": 1,
+    "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Governan%C3%A7a%20de%20TI",
+    "status": "Concluído",
+    "ano": "2025"
   },
   {
     "id": "lean-governanca-agilidade-escalada",
@@ -1447,7 +1528,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:17:11.775144"
+    "lastUpdated": "2026-01-25T14:33:13.922217"
   },
   {
     "id": "linguagem-c",
@@ -1499,7 +1580,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Linguagem%20C",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:17:13.400259"
+    "lastUpdated": "2026-01-25T14:33:16.032316"
   },
   {
     "id": "machine-learning-na-pratica",
@@ -1631,7 +1712,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Microsoft%20SQL%20Server%202022",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:17:21.238797"
+    "lastUpdated": "2026-01-25T14:33:20.503247"
   },
   {
     "id": "modelagem-dados",
@@ -1696,7 +1777,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Modelagem%20de%20dados",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:17:22.966915"
+    "lastUpdated": "2026-01-25T14:33:22.807139"
   },
   {
     "id": "modelagem-melhoria-processos-negocios",
@@ -1787,7 +1868,59 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:17:24.830257"
+    "lastUpdated": "2026-01-25T14:33:25.089142"
+  },
+  {
+    "id": "negociacao-praticas-estrategias-avancadas",
+    "titulo": "Negociação: Práticas e Estratégias Avançadas",
+    "tipo": "Formação",
+    "instituicao": "Alura",
+    "categoria": "Negociação e Comunicação",
+    "duracao": "31 horas",
+    "destaque": false,
+    "thumbnail": "assets/img/certificados/negociacao-praticas-estrategias-avancadas-thumb.png",
+    "competencias": [
+      "Negociação",
+      "Comunicação Estratégica",
+      "Gestão de Conflitos",
+      "Tomada de Decisão",
+      "Influência",
+      "Persuasão",
+      "Liderança",
+      "Construção de Acordos"
+    ],
+    "descricao": "Formação em **negociação estratégica**, focada no desenvolvimento de acordos eficazes, comunicação assertiva e tomada de decisão em contextos profissionais complexos.",
+    "descricaoCompleta": "A formação **Negociação: Práticas e Estratégias Avançadas** da Alura desenvolve competências essenciais para conduzir negociações de forma estruturada, estratégica e orientada a resultados.\n\nAo longo da formação, são abordados desde os **fundamentos da negociação** até técnicas avançadas aplicadas à liderança, gestão de conflitos e construção de acordos sustentáveis. O conteúdo prepara o profissional para negociar em diferentes contextos — internos e externos — equilibrando interesses, criando valor e fortalecendo relacionamentos.\n\nO foco está no desenvolvimento de **habilidades comportamentais**, **pensamento estratégico**, **comunicação clara** e **capacidade de influência**, elementos fundamentais para profissionais que atuam em posições de decisão, liderança ou ambientes colaborativos de alta complexidade.\n\n---",
+    "certificados": [
+      {
+        "nome": "Negociação - Formação.pdf",
+        "url": "https://github.com/guicorrea93/certificados/blob/main/Negocia%C3%A7%C3%A3o/Negocia%C3%A7%C3%A3o%20-%20Forma%C3%A7%C3%A3o.pdf",
+        "preview": "assets/img/certificados/negociacao-praticas-estrategias-avancadas/negociacao-formacao.png",
+        "isFormacao": true
+      },
+      {
+        "nome": "Negociação 01 - Curso Negociação parte 1 - práticas essenciais.pdf",
+        "url": "https://github.com/guicorrea93/certificados/blob/main/Negocia%C3%A7%C3%A3o/Negocia%C3%A7%C3%A3o%2001%20-%20Curso%20Negocia%C3%A7%C3%A3o%20parte%201%20-%20pr%C3%A1ticas%20essenciais.pdf",
+        "preview": "assets/img/certificados/negociacao-praticas-estrategias-avancadas/negociacao-01-curso-negociacao-parte-1-praticas-es.png",
+        "isFormacao": false
+      },
+      {
+        "nome": "Negociação 02 - Curso Negociação parte 2 - técnicas avançadas.pdf",
+        "url": "https://github.com/guicorrea93/certificados/blob/main/Negocia%C3%A7%C3%A3o/Negocia%C3%A7%C3%A3o%2002%20-%20Curso%20Negocia%C3%A7%C3%A3o%20parte%202%20-%20t%C3%A9cnicas%20avan%C3%A7adas.pdf",
+        "preview": "assets/img/certificados/negociacao-praticas-estrategias-avancadas/negociacao-02-curso-negociacao-parte-2-tecnicas-av.png",
+        "isFormacao": false
+      },
+      {
+        "nome": "Negociação 03 - Curso Negociação para líderes - desenvolva a habilidade e consiga bons acordos.pdf",
+        "url": "https://github.com/guicorrea93/certificados/blob/main/Negocia%C3%A7%C3%A3o/Negocia%C3%A7%C3%A3o%2003%20-%20Curso%20Negocia%C3%A7%C3%A3o%20para%20l%C3%ADderes%20-%20desenvolva%20a%20habilidade%20e%20consiga%20bons%20acordos.pdf",
+        "preview": "assets/img/certificados/negociacao-praticas-estrategias-avancadas/negociacao-03-curso-negociacao-para-lideres-desenv.png",
+        "isFormacao": false
+      }
+    ],
+    "totalCertificados": 4,
+    "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Negocia%C3%A7%C3%A3o",
+    "status": "Concluído",
+    "ano": "2025"
   },
   {
     "id": "oracle-mysql",
@@ -1851,7 +1984,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/SQL%20com%20MySQL%20Server%20da%20Oracle",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:17:33.269025"
+    "lastUpdated": "2026-01-25T14:33:41.406653"
   },
   {
     "id": "pensamento-estrategico",
@@ -1922,7 +2055,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Pensamento%20Estrat%C3%A9gico",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:17:26.582092"
+    "lastUpdated": "2026-01-25T14:33:32.842585"
   },
   {
     "id": "power-bi",
@@ -1993,7 +2126,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Power%20Bi",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:17:28.213219"
+    "lastUpdated": "2026-01-25T14:33:35.291377"
   },
   {
     "id": "refuturiza",
@@ -2031,7 +2164,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/refuturiza",
     "status": "Concluído",
     "ano": "2024",
-    "lastUpdated": "2026-01-12T09:17:31.576084"
+    "lastUpdated": "2026-01-25T14:33:39.145905"
   },
   {
     "id": "tableau",
@@ -2108,7 +2241,7 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Tableau",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:17:34.961246"
+    "lastUpdated": "2026-01-25T14:33:43.836759"
   },
   {
     "id": "times-alta-performance",
@@ -2173,6 +2306,6 @@
     "githubFolder": "https://github.com/guicorrea93/certificados/tree/main/Times%20de%20alta%20performance",
     "status": "Concluído",
     "ano": "2025",
-    "lastUpdated": "2026-01-12T09:17:36.605311"
+    "lastUpdated": "2026-01-25T14:33:46.004628"
   }
 ]
