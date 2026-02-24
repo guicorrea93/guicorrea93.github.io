@@ -36,7 +36,7 @@
     "tipo": "HTML + JS",
     "descricao": "Dashboard interativo estático em HTML/CSS/JS (Plotly), publicado via GitHub Pages com atualização automática e design responsivo.",
     "descricaoCompleta": "Solução leve e responsiva desenvolvida em HTML/CSS/JavaScript puro, utilizando Plotly.js para gráficos interativos. Publicado via GitHub Pages, oferece acesso instantâneo sem necessidade de servidor. Design mobile-first permite acompanhamento de qualquer dispositivo. Implementa boas práticas de web design moderno com performance otimizada.",
-    "destaque": true,
+    "destaque": false,
     "thumbnail": "assets/img/projetos/projeto2-thumb.png",
     "screenshots": [
       "assets/img/projetos/projeto2-screen1.png",
@@ -142,6 +142,64 @@
       "repo": "https://github.com/guicorrea93/PortifolioProjetos/tree/main/projeto_4"
     },
     "dataPublicacao": "2026-01",
+    "status": "Concluído"
+  },
+  {
+    "id": "projeto-5",
+    "titulo": "Segmentação de Municípios Brasileiros",
+    "tipo": "Data Science + Machine Learning",
+    "descricao": "Projeto completo de clustering não supervisionado aplicado aos 5.204 municípios do Brasil, com coleta via API do IBGE, 3 linhas de pesquisa complementares e relatório interativo em HTML.",
+    "descricaoCompleta": "Estudo de segmentação territorial do Brasil construído de ponta a ponta: coleta de dados socioeconômicos via API IBGE/SIDRA, pré-processamento, feature engineering, busca exaustiva do K ideal com múltiplas métricas (Silhouette, Davies-Bouldin, Elbow Method) e comparação entre algoritmos (KMeans, HDBSCAN, Agglomerative Clustering). O diferencial do projeto está nas 3 linhas de pesquisa complementares: subclusters hierárquicos (K=4 → 16 grupos), granularidade direta com K=10 e segmentação regional com K automático via silhueta. Todos os resultados são apresentados em um relatório interativo em HTML com visualizações Plotly, mapas e análise comparativa das abordagens.",
+    "destaque": true,
+    "thumbnail": "assets/img/projetos/projeto5-thumb.png",
+    "screenshots": [
+      "assets/img/projetos/projeto5-screen1.png",
+      "assets/img/projetos/projeto5-screen2.png"
+    ],
+    "tags": [
+      "Machine Learning",
+      "Clustering",
+      "Não Supervisionado",
+      "Data Science",
+      "IBGE",
+      "PCA",
+      "HTML Report",
+      "Geoespacial"
+    ],
+    "tecnologias": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "KMeans",
+      "HDBSCAN",
+      "PCA",
+      "t-SNE",
+      "Plotly",
+      "Matplotlib",
+      "Seaborn",
+      "API IBGE/SIDRA",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "desafios": [
+      "Coletar e consolidar dados de 5.204 municípios via múltiplos endpoints da API IBGE",
+      "Definir o número ideal de clusters com critérios objetivos e múltiplas métricas",
+      "Comparar algoritmos distintos garantindo avaliação justa e reprodutível",
+      "Desenvolver 3 linhas de pesquisa complementares com interpretação clara de cada abordagem"
+    ],
+    "resultados": [
+      "5.204 municípios segmentados com cobertura total do território nacional",
+      "Linha Regional (Linha 3) alcançou Silhouette Score de 0,225 — 42% superior ao modelo base",
+      "Identificação de padrões territoriais com forte relevância para políticas públicas",
+      "Relatório executivo interativo com 13 seções e visualizações dinâmicas"
+    ],
+    "links": {
+      "ver": "https://guicorrea93.github.io/PortifolioProjetos/projeto_5/",
+      "repo": "https://github.com/guicorrea93/PortifolioProjetos/tree/main/projeto_5"
+    },
+    "dataPublicacao": "2026-02",
     "status": "Concluído"
   }
 ]
