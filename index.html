@@ -1,14 +1,67 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfólio de Guilherme Corrêa — Analista de Dados & BI com projetos em Power BI, Python, SQL e Data Science" />
   <title>Portfólio | Guilherme Corrêa</title>
 
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Portfólio | Guilherme Corrêa" />
+  <meta property="og:description" content="Analista de Dados & BI com projetos em Power BI, Python, SQL e Data Science" />
+  <meta property="og:url" content="https://guicorrea93.github.io/" />
+  <meta property="og:image" content="https://guicorrea93.github.io/assets/img/avatares/avatar.webp" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Portfólio | Guilherme Corrêa" />
+  <meta name="twitter:description" content="Analista de Dados & BI com projetos em Power BI, Python, SQL e Data Science" />
+  <meta name="twitter:image" content="https://guicorrea93.github.io/assets/img/avatares/avatar.webp" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/favicons/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png" />
+
+  <link rel="canonical" href="https://guicorrea93.github.io/" />
+
+  <!-- Resource hints -->
+  <link rel="preload" as="style" href="assets/css/styles.css" />
+  <link rel="preload" as="script" href="assets/js/main.js" />
+  <link rel="preload" as="image" href="assets/img/avatares/fundo_hero_avatar.webp" />
+
   <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Guilherme Correa",
+    "jobTitle": "Analista de Dados & BI",
+    "url": "https://guicorrea93.github.io/",
+    "image": "https://guicorrea93.github.io/assets/img/avatares/avatar.webp",
+    "description": "Analista de Dados & BI com projetos em Power BI, Python, SQL e Data Science",
+    "sameAs": [
+      "https://www.linkedin.com/in/guilherme-corr%C3%AAa-893781169/",
+      "https://github.com/guicorrea93"
+    ],
+    "knowsAbout": ["Power BI", "DAX", "Python", "SQL", "Data Science", "Machine Learning", "Tableau", "Excel"]
+  }
+  </script>
 </head>
 
 <body>
+  <a class="skip-link" href="#inicio">Pular para o conteudo</a>
+  <noscript>
+    <p style="padding:2rem;text-align:center;color:#E5E7EB;background:#1F2937">
+      Este site precisa de JavaScript para funcionar. Por favor, ative o JavaScript no seu navegador.
+    </p>
+  </noscript>
+
   <!-- Topbar é injetada pelo JS aqui -->
   <header class="topbar" id="topbar"></header>
 
@@ -76,7 +129,10 @@
               <br>Foi uma infância bem “raiz”, com família e amigos sempre por perto — e isso moldou muito do meu jeito de viver.
             </p>
           </div>
-          <img src="assets/img/sobre_mim/sobre_1_infancia.png" alt="Infância no interior" class="t-image" loading="lazy" />
+          <img src="assets/img/sobre_mim/sobre_1_infancia.webp"
+               srcset="assets/img/sobre_mim/sobre_1_infancia-480w.webp 480w, assets/img/sobre_mim/sobre_1_infancia-960w.webp 960w, assets/img/sobre_mim/sobre_1_infancia.webp 1920w"
+               sizes="(max-width: 600px) 480px, (max-width: 1024px) 960px, 1920px"
+               alt="Guilherme na infancia em Tambau, interior de Sao Paulo" class="t-image" loading="lazy" />
         </div>
 
         <div class="t-item right">
@@ -90,7 +146,10 @@
               <br>No fim da faculdade eu entendi que amava a Química pela curiosidade — e não necessariamente pra trabalhar com isso.
             </p>
           </div>
-          <img src="assets/img/sobre_mim/sobre_2_quimica.png" alt="Enino superior" class="t-image" loading="lazy" />
+          <img src="assets/img/sobre_mim/sobre_2_quimica.webp"
+               srcset="assets/img/sobre_mim/sobre_2_quimica-480w.webp 480w, assets/img/sobre_mim/sobre_2_quimica-960w.webp 960w, assets/img/sobre_mim/sobre_2_quimica.webp 1920w"
+               sizes="(max-width: 600px) 480px, (max-width: 1024px) 960px, 1920px"
+               alt="Guilherme durante a graduacao em Quimica na USP" class="t-image" loading="lazy" />
         </div>
 
         <div class="t-item left">
@@ -104,7 +163,10 @@
               <br>Foi um período difícil, mas que me ensinou muito sobre resiliência.
             </p>
           </div>
-          <img src="assets/img/sobre_mim/sobre_3_ceramica.png" alt="Primeiro trabalho" class="t-image" loading="lazy" />
+          <img src="assets/img/sobre_mim/sobre_3_ceramica.webp"
+               srcset="assets/img/sobre_mim/sobre_3_ceramica-480w.webp 480w, assets/img/sobre_mim/sobre_3_ceramica-960w.webp 960w, assets/img/sobre_mim/sobre_3_ceramica.webp 1920w"
+               sizes="(max-width: 600px) 480px, (max-width: 1024px) 960px, 1920px"
+               alt="Guilherme trabalhando como analista de qualidade em ceramica" class="t-image" loading="lazy" />
         </div>
 
         <div class="t-item right">
@@ -119,7 +181,10 @@
               <br>E foi aí que meu gosto por planilhas, gráficos e organização de dados virou parte do trabalho.
             </p>
           </div>
-          <img src="assets/img/sobre_mim/sobre_4_po.png" alt="Pó de extintor" class="t-image" loading="lazy" />
+          <img src="assets/img/sobre_mim/sobre_4_po.webp"
+               srcset="assets/img/sobre_mim/sobre_4_po-480w.webp 480w, assets/img/sobre_mim/sobre_4_po-960w.webp 960w, assets/img/sobre_mim/sobre_4_po.webp 1920w"
+               sizes="(max-width: 600px) 480px, (max-width: 1024px) 960px, 1920px"
+               alt="Guilherme no laboratorio de analise de po quimico para extintores" class="t-image" loading="lazy" />
         </div>
 
         <div class="t-item left">
@@ -133,7 +198,10 @@
               <br>Nesse ponto eu senti que só o básico de dados não bastava e comecei a estudar mais: Excel, Power BI e ferramentas analíticas pra subir o nível do meu desempenho.
             </p>
           </div>
-          <img src="assets/img/sobre_mim/sobre_5_cacau.png" alt="cacau" class="t-image" loading="lazy" />
+          <img src="assets/img/sobre_mim/sobre_5_cacau.webp"
+               srcset="assets/img/sobre_mim/sobre_5_cacau-480w.webp 480w, assets/img/sobre_mim/sobre_5_cacau-960w.webp 960w, assets/img/sobre_mim/sobre_5_cacau.webp 1920w"
+               sizes="(max-width: 600px) 480px, (max-width: 1024px) 960px, 1920px"
+               alt="Guilherme na industria de processamento de cacau como analista de P&amp;D" class="t-image" loading="lazy" />
         </div>
 
         <div class="t-item right">
@@ -146,7 +214,10 @@
               <br>Meu trabalho virou praticamente 100% análise de dados, e ali eu construí meu primeiro BI em Power BI do zero. A entrega foi tão bem recebida que fui chamado pra integrar o time de Inteligência de Negócios.
             </p>
           </div>
-          <img src="assets/img/sobre_mim/sobre_6_consultor.png" alt="consultor" class="t-image" loading="lazy" />
+          <img src="assets/img/sobre_mim/sobre_6_consultor.webp"
+               srcset="assets/img/sobre_mim/sobre_6_consultor-480w.webp 480w, assets/img/sobre_mim/sobre_6_consultor-960w.webp 960w, assets/img/sobre_mim/sobre_6_consultor.webp 1920w"
+               sizes="(max-width: 600px) 480px, (max-width: 1024px) 960px, 1920px"
+               alt="Guilherme como consultor de operacoes e inteligencia de negocios" class="t-image" loading="lazy" />
         </div>
 
         <div class="t-item left">
@@ -160,7 +231,10 @@
               <br>Desde então, fui aplicando coisas mais avançadas no dia a dia: análises preditivas, modelos de machine learning, segmentação/clusterização, estudos de correlação e testes de hipóteses, além de aprofundar o “arroz com feijão” muito bem feito: Python, SQL, Power BI, Tableau, Excel e bancos de dados.
             </p>
           </div>
-          <img src="assets/img/sobre_mim/sobre_7_mba.png" alt="mba" class="t-image" loading="lazy" />
+          <img src="assets/img/sobre_mim/sobre_7_mba.webp"
+               srcset="assets/img/sobre_mim/sobre_7_mba-480w.webp 480w, assets/img/sobre_mim/sobre_7_mba-960w.webp 960w, assets/img/sobre_mim/sobre_7_mba.webp 1920w"
+               sizes="(max-width: 600px) 480px, (max-width: 1024px) 960px, 1920px"
+               alt="Guilherme durante o MBA em Data Science e Analytics pela USP ESALQ" class="t-image" loading="lazy" />
         </div>
 
       </div>
@@ -957,6 +1031,6 @@
     <span class="muted">GitHub Pages</span>
   </footer>
 
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>

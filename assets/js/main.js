@@ -24,6 +24,19 @@ function debounce(func, wait) {
   };
 }
 
+// Torna um card acessível por teclado (Enter/Space abrem o modal)
+function makeCardAccessible(card, handler) {
+  card.setAttribute('tabindex', '0');
+  card.setAttribute('role', 'button');
+  card.addEventListener('click', handler);
+  card.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      handler();
+    }
+  });
+}
+
 // Escape HTML para segurança
 function escapeHTML(str) {
   const div = document.createElement('div');
@@ -99,7 +112,7 @@ function setTopbar() {
     <nav class="nav" role="navigation" aria-label="Navegação principal">
       <div class="brand">
         <img
-          src="assets/img/avatares/avatar.jpeg"
+          src="assets/img/avatares/avatar.webp"
           alt="Foto de perfil de Guilherme Corrêa"
           class="avatar"
           loading="lazy"
@@ -744,8 +757,7 @@ function renderFeaturedProjects(projects, container) {
     tempDiv.innerHTML = createFeaturedCard(project);
     const card = tempDiv.firstElementChild;
     
-    // Adiciona evento de clique para abrir modal
-    card.addEventListener('click', () => openProjectModal(project));
+    makeCardAccessible(card, () => openProjectModal(project));
     
     fragment.appendChild(card);
   });
@@ -775,7 +787,7 @@ function createFeaturedCard(project) {
   return `
     <article class="featured-card" data-project-id="${id}">
       <img 
-        src="${thumbnail || 'assets/img/projetos/placeholder.png'}" 
+        src="${thumbnail || 'assets/img/projetos/placeholder.webp'}" 
         alt="Preview de ${escapeHTML(titulo)}" 
         class="featured-thumb"
         loading="lazy"
@@ -859,8 +871,7 @@ function renderProjects(projects, filter) {
     tempDiv.innerHTML = createProjectCard(project);
     const card = tempDiv.firstElementChild;
     
-    // Adiciona evento de clique
-    card.addEventListener('click', () => openProjectModal(project));
+    makeCardAccessible(card, () => openProjectModal(project));
     
     fragment.appendChild(card);
   });
@@ -895,7 +906,7 @@ function createProjectCard(project) {
   return `
     <article class="pcard-with-thumb" data-project-id="${id}">
       <img 
-        src="${thumbnail || 'assets/img/projetos/placeholder.png'}" 
+        src="${thumbnail || 'assets/img/projetos/placeholder.webp'}" 
         alt="Preview de ${escapeHTML(titulo)}" 
         class="pcard-thumb"
         loading="lazy"
@@ -1116,13 +1127,6 @@ window.portfolioApp = {
 };
 
 
-// Executa quando o DOM estiver pronto
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', init);
-} else {
-  init();
-}
-
 // Exporta funções para uso global (se necessário)
 window.portfolioApp = {
   loadProjects,
@@ -1177,7 +1181,7 @@ function renderFeaturedCertificates(certificates, container) {
   certificates.forEach(cert => {
     tempDiv.innerHTML = createFeaturedCertCard(cert);
     const card = tempDiv.firstElementChild;
-    card.addEventListener('click', () => openCertificateModal(cert));
+    makeCardAccessible(card, () => openCertificateModal(cert));
     fragment.appendChild(card);
   });
 
@@ -1225,7 +1229,7 @@ function createFeaturedCertCard(cert) {
           (tipo === 'Formação'
             ? (certificados?.find(c => c.isFormacao)?.preview || thumbnail)
             : thumbnail
-          ) || 'assets/img/certificados/placeholder-cert.png'
+          ) || 'assets/img/certificados/placeholder-cert.webp'
         }"
         alt="Preview de ${escapeHTML(titulo)}" 
         class="featured-cert-thumb"
@@ -1313,7 +1317,7 @@ function createCertificateCard(cert) {
           (tipo === 'Formação'
             ? (certificados?.find(c => c.isFormacao)?.preview || thumbnail)
             : thumbnail
-          ) || 'assets/img/certificados/placeholder-cert.png'
+          ) || 'assets/img/certificados/placeholder-cert.webp'
         }"
         alt="Preview de ${escapeHTML(titulo)}" 
         class="cert-thumb"
@@ -1492,7 +1496,7 @@ function renderAllCertificates(certificates, filter = 'all', searchTerm = '') {
   filtered.forEach(cert => {
     tempDiv.innerHTML = createCertificateCard(cert);
     const card = tempDiv.firstElementChild;
-    card.addEventListener('click', () => openCertificateModal(cert));
+    makeCardAccessible(card, () => openCertificateModal(cert));
     fragment.appendChild(card);
   });
 
@@ -1604,7 +1608,6 @@ async function loadAllCertificates() {
     // 4. Inicializa handlers do modal
     initCertModalHandlers();
 
-    console.log('✅ Certificados carregados:', certificates.length);
 
   } catch (error) {
     console.error('Erro ao carregar certificados:', error);
@@ -1797,7 +1800,7 @@ function populateCertModal(cert) {
           <div class="cert-gallery-item" data-cert-index="${idx}">
             <div class="cert-gallery-thumb">
               <img 
-                src="${c.preview || 'assets/img/certificados/placeholder-cert.png'}" 
+                src="${c.preview || 'assets/img/certificados/placeholder-cert.webp'}" 
                 alt="${escapeHTML(c.nome)}"
                 loading="lazy"
               />
@@ -1954,7 +1957,7 @@ function renderFeaturedDiplomas(diplomas, container) {
   diplomas.forEach(diploma => {
     tempDiv.innerHTML = createFeaturedDiplomaCard(diploma);
     const card = tempDiv.firstElementChild;
-    card.addEventListener('click', () => openDiplomaModal(diploma));
+    makeCardAccessible(card, () => openDiplomaModal(diploma));
     fragment.appendChild(card);
   });
 
@@ -1998,7 +2001,7 @@ function createFeaturedDiplomaCard(diploma) {
       </div>
       
       <img 
-        src="${thumbnail || 'assets/img/diplomas/placeholder-diploma.png'}"
+        src="${thumbnail || 'assets/img/diplomas/placeholder-diploma.webp'}"
         alt="Preview de ${escapeHTML(titulo)}" 
         class="featured-diploma-thumb"
         loading="lazy"
@@ -2104,7 +2107,7 @@ function renderAllDiplomasGrid(diplomas, container) {
   diplomas.forEach(diploma => {
     tempDiv.innerHTML = createDiplomaCard(diploma);
     const card = tempDiv.firstElementChild;
-    card.addEventListener('click', () => openDiplomaModal(diploma));
+    makeCardAccessible(card, () => openDiplomaModal(diploma));
     fragment.appendChild(card);
   });
 
@@ -2142,7 +2145,7 @@ function createDiplomaCard(diploma) {
       <div class="diploma-badge">${escapeHTML(tipo)}</div>
       
       <img 
-        src="${thumbnail || 'assets/img/diplomas/placeholder-diploma.png'}"
+        src="${thumbnail || 'assets/img/diplomas/placeholder-diploma.webp'}"
         alt="Preview de ${escapeHTML(titulo)}" 
         class="diploma-thumb"
         loading="lazy"
@@ -2402,37 +2405,6 @@ function initDiplomas() {
   }
 }
 
-// ===============================
-// ATUALIZA A FUNÇÃO INIT PRINCIPAL
-// ===============================
-
-// Adicione initDiplomas() à função init() existente:
-function init() {
-  try {
-    setTopbar();
-    setYear();
-    initSmoothScroll();
-    initScrollSpy();
-    initLazyLoading();
-    manageFocus();
-    initTimelineToggle();
-    
-    initProjects();
-    initDiplomas();      // ← ADICIONE ESTA LINHA
-    initCertificates();
-    
-    window.addEventListener('hashchange', manageFocus);
-    
-    console.log('✅ Portfólio inicializado com sucesso!');
-    
-  } catch (error) {
-    console.error('❌ Erro na inicialização:', error);
-  }
-
-  updateHeroScale();
-  window.addEventListener('resize', debounce(updateHeroScale, 80));
-}
-
 // Exporta para o namespace global
 window.portfolioApp = {
   ...window.portfolioApp,
@@ -2597,7 +2569,7 @@ function renderFeaturedBooks(books, container) {
   books.forEach(book => {
     tempDiv.innerHTML = createFeaturedBookCard(book);
     const card = tempDiv.firstElementChild;
-    card.addEventListener('click', () => openBookModal(book));
+    makeCardAccessible(card, () => openBookModal(book));
     fragment.appendChild(card);
   });
 
@@ -2642,7 +2614,7 @@ function createFeaturedBookCard(book) {
     <article class="featured-book-card ${genreClass}" data-book-id="${id}">
       ${badge}
       <img 
-        src="${capa || 'assets/img/livros/placeholder-book.jpg'}"
+        src="${capa || 'assets/img/livros/placeholder-book.webp'}"
         alt="Capa de ${escapeHTML(titulo)}" 
         class="featured-book-cover"
         loading="lazy"
@@ -2717,7 +2689,6 @@ async function loadAllBooks() {
     // Inicializa handlers do modal
     initBookModalHandlers();
 
-    console.log('✅ Livros carregados:', books.length);
 
   } catch (error) {
     console.error('Erro ao carregar livros:', error);
@@ -2796,7 +2767,7 @@ function renderAllBooks(books, filter = 'all', searchTerm = '') {
   filtered.forEach(book => {
     tempDiv.innerHTML = createBookCard(book);
     const card = tempDiv.firstElementChild;
-    card.addEventListener('click', () => openBookModal(book));
+    makeCardAccessible(card, () => openBookModal(book));
     fragment.appendChild(card);
   });
 
@@ -2843,7 +2814,7 @@ function createBookCard(book) {
     <article class="book-card ${genreClass}" data-book-id="${id}">
       ${destaqueBadge}
       <img 
-        src="${capa || 'assets/img/livros/placeholder-book.jpg'}"
+        src="${capa || 'assets/img/livros/placeholder-book.webp'}"
         alt="Capa de ${escapeHTML(titulo)}" 
         class="book-cover"
         loading="lazy"
@@ -3098,7 +3069,7 @@ function populateBookModal(book) {
   } = book;
 
   // Capa
-  document.getElementById('bookModalCapa').src = capa || 'assets/img/livros/placeholder-book.jpg';
+  document.getElementById('bookModalCapa').src = capa || 'assets/img/livros/placeholder-book.webp';
   document.getElementById('bookModalCapa').alt = `Capa de ${titulo}`;
 
   // Rating
@@ -3342,6 +3313,29 @@ window.addEventListener('load', initComoTrabalho);
 
 
 // ===============================
+// SEARCH CLEAR BUTTON (genérico)
+// ===============================
+
+function initSearchClear() {
+  const inputs = ['certSearch', 'bookSearch'];
+  inputs.forEach(id => {
+    const searchInput = document.getElementById(id);
+    const clearBtn = document.getElementById('searchClear');
+    if (!searchInput || !clearBtn) return;
+
+    searchInput.addEventListener('input', () => {
+      clearBtn.style.display = searchInput.value ? 'flex' : 'none';
+    });
+
+    clearBtn.addEventListener('click', () => {
+      searchInput.value = '';
+      searchInput.dispatchEvent(new Event('input'));
+      searchInput.focus();
+    });
+  });
+}
+
+// ===============================
 // INICIALIZAÇÃO PRINCIPAL
 // ===============================
 
@@ -3355,6 +3349,7 @@ function init() {
     manageFocus();
     initTimelineToggle();
     initWorkProcessToggle();
+    initSearchClear();
     
     // ✅ Inicializa projetos
     initProjects();
@@ -3366,14 +3361,12 @@ function init() {
     initCertificates();
 
     // ✅ Inicializa livros
-    initBooks();   
-    
+    initBooks();
+
     window.addEventListener('hashchange', manageFocus);
-    
-    console.log('✅ Portfólio inicializado com sucesso!');
-    
+
   } catch (error) {
-    console.error('❌ Erro na inicialização:', error);
+    console.error('Erro na inicialização:', error);
   }
 
   updateHeroScale();

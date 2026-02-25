@@ -6,13 +6,54 @@
   <meta name="description" content="Livros lidos - Ficção, fantasia, técnicos e desenvolvimento pessoal" />
   <title>Livros | Guilherme Corrêa</title>
 
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Livros | Guilherme Corrêa" />
+  <meta property="og:description" content="Livros lidos - Ficção, fantasia, técnicos e desenvolvimento pessoal" />
+  <meta property="og:url" content="https://guicorrea93.github.io/livros.html" />
+  <meta property="og:image" content="https://guicorrea93.github.io/assets/img/avatares/avatar.webp" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Livros | Guilherme Corrêa" />
+  <meta name="twitter:description" content="Livros lidos - Ficção, fantasia, técnicos e desenvolvimento pessoal" />
+  <meta name="twitter:image" content="https://guicorrea93.github.io/assets/img/avatares/avatar.webp" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/favicons/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png" />
+
+  <link rel="canonical" href="https://guicorrea93.github.io/livros.html" />
+  <link rel="preload" as="style" href="assets/css/styles.css" />
+  <link rel="preload" as="script" href="assets/js/main.js" />
   <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://guicorrea93.github.io/" },
+      { "@type": "ListItem", "position": 2, "name": "Livros", "item": "https://guicorrea93.github.io/livros.html" }
+    ]
+  }
+  </script>
 </head>
 
 <body>
+  <a class="skip-link" href="#main-content">Pular para o conteudo</a>
+  <noscript>
+    <p style="padding:2rem;text-align:center;color:#E5E7EB;background:#1F2937">
+      Este site precisa de JavaScript para funcionar. Por favor, ative o JavaScript no seu navegador.
+    </p>
+  </noscript>
+
   <header class="topbar" id="topbar"></header>
 
-  <main class="container">
+  <main class="container" id="main-content">
     <section class="pagehead">
       <h1>📚 Biblioteca Pessoal</h1>
       <p class="lead">
@@ -73,7 +114,7 @@
         <!-- Header do modal com capa -->
         <div class="modal-book-header">
           <div class="book-cover-container">
-            <img id="bookModalCapa" src="" alt="" class="book-modal-cover" />
+            <img id="bookModalCapa" src="" alt="Capa do livro" class="book-modal-cover" />
             <div class="book-rating" id="bookModalRating">
               <!-- Estrelas serão preenchidas via JS -->
             </div>
@@ -168,25 +209,5 @@
   </footer>
 
   <script src="assets/js/main.js" defer></script>
-  
-  <!-- Script para funcionalidade do botão limpar -->
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const searchInput = document.getElementById('bookSearch');
-      const clearBtn = document.getElementById('searchClear');
-      
-      if (searchInput && clearBtn) {
-        searchInput.addEventListener('input', () => {
-          clearBtn.style.display = searchInput.value ? 'flex' : 'none';
-        });
-        
-        clearBtn.addEventListener('click', () => {
-          searchInput.value = '';
-          searchInput.dispatchEvent(new Event('input'));
-          searchInput.focus();
-        });
-      }
-    });
-  </script>
 </body>
 </html>
