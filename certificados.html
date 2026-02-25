@@ -6,13 +6,54 @@
   <meta name="description" content="Certificados, diplomas e formação acadêmica em Data Science, BI e tecnologia" />
   <title>Certificados & Diplomas | Guilherme Corrêa</title>
 
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Certificados & Diplomas | Guilherme Corrêa" />
+  <meta property="og:description" content="Certificados, diplomas e formação acadêmica em Data Science, BI e tecnologia" />
+  <meta property="og:url" content="https://guicorrea93.github.io/certificados.html" />
+  <meta property="og:image" content="https://guicorrea93.github.io/assets/img/avatares/avatar.webp" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Certificados & Diplomas | Guilherme Corrêa" />
+  <meta name="twitter:description" content="Certificados, diplomas e formação acadêmica em Data Science, BI e tecnologia" />
+  <meta name="twitter:image" content="https://guicorrea93.github.io/assets/img/avatares/avatar.webp" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/favicons/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png" />
+
+  <link rel="canonical" href="https://guicorrea93.github.io/certificados.html" />
+  <link rel="preload" as="style" href="assets/css/styles.css" />
+  <link rel="preload" as="script" href="assets/js/main.js" />
   <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://guicorrea93.github.io/" },
+      { "@type": "ListItem", "position": 2, "name": "Certificados", "item": "https://guicorrea93.github.io/certificados.html" }
+    ]
+  }
+  </script>
 </head>
 
 <body>
+  <a class="skip-link" href="#main-content">Pular para o conteudo</a>
+  <noscript>
+    <p style="padding:2rem;text-align:center;color:#E5E7EB;background:#1F2937">
+      Este site precisa de JavaScript para funcionar. Por favor, ative o JavaScript no seu navegador.
+    </p>
+  </noscript>
+
   <header class="topbar" id="topbar"></header>
 
-  <main class="container">
+  <main class="container" id="main-content">
     <section class="pagehead">
       <h1>Certificados & Diplomas</h1>
       <p class="lead">
@@ -134,27 +175,5 @@
   </footer>
 
   <script src="assets/js/main.js" defer></script>
-  
-  <!-- ✅ Script para funcionalidade do botão limpar -->
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const searchInput = document.getElementById('certSearch');
-      const clearBtn = document.getElementById('searchClear');
-      
-      if (searchInput && clearBtn) {
-        // Mostra/esconde botão de limpar
-        searchInput.addEventListener('input', () => {
-          clearBtn.style.display = searchInput.value ? 'flex' : 'none';
-        });
-        
-        // Limpa busca
-        clearBtn.addEventListener('click', () => {
-          searchInput.value = '';
-          searchInput.dispatchEvent(new Event('input'));
-          searchInput.focus();
-        });
-      }
-    });
-  </script>
 </body>
 </html>

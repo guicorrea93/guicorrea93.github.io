@@ -1,2 +1,28 @@
+# Secrets
 .env
 *.env
+
+# Backup de imagens originais
+assets/img_backup/
+
+# Scripts utilitarios e documentacao interna
+scripts/
+GUIA_ATUALIZACAO.md
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc

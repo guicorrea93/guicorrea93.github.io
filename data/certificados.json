@@ -7,7 +7,7 @@
     "categoria": "Data Science",
     "duracao": "48 horas",
     "destaque": true,
-    "thumbnail": "assets/img/certificados/machine-learning-thumb.png",
+    "thumbnail": "assets/img/certificados/machine-learning-thumb.webp",
     "competencias": [
       "Machine Learning",
       "Classificação",
@@ -25,37 +25,37 @@
       {
         "nome": "Machine Learning na prática - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Machine%20Learning%20na%20pr%C3%A1tica/Machine%20Learning%20na%20pr%C3%A1tica%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/machine-learning/machine-learning-na-pratica-formacao.png",
+        "preview": "assets/img/certificados/machine-learning/machine-learning-na-pratica-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Machine Learning na prática 01 - Curso Machine Learning - classificação com SKLearn.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Machine%20Learning%20na%20pr%C3%A1tica/Machine%20Learning%20na%20pr%C3%A1tica%2001%20-%20Curso%20Machine%20Learning%20-%20classifica%C3%A7%C3%A3o%20com%20SKLearn.pdf",
-        "preview": "assets/img/certificados/machine-learning/machine-learning-na-pratica-01-curso-machine-learn.png",
+        "preview": "assets/img/certificados/machine-learning/machine-learning-na-pratica-01-curso-machine-learn.webp",
         "isFormacao": false
       },
       {
         "nome": "Machine Learning na prática 02 - Curso Data Science - testando relações com Regressão Linear.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Machine%20Learning%20na%20pr%C3%A1tica/Machine%20Learning%20na%20pr%C3%A1tica%2002%20-%20Curso%20Data%20Science%20-%20testando%20rela%C3%A7%C3%B5es%20com%20Regress%C3%A3o%20Linear.pdf",
-        "preview": "assets/img/certificados/machine-learning/machine-learning-na-pratica-02-curso-data-science.png",
+        "preview": "assets/img/certificados/machine-learning/machine-learning-na-pratica-02-curso-data-science.webp",
         "isFormacao": false
       },
       {
         "nome": "Machine Learning na prática 03 - Curso Clusterização - lidando com dados sem rótulo.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Machine%20Learning%20na%20pr%C3%A1tica/Machine%20Learning%20na%20pr%C3%A1tica%2003%20-%20Curso%20Clusteriza%C3%A7%C3%A3o%20-%20lidando%20com%20dados%20sem%20r%C3%B3tulo.pdf",
-        "preview": "assets/img/certificados/machine-learning/machine-learning-na-pratica-03-curso-clusterizacao.png",
+        "preview": "assets/img/certificados/machine-learning/machine-learning-na-pratica-03-curso-clusterizacao.webp",
         "isFormacao": false
       },
       {
         "nome": "Machine Learning na prática 04 - Curso NLP - aplicando processamento de linguagem natural para análise de sentimentos.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Machine%20Learning%20na%20pr%C3%A1tica/Machine%20Learning%20na%20pr%C3%A1tica%2004%20-%20Curso%20NLP%20-%20aplicando%20processamento%20de%20linguagem%20natural%20para%20an%C3%A1lise%20de%20sentimentos.pdf",
-        "preview": "assets/img/certificados/machine-learning/machine-learning-na-pratica-04-curso-nlp-aplicando.png",
+        "preview": "assets/img/certificados/machine-learning/machine-learning-na-pratica-04-curso-nlp-aplicando.webp",
         "isFormacao": false
       },
       {
         "nome": "Machine Learning na prática 05 - Curso Dash - construindo dashboards para modelos de Machine Learning.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Machine%20Learning%20na%20pr%C3%A1tica/Machine%20Learning%20na%20pr%C3%A1tica%2005%20-%20Curso%20Dash%20-%20construindo%20dashboards%20para%20modelos%20de%20Machine%20Learning.pdf",
-        "preview": "assets/img/certificados/machine-learning/machine-learning-na-pratica-05-curso-dash-construi.png",
+        "preview": "assets/img/certificados/machine-learning/machine-learning-na-pratica-05-curso-dash-construi.webp",
         "isFormacao": false
       }
     ],
@@ -72,8 +72,8 @@
     "instituicao": "Alura",
     "categoria": "Metodologias Ágeis",
     "duracao": "50 horas",
-    "destaque": false,
-    "thumbnail": "assets/img/certificados/agilidade-abordagens-praticas-avancadas-thumb.png",
+    "destaque": true,
+    "thumbnail": "assets/img/certificados/agilidade-abordagens-praticas-avancadas-thumb.webp",
     "competencias": [
       "Agilidade",
       "Scrum",
@@ -91,43 +91,43 @@
       {
         "nome": "Agilidade abordagens e práticas avançadas - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Agilidade%20abordagens%20e%20pr%C3%A1ticas%20avan%C3%A7adas/Agilidade%20abordagens%20e%20pr%C3%A1ticas%20avan%C3%A7adas%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/agilidade-abordagens-praticas-avancadas/agilidade-abordagens-e-praticas-avancadas-formacao.png",
+        "preview": "assets/img/certificados/agilidade-abordagens-praticas-avancadas/agilidade-abordagens-e-praticas-avancadas-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Agilidade abordagens e práticas avançadas 01 - Curso Cultura e Métodos Ágeis - pilares para uma imersão avançada.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Agilidade%20abordagens%20e%20pr%C3%A1ticas%20avan%C3%A7adas/Agilidade%20abordagens%20e%20pr%C3%A1ticas%20avan%C3%A7adas%2001%20-%20Curso%20Cultura%20e%20M%C3%A9todos%20%C3%81geis%20-%20pilares%20para%20uma%20imers%C3%A3o%20avan%C3%A7ada.pdf",
-        "preview": "assets/img/certificados/agilidade-abordagens-praticas-avancadas/agilidade-abordagens-e-praticas-avancadas-01-curso.png",
+        "preview": "assets/img/certificados/agilidade-abordagens-praticas-avancadas/agilidade-abordagens-e-praticas-avancadas-01-curso.webp",
         "isFormacao": false
       },
       {
         "nome": "Agilidade abordagens e práticas avançadas 02 - Curso Ágil Escalado - conheça frameworks para grandes desenvolvimentos.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Agilidade%20abordagens%20e%20pr%C3%A1ticas%20avan%C3%A7adas/Agilidade%20abordagens%20e%20pr%C3%A1ticas%20avan%C3%A7adas%2002%20-%20Curso%20%C3%81gil%20Escalado%20-%20conhe%C3%A7a%20frameworks%20para%20grandes%20desenvolvimentos.pdf",
-        "preview": "assets/img/certificados/agilidade-abordagens-praticas-avancadas/agilidade-abordagens-e-praticas-avancadas-02-curso.png",
+        "preview": "assets/img/certificados/agilidade-abordagens-praticas-avancadas/agilidade-abordagens-e-praticas-avancadas-02-curso.webp",
         "isFormacao": false
       },
       {
         "nome": "Agilidade abordagens e práticas avançadas 03 - Curso Lean-Ágil - expanda horizontes para a organização toda.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Agilidade%20abordagens%20e%20pr%C3%A1ticas%20avan%C3%A7adas/Agilidade%20abordagens%20e%20pr%C3%A1ticas%20avan%C3%A7adas%2003%20-%20Curso%20Lean-%C3%81gil%20-%20expanda%20horizontes%20para%20a%20organiza%C3%A7%C3%A3o%20toda.pdf",
-        "preview": "assets/img/certificados/agilidade-abordagens-praticas-avancadas/agilidade-abordagens-e-praticas-avancadas-03-curso.png",
+        "preview": "assets/img/certificados/agilidade-abordagens-praticas-avancadas/agilidade-abordagens-e-praticas-avancadas-03-curso.webp",
         "isFormacao": false
       },
       {
         "nome": "Agilidade abordagens e práticas avançadas 04 - Curso Agile Coaching - difunda o Ágil nas organizações.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Agilidade%20abordagens%20e%20pr%C3%A1ticas%20avan%C3%A7adas/Agilidade%20abordagens%20e%20pr%C3%A1ticas%20avan%C3%A7adas%2004%20-%20Curso%20Agile%20Coaching%20-%20difunda%20o%20%C3%81gil%20nas%20organiza%C3%A7%C3%B5es.pdf",
-        "preview": "assets/img/certificados/agilidade-abordagens-praticas-avancadas/agilidade-abordagens-e-praticas-avancadas-04-curso.png",
+        "preview": "assets/img/certificados/agilidade-abordagens-praticas-avancadas/agilidade-abordagens-e-praticas-avancadas-04-curso.webp",
         "isFormacao": false
       },
       {
         "nome": "Agilidade abordagens e práticas avançadas 05 - Curso Tópicos avançados da agilidade - aprofunde seus conhecimentos em qualidade, valor e contratações.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Agilidade%20abordagens%20e%20pr%C3%A1ticas%20avan%C3%A7adas/Agilidade%20abordagens%20e%20pr%C3%A1ticas%20avan%C3%A7adas%2005%20-%20Curso%20T%C3%B3picos%20avan%C3%A7ados%20da%20agilidade%20-%20aprofunde%20seus%20conhecimentos%20em%20qualidade%2C%20valor%20e%20contrata%C3%A7%C3%B5es.pdf",
-        "preview": "assets/img/certificados/agilidade-abordagens-praticas-avancadas/agilidade-abordagens-e-praticas-avancadas-05-curso.png",
+        "preview": "assets/img/certificados/agilidade-abordagens-praticas-avancadas/agilidade-abordagens-e-praticas-avancadas-05-curso.webp",
         "isFormacao": false
       },
       {
         "nome": "Agilidade abordagens e práticas avançadas 06 - Curso Liderança Ágil - aprimoramento de soft skills.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Agilidade%20abordagens%20e%20pr%C3%A1ticas%20avan%C3%A7adas/Agilidade%20abordagens%20e%20pr%C3%A1ticas%20avan%C3%A7adas%2006%20-%20Curso%20Lideran%C3%A7a%20%C3%81gil%20-%20aprimoramento%20de%20soft%20skills.pdf",
-        "preview": "assets/img/certificados/agilidade-abordagens-praticas-avancadas/agilidade-abordagens-e-praticas-avancadas-06-curso.png",
+        "preview": "assets/img/certificados/agilidade-abordagens-praticas-avancadas/agilidade-abordagens-e-praticas-avancadas-06-curso.webp",
         "isFormacao": false
       }
     ],
@@ -144,8 +144,8 @@
     "instituicao": "Alura",
     "categoria": "Data Science",
     "duracao": "86h",
-    "destaque": false,
-    "thumbnail": "assets/img/certificados/avancando-data-science-python-thumb.png",
+    "destaque": true,
+    "thumbnail": "assets/img/certificados/avancando-data-science-python-thumb.webp",
     "competencias": [
       "Python",
       "Data Visualization",
@@ -163,61 +163,61 @@
       {
         "nome": "Avançando em Data Science com Python - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-formacao.png",
+        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Avançando em Data Science com Python 01 - Curso Data Visualization - criando gráficos com bibliotecas Python.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python%2001%20-%20Curso%20Data%20Visualization%20-%20criando%20gr%C3%A1ficos%20com%20bibliotecas%20Python.pdf",
-        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-01-curso-data.png",
+        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-01-curso-data.webp",
         "isFormacao": false
       },
       {
         "nome": "Avançando em Data Science com Python 02 - Curso Data Visualization - gráficos de comparação e distribuição.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python%2002%20-%20Curso%20Data%20Visualization%20-%20gr%C3%A1ficos%20de%20compara%C3%A7%C3%A3o%20e%20distribui%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-02-curso-data.png",
+        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-02-curso-data.webp",
         "isFormacao": false
       },
       {
         "nome": "Avançando em Data Science com Python 03 - Curso Data Visualization - gráficos de composição e relacionamento.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python%2003%20-%20Curso%20Data%20Visualization%20-%20gr%C3%A1ficos%20de%20composi%C3%A7%C3%A3o%20e%20relacionamento.pdf",
-        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-03-curso-data.png",
+        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-03-curso-data.webp",
         "isFormacao": false
       },
       {
         "nome": "Avançando em Data Science com Python 04 - Curso Data Visualization - estilização de tabelas com Python.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python%2004%20-%20Curso%20Data%20Visualization%20-%20estiliza%C3%A7%C3%A3o%20de%20tabelas%20com%20Python.pdf",
-        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-04-curso-data.png",
+        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-04-curso-data.webp",
         "isFormacao": false
       },
       {
         "nome": "Avançando em Data Science com Python 05 - Curso Streamlit - construindo um dashboard interativo.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python%2005%20-%20Curso%20Streamlit%20-%20construindo%20um%20dashboard%20interativo.pdf",
-        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-05-curso-stre.png",
+        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-05-curso-stre.webp",
         "isFormacao": false
       },
       {
         "nome": "Avançando em Data Science com Python 06 - Curso Python - análise de dados com SQL.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python%2006%20-%20Curso%20Python%20-%20an%C3%A1lise%20de%20dados%20com%20SQL.pdf",
-        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-06-curso-pyth.png",
+        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-06-curso-pyth.webp",
         "isFormacao": false
       },
       {
         "nome": "Avançando em Data Science com Python 07 - Curso Python e Power BI - analisando dados do mercado financeiro.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python%2007%20-%20Curso%20Python%20e%20Power%20BI%20-%20analisando%20dados%20do%20mercado%20financeiro.pdf",
-        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-07-curso-pyth.png",
+        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-07-curso-pyth.webp",
         "isFormacao": false
       },
       {
         "nome": "Avançando em Data Science com Python 08 - Curso Geopandas - trabalhando com dados geoespaciais.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python%2008%20-%20Curso%20Geopandas%20-%20trabalhando%20com%20dados%20geoespaciais.pdf",
-        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-08-curso-geop.png",
+        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-08-curso-geop.webp",
         "isFormacao": false
       },
       {
         "nome": "Avançando em Data Science com Python 09 - Curso Dados geográficos - visualização de mapas com Folium.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python/Avan%C3%A7ando%20em%20Data%20Science%20com%20Python%2009%20-%20Curso%20Dados%20geogr%C3%A1ficos%20-%20visualiza%C3%A7%C3%A3o%20de%20mapas%20com%20Folium.pdf",
-        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-09-curso-dado.png",
+        "preview": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-09-curso-dado.webp",
         "isFormacao": false
       }
     ],
@@ -235,7 +235,7 @@
     "categoria": "Agilidade",
     "duracao": "57 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/business-agility-thumb.png",
+    "thumbnail": "assets/img/certificados/business-agility-thumb.webp",
     "competencias": [
       "Business Agility",
       "Gestão Ágil",
@@ -252,55 +252,55 @@
       {
         "nome": "Business Agility - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Business%20Agility/Business%20Agility%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/business-agility/business-agility-formacao.png",
+        "preview": "assets/img/certificados/business-agility/business-agility-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Business Agility 01 - Curso Gestão Ágil - explorando conceitos da agilidade.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Business%20Agility/Business%20Agility%2001%20-%20Curso%20Gest%C3%A3o%20%C3%81gil%20-%20explorando%20conceitos%20da%20agilidade.pdf",
-        "preview": "assets/img/certificados/business-agility/business-agility-01-curso-gestao-agil-explorando-c.png",
+        "preview": "assets/img/certificados/business-agility/business-agility-01-curso-gestao-agil-explorando-c.webp",
         "isFormacao": false
       },
       {
         "nome": "Business Agility 02 - Curso A Empresa Ágil - implemente o Business Agility nas organizações.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Business%20Agility/Business%20Agility%2002%20-%20Curso%20A%20Empresa%20%C3%81gil%20-%20implemente%20o%20Business%20Agility%20nas%20organiza%C3%A7%C3%B5es.pdf",
-        "preview": "assets/img/certificados/business-agility/business-agility-02-curso-a-empresa-agil-implement.png",
+        "preview": "assets/img/certificados/business-agility/business-agility-02-curso-a-empresa-agil-implement.webp",
         "isFormacao": false
       },
       {
         "nome": "Business Agility 03 - Curso Gestão Ágil - liderando a mudança em um ambiente de agilidade.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Business%20Agility/Business%20Agility%2003%20-%20Curso%20Gest%C3%A3o%20%C3%81gil%20-%20liderando%20a%20mudan%C3%A7a%20em%20um%20ambiente%20de%20agilidade.pdf",
-        "preview": "assets/img/certificados/business-agility/business-agility-03-curso-gestao-agil-liderando-a.png",
+        "preview": "assets/img/certificados/business-agility/business-agility-03-curso-gestao-agil-liderando-a.webp",
         "isFormacao": false
       },
       {
         "nome": "Business Agility 04 - Curso Organização de Equipes Ágeis - os papéis existentes em uma equipe.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Business%20Agility/Business%20Agility%2004%20-%20Curso%20Organiza%C3%A7%C3%A3o%20de%20Equipes%20%C3%81geis%20-%20os%20pap%C3%A9is%20existentes%20em%20uma%20equipe.pdf",
-        "preview": "assets/img/certificados/business-agility/business-agility-04-curso-organizacao-de-equipes-a.png",
+        "preview": "assets/img/certificados/business-agility/business-agility-04-curso-organizacao-de-equipes-a.webp",
         "isFormacao": false
       },
       {
         "nome": "Business Agility 05 - Curso Escalando Equipes Ágeis - como levar a agilidade adiante na organização.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Business%20Agility/Business%20Agility%2005%20-%20Curso%20Escalando%20Equipes%20%C3%81geis%20-%20como%20levar%20a%20agilidade%20adiante%20na%20organiza%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/business-agility/business-agility-05-curso-escalando-equipes-ageis.png",
+        "preview": "assets/img/certificados/business-agility/business-agility-05-curso-escalando-equipes-ageis.webp",
         "isFormacao": false
       },
       {
         "nome": "Business Agility 06 - Curso Agile Coach - lidere a transformação nas empresas.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Business%20Agility/Business%20Agility%2006%20-%20Curso%20Agile%20Coach%20-%20lidere%20a%20transforma%C3%A7%C3%A3o%20nas%20empresas.pdf",
-        "preview": "assets/img/certificados/business-agility/business-agility-06-curso-agile-coach-lidere-a-tra.png",
+        "preview": "assets/img/certificados/business-agility/business-agility-06-curso-agile-coach-lidere-a-tra.webp",
         "isFormacao": true
       },
       {
         "nome": "Business Agility 07 - Curso Práticas Ágeis - construa um ambiente ágil.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Business%20Agility/Business%20Agility%2007%20-%20Curso%20Pr%C3%A1ticas%20%C3%81geis%20-%20construa%20um%20ambiente%20%C3%A1gil.pdf",
-        "preview": "assets/img/certificados/business-agility/business-agility-07-curso-praticas-ageis-construa.png",
+        "preview": "assets/img/certificados/business-agility/business-agility-07-curso-praticas-ageis-construa.webp",
         "isFormacao": false
       },
       {
         "nome": "Business Agility 08 - Curso Métricas Ágeis - como medir resultados em um Ambiente Ágil.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Business%20Agility/Business%20Agility%2008%20-%20Curso%20M%C3%A9tricas%20%C3%81geis%20-%20como%20medir%20resultados%20em%20um%20Ambiente%20%C3%81gil.pdf",
-        "preview": "assets/img/certificados/business-agility/business-agility-08-curso-metricas-ageis-como-medi.png",
+        "preview": "assets/img/certificados/business-agility/business-agility-08-curso-metricas-ageis-como-medi.webp",
         "isFormacao": false
       }
     ],
@@ -318,7 +318,7 @@
     "categoria": "Excel e Business Intelligence",
     "duracao": "54 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/business-intelligence-excel-thumb.png",
+    "thumbnail": "assets/img/certificados/business-intelligence-excel-thumb.webp",
     "competencias": [
       "Excel Avançado",
       "Business Intelligence",
@@ -334,43 +334,43 @@
       {
         "nome": "Business Intelligence com Excel - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Business%20Intelligence%20com%20Excel/Business%20Intelligence%20com%20Excel%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/business-intelligence-excel/business-intelligence-com-excel-formacao.png",
+        "preview": "assets/img/certificados/business-intelligence-excel/business-intelligence-com-excel-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Business Intelligence com Excel 01 - Curso BI com Excel - criando bancos de dados com planilhas.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Business%20Intelligence%20com%20Excel/Business%20Intelligence%20com%20Excel%2001%20-%20Curso%20BI%20com%20Excel%20-%20criando%20bancos%20de%20dados%20com%20planilhas.pdf",
-        "preview": "assets/img/certificados/business-intelligence-excel/business-intelligence-com-excel-01-curso-bi-com-ex.png",
+        "preview": "assets/img/certificados/business-intelligence-excel/business-intelligence-com-excel-01-curso-bi-com-ex.webp",
         "isFormacao": false
       },
       {
         "nome": "Business Intelligence com Excel 02 - Curso BI com Excel - criando um Dashboard sem complicação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Business%20Intelligence%20com%20Excel/Business%20Intelligence%20com%20Excel%2002%20-%20Curso%20BI%20com%20Excel%20-%20criando%20um%20Dashboard%20sem%20complica%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/business-intelligence-excel/business-intelligence-com-excel-02-curso-bi-com-ex.png",
+        "preview": "assets/img/certificados/business-intelligence-excel/business-intelligence-com-excel-02-curso-bi-com-ex.webp",
         "isFormacao": false
       },
       {
         "nome": "Business Intelligence com Excel 03 - Curso BI com Excel - trabalhando com tabelas dinâmicas com Power Pivot.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Business%20Intelligence%20com%20Excel/Business%20Intelligence%20com%20Excel%2003%20-%20Curso%20BI%20com%20Excel%20-%20trabalhando%20com%20tabelas%20din%C3%A2micas%20com%20Power%20Pivot.pdf",
-        "preview": "assets/img/certificados/business-intelligence-excel/business-intelligence-com-excel-03-curso-bi-com-ex.png",
+        "preview": "assets/img/certificados/business-intelligence-excel/business-intelligence-com-excel-03-curso-bi-com-ex.webp",
         "isFormacao": false
       },
       {
         "nome": "Business Intelligence com Excel 04 - Curso BI com Excel - criando Dashboard com Power Pivot.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Business%20Intelligence%20com%20Excel/Business%20Intelligence%20com%20Excel%2004%20-%20Curso%20BI%20com%20Excel%20-%20criando%20Dashboard%20com%20Power%20Pivot.pdf",
-        "preview": "assets/img/certificados/business-intelligence-excel/business-intelligence-com-excel-04-curso-bi-com-ex.png",
+        "preview": "assets/img/certificados/business-intelligence-excel/business-intelligence-com-excel-04-curso-bi-com-ex.webp",
         "isFormacao": false
       },
       {
         "nome": "Business Intelligence com Excel 05 - Curso BI com Excel - conhecendo o Power Query.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Business%20Intelligence%20com%20Excel/Business%20Intelligence%20com%20Excel%2005%20-%20Curso%20BI%20com%20Excel%20-%20conhecendo%20o%20Power%20Query.pdf",
-        "preview": "assets/img/certificados/business-intelligence-excel/business-intelligence-com-excel-05-curso-bi-com-ex.png",
+        "preview": "assets/img/certificados/business-intelligence-excel/business-intelligence-com-excel-05-curso-bi-com-ex.webp",
         "isFormacao": false
       },
       {
         "nome": "Business Intelligence com Excel 06 - Curso BI com Excel - dashboard com Power Query.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Business%20Intelligence%20com%20Excel/Business%20Intelligence%20com%20Excel%2006%20-%20Curso%20BI%20com%20Excel%20-%20dashboard%20com%20Power%20Query.pdf",
-        "preview": "assets/img/certificados/business-intelligence-excel/business-intelligence-com-excel-06-curso-bi-com-ex.png",
+        "preview": "assets/img/certificados/business-intelligence-excel/business-intelligence-com-excel-06-curso-bi-com-ex.webp",
         "isFormacao": false
       }
     ],
@@ -388,7 +388,7 @@
     "categoria": "Business Intelligence",
     "duracao": "60 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/business-intelligence-data-warehouse-thumb.png",
+    "thumbnail": "assets/img/certificados/business-intelligence-data-warehouse-thumb.webp",
     "competencias": [
       "Business Intelligence",
       "Data Warehouse",
@@ -406,43 +406,43 @@
       {
         "nome": "BI e Data Warehouse com SQL Server e Power BI - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/BI%20e%20Data%20Warehouse%20com%20SQL%20Server%20e%20Power%20BI/BI%20e%20Data%20Warehouse%20com%20SQL%20Server%20e%20Power%20BI%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/business-intelligence-data-warehouse/bi-e-data-warehouse-com-sql-server-e-power-bi-form.png",
+        "preview": "assets/img/certificados/business-intelligence-data-warehouse/bi-e-data-warehouse-com-sql-server-e-power-bi-form.webp",
         "isFormacao": true
       },
       {
         "nome": "BI e Data Warehouse com SQL Server e Power BI 01 - Curso Business Intelligence - trabalhando com Data Warehouse.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/BI%20e%20Data%20Warehouse%20com%20SQL%20Server%20e%20Power%20BI/BI%20e%20Data%20Warehouse%20com%20SQL%20Server%20e%20Power%20BI%2001%20-%20Curso%20Business%20Intelligence%20-%20trabalhando%20com%20Data%20Warehouse.pdf",
-        "preview": "assets/img/certificados/business-intelligence-data-warehouse/bi-e-data-warehouse-com-sql-server-e-power-bi-01-c.png",
+        "preview": "assets/img/certificados/business-intelligence-data-warehouse/bi-e-data-warehouse-com-sql-server-e-power-bi-01-c.webp",
         "isFormacao": false
       },
       {
         "nome": "BI e Data Warehouse com SQL Server e Power BI 02 - Curso ETL com Integration Services - modelo de dados.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/BI%20e%20Data%20Warehouse%20com%20SQL%20Server%20e%20Power%20BI/BI%20e%20Data%20Warehouse%20com%20SQL%20Server%20e%20Power%20BI%2002%20-%20Curso%20ETL%20com%20Integration%20Services%20-%20modelo%20de%20dados.pdf",
-        "preview": "assets/img/certificados/business-intelligence-data-warehouse/bi-e-data-warehouse-com-sql-server-e-power-bi-02-c.png",
+        "preview": "assets/img/certificados/business-intelligence-data-warehouse/bi-e-data-warehouse-com-sql-server-e-power-bi-02-c.webp",
         "isFormacao": false
       },
       {
         "nome": "BI e Data Warehouse com SQL Server e Power BI 03 - Curso ETL com Integration Services - transformação de dados.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/BI%20e%20Data%20Warehouse%20com%20SQL%20Server%20e%20Power%20BI/BI%20e%20Data%20Warehouse%20com%20SQL%20Server%20e%20Power%20BI%2003%20-%20Curso%20ETL%20com%20Integration%20Services%20-%20transforma%C3%A7%C3%A3o%20de%20dados.pdf",
-        "preview": "assets/img/certificados/business-intelligence-data-warehouse/bi-e-data-warehouse-com-sql-server-e-power-bi-03-c.png",
+        "preview": "assets/img/certificados/business-intelligence-data-warehouse/bi-e-data-warehouse-com-sql-server-e-power-bi-03-c.webp",
         "isFormacao": true
       },
       {
         "nome": "BI e Data Warehouse com SQL Server e Power BI 04 - Curso OLAP com SQL Server - construção do Data Warehouse.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/BI%20e%20Data%20Warehouse%20com%20SQL%20Server%20e%20Power%20BI/BI%20e%20Data%20Warehouse%20com%20SQL%20Server%20e%20Power%20BI%2004%20-%20Curso%20OLAP%20com%20SQL%20Server%20-%20constru%C3%A7%C3%A3o%20do%20Data%20Warehouse.pdf",
-        "preview": "assets/img/certificados/business-intelligence-data-warehouse/bi-e-data-warehouse-com-sql-server-e-power-bi-04-c.png",
+        "preview": "assets/img/certificados/business-intelligence-data-warehouse/bi-e-data-warehouse-com-sql-server-e-power-bi-04-c.webp",
         "isFormacao": false
       },
       {
         "nome": "BI e Data Warehouse com SQL Server e Power BI 05 - Curso Consultas Multidimensionais - MDX com SQL Server.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/BI%20e%20Data%20Warehouse%20com%20SQL%20Server%20e%20Power%20BI/BI%20e%20Data%20Warehouse%20com%20SQL%20Server%20e%20Power%20BI%2005%20-%20Curso%20Consultas%20Multidimensionais%20-%20MDX%20com%20SQL%20Server.pdf",
-        "preview": "assets/img/certificados/business-intelligence-data-warehouse/bi-e-data-warehouse-com-sql-server-e-power-bi-05-c.png",
+        "preview": "assets/img/certificados/business-intelligence-data-warehouse/bi-e-data-warehouse-com-sql-server-e-power-bi-05-c.webp",
         "isFormacao": false
       },
       {
         "nome": "BI e Data Warehouse com SQL Server e Power BI 06 - Curso Report Analysis com Power BI - gerando relatórios empresariais.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/BI%20e%20Data%20Warehouse%20com%20SQL%20Server%20e%20Power%20BI/BI%20e%20Data%20Warehouse%20com%20SQL%20Server%20e%20Power%20BI%2006%20-%20Curso%20Report%20Analysis%20com%20Power%20BI%20-%20gerando%20relat%C3%B3rios%20empresariais.pdf",
-        "preview": "assets/img/certificados/business-intelligence-data-warehouse/bi-e-data-warehouse-com-sql-server-e-power-bi-06-c.png",
+        "preview": "assets/img/certificados/business-intelligence-data-warehouse/bi-e-data-warehouse-com-sql-server-e-power-bi-06-c.webp",
         "isFormacao": false
       }
     ],
@@ -460,7 +460,7 @@
     "categoria": "Soft Skills",
     "duracao": "54 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/comunicacao-thumb.png",
+    "thumbnail": "assets/img/certificados/comunicacao-thumb.webp",
     "competencias": [
       "Comunicação",
       "Oratória",
@@ -477,49 +477,49 @@
       {
         "nome": "Comunicação - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Comunica%C3%A7%C3%A3o/Comunica%C3%A7%C3%A3o%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/comunicacao/comunicacao-formacao.png",
+        "preview": "assets/img/certificados/comunicacao/comunicacao-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Comunicação 01 - Curso Comunicação - como se expressar bem e ser compreendido.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Comunica%C3%A7%C3%A3o/Comunica%C3%A7%C3%A3o%2001%20-%20Curso%20Comunica%C3%A7%C3%A3o%20-%20como%20se%20expressar%20bem%20e%20ser%20compreendido.pdf",
-        "preview": "assets/img/certificados/comunicacao/comunicacao-01-curso-comunicacao-como-se-expressar.png",
+        "preview": "assets/img/certificados/comunicacao/comunicacao-01-curso-comunicacao-como-se-expressar.webp",
         "isFormacao": false
       },
       {
         "nome": "Comunicação 02 - Curso Oratória - conquiste a atenção do seu público.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Comunica%C3%A7%C3%A3o/Comunica%C3%A7%C3%A3o%2002%20-%20Curso%20Orat%C3%B3ria%20-%20conquiste%20a%20aten%C3%A7%C3%A3o%20do%20seu%20p%C3%BAblico.pdf",
-        "preview": "assets/img/certificados/comunicacao/comunicacao-02-curso-oratoria-conquiste-a-atencao.png",
+        "preview": "assets/img/certificados/comunicacao/comunicacao-02-curso-oratoria-conquiste-a-atencao.webp",
         "isFormacao": false
       },
       {
         "nome": "Comunicação 03 - Curso Oratória - supere desafios com confiança.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Comunica%C3%A7%C3%A3o/Comunica%C3%A7%C3%A3o%2003%20-%20Curso%20Orat%C3%B3ria%20-%20supere%20desafios%20com%20confian%C3%A7a.pdf",
-        "preview": "assets/img/certificados/comunicacao/comunicacao-03-curso-oratoria-supere-desafios-com.png",
+        "preview": "assets/img/certificados/comunicacao/comunicacao-03-curso-oratoria-supere-desafios-com.webp",
         "isFormacao": false
       },
       {
         "nome": "Comunicação 04 - Curso Feedback efetivo_ utilizando ferramentas para comunicação transformadora - Alura.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Comunica%C3%A7%C3%A3o/Comunica%C3%A7%C3%A3o%2004%20-%20Curso%20Feedback%20efetivo_%20utilizando%20ferramentas%20para%20comunica%C3%A7%C3%A3o%20transformadora%20-%20Alura.pdf",
-        "preview": "assets/img/certificados/comunicacao/comunicacao-04-curso-feedback-efetivo_-utilizando.png",
+        "preview": "assets/img/certificados/comunicacao/comunicacao-04-curso-feedback-efetivo_-utilizando.webp",
         "isFormacao": false
       },
       {
         "nome": "Comunicação 05 - Curso Comunicação não violenta - consciência para agir.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Comunica%C3%A7%C3%A3o/Comunica%C3%A7%C3%A3o%2005%20-%20Curso%20Comunica%C3%A7%C3%A3o%20n%C3%A3o%20violenta%20-%20consci%C3%AAncia%20para%20agir.pdf",
-        "preview": "assets/img/certificados/comunicacao/comunicacao-05-curso-comunicacao-nao-violenta-cons.png",
+        "preview": "assets/img/certificados/comunicacao/comunicacao-05-curso-comunicacao-nao-violenta-cons.webp",
         "isFormacao": false
       },
       {
         "nome": "Comunicação 06 - Curso Comunicação não violenta parte 2 - mantendo a empatia.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Comunica%C3%A7%C3%A3o/Comunica%C3%A7%C3%A3o%2006%20-%20Curso%20Comunica%C3%A7%C3%A3o%20n%C3%A3o%20violenta%20parte%202%20-%20mantendo%20a%20empatia.pdf",
-        "preview": "assets/img/certificados/comunicacao/comunicacao-06-curso-comunicacao-nao-violenta-part.png",
+        "preview": "assets/img/certificados/comunicacao/comunicacao-06-curso-comunicacao-nao-violenta-part.webp",
         "isFormacao": false
       },
       {
         "nome": "Comunicação 07 - Curso Comunicação assertiva - reduzindo conflitos e frustrações.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Comunica%C3%A7%C3%A3o/Comunica%C3%A7%C3%A3o%2007%20-%20Curso%20Comunica%C3%A7%C3%A3o%20assertiva%20-%20reduzindo%20conflitos%20e%20frustra%C3%A7%C3%B5es.pdf",
-        "preview": "assets/img/certificados/comunicacao/comunicacao-07-curso-comunicacao-assertiva-reduzin.png",
+        "preview": "assets/img/certificados/comunicacao/comunicacao-07-curso-comunicacao-assertiva-reduzin.webp",
         "isFormacao": false
       }
     ],
@@ -537,7 +537,7 @@
     "categoria": "Liderança e Comunicação",
     "duracao": "46 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/comunicacao-lideres-thumb.png",
+    "thumbnail": "assets/img/certificados/comunicacao-lideres-thumb.webp",
     "competencias": [
       "Comunicação Assertiva",
       "Liderança",
@@ -554,43 +554,43 @@
       {
         "nome": "Comunicação para líderes - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Comunica%C3%A7%C3%A3o%20para%20l%C3%ADderes/Comunica%C3%A7%C3%A3o%20para%20l%C3%ADderes%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/comunicacao-lideres/comunicacao-para-lideres-formacao.png",
+        "preview": "assets/img/certificados/comunicacao-lideres/comunicacao-para-lideres-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Comunicação para líderes 01 - Curso Comunicação assertiva - reduzindo conflitos e frustrações.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Comunica%C3%A7%C3%A3o%20para%20l%C3%ADderes/Comunica%C3%A7%C3%A3o%20para%20l%C3%ADderes%2001%20-%20Curso%20Comunica%C3%A7%C3%A3o%20assertiva%20-%20reduzindo%20conflitos%20e%20frustra%C3%A7%C3%B5es.pdf",
-        "preview": "assets/img/certificados/comunicacao-lideres/comunicacao-para-lideres-01-curso-comunicacao-asse.png",
+        "preview": "assets/img/certificados/comunicacao-lideres/comunicacao-para-lideres-01-curso-comunicacao-asse.webp",
         "isFormacao": false
       },
       {
         "nome": "Comunicação para líderes 02 - Curso Oratória para líderes - como se comunicar profissionalmente.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Comunica%C3%A7%C3%A3o%20para%20l%C3%ADderes/Comunica%C3%A7%C3%A3o%20para%20l%C3%ADderes%2002%20-%20Curso%20Orat%C3%B3ria%20para%20l%C3%ADderes%20-%20como%20se%20comunicar%20profissionalmente.pdf",
-        "preview": "assets/img/certificados/comunicacao-lideres/comunicacao-para-lideres-02-curso-oratoria-para-li.png",
+        "preview": "assets/img/certificados/comunicacao-lideres/comunicacao-para-lideres-02-curso-oratoria-para-li.webp",
         "isFormacao": false
       },
       {
         "nome": "Comunicação para líderes 03 - Curso Comunicação participativa - liderança eficaz e motivadora.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Comunica%C3%A7%C3%A3o%20para%20l%C3%ADderes/Comunica%C3%A7%C3%A3o%20para%20l%C3%ADderes%2003%20-%20Curso%20Comunica%C3%A7%C3%A3o%20participativa%20-%20lideran%C3%A7a%20eficaz%20e%20motivadora.pdf",
-        "preview": "assets/img/certificados/comunicacao-lideres/comunicacao-para-lideres-03-curso-comunicacao-part.png",
+        "preview": "assets/img/certificados/comunicacao-lideres/comunicacao-para-lideres-03-curso-comunicacao-part.webp",
         "isFormacao": false
       },
       {
         "nome": "Comunicação para líderes 04 - Curso Negociação para líderes - desenvolva a habilidade e consiga bons acordos.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Comunica%C3%A7%C3%A3o%20para%20l%C3%ADderes/Comunica%C3%A7%C3%A3o%20para%20l%C3%ADderes%2004%20-%20Curso%20Negocia%C3%A7%C3%A3o%20para%20l%C3%ADderes%20-%20desenvolva%20a%20habilidade%20e%20consiga%20bons%20acordos.pdf",
-        "preview": "assets/img/certificados/comunicacao-lideres/comunicacao-para-lideres-04-curso-negociacao-para.png",
+        "preview": "assets/img/certificados/comunicacao-lideres/comunicacao-para-lideres-04-curso-negociacao-para.webp",
         "isFormacao": false
       },
       {
         "nome": "Comunicação para líderes 05 - Curso Comunicação estratégica na liderança - como engajar e influenciar pessoas.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Comunica%C3%A7%C3%A3o%20para%20l%C3%ADderes/Comunica%C3%A7%C3%A3o%20para%20l%C3%ADderes%2005%20-%20Curso%20Comunica%C3%A7%C3%A3o%20estrat%C3%A9gica%20na%20lideran%C3%A7a%20-%20como%20engajar%20e%20influenciar%20pessoas.pdf",
-        "preview": "assets/img/certificados/comunicacao-lideres/comunicacao-para-lideres-05-curso-comunicacao-estr.png",
+        "preview": "assets/img/certificados/comunicacao-lideres/comunicacao-para-lideres-05-curso-comunicacao-estr.webp",
         "isFormacao": false
       },
       {
         "nome": "Comunicação para líderes 06 - Curso Comunicação corporativa - usando PowerPoint de forma efetiva.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Comunica%C3%A7%C3%A3o%20para%20l%C3%ADderes/Comunica%C3%A7%C3%A3o%20para%20l%C3%ADderes%2006%20-%20Curso%20Comunica%C3%A7%C3%A3o%20corporativa%20-%20usando%20PowerPoint%20de%20forma%20efetiva.pdf",
-        "preview": "assets/img/certificados/comunicacao-lideres/comunicacao-para-lideres-06-curso-comunicacao-corp.png",
+        "preview": "assets/img/certificados/comunicacao-lideres/comunicacao-para-lideres-06-curso-comunicacao-corp.webp",
         "isFormacao": false
       }
     ],
@@ -608,7 +608,7 @@
     "categoria": "Data Science",
     "duracao": "49h",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/data-science-thumb.png",
+    "thumbnail": "assets/img/certificados/data-science-thumb.webp",
     "competencias": [
       "Python",
       "Pandas",
@@ -625,37 +625,37 @@
       {
         "nome": "Data Science 01 - Curso Data Science - explorando e analisando dados.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Data%20Science/Data%20Science%2001%20-%20Curso%20Data%20Science%20-%20explorando%20e%20analisando%20dados.pdf",
-        "preview": "assets/img/certificados/data-science/data-science-01-curso-data-science-explorando-e-an.png",
+        "preview": "assets/img/certificados/data-science/data-science-01-curso-data-science-explorando-e-an.webp",
         "isFormacao": false
       },
       {
         "nome": "Data Science 02 - Curso Data Visualization - criando gráficos com bibliotecas Python.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Data%20Science/Data%20Science%2002%20-%20Curso%20Data%20Visualization%20-%20criando%20gr%C3%A1ficos%20com%20bibliotecas%20Python.pdf",
-        "preview": "assets/img/certificados/data-science/data-science-02-curso-data-visualization-criando-g.png",
+        "preview": "assets/img/certificados/data-science/data-science-02-curso-data-visualization-criando-g.webp",
         "isFormacao": false
       },
       {
         "nome": "Data Science 03 - Curso Data Science - testando hipóteses.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Data%20Science/Data%20Science%2003%20-%20Curso%20Data%20Science%20-%20testando%20hip%C3%B3teses.pdf",
-        "preview": "assets/img/certificados/data-science/data-science-03-curso-data-science-testando-hipote.png",
+        "preview": "assets/img/certificados/data-science/data-science-03-curso-data-science-testando-hipote.webp",
         "isFormacao": false
       },
       {
         "nome": "Data Science 04 - Curso Data Science - testando relações com Regressão Linear.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Data%20Science/Data%20Science%2004%20-%20Curso%20Data%20Science%20-%20testando%20rela%C3%A7%C3%B5es%20com%20Regress%C3%A3o%20Linear.pdf",
-        "preview": "assets/img/certificados/data-science/data-science-04-curso-data-science-testando-relaco.png",
+        "preview": "assets/img/certificados/data-science/data-science-04-curso-data-science-testando-relaco.webp",
         "isFormacao": false
       },
       {
         "nome": "Data Science 05 - Curso Data Science - analisando e prevendo séries temporais.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Data%20Science/Data%20Science%2005%20-%20Curso%20Data%20Science%20-%20analisando%20e%20prevendo%20s%C3%A9ries%20temporais.pdf",
-        "preview": "assets/img/certificados/data-science/data-science-05-curso-data-science-analisando-e-pr.png",
+        "preview": "assets/img/certificados/data-science/data-science-05-curso-data-science-analisando-e-pr.webp",
         "isFormacao": false
       },
       {
         "nome": "Data Science Formação - Formação Data Science.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Data%20Science/Data%20Science%20Forma%C3%A7%C3%A3o%20-%20Forma%C3%A7%C3%A3o%20Data%20Science.pdf",
-        "preview": "assets/img/certificados/data-science/data-science-formacao-formacao-data-science.png",
+        "preview": "assets/img/certificados/data-science/data-science-formacao-formacao-data-science.webp",
         "isFormacao": true
       }
     ],
@@ -673,7 +673,7 @@
     "categoria": "Data Science",
     "duracao": "80 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/data-science-academy/certificado-data-science-para-analise-multivariada.png",
+    "thumbnail": "assets/img/certificados/data-science-academy/certificado-data-science-para-analise-multivariada.webp",
     "competencias": [],
     "descricao": "Certificação em Data Science Academy",
     "descricaoCompleta": "Certificação em Data Science Academy",
@@ -681,43 +681,43 @@
       {
         "nome": "Certificado - Data Science para análise multivariada de dados - Inglês.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Data%20Science%20Academy/Certificado%20-%20Data%20Science%20para%20an%C3%A1lise%20multivariada%20de%20dados%20-%20Ingl%C3%AAs.pdf",
-        "preview": "assets/img/certificados/data-science-academy/certificado-data-science-para-analise-multivariada.png",
+        "preview": "assets/img/certificados/data-science-academy/certificado-data-science-para-analise-multivariada.webp",
         "isFormacao": false
       },
       {
         "nome": "Certificado - Data Science para análise multivariada de dados.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Data%20Science%20Academy/Certificado%20-%20Data%20Science%20para%20an%C3%A1lise%20multivariada%20de%20dados.pdf",
-        "preview": "assets/img/certificados/data-science-academy/certificado-data-science-para-analise-multivariada.png",
+        "preview": "assets/img/certificados/data-science-academy/certificado-data-science-para-analise-multivariada.webp",
         "isFormacao": false
       },
       {
         "nome": "Certificado - Matemática e Estatística Aplicada para DS, ML e IA - Inglês.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Data%20Science%20Academy/Certificado%20-%20Matem%C3%A1tica%20e%20Estat%C3%ADstica%20Aplicada%20para%20DS%2C%20ML%20e%20IA%20-%20Ingl%C3%AAs.pdf",
-        "preview": "assets/img/certificados/data-science-academy/certificado-matematica-e-estatistica-aplicada-para.png",
+        "preview": "assets/img/certificados/data-science-academy/certificado-matematica-e-estatistica-aplicada-para.webp",
         "isFormacao": false
       },
       {
         "nome": "Certificado - Matemática e Estatística Aplicada para DS, ML e IA.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Data%20Science%20Academy/Certificado%20-%20Matem%C3%A1tica%20e%20Estat%C3%ADstica%20Aplicada%20para%20DS%2C%20ML%20e%20IA.pdf",
-        "preview": "assets/img/certificados/data-science-academy/certificado-matematica-e-estatistica-aplicada-para.png",
+        "preview": "assets/img/certificados/data-science-academy/certificado-matematica-e-estatistica-aplicada-para.webp",
         "isFormacao": false
       },
       {
         "nome": "Fundamentos de linguagem python para analise de dados e data science - nível básico.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Data%20Science%20Academy/Fundamentos%20de%20linguagem%20python%20para%20analise%20de%20dados%20e%20data%20science%20-%20n%C3%ADvel%20b%C3%A1sico.pdf",
-        "preview": "assets/img/certificados/data-science-academy/fundamentos-de-linguagem-python-para-analise-de-da.png",
+        "preview": "assets/img/certificados/data-science-academy/fundamentos-de-linguagem-python-para-analise-de-da.webp",
         "isFormacao": false
       },
       {
         "nome": "Fundamentos de linguagem python para analise de dados e data science - nível intermediário.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Data%20Science%20Academy/Fundamentos%20de%20linguagem%20python%20para%20analise%20de%20dados%20e%20data%20science%20-%20n%C3%ADvel%20intermedi%C3%A1rio.pdf",
-        "preview": "assets/img/certificados/data-science-academy/fundamentos-de-linguagem-python-para-analise-de-da.png",
+        "preview": "assets/img/certificados/data-science-academy/fundamentos-de-linguagem-python-para-analise-de-da.webp",
         "isFormacao": false
       },
       {
         "nome": "Fundamentos de linguagem python para analise de dados e data science - nível introdutório.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Data%20Science%20Academy/Fundamentos%20de%20linguagem%20python%20para%20analise%20de%20dados%20e%20data%20science%20-%20n%C3%ADvel%20introdut%C3%B3rio.pdf",
-        "preview": "assets/img/certificados/data-science-academy/fundamentos-de-linguagem-python-para-analise-de-da.png",
+        "preview": "assets/img/certificados/data-science-academy/fundamentos-de-linguagem-python-para-analise-de-da.webp",
         "isFormacao": false
       }
     ],
@@ -735,7 +735,7 @@
     "categoria": "Data Science",
     "duracao": "69 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/data-science-python-thumb.png",
+    "thumbnail": "assets/img/certificados/data-science-python-thumb.webp",
     "competencias": [
       "Python",
       "Data Science",
@@ -752,55 +752,55 @@
       {
         "nome": "Python para Data Science - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/data-science-python/python-para-data-science-formacao.png",
+        "preview": "assets/img/certificados/data-science-python/python-para-data-science-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Python para Data Science 01 - Curso Python para Data Science - primeiros passos.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2001%20-%20Curso%20Python%20para%20Data%20Science%20-%20primeiros%20passos.pdf",
-        "preview": "assets/img/certificados/data-science-python/python-para-data-science-01-curso-python-para-data.png",
+        "preview": "assets/img/certificados/data-science-python/python-para-data-science-01-curso-python-para-data.webp",
         "isFormacao": false
       },
       {
         "nome": "Python para Data Science 02 - Curso Python para Data Science - trabalhando com funções, estruturas de dados e exceções.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2002%20-%20Curso%20Python%20para%20Data%20Science%20-%20trabalhando%20com%20fun%C3%A7%C3%B5es%2C%20estruturas%20de%20dados%20e%20exce%C3%A7%C3%B5es.pdf",
-        "preview": "assets/img/certificados/data-science-python/python-para-data-science-02-curso-python-para-data.png",
+        "preview": "assets/img/certificados/data-science-python/python-para-data-science-02-curso-python-para-data.webp",
         "isFormacao": false
       },
       {
         "nome": "Python para Data Science 03 - Curso NumPy - análise numérica eficiente com Python.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2003%20-%20Curso%20NumPy%20-%20an%C3%A1lise%20num%C3%A9rica%20eficiente%20com%20Python.pdf",
-        "preview": "assets/img/certificados/data-science-python/python-para-data-science-03-curso-numpy-analise-nu.png",
+        "preview": "assets/img/certificados/data-science-python/python-para-data-science-03-curso-numpy-analise-nu.webp",
         "isFormacao": false
       },
       {
         "nome": "Python para Data Science 04 - Curso Pandas - conhecendo a biblioteca.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2004%20-%20Curso%20Pandas%20-%20conhecendo%20a%20biblioteca.pdf",
-        "preview": "assets/img/certificados/data-science-python/python-para-data-science-04-curso-pandas-conhecend.png",
+        "preview": "assets/img/certificados/data-science-python/python-para-data-science-04-curso-pandas-conhecend.webp",
         "isFormacao": false
       },
       {
         "nome": "Python para Data Science 05 - Curso Pandas I_O - trabalhando com diferentes formatos de arquivos.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2005%20-%20Curso%20Pandas%20I_O%20-%20trabalhando%20com%20diferentes%20formatos%20de%20arquivos.pdf",
-        "preview": "assets/img/certificados/data-science-python/python-para-data-science-05-curso-pandas-i_o-traba.png",
+        "preview": "assets/img/certificados/data-science-python/python-para-data-science-05-curso-pandas-i_o-traba.webp",
         "isFormacao": false
       },
       {
         "nome": "Python para Data Science 06 - Curso Pandas - selecionando e agrupando dados.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2006%20-%20Curso%20Pandas%20-%20selecionando%20e%20agrupando%20dados.pdf",
-        "preview": "assets/img/certificados/data-science-python/python-para-data-science-06-curso-pandas-seleciona.png",
+        "preview": "assets/img/certificados/data-science-python/python-para-data-science-06-curso-pandas-seleciona.webp",
         "isFormacao": false
       },
       {
         "nome": "Python para Data Science 07 - Curso Pandas - transformação e manipulação de dados.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2007%20-%20Curso%20Pandas%20-%20transforma%C3%A7%C3%A3o%20e%20manipula%C3%A7%C3%A3o%20de%20dados.pdf",
-        "preview": "assets/img/certificados/data-science-python/python-para-data-science-07-curso-pandas-transform.png",
+        "preview": "assets/img/certificados/data-science-python/python-para-data-science-07-curso-pandas-transform.webp",
         "isFormacao": true
       },
       {
         "nome": "Python para Data Science 08 - Curso Pandas - limpeza e tratamento de dados.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2008%20-%20Curso%20Pandas%20-%20limpeza%20e%20tratamento%20de%20dados.pdf",
-        "preview": "assets/img/certificados/data-science-python/python-para-data-science-08-curso-pandas-limpeza-e.png",
+        "preview": "assets/img/certificados/data-science-python/python-para-data-science-08-curso-pandas-limpeza-e.webp",
         "isFormacao": false
       }
     ],
@@ -818,7 +818,7 @@
     "categoria": "Agilidade e Transformação Digital",
     "duracao": "69 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/digital-e-agile-thinking-thumb.png",
+    "thumbnail": "assets/img/certificados/digital-e-agile-thinking-thumb.webp",
     "competencias": [
       "Agile Thinking",
       "Transformação Digital",
@@ -835,55 +835,55 @@
       {
         "nome": "Digital & Agile Thinking - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Digital%20%26%20Agile%20Thinking/Digital%20%26%20Agile%20Thinking%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-formacao.png",
+        "preview": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Digital & Agile Thinking 01 - Curso Gestão Ágil - explorando conceitos da agilidade.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Digital%20%26%20Agile%20Thinking/Digital%20%26%20Agile%20Thinking%2001%20-%20Curso%20Gest%C3%A3o%20%C3%81gil%20-%20explorando%20conceitos%20da%20agilidade.pdf",
-        "preview": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-01-curso-gestao-agil-explor.png",
+        "preview": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-01-curso-gestao-agil-explor.webp",
         "isFormacao": false
       },
       {
         "nome": "Digital & Agile Thinking 02 - Curso A Empresa Ágil - implemente o Business Agility nas organizações.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Digital%20%26%20Agile%20Thinking/Digital%20%26%20Agile%20Thinking%2002%20-%20Curso%20A%20Empresa%20%C3%81gil%20-%20implemente%20o%20Business%20Agility%20nas%20organiza%C3%A7%C3%B5es.pdf",
-        "preview": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-02-curso-a-empresa-agil-imp.png",
+        "preview": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-02-curso-a-empresa-agil-imp.webp",
         "isFormacao": false
       },
       {
         "nome": "Digital & Agile Thinking 03 - Curso Scrum - agilidade em seu projeto.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Digital%20%26%20Agile%20Thinking/Digital%20%26%20Agile%20Thinking%2003%20-%20Curso%20Scrum%20-%20agilidade%20em%20seu%20projeto.pdf",
-        "preview": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-03-curso-scrum-agilidade-em.png",
+        "preview": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-03-curso-scrum-agilidade-em.webp",
         "isFormacao": false
       },
       {
         "nome": "Digital & Agile Thinking 04 - Curso Ferramentas para agilidade - visão geral sobre controle de projetos e produtos.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Digital%20%26%20Agile%20Thinking/Digital%20%26%20Agile%20Thinking%2004%20-%20Curso%20Ferramentas%20para%20agilidade%20-%20vis%C3%A3o%20geral%20sobre%20controle%20de%20projetos%20e%20produtos.pdf",
-        "preview": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-04-curso-ferramentas-para-a.png",
+        "preview": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-04-curso-ferramentas-para-a.webp",
         "isFormacao": false
       },
       {
         "nome": "Digital & Agile Thinking 05 - Curso Kanban - análises para implementação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Digital%20%26%20Agile%20Thinking/Digital%20%26%20Agile%20Thinking%2005%20-%20Curso%20Kanban%20-%20an%C3%A1lises%20para%20implementa%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-05-curso-kanban-analises-pa.png",
+        "preview": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-05-curso-kanban-analises-pa.webp",
         "isFormacao": false
       },
       {
         "nome": "Digital & Agile Thinking 06 - Curso Kanban - evolua suas entregas com métricas.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Digital%20%26%20Agile%20Thinking/Digital%20%26%20Agile%20Thinking%2006%20-%20Curso%20Kanban%20-%20evolua%20suas%20entregas%20com%20m%C3%A9tricas.pdf",
-        "preview": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-06-curso-kanban-evolua-suas.png",
+        "preview": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-06-curso-kanban-evolua-suas.webp",
         "isFormacao": false
       },
       {
         "nome": "Digital & Agile Thinking 07 - Curso Ágil Escalado - conheça frameworks para grandes desenvolvimentos.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Digital%20%26%20Agile%20Thinking/Digital%20%26%20Agile%20Thinking%2007%20-%20Curso%20%C3%81gil%20Escalado%20-%20conhe%C3%A7a%20frameworks%20para%20grandes%20desenvolvimentos.pdf",
-        "preview": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-07-curso-agil-escalado-conh.png",
+        "preview": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-07-curso-agil-escalado-conh.webp",
         "isFormacao": false
       },
       {
         "nome": "Digital & Agile Thinking 08 - Curso Management 3.0 - gerencie o ambiente, não as pessoas.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Digital%20%26%20Agile%20Thinking/Digital%20%26%20Agile%20Thinking%2008%20-%20Curso%20Management%203.0%20-%20gerencie%20o%20ambiente%2C%20n%C3%A3o%20as%20pessoas.pdf",
-        "preview": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-08-curso-management-30-gere.png",
+        "preview": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-08-curso-management-30-gere.webp",
         "isFormacao": false
       }
     ],
@@ -901,7 +901,7 @@
     "categoria": "Power BI",
     "duracao": "55 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/dominando-power-bi-thumb.png",
+    "thumbnail": "assets/img/certificados/dominando-power-bi-thumb.webp",
     "competencias": [
       "Power BI",
       "Power Query",
@@ -919,43 +919,43 @@
       {
         "nome": "Dominando o Power BI - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-formacao.png",
+        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Dominando o Power BI 01 - Curso Power BI - mergulhando na linguagem M.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%2001%20-%20Curso%20Power%20BI%20-%20mergulhando%20na%20linguagem%20M.pdf",
-        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-01-curso-power-bi-mergulhando.png",
+        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-01-curso-power-bi-mergulhando.webp",
         "isFormacao": false
       },
       {
         "nome": "Dominando o Power BI 02 - Curso Power BI - modelagem de dados.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%2002%20-%20Curso%20Power%20BI%20-%20modelagem%20de%20dados.pdf",
-        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-02-curso-power-bi-modelagem-d.png",
+        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-02-curso-power-bi-modelagem-d.webp",
         "isFormacao": false
       },
       {
         "nome": "Dominando o Power BI 03 - Curso Power BI - aplicando DAX ao negócio.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%2003%20-%20Curso%20Power%20BI%20-%20aplicando%20DAX%20ao%20neg%C3%B3cio.pdf",
-        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-03-curso-power-bi-aplicando-d.png",
+        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-03-curso-power-bi-aplicando-d.webp",
         "isFormacao": false
       },
       {
         "nome": "Dominando o Power BI 04 - Curso Power BI - aplicando a RLS.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%2004%20-%20Curso%20Power%20BI%20-%20aplicando%20a%20RLS.pdf",
-        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-04-curso-power-bi-aplicando-a.png",
+        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-04-curso-power-bi-aplicando-a.webp",
         "isFormacao": false
       },
       {
         "nome": "Dominando o Power BI 05 - Curso Power BI - criando visuais customizados.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%2005%20-%20Curso%20Power%20BI%20-%20criando%20visuais%20customizados.pdf",
-        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-05-curso-power-bi-criando-vis.png",
+        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-05-curso-power-bi-criando-vis.webp",
         "isFormacao": false
       },
       {
         "nome": "Dominando o Power BI 06 - Curso Python e Power BI - analisando dados do mercado financeiro.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%2006%20-%20Curso%20Python%20e%20Power%20BI%20-%20analisando%20dados%20do%20mercado%20financeiro.pdf",
-        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-06-curso-python-e-power-bi-an.png",
+        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-06-curso-python-e-power-bi-an.webp",
         "isFormacao": false
       }
     ],
@@ -973,7 +973,7 @@
     "categoria": "Empreendedorismo e Negócios",
     "duracao": "76 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/empreendedorismo-digital-thumb.png",
+    "thumbnail": "assets/img/certificados/empreendedorismo-digital-thumb.webp",
     "competencias": [
       "Empreendedorismo",
       "Criação de Negócios",
@@ -991,61 +991,61 @@
       {
         "nome": "Empreendedorismo Digital - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Empreendedorismo%20Digital/Empreendedorismo%20Digital%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-formacao.png",
+        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Empreendedorismo Digital 01 - Curso Empreendedorismo - da ideia ao plano de negócios.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Empreendedorismo%20Digital/Empreendedorismo%20Digital%2001%20-%20Curso%20Empreendedorismo%20-%20da%20ideia%20ao%20plano%20de%20neg%C3%B3cios.pdf",
-        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-01-curso-empreendedorismo.png",
+        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-01-curso-empreendedorismo.webp",
         "isFormacao": false
       },
       {
         "nome": "Empreendedorismo Digital 02 - Curso Empreendedorismo - abrindo sua empresa do jeito certo.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Empreendedorismo%20Digital/Empreendedorismo%20Digital%2002%20-%20Curso%20Empreendedorismo%20-%20abrindo%20sua%20empresa%20do%20jeito%20certo.pdf",
-        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-02-curso-empreendedorismo.png",
+        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-02-curso-empreendedorismo.webp",
         "isFormacao": false
       },
       {
         "nome": "Empreendedorismo Digital 03 - Curso Propriedade intelectual - aplicada em Startups e negócios em geral.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Empreendedorismo%20Digital/Empreendedorismo%20Digital%2003%20-%20Curso%20Propriedade%20intelectual%20-%20aplicada%20em%20Startups%20e%20neg%C3%B3cios%20em%20geral.pdf",
-        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-03-curso-propriedade-inte.png",
+        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-03-curso-propriedade-inte.webp",
         "isFormacao": false
       },
       {
         "nome": "Empreendedorismo Digital 04 - Curso Elaboração de contratos - técnicas voltadas ao empreendedor.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Empreendedorismo%20Digital/Empreendedorismo%20Digital%2004%20-%20Curso%20Elabora%C3%A7%C3%A3o%20de%20contratos%20-%20t%C3%A9cnicas%20voltadas%20ao%20empreendedor.pdf",
-        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-04-curso-elaboracao-de-co.png",
+        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-04-curso-elaboracao-de-co.webp",
         "isFormacao": false
       },
       {
         "nome": "Empreendedorismo Digital 05 - Curso Viabilidade de Projetos & Negócios - fluxo de caixa, juros, VPL, TIR e payback.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Empreendedorismo%20Digital/Empreendedorismo%20Digital%2005%20-%20Curso%20Viabilidade%20de%20Projetos%20%26%20Neg%C3%B3cios%20-%20fluxo%20de%20caixa%2C%20juros%2C%20VPL%2C%20TIR%20e%20payback.pdf",
-        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-05-curso-viabilidade-de-p.png",
+        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-05-curso-viabilidade-de-p.webp",
         "isFormacao": false
       },
       {
         "nome": "Empreendedorismo Digital 06 - Curso Viabilidade de Projetos & Negócios - seleção de alternativas de investimento.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Empreendedorismo%20Digital/Empreendedorismo%20Digital%2006%20-%20Curso%20Viabilidade%20de%20Projetos%20%26%20Neg%C3%B3cios%20-%20sele%C3%A7%C3%A3o%20de%20alternativas%20de%20investimento.pdf",
-        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-06-curso-viabilidade-de-p.png",
+        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-06-curso-viabilidade-de-p.webp",
         "isFormacao": false
       },
       {
         "nome": "Empreendedorismo Digital 07 - Curso Business Model Canvas parte I - um modelo poderoso para o seu negócio.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Empreendedorismo%20Digital/Empreendedorismo%20Digital%2007%20-%20Curso%20Business%20Model%20Canvas%20parte%20I%20-%20um%20modelo%20poderoso%20para%20o%20seu%20neg%C3%B3cio.pdf",
-        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-07-curso-business-model-c.png",
+        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-07-curso-business-model-c.webp",
         "isFormacao": false
       },
       {
         "nome": "Empreendedorismo Digital 08 - Curso Business Model Canvas parte II - avance no seu modelo de negócios.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Empreendedorismo%20Digital/Empreendedorismo%20Digital%2008%20-%20Curso%20Business%20Model%20Canvas%20parte%20II%20-%20avance%20no%20seu%20modelo%20de%20neg%C3%B3cios.pdf",
-        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-08-curso-business-model-c.png",
+        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-08-curso-business-model-c.webp",
         "isFormacao": false
       },
       {
         "nome": "Empreendedorismo Digital 09 - Curso Freelancer de sucesso - construa uma carreira autônoma.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Empreendedorismo%20Digital/Empreendedorismo%20Digital%2009%20-%20Curso%20Freelancer%20de%20sucesso%20-%20construa%20uma%20carreira%20aut%C3%B4noma.pdf",
-        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-09-curso-freelancer-de-su.png",
+        "preview": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-09-curso-freelancer-de-su.webp",
         "isFormacao": false
       }
     ],
@@ -1063,7 +1063,7 @@
     "categoria": "Estatística e Data Science",
     "duracao": "71 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/estatistica-python-thumb.png",
+    "thumbnail": "assets/img/certificados/estatistica-python-thumb.webp",
     "competencias": [
       "Estatística Descritiva",
       "Probabilidade",
@@ -1081,55 +1081,55 @@
       {
         "nome": "Estatística com Python - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Estat%C3%ADstica%20com%20Python/Estat%C3%ADstica%20com%20Python%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/estatistica-python/estatistica-com-python-formacao.png",
+        "preview": "assets/img/certificados/estatistica-python/estatistica-com-python-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Estatística com Python 01 - Frequências e medidas.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Estat%C3%ADstica%20com%20Python/Estat%C3%ADstica%20com%20Python%2001%20-%20Frequ%C3%AAncias%20e%20medidas.pdf",
-        "preview": "assets/img/certificados/estatistica-python/estatistica-com-python-01-frequencias-e-medidas.png",
+        "preview": "assets/img/certificados/estatistica-python/estatistica-com-python-01-frequencias-e-medidas.webp",
         "isFormacao": false
       },
       {
         "nome": "Estatística com Python 02 - probabilidade e amostragem.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Estat%C3%ADstica%20com%20Python/Estat%C3%ADstica%20com%20Python%2002%20-%20probabilidade%20e%20amostragem.pdf",
-        "preview": "assets/img/certificados/estatistica-python/estatistica-com-python-02-probabilidade-e-amostrag.png",
+        "preview": "assets/img/certificados/estatistica-python/estatistica-com-python-02-probabilidade-e-amostrag.webp",
         "isFormacao": false
       },
       {
         "nome": "Estatística com Python 03 - Curso Estatística com Python - testes de hipóteses.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Estat%C3%ADstica%20com%20Python/Estat%C3%ADstica%20com%20Python%2003%20-%20Curso%20Estat%C3%ADstica%20com%20Python%20-%20testes%20de%20hip%C3%B3teses.pdf",
-        "preview": "assets/img/certificados/estatistica-python/estatistica-com-python-03-curso-estatistica-com-py.png",
+        "preview": "assets/img/certificados/estatistica-python/estatistica-com-python-03-curso-estatistica-com-py.webp",
         "isFormacao": false
       },
       {
         "nome": "Estatística com Python 04 - Curso Data Science - testes estatísticos com Python.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Estat%C3%ADstica%20com%20Python/Estat%C3%ADstica%20com%20Python%2004%20-%20Curso%20Data%20Science%20-%20testes%20estat%C3%ADsticos%20com%20Python.pdf",
-        "preview": "assets/img/certificados/estatistica-python/estatistica-com-python-04-curso-data-science-teste.png",
+        "preview": "assets/img/certificados/estatistica-python/estatistica-com-python-04-curso-data-science-teste.webp",
         "isFormacao": false
       },
       {
         "nome": "Estatística com Python 05 - Curso Estatística com Python - Correlação e Regressão.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Estat%C3%ADstica%20com%20Python/Estat%C3%ADstica%20com%20Python%2005%20-%20Curso%20Estat%C3%ADstica%20com%20Python%20-%20Correla%C3%A7%C3%A3o%20e%20Regress%C3%A3o.pdf",
-        "preview": "assets/img/certificados/estatistica-python/estatistica-com-python-05-curso-estatistica-com-py.png",
+        "preview": "assets/img/certificados/estatistica-python/estatistica-com-python-05-curso-estatistica-com-py.webp",
         "isFormacao": false
       },
       {
         "nome": "Estatística com Python 06 - Curso Regressão linear - testando relações e prevendo resultados.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Estat%C3%ADstica%20com%20Python/Estat%C3%ADstica%20com%20Python%2006%20-%20Curso%20Regress%C3%A3o%20linear%20-%20testando%20rela%C3%A7%C3%B5es%20e%20prevendo%20resultados.pdf",
-        "preview": "assets/img/certificados/estatistica-python/estatistica-com-python-06-curso-regressao-linear-t.png",
+        "preview": "assets/img/certificados/estatistica-python/estatistica-com-python-06-curso-regressao-linear-t.webp",
         "isFormacao": false
       },
       {
         "nome": "Estatística com Python 07 - Curso Regressão Linear - técnicas avançadas de modelagem.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Estat%C3%ADstica%20com%20Python/Estat%C3%ADstica%20com%20Python%2007%20-%20Curso%20Regress%C3%A3o%20Linear%20-%20t%C3%A9cnicas%20avan%C3%A7adas%20de%20modelagem.pdf",
-        "preview": "assets/img/certificados/estatistica-python/estatistica-com-python-07-curso-regressao-linear-t.png",
+        "preview": "assets/img/certificados/estatistica-python/estatistica-com-python-07-curso-regressao-linear-t.webp",
         "isFormacao": false
       },
       {
         "nome": "Estatística com Python 08 - Curso Análise de experimentos - testes, mapas de cores e análises dos dados..pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Estat%C3%ADstica%20com%20Python/Estat%C3%ADstica%20com%20Python%2008%20-%20Curso%20An%C3%A1lise%20de%20experimentos%20-%20testes%2C%20mapas%20de%20cores%20e%20an%C3%A1lises%20dos%20dados..pdf",
-        "preview": "assets/img/certificados/estatistica-python/estatistica-com-python-08-curso-analise-de-experim.png",
+        "preview": "assets/img/certificados/estatistica-python/estatistica-com-python-08-curso-analise-de-experim.webp",
         "isFormacao": false
       }
     ],
@@ -1147,7 +1147,7 @@
     "categoria": "Excel e Análise de Dados",
     "duracao": "58 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/excel-thumb.png",
+    "thumbnail": "assets/img/certificados/excel-thumb.webp",
     "competencias": [
       "Excel",
       "Análise de Dados",
@@ -1163,43 +1163,43 @@
       {
         "nome": "Excel - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Excel/Excel%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/excel/excel-formacao.png",
+        "preview": "assets/img/certificados/excel/excel-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Excel 01 - Curso Excel - domine o editor de planilhas.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Excel/Excel%2001%20-%20Curso%20Excel%20-%20domine%20o%20editor%20de%20planilhas.pdf",
-        "preview": "assets/img/certificados/excel/excel-01-curso-excel-domine-o-editor-de-planilhas.png",
+        "preview": "assets/img/certificados/excel/excel-01-curso-excel-domine-o-editor-de-planilhas.webp",
         "isFormacao": false
       },
       {
         "nome": "Excel 02 - Curso Funções com Excel - operações matemáticas e filtros.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Excel/Excel%2002%20-%20Curso%20Fun%C3%A7%C3%B5es%20com%20Excel%20-%20opera%C3%A7%C3%B5es%20matem%C3%A1ticas%20e%20filtros.pdf",
-        "preview": "assets/img/certificados/excel/excel-02-curso-funcoes-com-excel-operacoes-matemat.png",
+        "preview": "assets/img/certificados/excel/excel-02-curso-funcoes-com-excel-operacoes-matemat.webp",
         "isFormacao": false
       },
       {
         "nome": "Excel 03 - Curso Excel procv - lógica booleana e busca por valores.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Excel/Excel%2003%20-%20Curso%20Excel%20procv%20-%20l%C3%B3gica%20booleana%20e%20busca%20por%20valores.pdf",
-        "preview": "assets/img/certificados/excel/excel-03-curso-excel-procv-logica-booleana-e-busca.png",
+        "preview": "assets/img/certificados/excel/excel-03-curso-excel-procv-logica-booleana-e-busca.webp",
         "isFormacao": false
       },
       {
         "nome": "Excel 04 - Curso Excel - tabelas dinâmicas e dashboards.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Excel/Excel%2004%20-%20Curso%20Excel%20-%20tabelas%20din%C3%A2micas%20e%20dashboards.pdf",
-        "preview": "assets/img/certificados/excel/excel-04-curso-excel-tabelas-dinamicas-e-dashboard.png",
+        "preview": "assets/img/certificados/excel/excel-04-curso-excel-tabelas-dinamicas-e-dashboard.webp",
         "isFormacao": false
       },
       {
         "nome": "Excel 05 - Curso Excel - simulação e análise de cenários.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Excel/Excel%2005%20-%20Curso%20Excel%20-%20simula%C3%A7%C3%A3o%20e%20an%C3%A1lise%20de%20cen%C3%A1rios.pdf",
-        "preview": "assets/img/certificados/excel/excel-05-curso-excel-simulacao-e-analise-de-cenari.png",
+        "preview": "assets/img/certificados/excel/excel-05-curso-excel-simulacao-e-analise-de-cenari.webp",
         "isFormacao": false
       },
       {
         "nome": "Excel 06 - Curso Análise de dados - cálculos, padrões e estratégias com Excel.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Excel/Excel%2006%20-%20Curso%20An%C3%A1lise%20de%20dados%20-%20c%C3%A1lculos%2C%20padr%C3%B5es%20e%20estrat%C3%A9gias%20com%20Excel.pdf",
-        "preview": "assets/img/certificados/excel/excel-06-curso-analise-de-dados-calculos-padroes-e.png",
+        "preview": "assets/img/certificados/excel/excel-06-curso-analise-de-dados-calculos-padroes-e.webp",
         "isFormacao": false
       }
     ],
@@ -1217,7 +1217,7 @@
     "categoria": "Machine Learning",
     "duracao": "8 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/ferramentas-essenciais-para-devs/ferramentas-essenciais-para-devs-01-curso-git-e-gi.png",
+    "thumbnail": "assets/img/certificados/ferramentas-essenciais-para-devs/ferramentas-essenciais-para-devs-01-curso-git-e-gi.webp",
     "competencias": [],
     "descricao": "Certificação em Ferramentas Essenciais Para Devs pela Alura",
     "descricaoCompleta": "Certificação em Ferramentas Essenciais Para Devs pela Alura",
@@ -1225,13 +1225,13 @@
       {
         "nome": "Ferramentas essenciais para Devs 04 - Curso Windows Prompt - utilizando o CMD.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Ferramentas%20essenciais%20para%20Devs/Ferramentas%20essenciais%20para%20Devs%2004%20-%20Curso%20Windows%20Prompt%20-%20utilizando%20o%20CMD.pdf",
-        "preview": "assets/img/certificados/ferramentas-essenciais-para-devs/ferramentas-essenciais-para-devs-04-curso-windows.png",
+        "preview": "assets/img/certificados/ferramentas-essenciais-para-devs/ferramentas-essenciais-para-devs-04-curso-windows.webp",
         "isFormacao": false
       },
       {
         "nome": "Ferramentas essenciais para Devs 01 - Curso Git e GitHub - compartilhando e colaborando em projetos.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Ferramentas%20essenciais%20para%20Devs/Ferramentas%20essenciais%20para%20Devs%2001%20-%20Curso%20Git%20e%20GitHub%20-%20compartilhando%20e%20colaborando%20em%20projetos.pdf",
-        "preview": "assets/img/certificados/ferramentas-essenciais-para-devs/ferramentas-essenciais-para-devs-01-curso-git-e-gi.png",
+        "preview": "assets/img/certificados/ferramentas-essenciais-para-devs/ferramentas-essenciais-para-devs-01-curso-git-e-gi.webp",
         "isFormacao": false
       }
     ],
@@ -1249,7 +1249,7 @@
     "categoria": "Ferramentas de Desenvolvimento",
     "duracao": "8 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/ferramentas-desenvolvedores-produtividade-engenharia-thumb.png",
+    "thumbnail": "assets/img/certificados/ferramentas-desenvolvedores-produtividade-engenharia-thumb.webp",
     "competencias": [
       "Git e GitHub",
       "Controle de Versão",
@@ -1269,13 +1269,13 @@
       {
         "nome": "Ferramentas essenciais para Devs 01 - Curso Git e GitHub - compartilhando e colaborando em projetos.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Ferramentas%20essenciais%20para%20Devs/Ferramentas%20essenciais%20para%20Devs%2001%20-%20Curso%20Git%20e%20GitHub%20-%20compartilhando%20e%20colaborando%20em%20projetos.pdf",
-        "preview": "assets/img/certificados/ferramentas-desenvolvedores-produtividade-engenharia/ferramentas-essenciais-para-devs-01-curso-git-e-gi.png",
+        "preview": "assets/img/certificados/ferramentas-desenvolvedores-produtividade-engenharia/ferramentas-essenciais-para-devs-01-curso-git-e-gi.webp",
         "isFormacao": false
       },
       {
         "nome": "Ferramentas essenciais para Devs 04 - Curso Windows Prompt - utilizando o CMD.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Ferramentas%20essenciais%20para%20Devs/Ferramentas%20essenciais%20para%20Devs%2004%20-%20Curso%20Windows%20Prompt%20-%20utilizando%20o%20CMD.pdf",
-        "preview": "assets/img/certificados/ferramentas-desenvolvedores-produtividade-engenharia/ferramentas-essenciais-para-devs-04-curso-windows.png",
+        "preview": "assets/img/certificados/ferramentas-desenvolvedores-produtividade-engenharia/ferramentas-essenciais-para-devs-04-curso-windows.webp",
         "isFormacao": false
       }
     ],
@@ -1292,7 +1292,7 @@
     "categoria": "Gestão Ágil e Projetos",
     "duracao": "85 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/gestao-agil-projetos-thumb.png",
+    "thumbnail": "assets/img/certificados/gestao-agil-projetos-thumb.webp",
     "competencias": [
       "Gestão Ágil",
       "Scrum",
@@ -1309,73 +1309,73 @@
       {
         "nome": "Gestão ágil de projetos -Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Gest%C3%A3o%20%C3%81gil%20de%20Projetos/Gest%C3%A3o%20%C3%A1gil%20de%20projetos%20-Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-formacao.png",
+        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Gestão ágil de projetos 01 - Curso Gestão Ágil - explorando conceitos da agilidade.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Gest%C3%A3o%20%C3%81gil%20de%20Projetos/Gest%C3%A3o%20%C3%A1gil%20de%20projetos%2001%20-%20Curso%20Gest%C3%A3o%20%C3%81gil%20-%20explorando%20conceitos%20da%20agilidade.pdf",
-        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-01-curso-gestao-agil-explo.png",
+        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-01-curso-gestao-agil-explo.webp",
         "isFormacao": false
       },
       {
         "nome": "Gestão ágil de projetos 02 - Curso Product Management - agilize o desenvolvimento de produtos.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Gest%C3%A3o%20%C3%81gil%20de%20Projetos/Gest%C3%A3o%20%C3%A1gil%20de%20projetos%2002%20-%20Curso%20Product%20Management%20-%20agilize%20o%20desenvolvimento%20de%20produtos.pdf",
-        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-02-curso-product-managemen.png",
+        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-02-curso-product-managemen.webp",
         "isFormacao": false
       },
       {
         "nome": "Gestão ágil de projetos 03 - Curso Gestão Ágil - Gestão de Processos para Agilidade.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Gest%C3%A3o%20%C3%81gil%20de%20Projetos/Gest%C3%A3o%20%C3%A1gil%20de%20projetos%2003%20-%20Curso%20Gest%C3%A3o%20%C3%81gil%20-%20Gest%C3%A3o%20de%20Processos%20para%20Agilidade.pdf",
-        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-03-curso-gestao-agil-gesta.png",
+        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-03-curso-gestao-agil-gesta.webp",
         "isFormacao": false
       },
       {
         "nome": "Gestão ágil de projetos 04 - Curso Masterclass de Agilidade - gerenciando projetos com Kanban e Scrum.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Gest%C3%A3o%20%C3%81gil%20de%20Projetos/Gest%C3%A3o%20%C3%A1gil%20de%20projetos%2004%20-%20Curso%20Masterclass%20de%20Agilidade%20-%20gerenciando%20projetos%20com%20Kanban%20e%20Scrum.pdf",
-        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-04-curso-masterclass-de-ag.png",
+        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-04-curso-masterclass-de-ag.webp",
         "isFormacao": false
       },
       {
         "nome": "Gestão ágil de projetos 05 - Curso Team Building - técnicas e práticas para times ágeis.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Gest%C3%A3o%20%C3%81gil%20de%20Projetos/Gest%C3%A3o%20%C3%A1gil%20de%20projetos%2005%20-%20Curso%20Team%20Building%20-%20t%C3%A9cnicas%20e%20pr%C3%A1ticas%20para%20times%20%C3%A1geis.pdf",
-        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-05-curso-team-building-tec.png",
+        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-05-curso-team-building-tec.webp",
         "isFormacao": false
       },
       {
         "nome": "Gestão ágil de projetos 06 - Curso Liderança transformacional - criando uma cultura de excelência.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Gest%C3%A3o%20%C3%81gil%20de%20Projetos/Gest%C3%A3o%20%C3%A1gil%20de%20projetos%2006%20-%20Curso%20Lideran%C3%A7a%20transformacional%20-%20criando%20uma%20cultura%20de%20excel%C3%AAncia.pdf",
-        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-06-curso-lideranca-transfo.png",
+        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-06-curso-lideranca-transfo.webp",
         "isFormacao": false
       },
       {
         "nome": "Gestão ágil de projetos 07 - Curso Scrum - agilidade em seu projeto.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Gest%C3%A3o%20%C3%81gil%20de%20Projetos/Gest%C3%A3o%20%C3%A1gil%20de%20projetos%2007%20-%20Curso%20Scrum%20-%20agilidade%20em%20seu%20projeto.pdf",
-        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-07-curso-scrum-agilidade-e.png",
+        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-07-curso-scrum-agilidade-e.webp",
         "isFormacao": false
       },
       {
         "nome": "Gestão ágil de projetos 08 - Curso Cultura e Métodos Ágeis - pilares para uma imersão avançada.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Gest%C3%A3o%20%C3%81gil%20de%20Projetos/Gest%C3%A3o%20%C3%A1gil%20de%20projetos%2008%20-%20Curso%20Cultura%20e%20M%C3%A9todos%20%C3%81geis%20-%20pilares%20para%20uma%20imers%C3%A3o%20avan%C3%A7ada.pdf",
-        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-08-curso-cultura-e-metodos.png",
+        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-08-curso-cultura-e-metodos.webp",
         "isFormacao": false
       },
       {
         "nome": "Gestão ágil de projetos 09 - Curso Kanban - análises para implementação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Gest%C3%A3o%20%C3%81gil%20de%20Projetos/Gest%C3%A3o%20%C3%A1gil%20de%20projetos%2009%20-%20Curso%20Kanban%20-%20an%C3%A1lises%20para%20implementa%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-09-curso-kanban-analises-p.png",
+        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-09-curso-kanban-analises-p.webp",
         "isFormacao": false
       },
       {
         "nome": "Gestão ágil de projetos 10 - Curso Management 3.0 - gerencie o ambiente, não as pessoas.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Gest%C3%A3o%20%C3%81gil%20de%20Projetos/Gest%C3%A3o%20%C3%A1gil%20de%20projetos%2010%20-%20Curso%20Management%203.0%20-%20gerencie%20o%20ambiente%2C%20n%C3%A3o%20as%20pessoas.pdf",
-        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-10-curso-management-30-ger.png",
+        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-10-curso-management-30-ger.webp",
         "isFormacao": false
       },
       {
         "nome": "Gestão ágil de projetos 11 - Curso Ferramentas para agilidade - visão geral sobre controle de projetos e produtos.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Gest%C3%A3o%20%C3%81gil%20de%20Projetos/Gest%C3%A3o%20%C3%A1gil%20de%20projetos%2011%20-%20Curso%20Ferramentas%20para%20agilidade%20-%20vis%C3%A3o%20geral%20sobre%20controle%20de%20projetos%20e%20produtos.pdf",
-        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-11-curso-ferramentas-para.png",
+        "preview": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-11-curso-ferramentas-para.webp",
         "isFormacao": false
       }
     ],
@@ -1393,7 +1393,7 @@
     "categoria": "Governança e Gestão de TI",
     "duracao": "8 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/governanca-ti-estrategia-gestao-valor-thumb.png",
+    "thumbnail": "assets/img/certificados/governanca-ti-estrategia-gestao-valor-thumb.webp",
     "competencias": [
       "Governança de TI",
       "Alinhamento Estratégico",
@@ -1413,7 +1413,7 @@
       {
         "nome": "Governança de TI 01 - Curso Governança de TI - alinhamento estratégico.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Governan%C3%A7a%20de%20TI/Governan%C3%A7a%20de%20TI%2001%20-%20Curso%20Governan%C3%A7a%20de%20TI%20-%20alinhamento%20estrat%C3%A9gico.pdf",
-        "preview": "assets/img/certificados/governanca-ti-estrategia-gestao-valor/governanca-de-ti-01-curso-governanca-de-ti-alinham.png",
+        "preview": "assets/img/certificados/governanca-ti-estrategia-gestao-valor/governanca-de-ti-01-curso-governanca-de-ti-alinham.webp",
         "isFormacao": false
       }
     ],
@@ -1430,7 +1430,7 @@
     "categoria": "Agilidade Escalada e Governança",
     "duracao": "94 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/lean-governanca-agilidade-escalada-thumb.png",
+    "thumbnail": "assets/img/certificados/lean-governanca-agilidade-escalada-thumb.webp",
     "competencias": [
       "Lean Agile",
       "Agilidade Escalada",
@@ -1448,79 +1448,79 @@
       {
         "nome": "Lean, Governança e Agilidade Escalada - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-formacao.png",
+        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Lean, Governança e Agilidade Escalada 01 - Curso Transformação organizacional - Lean-Ágil além da TI.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada%2001%20-%20Curso%20Transforma%C3%A7%C3%A3o%20organizacional%20-%20Lean-%C3%81gil%20al%C3%A9m%20da%20TI.pdf",
-        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-01-curso-tran.png",
+        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-01-curso-tran.webp",
         "isFormacao": true
       },
       {
         "nome": "Lean, Governança e Agilidade Escalada 02 - Curso Lean Agile Budgeting - realizando orçamentações na era digital.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada%2002%20-%20Curso%20Lean%20Agile%20Budgeting%20-%20realizando%20or%C3%A7amenta%C3%A7%C3%B5es%20na%20era%20digital.pdf",
-        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-02-curso-lean.png",
+        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-02-curso-lean.webp",
         "isFormacao": false
       },
       {
         "nome": "Lean, Governança e Agilidade Escalada 03 - Curso Ferramentas para agilidade - visão geral sobre controle de projetos e produtos.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada%2003%20-%20Curso%20Ferramentas%20para%20agilidade%20-%20vis%C3%A3o%20geral%20sobre%20controle%20de%20projetos%20e%20produtos.pdf",
-        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-03-curso-ferr.png",
+        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-03-curso-ferr.webp",
         "isFormacao": false
       },
       {
         "nome": "Lean, Governança e Agilidade Escalada 04 - Curso SharePoint 1 - criando um site de colaboração para a equipe.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada%2004%20-%20Curso%20SharePoint%201%20-%20criando%20um%20site%20de%20colabora%C3%A7%C3%A3o%20para%20a%20equipe.pdf",
-        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-04-curso-shar.png",
+        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-04-curso-shar.webp",
         "isFormacao": false
       },
       {
         "nome": "Lean, Governança e Agilidade Escalada 05 - Curso SharePoint 2 - montando uma estrutura de rede usando SharePoint e OneDrive.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada%2005%20-%20Curso%20SharePoint%202%20-%20montando%20uma%20estrutura%20de%20rede%20usando%20SharePoint%20e%20OneDrive.pdf",
-        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-05-curso-shar.png",
+        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-05-curso-shar.webp",
         "isFormacao": false
       },
       {
         "nome": "Lean, Governança e Agilidade Escalada 06 - Curso Sharepoint 3 - criando listas personalizadas.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada%2006%20-%20Curso%20Sharepoint%203%20-%20criando%20listas%20personalizadas.pdf",
-        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-06-curso-shar.png",
+        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-06-curso-shar.webp",
         "isFormacao": false
       },
       {
         "nome": "Lean, Governança e Agilidade Escalada 07 - Curso Scrum escalado, LeSS Framework.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada%2007%20-%20Curso%20Scrum%20escalado%2C%20LeSS%20Framework.pdf",
-        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-07-curso-scru.png",
+        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-07-curso-scru.webp",
         "isFormacao": false
       },
       {
         "nome": "Lean, Governança e Agilidade Escalada 08 - Curso Ágil Escalado, conheça frameworks para grandes desenvolvimentos.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada%2008%20-%20Curso%20%C3%81gil%20Escalado%2C%20conhe%C3%A7a%20frameworks%20para%20grandes%20desenvolvimentos.pdf",
-        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-08-curso-agil.png",
+        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-08-curso-agil.webp",
         "isFormacao": false
       },
       {
         "nome": "Lean, Governança e Agilidade Escalada 09 - Curso Manifesto NoProjects - desprojetização.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada%2009%20-%20Curso%20Manifesto%20NoProjects%20-%20desprojetiza%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-09-curso-mani.png",
+        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-09-curso-mani.webp",
         "isFormacao": false
       },
       {
         "nome": "Lean, Governança e Agilidade Escalada 10 - Curso Práticas de desprojetização - Flow Framework.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada%2010%20-%20Curso%20Pr%C3%A1ticas%20de%20desprojetiza%C3%A7%C3%A3o%20-%20Flow%20Framework.pdf",
-        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-10-curso-prat.png",
+        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-10-curso-prat.webp",
         "isFormacao": false
       },
       {
         "nome": "Lean, Governança e Agilidade Escalada 11 - Curso OKR - construindo metas ágeis.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada%2011%20-%20Curso%20OKR%20-%20construindo%20metas%20%C3%A1geis.pdf",
-        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-11-curso-okr.png",
+        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-11-curso-okr.webp",
         "isFormacao": false
       },
       {
         "nome": "Lean, Governança e Agilidade Escalada 12 - Curso OKR - direcionando seu negócio para resultados.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada%2012%20-%20Curso%20OKR%20-%20direcionando%20seu%20neg%C3%B3cio%20para%20resultados.pdf",
-        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-12-curso-okr.png",
+        "preview": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-12-curso-okr.webp",
         "isFormacao": false
       }
     ],
@@ -1538,7 +1538,7 @@
     "categoria": "Programação",
     "duracao": "26 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/linguagem-c-thumb.png",
+    "thumbnail": "assets/img/certificados/linguagem-c-thumb.webp",
     "competencias": [
       "Linguagem C",
       "Lógica de Programação",
@@ -1554,25 +1554,25 @@
       {
         "nome": "Linguagem C - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Linguagem%20C/Linguagem%20C%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/linguagem-c/linguagem-c-formacao.png",
+        "preview": "assets/img/certificados/linguagem-c/linguagem-c-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Linguagem C 01 - Curso C - conhecendo a Linguagem das Linguagens.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Linguagem%20C/Linguagem%20C%2001%20-%20Curso%20C%20-%20conhecendo%20a%20Linguagem%20das%20Linguagens.pdf",
-        "preview": "assets/img/certificados/linguagem-c/linguagem-c-01-curso-c-conhecendo-a-linguagem-das.png",
+        "preview": "assets/img/certificados/linguagem-c/linguagem-c-01-curso-c-conhecendo-a-linguagem-das.webp",
         "isFormacao": false
       },
       {
         "nome": "Linguagem C 02 - Curso C - avançando na linguagem.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Linguagem%20C/Linguagem%20C%2002%20-%20Curso%20C%20-%20avan%C3%A7ando%20na%20linguagem.pdf",
-        "preview": "assets/img/certificados/linguagem-c/linguagem-c-02-curso-c-avancando-na-linguagem.png",
+        "preview": "assets/img/certificados/linguagem-c/linguagem-c-02-curso-c-avancando-na-linguagem.webp",
         "isFormacao": false
       },
       {
         "nome": "Linguagem C 03 - Curso C - recursos avançados da linguagem.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Linguagem%20C/Linguagem%20C%2003%20-%20Curso%20C%20-%20recursos%20avan%C3%A7ados%20da%20linguagem.pdf",
-        "preview": "assets/img/certificados/linguagem-c/linguagem-c-03-curso-c-recursos-avancados-da-lingu.png",
+        "preview": "assets/img/certificados/linguagem-c/linguagem-c-03-curso-c-recursos-avancados-da-lingu.webp",
         "isFormacao": false
       }
     ],
@@ -1590,7 +1590,7 @@
     "categoria": "Machine Learning",
     "duracao": "48 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-formacao.png",
+    "thumbnail": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-formacao.webp",
     "competencias": [],
     "descricao": "Certificação em Machine Learning Na Prática pela Alura",
     "descricaoCompleta": "Certificação em Machine Learning Na Prática pela Alura",
@@ -1598,37 +1598,37 @@
       {
         "nome": "Machine Learning na prática - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Machine%20Learning%20na%20pr%C3%A1tica/Machine%20Learning%20na%20pr%C3%A1tica%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-formacao.png",
+        "preview": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Machine Learning na prática 01 - Curso Machine Learning - classificação com SKLearn.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Machine%20Learning%20na%20pr%C3%A1tica/Machine%20Learning%20na%20pr%C3%A1tica%2001%20-%20Curso%20Machine%20Learning%20-%20classifica%C3%A7%C3%A3o%20com%20SKLearn.pdf",
-        "preview": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-01-curso-machine-learn.png",
+        "preview": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-01-curso-machine-learn.webp",
         "isFormacao": false
       },
       {
         "nome": "Machine Learning na prática 02 - Curso Data Science - testando relações com Regressão Linear.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Machine%20Learning%20na%20pr%C3%A1tica/Machine%20Learning%20na%20pr%C3%A1tica%2002%20-%20Curso%20Data%20Science%20-%20testando%20rela%C3%A7%C3%B5es%20com%20Regress%C3%A3o%20Linear.pdf",
-        "preview": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-02-curso-data-science.png",
+        "preview": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-02-curso-data-science.webp",
         "isFormacao": false
       },
       {
         "nome": "Machine Learning na prática 03 - Curso Clusterização - lidando com dados sem rótulo.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Machine%20Learning%20na%20pr%C3%A1tica/Machine%20Learning%20na%20pr%C3%A1tica%2003%20-%20Curso%20Clusteriza%C3%A7%C3%A3o%20-%20lidando%20com%20dados%20sem%20r%C3%B3tulo.pdf",
-        "preview": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-03-curso-clusterizacao.png",
+        "preview": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-03-curso-clusterizacao.webp",
         "isFormacao": false
       },
       {
         "nome": "Machine Learning na prática 04 - Curso NLP - aplicando processamento de linguagem natural para análise de sentimentos.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Machine%20Learning%20na%20pr%C3%A1tica/Machine%20Learning%20na%20pr%C3%A1tica%2004%20-%20Curso%20NLP%20-%20aplicando%20processamento%20de%20linguagem%20natural%20para%20an%C3%A1lise%20de%20sentimentos.pdf",
-        "preview": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-04-curso-nlp-aplicando.png",
+        "preview": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-04-curso-nlp-aplicando.webp",
         "isFormacao": false
       },
       {
         "nome": "Machine Learning na prática 05 - Curso Dash - construindo dashboards para modelos de Machine Learning.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Machine%20Learning%20na%20pr%C3%A1tica/Machine%20Learning%20na%20pr%C3%A1tica%2005%20-%20Curso%20Dash%20-%20construindo%20dashboards%20para%20modelos%20de%20Machine%20Learning.pdf",
-        "preview": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-05-curso-dash-construi.png",
+        "preview": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-05-curso-dash-construi.webp",
         "isFormacao": false
       }
     ],
@@ -1645,7 +1645,7 @@
     "categoria": "Banco de Dados",
     "duracao": "79 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/microsoft-sql-server-2022-thumb.png",
+    "thumbnail": "assets/img/certificados/microsoft-sql-server-2022-thumb.webp",
     "competencias": [
       "SQL",
       "T-SQL",
@@ -1662,49 +1662,49 @@
       {
         "nome": "Microsoft SQL Server 2022 - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Microsoft%20SQL%20Server%202022/Microsoft%20SQL%20Server%202022%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/microsoft-sql-server-2022/microsoft-sql-server-2022-formacao.png",
+        "preview": "assets/img/certificados/microsoft-sql-server-2022/microsoft-sql-server-2022-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Microsoft SQL Server 2022 01- Curso Microsoft SQL Server 2022 - conhecendo SQL.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Microsoft%20SQL%20Server%202022/Microsoft%20SQL%20Server%202022%2001-%20Curso%20Microsoft%20SQL%20Server%202022%20-%20conhecendo%20SQL.pdf",
-        "preview": "assets/img/certificados/microsoft-sql-server-2022/microsoft-sql-server-2022-01-curso-microsoft-sql-s.png",
+        "preview": "assets/img/certificados/microsoft-sql-server-2022/microsoft-sql-server-2022-01-curso-microsoft-sql-s.webp",
         "isFormacao": false
       },
       {
         "nome": "Microsoft SQL Server 2022 02 - Curso Microsoft SQL Server 2022 - consultas avançadas.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Microsoft%20SQL%20Server%202022/Microsoft%20SQL%20Server%202022%2002%20-%20Curso%20Microsoft%20SQL%20Server%202022%20-%20consultas%20avan%C3%A7adas.pdf",
-        "preview": "assets/img/certificados/microsoft-sql-server-2022/microsoft-sql-server-2022-02-curso-microsoft-sql-s.png",
+        "preview": "assets/img/certificados/microsoft-sql-server-2022/microsoft-sql-server-2022-02-curso-microsoft-sql-s.webp",
         "isFormacao": false
       },
       {
         "nome": "Microsoft SQL Server 2022 03 - Curso Microsoft SQL Server 2022 - manipulando dados.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Microsoft%20SQL%20Server%202022/Microsoft%20SQL%20Server%202022%2003%20-%20Curso%20Microsoft%20SQL%20Server%202022%20-%20manipulando%20dados.pdf",
-        "preview": "assets/img/certificados/microsoft-sql-server-2022/microsoft-sql-server-2022-03-curso-microsoft-sql-s.png",
+        "preview": "assets/img/certificados/microsoft-sql-server-2022/microsoft-sql-server-2022-03-curso-microsoft-sql-s.webp",
         "isFormacao": false
       },
       {
         "nome": "Microsoft SQL Server 2022 04 - Curso Microsoft SQL Server 2022 - conhecendo o T-SQL.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Microsoft%20SQL%20Server%202022/Microsoft%20SQL%20Server%202022%2004%20-%20Curso%20Microsoft%20SQL%20Server%202022%20-%20conhecendo%20o%20T-SQL.pdf",
-        "preview": "assets/img/certificados/microsoft-sql-server-2022/microsoft-sql-server-2022-04-curso-microsoft-sql-s.png",
+        "preview": "assets/img/certificados/microsoft-sql-server-2022/microsoft-sql-server-2022-04-curso-microsoft-sql-s.webp",
         "isFormacao": false
       },
       {
         "nome": "Microsoft SQL Server 2022 05 - Curso Microsoft SQL Server 2022 - aprofundando em procedures e funções.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Microsoft%20SQL%20Server%202022/Microsoft%20SQL%20Server%202022%2005%20-%20Curso%20Microsoft%20SQL%20Server%202022%20-%20aprofundando%20em%20procedures%20e%20fun%C3%A7%C3%B5es.pdf",
-        "preview": "assets/img/certificados/microsoft-sql-server-2022/microsoft-sql-server-2022-05-curso-microsoft-sql-s.png",
+        "preview": "assets/img/certificados/microsoft-sql-server-2022/microsoft-sql-server-2022-05-curso-microsoft-sql-s.webp",
         "isFormacao": false
       },
       {
         "nome": "Microsoft SQL Server 2022 06 - Curso Microsoft SQL Server 2022 - administrando o banco de dados.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Microsoft%20SQL%20Server%202022/Microsoft%20SQL%20Server%202022%2006%20-%20Curso%20Microsoft%20SQL%20Server%202022%20-%20administrando%20o%20banco%20de%20dados.pdf",
-        "preview": "assets/img/certificados/microsoft-sql-server-2022/microsoft-sql-server-2022-06-curso-microsoft-sql-s.png",
+        "preview": "assets/img/certificados/microsoft-sql-server-2022/microsoft-sql-server-2022-06-curso-microsoft-sql-s.webp",
         "isFormacao": false
       },
       {
         "nome": "Microsoft SQL Server 2022 07 - Curso Microsoft SQL Server 2022 - performance.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Microsoft%20SQL%20Server%202022/Microsoft%20SQL%20Server%202022%2007%20-%20Curso%20Microsoft%20SQL%20Server%202022%20-%20performance.pdf",
-        "preview": "assets/img/certificados/microsoft-sql-server-2022/microsoft-sql-server-2022-07-curso-microsoft-sql-s.png",
+        "preview": "assets/img/certificados/microsoft-sql-server-2022/microsoft-sql-server-2022-07-curso-microsoft-sql-s.webp",
         "isFormacao": false
       }
     ],
@@ -1722,7 +1722,7 @@
     "categoria": "Banco de Dados",
     "duracao": "33 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/modelagem-dados-thumb.png",
+    "thumbnail": "assets/img/certificados/modelagem-dados-thumb.webp",
     "competencias": [
       "Modelagem de Dados",
       "Banco de Dados Relacional",
@@ -1739,37 +1739,37 @@
       {
         "nome": "Modelagem de dados - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Modelagem%20de%20dados/Modelagem%20de%20dados%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/modelagem-dados/modelagem-de-dados-formacao.png",
+        "preview": "assets/img/certificados/modelagem-dados/modelagem-de-dados-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Modelagem de dados 01 - Curso Modelagem de banco de dados - entidades, relacionamentos e atributos.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Modelagem%20de%20dados/Modelagem%20de%20dados%2001%20-%20Curso%20Modelagem%20de%20banco%20de%20dados%20-%20entidades%2C%20relacionamentos%20e%20atributos.pdf",
-        "preview": "assets/img/certificados/modelagem-dados/modelagem-de-dados-01-curso-modelagem-de-banco-de.png",
+        "preview": "assets/img/certificados/modelagem-dados/modelagem-de-dados-01-curso-modelagem-de-banco-de.webp",
         "isFormacao": false
       },
       {
         "nome": "Modelagem de dados 02 - Curso Modelagem de banco de dados relacional - modelagem lógica e física.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Modelagem%20de%20dados/Modelagem%20de%20dados%2002%20-%20Curso%20Modelagem%20de%20banco%20de%20dados%20relacional%20-%20modelagem%20l%C3%B3gica%20e%20f%C3%ADsica.pdf",
-        "preview": "assets/img/certificados/modelagem-dados/modelagem-de-dados-02-curso-modelagem-de-banco-de.png",
+        "preview": "assets/img/certificados/modelagem-dados/modelagem-de-dados-02-curso-modelagem-de-banco-de.webp",
         "isFormacao": false
       },
       {
         "nome": "Modelagem de dados 03 - Curso Modelagem de banco de dados relacional - normalização.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Modelagem%20de%20dados/Modelagem%20de%20dados%2003%20-%20Curso%20Modelagem%20de%20banco%20de%20dados%20relacional%20-%20normaliza%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/modelagem-dados/modelagem-de-dados-03-curso-modelagem-de-banco-de.png",
+        "preview": "assets/img/certificados/modelagem-dados/modelagem-de-dados-03-curso-modelagem-de-banco-de.webp",
         "isFormacao": false
       },
       {
         "nome": "Modelagem de dados 04 - Curso Modelagem de banco de dados relacional - entendendo SQL.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Modelagem%20de%20dados/Modelagem%20de%20dados%2004%20-%20Curso%20Modelagem%20de%20banco%20de%20dados%20relacional%20-%20entendendo%20SQL.pdf",
-        "preview": "assets/img/certificados/modelagem-dados/modelagem-de-dados-04-curso-modelagem-de-banco-de.png",
+        "preview": "assets/img/certificados/modelagem-dados/modelagem-de-dados-04-curso-modelagem-de-banco-de.webp",
         "isFormacao": false
       },
       {
         "nome": "Modelagem de dados 05 - Curso Modelagem de banco de dados relacional - álgebra relacional.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Modelagem%20de%20dados/Modelagem%20de%20dados%2005%20-%20Curso%20Modelagem%20de%20banco%20de%20dados%20relacional%20-%20%C3%A1lgebra%20relacional.pdf",
-        "preview": "assets/img/certificados/modelagem-dados/modelagem-de-dados-05-curso-modelagem-de-banco-de.png",
+        "preview": "assets/img/certificados/modelagem-dados/modelagem-de-dados-05-curso-modelagem-de-banco-de.webp",
         "isFormacao": false
       }
     ],
@@ -1787,7 +1787,7 @@
     "categoria": "Processos e Governança",
     "duracao": "68 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/modelagem-melhoria-processos-negocios-thumb.png",
+    "thumbnail": "assets/img/certificados/modelagem-melhoria-processos-negocios-thumb.webp",
     "competencias": [
       "Gestão de Processos",
       "BPM",
@@ -1806,61 +1806,61 @@
       {
         "nome": "Modelagem e melhorias de processos de negócios - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-for.png",
+        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-for.webp",
         "isFormacao": true
       },
       {
         "nome": "Modelagem e melhorias de processos de negócios 01 - Curso Gestão de negócios - visão geral de processos de negócios.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios%2001%20-%20Curso%20Gest%C3%A3o%20de%20neg%C3%B3cios%20-%20vis%C3%A3o%20geral%20de%20processos%20de%20neg%C3%B3cios.pdf",
-        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-01.png",
+        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-01.webp",
         "isFormacao": false
       },
       {
         "nome": "Modelagem e melhorias de processos de negócios 02 - Curso Gestão de negócios - governança, agilidade e métricas.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios%2002%20-%20Curso%20Gest%C3%A3o%20de%20neg%C3%B3cios%20-%20governan%C3%A7a%2C%20agilidade%20e%20m%C3%A9tricas.pdf",
-        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-02.png",
+        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-02.webp",
         "isFormacao": false
       },
       {
         "nome": "Modelagem e melhorias de processos de negócios 03 - Curso Lean Six Sigma - um guia para melhoria de processos.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios%2003%20-%20Curso%20Lean%20Six%20Sigma%20-%20um%20guia%20para%20melhoria%20de%20processos.pdf",
-        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-03.png",
+        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-03.webp",
         "isFormacao": false
       },
       {
         "nome": "Modelagem e melhorias de processos de negócios 04 - Curso Kaizen - implemente uma estratégia de melhoria contínua.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios%2004%20-%20Curso%20Kaizen%20-%20implemente%20uma%20estrat%C3%A9gia%20de%20melhoria%20cont%C3%ADnua.pdf",
-        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-04.png",
+        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-04.webp",
         "isFormacao": false
       },
       {
         "nome": "Modelagem e melhorias de processos de negócios 05 - Curso Reengenharia e qualidade - mudando e aperfeiçoando processos.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios%2005%20-%20Curso%20Reengenharia%20e%20qualidade%20-%20mudando%20e%20aperfei%C3%A7oando%20processos.pdf",
-        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-05.png",
+        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-05.webp",
         "isFormacao": false
       },
       {
         "nome": "Modelagem e melhorias de processos de negócios 06 - Curso Análise da gestão de processos - implantando melhorias.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios%2006%20-%20Curso%20An%C3%A1lise%20da%20gest%C3%A3o%20de%20processos%20-%20implantando%20melhorias.pdf",
-        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-06.png",
+        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-06.webp",
         "isFormacao": false
       },
       {
         "nome": "Modelagem e melhorias de processos de negócios 07 - Curso Value Stream Mapping (VSM) - conheça o mapeamento de Fluxo de Valor.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios%2007%20-%20Curso%20Value%20Stream%20Mapping%20%28VSM%29%20-%20conhe%C3%A7a%20o%20mapeamento%20de%20Fluxo%20de%20Valor.pdf",
-        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-07.png",
+        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-07.webp",
         "isFormacao": false
       },
       {
         "nome": "Modelagem e melhorias de processos de negócios 08 - Curso Value Stream Mapping (VSM) - desenhe um Mapa de Valor.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios%2008%20-%20Curso%20Value%20Stream%20Mapping%20%28VSM%29%20-%20desenhe%20um%20Mapa%20de%20Valor.pdf",
-        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-08.png",
+        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-08.webp",
         "isFormacao": false
       },
       {
         "nome": "Modelagem e melhorias de processos de negócios 09 - Curso RPA - automatize processos com ferramentas No_Low Code.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios/Modelagem%20e%20melhorias%20de%20processos%20de%20neg%C3%B3cios%2009%20-%20Curso%20RPA%20-%20automatize%20processos%20com%20ferramentas%20No_Low%20Code.pdf",
-        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-09.png",
+        "preview": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-09.webp",
         "isFormacao": false
       }
     ],
@@ -1878,7 +1878,7 @@
     "categoria": "Negociação e Comunicação",
     "duracao": "31 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/negociacao-praticas-estrategias-avancadas-thumb.png",
+    "thumbnail": "assets/img/certificados/negociacao-praticas-estrategias-avancadas-thumb.webp",
     "competencias": [
       "Negociação",
       "Comunicação Estratégica",
@@ -1895,25 +1895,25 @@
       {
         "nome": "Negociação - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Negocia%C3%A7%C3%A3o/Negocia%C3%A7%C3%A3o%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/negociacao-praticas-estrategias-avancadas/negociacao-formacao.png",
+        "preview": "assets/img/certificados/negociacao-praticas-estrategias-avancadas/negociacao-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Negociação 01 - Curso Negociação parte 1 - práticas essenciais.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Negocia%C3%A7%C3%A3o/Negocia%C3%A7%C3%A3o%2001%20-%20Curso%20Negocia%C3%A7%C3%A3o%20parte%201%20-%20pr%C3%A1ticas%20essenciais.pdf",
-        "preview": "assets/img/certificados/negociacao-praticas-estrategias-avancadas/negociacao-01-curso-negociacao-parte-1-praticas-es.png",
+        "preview": "assets/img/certificados/negociacao-praticas-estrategias-avancadas/negociacao-01-curso-negociacao-parte-1-praticas-es.webp",
         "isFormacao": false
       },
       {
         "nome": "Negociação 02 - Curso Negociação parte 2 - técnicas avançadas.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Negocia%C3%A7%C3%A3o/Negocia%C3%A7%C3%A3o%2002%20-%20Curso%20Negocia%C3%A7%C3%A3o%20parte%202%20-%20t%C3%A9cnicas%20avan%C3%A7adas.pdf",
-        "preview": "assets/img/certificados/negociacao-praticas-estrategias-avancadas/negociacao-02-curso-negociacao-parte-2-tecnicas-av.png",
+        "preview": "assets/img/certificados/negociacao-praticas-estrategias-avancadas/negociacao-02-curso-negociacao-parte-2-tecnicas-av.webp",
         "isFormacao": false
       },
       {
         "nome": "Negociação 03 - Curso Negociação para líderes - desenvolva a habilidade e consiga bons acordos.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Negocia%C3%A7%C3%A3o/Negocia%C3%A7%C3%A3o%2003%20-%20Curso%20Negocia%C3%A7%C3%A3o%20para%20l%C3%ADderes%20-%20desenvolva%20a%20habilidade%20e%20consiga%20bons%20acordos.pdf",
-        "preview": "assets/img/certificados/negociacao-praticas-estrategias-avancadas/negociacao-03-curso-negociacao-para-lideres-desenv.png",
+        "preview": "assets/img/certificados/negociacao-praticas-estrategias-avancadas/negociacao-03-curso-negociacao-para-lideres-desenv.webp",
         "isFormacao": false
       }
     ],
@@ -1930,7 +1930,7 @@
     "categoria": "Banco de Dados",
     "duracao": "66 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/oracle-mysql-thumb.png",
+    "thumbnail": "assets/img/certificados/oracle-mysql-thumb.webp",
     "competencias": [
       "MySQL",
       "SQL",
@@ -1946,37 +1946,37 @@
       {
         "nome": "SQL com MySQL Server da Oracle - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/SQL%20com%20MySQL%20Server%20da%20Oracle/SQL%20com%20MySQL%20Server%20da%20Oracle%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/oracle-mysql/sql-com-mysql-server-da-oracle-formacao.png",
+        "preview": "assets/img/certificados/oracle-mysql/sql-com-mysql-server-da-oracle-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "SQL com MySQL Server da Oracle 01 - Curso SQL com MySQL - manipule e consulte dados.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/SQL%20com%20MySQL%20Server%20da%20Oracle/SQL%20com%20MySQL%20Server%20da%20Oracle%2001%20-%20Curso%20SQL%20com%20MySQL%20-%20manipule%20e%20consulte%20dados.pdf",
-        "preview": "assets/img/certificados/oracle-mysql/sql-com-mysql-server-da-oracle-01-curso-sql-com-my.png",
+        "preview": "assets/img/certificados/oracle-mysql/sql-com-mysql-server-da-oracle-01-curso-sql-com-my.webp",
         "isFormacao": false
       },
       {
         "nome": "SQL com MySQL Server da Oracle 02 - Curso Consultas SQL - avançando no SQL com MySQL.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/SQL%20com%20MySQL%20Server%20da%20Oracle/SQL%20com%20MySQL%20Server%20da%20Oracle%2002%20-%20Curso%20Consultas%20SQL%20-%20avan%C3%A7ando%20no%20SQL%20com%20MySQL.pdf",
-        "preview": "assets/img/certificados/oracle-mysql/sql-com-mysql-server-da-oracle-02-curso-consultas.png",
+        "preview": "assets/img/certificados/oracle-mysql/sql-com-mysql-server-da-oracle-02-curso-consultas.webp",
         "isFormacao": false
       },
       {
         "nome": "SQL com MySQL Server da Oracle 03 - Curso Comandos DML - manipulação de dados com MySQL.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/SQL%20com%20MySQL%20Server%20da%20Oracle/SQL%20com%20MySQL%20Server%20da%20Oracle%2003%20-%20Curso%20Comandos%20DML%20-%20manipula%C3%A7%C3%A3o%20de%20dados%20com%20MySQL.pdf",
-        "preview": "assets/img/certificados/oracle-mysql/sql-com-mysql-server-da-oracle-03-curso-comandos-d.png",
+        "preview": "assets/img/certificados/oracle-mysql/sql-com-mysql-server-da-oracle-03-curso-comandos-d.webp",
         "isFormacao": false
       },
       {
         "nome": "SQL com MySQL Server da Oracle 04 - Curso Procedures SQL - executando código no MySQL.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/SQL%20com%20MySQL%20Server%20da%20Oracle/SQL%20com%20MySQL%20Server%20da%20Oracle%2004%20-%20Curso%20Procedures%20SQL%20-%20executando%20c%C3%B3digo%20no%20MySQL.pdf",
-        "preview": "assets/img/certificados/oracle-mysql/sql-com-mysql-server-da-oracle-04-curso-procedures.png",
+        "preview": "assets/img/certificados/oracle-mysql/sql-com-mysql-server-da-oracle-04-curso-procedures.webp",
         "isFormacao": false
       },
       {
         "nome": "SQL com MySQL Server da Oracle 05 - Curso Administração do MySQL - segurança e otimização do banco.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/SQL%20com%20MySQL%20Server%20da%20Oracle/SQL%20com%20MySQL%20Server%20da%20Oracle%2005%20-%20Curso%20Administra%C3%A7%C3%A3o%20do%20MySQL%20-%20seguran%C3%A7a%20e%20otimiza%C3%A7%C3%A3o%20do%20banco.pdf",
-        "preview": "assets/img/certificados/oracle-mysql/sql-com-mysql-server-da-oracle-05-curso-administra.png",
+        "preview": "assets/img/certificados/oracle-mysql/sql-com-mysql-server-da-oracle-05-curso-administra.webp",
         "isFormacao": false
       }
     ],
@@ -1994,7 +1994,7 @@
     "categoria": "Estratégia e Gestão",
     "duracao": "42 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/pensamento-estrategico-thumb.png",
+    "thumbnail": "assets/img/certificados/pensamento-estrategico-thumb.webp",
     "competencias": [
       "Pensamento Estratégico",
       "Gestão Estratégica",
@@ -2011,43 +2011,43 @@
       {
         "nome": "Pensamento Estratégico - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Pensamento%20Estrat%C3%A9gico/Pensamento%20Estrat%C3%A9gico%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/pensamento-estrategico/pensamento-estrategico-formacao.png",
+        "preview": "assets/img/certificados/pensamento-estrategico/pensamento-estrategico-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Pensamento Estratégico 01 - Curso Modelos de Gestão parte 1 - componentes essenciais.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Pensamento%20Estrat%C3%A9gico/Pensamento%20Estrat%C3%A9gico%2001%20-%20Curso%20Modelos%20de%20Gest%C3%A3o%20parte%201%20-%20componentes%20essenciais.pdf",
-        "preview": "assets/img/certificados/pensamento-estrategico/pensamento-estrategico-01-curso-modelos-de-gestao.png",
+        "preview": "assets/img/certificados/pensamento-estrategico/pensamento-estrategico-01-curso-modelos-de-gestao.webp",
         "isFormacao": false
       },
       {
         "nome": "Pensamento Estratégico 02 - Curso BSC - aplicado na gestão de portfólios.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Pensamento%20Estrat%C3%A9gico/Pensamento%20Estrat%C3%A9gico%2002%20-%20Curso%20BSC%20-%20aplicado%20na%20gest%C3%A3o%20de%20portf%C3%B3lios.pdf",
-        "preview": "assets/img/certificados/pensamento-estrategico/pensamento-estrategico-02-curso-bsc-aplicado-na-ge.png",
+        "preview": "assets/img/certificados/pensamento-estrategico/pensamento-estrategico-02-curso-bsc-aplicado-na-ge.webp",
         "isFormacao": false
       },
       {
         "nome": "Pensamento Estratégico 03 - Curso OKR - construindo metas ágeis.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Pensamento%20Estrat%C3%A9gico/Pensamento%20Estrat%C3%A9gico%2003%20-%20Curso%20OKR%20-%20construindo%20metas%20%C3%A1geis.pdf",
-        "preview": "assets/img/certificados/pensamento-estrategico/pensamento-estrategico-03-curso-okr-construindo-me.png",
+        "preview": "assets/img/certificados/pensamento-estrategico/pensamento-estrategico-03-curso-okr-construindo-me.webp",
         "isFormacao": false
       },
       {
         "nome": "Pensamento Estratégico 04 - Curso OKR - direcionando seu negócio para resultados.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Pensamento%20Estrat%C3%A9gico/Pensamento%20Estrat%C3%A9gico%2004%20-%20Curso%20OKR%20-%20direcionando%20seu%20neg%C3%B3cio%20para%20resultados.pdf",
-        "preview": "assets/img/certificados/pensamento-estrategico/pensamento-estrategico-04-curso-okr-direcionando-s.png",
+        "preview": "assets/img/certificados/pensamento-estrategico/pensamento-estrategico-04-curso-okr-direcionando-s.webp",
         "isFormacao": false
       },
       {
         "nome": "Pensamento Estratégico 05 - Curso Mediação de conflitos - construa soluções efetivas.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Pensamento%20Estrat%C3%A9gico/Pensamento%20Estrat%C3%A9gico%2005%20-%20Curso%20Media%C3%A7%C3%A3o%20de%20conflitos%20-%20construa%20solu%C3%A7%C3%B5es%20efetivas.pdf",
-        "preview": "assets/img/certificados/pensamento-estrategico/pensamento-estrategico-05-curso-mediacao-de-confli.png",
+        "preview": "assets/img/certificados/pensamento-estrategico/pensamento-estrategico-05-curso-mediacao-de-confli.webp",
         "isFormacao": false
       },
       {
         "nome": "Pensamento Estratégico 06 - Curso Gerenciamento de conflitos - aplicando técnicas fundamentais.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Pensamento%20Estrat%C3%A9gico/Pensamento%20Estrat%C3%A9gico%2006%20-%20Curso%20Gerenciamento%20de%20conflitos%20-%20aplicando%20t%C3%A9cnicas%20fundamentais.pdf",
-        "preview": "assets/img/certificados/pensamento-estrategico/pensamento-estrategico-06-curso-gerenciamento-de-c.png",
+        "preview": "assets/img/certificados/pensamento-estrategico/pensamento-estrategico-06-curso-gerenciamento-de-c.webp",
         "isFormacao": false
       }
     ],
@@ -2065,7 +2065,7 @@
     "categoria": "Business Intelligence",
     "duracao": "55 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/power-bi-thumb.png",
+    "thumbnail": "assets/img/certificados/power-bi-thumb.webp",
     "competencias": [
       "Power BI",
       "Business Intelligence",
@@ -2082,43 +2082,43 @@
       {
         "nome": "Power BI - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Power%20Bi/Power%20BI%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/power-bi/power-bi-formacao.png",
+        "preview": "assets/img/certificados/power-bi/power-bi-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Power BI 01 - Curso Power BI Desktop - construindo meu primeiro dashboard.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Power%20Bi/Power%20BI%2001%20-%20Curso%20Power%20BI%20Desktop%20-%20construindo%20meu%20primeiro%20dashboard.pdf",
-        "preview": "assets/img/certificados/power-bi/power-bi-01-curso-power-bi-desktop-construindo-meu.png",
+        "preview": "assets/img/certificados/power-bi/power-bi-01-curso-power-bi-desktop-construindo-meu.webp",
         "isFormacao": false
       },
       {
         "nome": "Power BI 02 - Curso Dashboard com Power BI - visualizando dados.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Power%20Bi/Power%20BI%2002%20-%20Curso%20Dashboard%20com%20Power%20BI%20-%20visualizando%20dados.pdf",
-        "preview": "assets/img/certificados/power-bi/power-bi-02-curso-dashboard-com-power-bi-visualiza.png",
+        "preview": "assets/img/certificados/power-bi/power-bi-02-curso-dashboard-com-power-bi-visualiza.webp",
         "isFormacao": false
       },
       {
         "nome": "Power BI 03 - Curso Power BI Desktop - tratamento de dados no Power Query.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Power%20Bi/Power%20BI%2003%20-%20Curso%20Power%20BI%20Desktop%20-%20tratamento%20de%20dados%20no%20Power%20Query.pdf",
-        "preview": "assets/img/certificados/power-bi/power-bi-03-curso-power-bi-desktop-tratamento-de-d.png",
+        "preview": "assets/img/certificados/power-bi/power-bi-03-curso-power-bi-desktop-tratamento-de-d.webp",
         "isFormacao": false
       },
       {
         "nome": "Power BI 04 - Curso Power BI - entendendo as fórmulas DAX.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Power%20Bi/Power%20BI%2004%20-%20Curso%20Power%20BI%20-%20entendendo%20as%20f%C3%B3rmulas%20DAX.pdf",
-        "preview": "assets/img/certificados/power-bi/power-bi-04-curso-power-bi-entendendo-as-formulas.png",
+        "preview": "assets/img/certificados/power-bi/power-bi-04-curso-power-bi-entendendo-as-formulas.webp",
         "isFormacao": false
       },
       {
         "nome": "Power BI 05 - Curso Power BI - explorando recursos visuais.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Power%20Bi/Power%20BI%2005%20-%20Curso%20Power%20BI%20-%20explorando%20recursos%20visuais.pdf",
-        "preview": "assets/img/certificados/power-bi/power-bi-05-curso-power-bi-explorando-recursos-vis.png",
+        "preview": "assets/img/certificados/power-bi/power-bi-05-curso-power-bi-explorando-recursos-vis.webp",
         "isFormacao": false
       },
       {
         "nome": "Power BI 06 - Curso Power BI - Report Builder.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Power%20Bi/Power%20BI%2006%20-%20Curso%20Power%20BI%20-%20Report%20Builder.pdf",
-        "preview": "assets/img/certificados/power-bi/power-bi-06-curso-power-bi-report-builder.png",
+        "preview": "assets/img/certificados/power-bi/power-bi-06-curso-power-bi-report-builder.webp",
         "isFormacao": false
       }
     ],
@@ -2136,7 +2136,7 @@
     "categoria": "Diversos",
     "duracao": "10 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/refuturiza/curso-power-bi.png",
+    "thumbnail": "assets/img/certificados/refuturiza/curso-power-bi.webp",
     "competencias": [],
     "descricao": "Certificação em Refuturiza",
     "descricaoCompleta": "Certificação em Refuturiza",
@@ -2144,19 +2144,19 @@
       {
         "nome": "Curso de LGPD.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/refuturiza/Curso%20de%20LGPD.pdf",
-        "preview": "assets/img/certificados/refuturiza/curso-de-lgpd.png",
+        "preview": "assets/img/certificados/refuturiza/curso-de-lgpd.webp",
         "isFormacao": false
       },
       {
         "nome": "Curso Power BI.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/refuturiza/Curso%20Power%20BI.pdf",
-        "preview": "assets/img/certificados/refuturiza/curso-power-bi.png",
+        "preview": "assets/img/certificados/refuturiza/curso-power-bi.webp",
         "isFormacao": false
       },
       {
         "nome": "Tomada de decisão baseada em dados.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/refuturiza/Tomada%20de%20decis%C3%A3o%20baseada%20em%20dados.pdf",
-        "preview": "assets/img/certificados/refuturiza/tomada-de-decisao-baseada-em-dados.png",
+        "preview": "assets/img/certificados/refuturiza/tomada-de-decisao-baseada-em-dados.webp",
         "isFormacao": false
       }
     ],
@@ -2174,7 +2174,7 @@
     "categoria": "Business Intelligence",
     "duracao": "92 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/tableau-thumb.png",
+    "thumbnail": "assets/img/certificados/tableau-thumb.webp",
     "competencias": [
       "Tableau",
       "Business Intelligence",
@@ -2191,49 +2191,49 @@
       {
         "nome": "Tableau - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Tableau/Tableau%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/tableau/tableau-formacao.png",
+        "preview": "assets/img/certificados/tableau/tableau-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Tableau 01 - Curso Dashboard com Tableau - conceitos essenciais.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Tableau/Tableau%2001%20-%20Curso%20Dashboard%20com%20Tableau%20-%20conceitos%20essenciais.pdf",
-        "preview": "assets/img/certificados/tableau/tableau-01-curso-dashboard-com-tableau-conceitos-e.png",
+        "preview": "assets/img/certificados/tableau/tableau-01-curso-dashboard-com-tableau-conceitos-e.webp",
         "isFormacao": false
       },
       {
         "nome": "Tableau 02 - Curso Tableau - preparação e transformação de dados.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Tableau/Tableau%2002%20-%20Curso%20Tableau%20-%20prepara%C3%A7%C3%A3o%20e%20transforma%C3%A7%C3%A3o%20de%20dados.pdf",
-        "preview": "assets/img/certificados/tableau/tableau-02-curso-tableau-preparacao-e-transformaca.png",
+        "preview": "assets/img/certificados/tableau/tableau-02-curso-tableau-preparacao-e-transformaca.webp",
         "isFormacao": true
       },
       {
         "nome": "Tableau 03 - Curso Tableau - funções e cálculos LoD.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Tableau/Tableau%2003%20-%20Curso%20Tableau%20-%20fun%C3%A7%C3%B5es%20e%20c%C3%A1lculos%20LoD.pdf",
-        "preview": "assets/img/certificados/tableau/tableau-03-curso-tableau-funcoes-e-calculos-lod.png",
+        "preview": "assets/img/certificados/tableau/tableau-03-curso-tableau-funcoes-e-calculos-lod.webp",
         "isFormacao": false
       },
       {
         "nome": "Tableau 04 - Curso Tableau - gráficos simples e avançados.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Tableau/Tableau%2004%20-%20Curso%20Tableau%20-%20gr%C3%A1ficos%20simples%20e%20avan%C3%A7ados.pdf",
-        "preview": "assets/img/certificados/tableau/tableau-04-curso-tableau-graficos-simples-e-avanca.png",
+        "preview": "assets/img/certificados/tableau/tableau-04-curso-tableau-graficos-simples-e-avanca.webp",
         "isFormacao": false
       },
       {
         "nome": "Tableau 05 - Curso Tableau - como trabalhar com mapas.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Tableau/Tableau%2005%20-%20Curso%20Tableau%20-%20como%20trabalhar%20com%20mapas.pdf",
-        "preview": "assets/img/certificados/tableau/tableau-05-curso-tableau-como-trabalhar-com-mapas.png",
+        "preview": "assets/img/certificados/tableau/tableau-05-curso-tableau-como-trabalhar-com-mapas.webp",
         "isFormacao": false
       },
       {
         "nome": "Tableau 06 - Curso Tableau - construindo dashboards e histórias.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Tableau/Tableau%2006%20-%20Curso%20Tableau%20-%20construindo%20dashboards%20e%20hist%C3%B3rias.pdf",
-        "preview": "assets/img/certificados/tableau/tableau-06-curso-tableau-construindo-dashboards-e.png",
+        "preview": "assets/img/certificados/tableau/tableau-06-curso-tableau-construindo-dashboards-e.webp",
         "isFormacao": false
       },
       {
         "nome": "Tableau 07 - Curso Tableau - executando um projeto de BI.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Tableau/Tableau%2007%20-%20Curso%20Tableau%20-%20executando%20um%20projeto%20de%20BI.pdf",
-        "preview": "assets/img/certificados/tableau/tableau-07-curso-tableau-executando-um-projeto-de.png",
+        "preview": "assets/img/certificados/tableau/tableau-07-curso-tableau-executando-um-projeto-de.webp",
         "isFormacao": false
       }
     ],
@@ -2251,7 +2251,7 @@
     "categoria": "Liderança e Gestão",
     "duracao": "46 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/times-alta-performance-thumb.png",
+    "thumbnail": "assets/img/certificados/times-alta-performance-thumb.webp",
     "competencias": [
       "Liderança",
       "Gestão de Pessoas",
@@ -2268,37 +2268,37 @@
       {
         "nome": "Times de alta performance - Formação.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Times%20de%20alta%20performance/Times%20de%20alta%20performance%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/times-alta-performance/times-de-alta-performance-formacao.png",
+        "preview": "assets/img/certificados/times-alta-performance/times-de-alta-performance-formacao.webp",
         "isFormacao": true
       },
       {
         "nome": "Times de alta performance 01 - Curso Management 3.0 - gerencie o ambiente, não as pessoas.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Times%20de%20alta%20performance/Times%20de%20alta%20performance%2001%20-%20Curso%20Management%203.0%20-%20gerencie%20o%20ambiente%2C%20n%C3%A3o%20as%20pessoas.pdf",
-        "preview": "assets/img/certificados/times-alta-performance/times-de-alta-performance-01-curso-management-30-g.png",
+        "preview": "assets/img/certificados/times-alta-performance/times-de-alta-performance-01-curso-management-30-g.webp",
         "isFormacao": false
       },
       {
         "nome": "Times de alta performance 02 - Curso Delegação de tarefas - obtenha o melhor do seu time.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Times%20de%20alta%20performance/Times%20de%20alta%20performance%2002%20-%20Curso%20Delega%C3%A7%C3%A3o%20de%20tarefas%20-%20obtenha%20o%20melhor%20do%20seu%20time.pdf",
-        "preview": "assets/img/certificados/times-alta-performance/times-de-alta-performance-02-curso-delegacao-de-ta.png",
+        "preview": "assets/img/certificados/times-alta-performance/times-de-alta-performance-02-curso-delegacao-de-ta.webp",
         "isFormacao": false
       },
       {
         "nome": "Times de alta performance 03 - Curso Comunicação participativa - liderança eficaz e motivadora.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Times%20de%20alta%20performance/Times%20de%20alta%20performance%2003%20-%20Curso%20Comunica%C3%A7%C3%A3o%20participativa%20-%20lideran%C3%A7a%20eficaz%20e%20motivadora.pdf",
-        "preview": "assets/img/certificados/times-alta-performance/times-de-alta-performance-03-curso-comunicacao-par.png",
+        "preview": "assets/img/certificados/times-alta-performance/times-de-alta-performance-03-curso-comunicacao-par.webp",
         "isFormacao": false
       },
       {
         "nome": "Times de alta performance 04 - Curso Princípios do trabalho em equipe_ relações colaborativas.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Times%20de%20alta%20performance/Times%20de%20alta%20performance%2004%20-%20Curso%20Princ%C3%ADpios%20do%20trabalho%20em%20equipe_%20rela%C3%A7%C3%B5es%20colaborativas.pdf",
-        "preview": "assets/img/certificados/times-alta-performance/times-de-alta-performance-04-curso-principios-do-t.png",
+        "preview": "assets/img/certificados/times-alta-performance/times-de-alta-performance-04-curso-principios-do-t.webp",
         "isFormacao": false
       },
       {
         "nome": "Times de alta performance 05 - Curso Agilidade - como ela pode ajudar a criar um time de alta performance.pdf",
         "url": "https://github.com/guicorrea93/certificados/blob/main/Times%20de%20alta%20performance/Times%20de%20alta%20performance%2005%20-%20Curso%20Agilidade%20-%20como%20ela%20pode%20ajudar%20a%20criar%20um%20time%20de%20alta%20performance.pdf",
-        "preview": "assets/img/certificados/times-alta-performance/times-de-alta-performance-05-curso-agilidade-como.png",
+        "preview": "assets/img/certificados/times-alta-performance/times-de-alta-performance-05-curso-agilidade-como.webp",
         "isFormacao": false
       }
     ],
