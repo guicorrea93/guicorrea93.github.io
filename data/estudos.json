@@ -1,11 +1,11 @@
 [
   {
-    "id": "projeto_alura_01",
+    "id": "estudo_01",
     "titulo": "Regressao Linear - Transformacao de Variaveis",
     "plataforma": "Alura",
     "descricao": "Construcao de modelos de regressao linear multipla com transformacao logaritmica para precificacao de imoveis e hospedagens - analise exploratoria completa, visualizacoes, correlacoes, residuos e interpretacao de coeficientes.",
     "descricaoCompleta": "",
-    "thumbnail": "assets/img/estudos/projeto_alura_01.webp",
+    "thumbnail": "assets/img/estudos/estudo_01.webp",
     "tecnologias": [
       "Python",
       "Pandas",
@@ -15,8 +15,8 @@
       "NumPy",
       "Machine Learning"
     ],
-    "link": "https://guicorrea93.github.io/PortifolioProjetos/projeto_alura_01/",
-    "github": "https://github.com/guicorrea93/PortifolioProjetos/tree/main/projeto_alura_01",
+    "link": "https://guicorrea93.github.io/portifolioEstudos/estudo_01/",
+    "github": "https://github.com/guicorrea93/portifolioEstudos/tree/main/estudo_01",
     "destaque": false
   }
 ]
