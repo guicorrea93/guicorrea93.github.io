@@ -993,36 +993,8 @@
     </section>
 
     <!-- ===============================
-        SEÇÃO DE ESTUDOS (INDEX.HTML)
-        Projetos desenvolvidos em cursos
-        =============================== -->
-
-    <section id="estudos" class="section">
-      <div class="pagehead">
-        <h2>Estudos & Projetos de Cursos</h2>
-        <p class="lead">
-          Projetos práticos desenvolvidos ao longo de cursos e formações.<br>
-          Cada estudo representa a aplicação real de conceitos aprendidos em aula.
-        </p>
-      </div>
-
-      <!-- Cards de estudos em destaque (renderizado pelo JS) -->
-      <div class="featured-studies" id="featuredStudiesGrid">
-        <!-- Será preenchido via JavaScript -->
-      </div>
-
-      <div class="section-actions">
-        <a class="btn primary" href="estudos.html">
-          Ver todos os estudos
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="margin-left: 6px;">
-            <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </a>
-      </div>
-    </section>
-
-    <!-- ===============================
         SEÇÃO DE LIVROS (INDEX.HTML)
+        Adicione esta seção APÓS a seção #certificados
         =============================== -->
 
     <section id="livros" class="section">
@@ -1053,49 +1025,6 @@
     </section>
     
   </main>
-
-  <!-- Modal de detalhes do estudo -->
-  <div class="modal" id="studyModal" aria-hidden="true" role="dialog" aria-labelledby="studyModalTitle">
-    <div class="modal-overlay" data-close-modal></div>
-    <div class="modal-content">
-      <button class="modal-close" data-close-modal aria-label="Fechar modal">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-          <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        </svg>
-      </button>
-
-      <div class="modal-body">
-        <div class="modal-header">
-          <div class="modal-meta">
-            <span class="modal-type" id="studyModalPlataforma">Plataforma</span>
-          </div>
-          <h2 class="modal-title" id="studyModalTitle">Título do Estudo</h2>
-          <p class="modal-desc" id="studyModalDesc">Descrição breve</p>
-        </div>
-
-        <div class="modal-screenshots" id="studyModalThumb"></div>
-
-        <div class="modal-section">
-          <h3>Sobre o estudo</h3>
-          <p id="studyModalDescCompleta"></p>
-        </div>
-
-        <div class="modal-section">
-          <h3>Tecnologias utilizadas</h3>
-          <div class="modal-tags" id="studyModalTecnologias"></div>
-        </div>
-
-        <div class="modal-actions">
-          <a class="btn primary" id="studyModalVerBtn" href="#" target="_blank" rel="noopener noreferrer">
-            Ver estudo
-          </a>
-          <a class="btn ghost" id="studyModalRepoBtn" href="#" target="_blank" rel="noopener noreferrer">
-            Ver no GitHub
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <footer class="footer">
     <span>© <span id="year"></span> Guilherme Corrêa</span>
