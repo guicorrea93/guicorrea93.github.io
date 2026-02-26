@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Estudos e projetos desenvolvidos em cursos de Data Science, Python, Power BI e tecnologias web" />
+  <title>Estudos | Guilherme Corrêa</title>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Estudos | Guilherme Corrêa" />
+  <meta property="og:description" content="Estudos e projetos desenvolvidos em cursos de Data Science, Python, Power BI e tecnologias web" />
+  <meta property="og:url" content="https://guicorrea93.github.io/estudos.html" />
+  <meta property="og:image" content="https://guicorrea93.github.io/assets/img/avatares/avatar.webp" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Estudos | Guilherme Corrêa" />
+  <meta name="twitter:description" content="Estudos e projetos desenvolvidos em cursos de Data Science, Python, Power BI e tecnologias web" />
+  <meta name="twitter:image" content="https://guicorrea93.github.io/assets/img/avatares/avatar.webp" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/favicons/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png" />
+
+  <link rel="canonical" href="https://guicorrea93.github.io/estudos.html" />
+  <link rel="preload" as="style" href="assets/css/styles.css" />
+  <link rel="preload" as="script" href="assets/js/main.js" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://guicorrea93.github.io/" },
+      { "@type": "ListItem", "position": 2, "name": "Estudos", "item": "https://guicorrea93.github.io/estudos.html" }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Pular para o conteudo</a>
+  <noscript>
+    <p style="padding:2rem;text-align:center;color:#E5E7EB;background:#1F2937">
+      Este site precisa de JavaScript para funcionar. Por favor, ative o JavaScript no seu navegador.
+    </p>
+  </noscript>
+
+  <header class="topbar" id="topbar"></header>
+
+  <main class="container" id="main-content">
+    <section class="pagehead">
+      <h1>Todos os Estudos</h1>
+      <p class="lead">
+        Projetos práticos desenvolvidos ao longo de cursos e formações.<br>
+        Cada estudo representa a aplicação real de conceitos aprendidos em aula.
+      </p>
+    </section>
+
+    <!-- Filtros -->
+    <section class="filters" id="studyFilters">
+      <button class="chip active" data-filter="all" aria-label="Mostrar todos os estudos">
+        Todos
+      </button>
+    </section>
+
+    <!-- Grid de estudos -->
+    <section id="studiesGrid" class="grid">
+      <!-- Será preenchido via JavaScript -->
+    </section>
+  </main>
+
+  <!-- Modal de detalhes do estudo -->
+  <div class="modal" id="studyModal" aria-hidden="true" role="dialog" aria-labelledby="studyModalTitle">
+    <div class="modal-overlay" data-close-modal></div>
+    <div class="modal-content">
+      <button class="modal-close" data-close-modal aria-label="Fechar modal">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+
+      <div class="modal-body">
+        <!-- Header do modal -->
+        <div class="modal-header">
+          <div class="modal-meta">
+            <span class="modal-type" id="studyModalPlataforma">Plataforma</span>
+          </div>
+          <h2 class="modal-title" id="studyModalTitle">Título do Estudo</h2>
+          <p class="modal-desc" id="studyModalDesc">Descrição breve</p>
+        </div>
+
+        <!-- Thumbnail -->
+        <div class="modal-screenshots" id="studyModalThumb">
+          <!-- Será preenchido dinamicamente -->
+        </div>
+
+        <!-- Descrição completa -->
+        <div class="modal-section">
+          <h3>Sobre o estudo</h3>
+          <p id="studyModalDescCompleta"></p>
+        </div>
+
+        <!-- Tecnologias -->
+        <div class="modal-section">
+          <h3>Tecnologias utilizadas</h3>
+          <div class="modal-tags" id="studyModalTecnologias"></div>
+        </div>
+
+        <!-- Actions -->
+        <div class="modal-actions">
+          <a class="btn primary" id="studyModalVerBtn" href="#" target="_blank" rel="noopener noreferrer">
+            Ver estudo
+          </a>
+          <a class="btn ghost" id="studyModalRepoBtn" href="#" target="_blank" rel="noopener noreferrer">
+            Ver no GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <span>&copy; <span id="year"></span> Guilherme Corrêa</span>
+    <span class="muted">GitHub Pages</span>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
