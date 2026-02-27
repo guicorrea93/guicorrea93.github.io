@@ -1,0 +1,82 @@
+name: Sincronizar Portfolio
+
+on:
+  # Roda manualmente pelo GitHub
+  workflow_dispatch:
+    inputs:
+      secao:
+        description: 'Secao para sincronizar'
+        required: true
+        default: 'tudo'
+        type: choice
+        options:
+          - tudo
+          - projetos
+          - estudos
+          - certificados
+          - diplomas
+
+  # Roda todo domingo as 03:00 (UTC)
+  schedule:
+    - cron: '0 3 * * 0'
+
+permissions:
+  contents: write
+
+jobs:
+  sincronizar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: pip install requests Pillow pypdf pymupdf pyyaml python-dotenv
+
+      - name: Sincronizar Projetos
+        if: github.event.inputs.secao == 'tudo' || github.event.inputs.secao == 'projetos' || github.event_name == 'schedule'
+        run: python scripts/sincronizar_projetos.py --aplicar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sincronizar Estudos
+        if: github.event.inputs.secao == 'tudo' || github.event.inputs.secao == 'estudos' || github.event_name == 'schedule'
+        run: python scripts/sincronizar_estudos.py --aplicar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sincronizar Certificados
+        if: github.event.inputs.secao == 'tudo' || github.event.inputs.secao == 'certificados' || github.event_name == 'schedule'
+        run: python scripts/extrator_certificados.py --aplicar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sincronizar Diplomas
+        if: github.event.inputs.secao == 'tudo' || github.event.inputs.secao == 'diplomas' || github.event_name == 'schedule'
+        run: python scripts/sincronizar_diplomas.py --aplicar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Verificar alteracoes
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit e push
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "sync: atualizar dados do portfolio [automated]"
+          git push
