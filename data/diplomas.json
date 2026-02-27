@@ -82,9 +82,9 @@
     "descricao": "Formação pedagógica voltada a bacharéis, conferindo habilitação em licenciatura para atuação docente nas áreas de Química, Física e Matemática.",
     "descricaoCompleta": "Licenciatura em Formação Pedagógica para Graduados não Licenciados, oferecida pela Universidade de Franca (Unifran), com carga horária de 180 horas. O curso tem como objetivo habilitar bacharéis das áreas de Química, Física e Matemática para o exercício da docência, fornecendo fundamentos pedagógicos, didáticos e metodológicos. A formação abrange práticas de ensino, planejamento pedagógico, avaliação da aprendizagem, legislação educacional e fundamentos da educação, preparando o profissional para atuar no ensino formal com base teórica sólida e aplicação prática.",
     "destaque": false,
-    "preview": "https://raw.githubusercontent.com/guicorrea93/diplomas/main/Especializa%C3%A7%C3%A3o.jpg",
+    "preview": "https://raw.githubusercontent.com/guicorrea93/diplomas/main/Especializa%C3%A7%C3%A3o.pdf",
     "thumbnail": "assets/img/diplomas/licenciatura-thumb.webp",
-    "link": "https://github.com/guicorrea93/diplomas/blob/main/Especializa%C3%A7%C3%A3o.jpg",
+    "link": "https://github.com/guicorrea93/diplomas/blob/main/Especializa%C3%A7%C3%A3o.pdf",
     "competencias": [
       "Didática",
       "Planejamento Pedagógico",
@@ -116,9 +116,9 @@
     "descricao": "Graduação em Química com ênfase em Química Forense pela Universidade de São Paulo, desenvolvendo base científica sólida e pensamento analítico.",
     "descricaoCompleta": "Bacharelado em Química com ênfase em Química Forense pela USP - Ribeirão Preto. Formação completa em química orgânica, inorgânica, analítica e físico-química, com especialização em técnicas forenses. Desenvolvimento de forte base em método científico, análise de dados, instrumentação analítica e pesquisa laboratorial. A formação em química proporcionou habilidades essenciais de resolução de problemas, análise crítica e rigor metodológico que são fundamentais para trabalhar com dados e análises complexas.",
     "destaque": true,
-    "preview": "https://raw.githubusercontent.com/guicorrea93/diplomas/main/Graduação.jpg",
+    "preview": "https://raw.githubusercontent.com/guicorrea93/diplomas/main/Gradua%C3%A7%C3%A3o.pdf",
     "thumbnail": "assets/img/diplomas/graduacao-thumb.webp",
-    "link": "https://github.com/guicorrea93/diplomas/blob/main/Graduação.jpg",
+    "link": "https://github.com/guicorrea93/diplomas/blob/main/Gradua%C3%A7%C3%A3o.pdf",
     "competencias": [
       "Método Científico",
       "Análise de Dados",
