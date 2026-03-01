@@ -15,7 +15,7 @@ Site pessoal construido do zero em **HTML, CSS e JavaScript puro** (sem framewor
 O site inclui:
 
 - **5 Projetos** — Dashboards em Power BI, aplicacoes web interativas e projetos de Data Science/ML
-- **230 Certificados** — organizados em 33 formacoes e 24 categorias
+- **234 Certificados** — organizados em 34 formacoes e 23 categorias
 - **4 Diplomas** — Formacao academica completa
 - **81 Livros** — Acervo de leituras de 40 autores em 47 generos
 - **Sobre mim** — Timeline interativa com minha trajetoria profissional
@@ -45,14 +45,12 @@ O site inclui:
 
 ---
 
-## Certificados (230 certificados em 33 formacoes)
+## Certificados (234 certificados em 34 formacoes)
 
 **Destaques:**
 - Machine Learning
-- Agilidade: Abordagens e Praticas Avancadas
-- Avancando em Data Science com Python
 
-**Categorias:** Agilidade, Agilidade Escalada e Governanca, Agilidade e Transformacao Digital, Banco de Dados, Business Intelligence, Data Science, Diversos, Empreendedorismo e Negocios, Estatistica e Data Science, Estrategia e Gestao, Excel e Analise de Dados, Excel e Business Intelligence, Ferramentas de Desenvolvimento, Gestao Agil e Projetos, Governanca e Gestao de TI, Lideranca e Comunicacao, Lideranca e Gestao, Machine Learning, Metodologias Ageis, Negociacao e Comunicacao, Power BI, Processos e Governanca, Programacao, Soft Skills
+**Categorias:** Agilidade, Agilidade Escalada e Governanca, Agilidade e Transformacao Digital, Banco de Dados, Business Intelligence, Data Science, Empreendedorismo e Negocios, Estatistica e Data Science, Estrategia e Gestao, Excel e Analise de Dados, Excel e Business Intelligence, Ferramentas de Desenvolvimento, Gestao Agil e Projetos, Governanca e Gestao de TI, Lideranca e Comunicacao, Lideranca e Gestao, Machine Learning, Metodologias Ageis, Negociacao e Comunicacao, Power BI, Processos e Governanca, Programacao, Soft Skills
 
 ---
 
@@ -90,7 +88,7 @@ guicorrea93.github.io/
 |-- 404.html                # Pagina de erro personalizada
 |-- data/
 |   |-- projetos.json       # Dados dos 5 projetos
-|   |-- certificados.json   # Dados dos 230 certificados
+|   |-- certificados.json   # Dados dos 234 certificados
 |   |-- diplomas.json       # Dados dos 4 diplomas
 |   +-- livros.json         # Dados dos 81 livros
 |-- assets/
