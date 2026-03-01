@@ -18,5 +18,25 @@
     "link": "https://guicorrea93.github.io/portifolioEstudos/estudo_01/",
     "github": "https://github.com/guicorrea93/portifolioEstudos/tree/main/estudo_01",
     "destaque": false
+  },
+  {
+    "id": "estudo_02",
+    "titulo": "Arvores de Regressao - Precificacao de Entregas",
+    "plataforma": "Alura",
+    "descricao": "Construcao de modelos de regressao com Decision Tree e Random Forest para precificar o custo de entrega de esculturas artisticas — do overfitting a otimizacao com GridSearchCV e validacao cruzada.",
+    "descricaoCompleta": "",
+    "thumbnail": "assets/img/estudos/estudo_02.webp",
+    "tecnologias": [
+      "Python",
+      "Pandas",
+      "Scikit-learn",
+      "Decision Tree",
+      "Random Forest",
+      "GridSearchCV",
+      "Machine Learning"
+    ],
+    "link": "https://guicorrea93.github.io/portifolioEstudos/estudo_02/",
+    "github": "https://github.com/guicorrea93/portifolioEstudos/tree/main/estudo_02",
+    "destaque": false
   }
 ]
