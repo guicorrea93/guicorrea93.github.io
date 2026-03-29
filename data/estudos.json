@@ -38,5 +38,25 @@
     "link": "https://guicorrea93.github.io/portifolioEstudos/estudo_02/",
     "github": "https://github.com/guicorrea93/portifolioEstudos/tree/main/estudo_02",
     "destaque": false
+  },
+  {
+    "id": "estudo_03",
+    "titulo": "Regressao com XGBoost - Precificacao de Automoveis",
+    "plataforma": "Alura",
+    "descricao": "Construcao de modelos de regressao com Gradient Boosting (XGBoost) para estimar o valor de automoveis — da modelagem base a otimizacao com GridSearchCV, early stopping e tuning de learning rate.",
+    "descricaoCompleta": "",
+    "thumbnail": "assets/img/estudos/estudo_03.webp",
+    "tecnologias": [
+      "Python",
+      "Pandas",
+      "XGBoost",
+      "Scikit-learn",
+      "GridSearchCV",
+      "Gradient Boosting",
+      "Machine Learning"
+    ],
+    "link": "https://guicorrea93.github.io/portifolioEstudos/estudo_03/",
+    "github": "https://github.com/guicorrea93/portifolioEstudos/tree/main/estudo_03",
+    "destaque": false
   }
 ]
