@@ -14,7 +14,7 @@ Site pessoal construido do zero em **HTML, CSS e JavaScript puro** (sem framewor
 
 O site inclui:
 
-- **5 Projetos** — Dashboards em Power BI, aplicacoes web interativas e projetos de Data Science/ML
+- **6 Projetos** — Dashboards em Power BI, aplicacoes web interativas e projetos de Data Science/ML
 - **234 Certificados** — organizados em 34 formacoes e 23 categorias
 - **4 Diplomas** — Formacao academica completa
 - **81 Livros** — Acervo de leituras de 40 autores em 47 generos
@@ -26,6 +26,7 @@ O site inclui:
 
 | # | Projeto | Tipo | Destaques |
 |---|---------|------|-----------|
+| 6 | **[Dashboard Analitico das Copas do Mundo FIFA](https://guicorrea93.github.io/projetos/copa-do-mundo/)** | HTML + JS | Dashboard executivo e exploratorio das Copas do Mundo, com visao geral, edicoes, selecoes, gols, jogos, chaveamentos e detalhes por partida. |
 | 5 | **[Segmentacao de Municipios Brasileiros](https://guicorrea93.github.io/PortifolioProjetos/projeto_5/)** | Data Science + Machine Learning | 5.204 municipios segmentados com cobertura total do territorio nacional, Linha Regional (Linha 3) alcancou Silhouette... |
 | 4 | **[Forecasting de Vendas com ML](https://guicorrea93.github.io/PortifolioProjetos/projeto_4/)** | Data Science + Machine Learning | Modelo XGBoost com R² de 96,1% em dados de teste, Erro percentual medio (MAPE) inferior a 8%, Identificacao clara dos... |
 | 3 | **[Dashboard de Performance e Negocios](https://app.powerbi.com/view?r=eyJrIjoiN2JmMDFiOGItMzAxMS00NjI1LWE2ZGMtNmIzOTI0YzBlMjk4IiwidCI6IjhjYzJkZWQ2LWEzYjktNDk4My04ZDcxLTY3OGZjN2E2NjRiZSJ9)** | Power BI | Dashboard acessivel com narrativa visual clara e objetiva, Analises comparativas facilitam identificacao de oportunid... |
@@ -82,12 +83,14 @@ O site inclui:
 guicorrea93.github.io/
 |-- index.html              # Pagina principal (hero, sobre, projetos, certificados, livros)
 |-- projetos.html           # Pagina completa de projetos com filtros
+|-- projetos/
+|   +-- copa-do-mundo/      # Dashboard Analitico das Copas do Mundo FIFA
 |-- certificados.html       # Galeria de certificados com busca
 |-- diplomas.html           # Formacao academica
 |-- livros.html             # Acervo de leituras com modal detalhado
 |-- 404.html                # Pagina de erro personalizada
 |-- data/
-|   |-- projetos.json       # Dados dos 5 projetos
+|   |-- projetos.json       # Dados dos 6 projetos
 |   |-- certificados.json   # Dados dos 234 certificados
 |   |-- diplomas.json       # Dados dos 4 diplomas
 |   +-- livros.json         # Dados dos 81 livros
