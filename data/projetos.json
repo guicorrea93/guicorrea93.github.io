@@ -201,5 +201,57 @@
     },
     "dataPublicacao": "2026-02",
     "status": "Concluído"
+  },
+  {
+    "id": "projeto-6",
+    "titulo": "Dashboard Analítico das Copas do Mundo FIFA",
+    "tipo": "HTML + JS",
+    "descricao": "Dashboard executivo e exploratório sobre todas as Copas do Mundo FIFA, com visão macro, análise por edição, seleções, gols, jogos, fases e detalhes de partidas.",
+    "descricaoCompleta": "Dashboard analítico completo das Copas do Mundo FIFA, desenvolvido como uma experiência web interativa em HTML, CSS e JavaScript com visualizações Plotly. O projeto estrutura a análise do macro ao micro: panorama histórico das edições, desempenho por seleção, rankings, artilharia, gols, públicos, fases de grupos, mata-mata em chaveamento visual e modal detalhado por partida com placar, marcadores, ficha técnica e escalações. A base foi construída a partir de dados da Wikipedia em português, enriquecida com auditorias, padronização de nomes de seleções e jogadores, bandeiras, estatísticas históricas e atualizações parciais da Copa de 2026.",
+    "destaque": true,
+    "thumbnail": "assets/img/projetos/copa-mundo/thumb.png",
+    "screenshots": [
+      "assets/img/projetos/copa-mundo/screen1.png",
+      "assets/img/projetos/copa-mundo/screen2.png"
+    ],
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Plotly",
+      "Python",
+      "Web Scraping",
+      "GitHub Pages",
+      "Futebol"
+    ],
+    "tecnologias": [
+      "Python",
+      "Pandas",
+      "HTML5",
+      "CSS3",
+      "JavaScript ES6",
+      "Plotly.js",
+      "Wikipedia",
+      "GitHub Pages",
+      "Modelagem Relacional"
+    ],
+    "desafios": [
+      "Consolidar dados históricos de 1930 a 2022 e manter a Copa de 2026 atualizada separadamente",
+      "Padronizar nomes de seleções, jogadores, técnicos e fases para evitar duplicidades analíticas",
+      "Modelar visões executivas e exploratórias sem perder a navegação detalhada por partida",
+      "Criar chaveamentos, modais de jogo, bandeiras e linha do tempo responsiva em um HTML estático"
+    ],
+    "resultados": [
+      "Dashboard publicado diretamente no GitHub Pages do portfólio",
+      "Mais de 3 mil gols estruturados em base analítica com auditoria de nomes e marcadores",
+      "Navegação em três níveis: visão geral das Copas, análise por edição e análise por seleção",
+      "Base preparada para evoluir para banco relacional e novas seções de curiosidades e estatísticas avançadas"
+    ],
+    "links": {
+      "ver": "https://guicorrea93.github.io/projetos/copa-do-mundo/",
+      "repo": "https://github.com/guicorrea93/clube_analitico"
+    },
+    "dataPublicacao": "2026-07",
+    "status": "Em evolução"
   }
 ]
