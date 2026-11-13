@@ -30,7 +30,7 @@ async function loadFeaturedDiplomas() {
     const diplomas = await fetchWithRetry(CONFIG.diplomasPath);
 
     if (!Array.isArray(diplomas)) {
-      throw new Error('Formato de dados invalido');
+      throw new Error('Formato de dados inválido');
     }
 
     allDiplomas = diplomas;
@@ -188,7 +188,7 @@ async function loadAllDiplomas() {
     const diplomas = await fetchWithRetry(CONFIG.diplomasPath);
 
     if (!Array.isArray(diplomas)) {
-      throw new Error('Formato de dados invalido');
+      throw new Error('Formato de dados inválido');
     }
 
     allDiplomas = diplomas;
@@ -203,6 +203,11 @@ async function loadAllDiplomas() {
     }
 
     initDiplomaModalHandlers();
+
+    // Veio de um card da pagina inicial: abre o diploma pedido
+    const abrir = new URLSearchParams(window.location.search).get('abrir');
+    const pedido = abrir && diplomas.find(d => d.id === abrir);
+    if (pedido) openDiplomaModal(pedido);
 
   } catch (error) {
     console.error('Erro ao carregar diplomas:', error);
@@ -354,7 +359,11 @@ export function openDiplomaModal(diploma) {
   currentDiploma = diploma;
 
   const modal = document.getElementById('diplomaModal');
-  if (!modal) return;
+  if (!modal) {
+    // Pagina sem modal (ex.: inicio): abre o diploma na pagina de diplomas
+    window.location.href = `diplomas.html?abrir=${encodeURIComponent(diploma.id)}`;
+    return;
+  }
 
   populateDiplomaModal(diploma);
 
@@ -392,7 +401,7 @@ function populateDiplomaModal(diploma) {
     competencias = [],
     destaques = [],
     link,
-    status = 'Concluido'
+    status = 'Concluído'
   } = diploma;
 
   // Header
@@ -422,7 +431,7 @@ function populateDiplomaModal(diploma) {
             <path d="M14 2V8H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M8 13H16M8 17H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
-          <p>Documento PDF disponivel</p>
+          <p>Documento PDF disponível</p>
           <a href="${preview}" target="_blank" rel="noopener noreferrer" class="btn small primary">
             Abrir PDF
           </a>

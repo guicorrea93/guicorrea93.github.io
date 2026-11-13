@@ -3,7 +3,7 @@
 // ===============================
 
 import { CONFIG } from './config.js';
-import { escapeHTML, makeCardAccessible, announceToScreenReader, debounce } from './utils.js';
+import { escapeHTML, richText, makeCardAccessible, announceToScreenReader, debounce } from './utils.js';
 import { fetchWithRetry } from './api.js';
 import { showLoading, showError, animateCards } from './ui.js';
 
@@ -25,7 +25,7 @@ async function loadCerts() {
     const certs = await fetchWithRetry(CONFIG.certsPath);
 
     if (!Array.isArray(certs)) {
-      throw new Error('Formato de dados invalido');
+      throw new Error('Formato de dados inválido');
     }
 
     renderCerts(certs);
@@ -107,7 +107,7 @@ function createCertCard(cert) {
         <span class="p-type">${escapeHTML(tipo)}</span>
       </div>
 
-      <p class="p-desc">${escapeHTML(descricao)}</p>
+      <p class="p-desc">${richText(descricao)}</p>
 
       <div class="tags">
         ${instTag}
@@ -141,7 +141,7 @@ async function loadFeaturedCertificates() {
     const certificates = await fetchWithRetry(CONFIG.certsPath);
 
     if (!Array.isArray(certificates)) {
-      throw new Error('Formato de dados invalido');
+      throw new Error('Formato de dados inválido');
     }
 
     allCertificates = certificates;
@@ -254,7 +254,7 @@ function createFeaturedCertCard(cert) {
             ` : ''}
           </div>
         </div>
-        <p class="featured-cert-desc">${escapeHTML(descricao)}</p>
+        <p class="featured-cert-desc">${richText(descricao)}</p>
         <div class="featured-cert-footer">
           <span class="featured-cert-category">${escapeHTML(categoria)}</span>
           <span class="featured-cert-link">
@@ -337,7 +337,7 @@ function createCertificateCard(cert) {
             </span>
           ` : ''}
         </div>
-        <p class="p-desc">${escapeHTML(descricao)}</p>
+        <p class="p-desc">${richText(descricao)}</p>
         <div class="tags">
           ${destaqueBadge}
           ${certCount}
@@ -577,7 +577,7 @@ async function loadAllCertificates() {
     const certificates = await fetchWithRetry(CONFIG.certsPath);
 
     if (!Array.isArray(certificates)) {
-      throw new Error('Formato de dados invalido');
+      throw new Error('Formato de dados inválido');
     }
 
     allCertificates = certificates;
@@ -699,14 +699,14 @@ function populateCertModal(cert) {
     competencias = [],
     certificados = [],
     githubFolder,
-    status = 'Concluido'
+    status = 'Concluído'
   } = cert;
 
   // Header
   document.getElementById('certModalCategoria').textContent = categoria;
   document.getElementById('certModalStatus').textContent = status;
   document.getElementById('certModalTitle').textContent = titulo;
-  document.getElementById('certModalDesc').textContent = descricao;
+  document.getElementById('certModalDesc').innerHTML = richText(descricao);
 
   // Info
   if (duracao) document.getElementById('certModalDuracao').textContent = duracao;
@@ -764,8 +764,8 @@ function populateCertModal(cert) {
   }
 
   // Descricao completa
-  document.getElementById('certModalDescCompleta').textContent =
-    descricaoCompleta || descricao;
+  document.getElementById('certModalDescCompleta').innerHTML =
+    richText(descricaoCompleta || descricao);
 
   // Competencias
   const compContainer = document.getElementById('certModalCompetencias');
@@ -774,7 +774,7 @@ function populateCertModal(cert) {
       .map(comp => `<span class="tag">${escapeHTML(comp)}</span>`)
       .join('');
   } else {
-    compContainer.innerHTML = '<p style="color: var(--muted); font-size: 0.875rem;">Nenhuma competencia listada</p>';
+    compContainer.innerHTML = '<p style="color: var(--muted); font-size: 0.875rem;">Nenhuma competência listada</p>';
   }
 
   // Links

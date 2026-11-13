@@ -25,7 +25,7 @@ async function loadProjects() {
     const projects = await fetchWithRetry(CONFIG.projectsPath);
 
     if (!Array.isArray(projects)) {
-      throw new Error('Formato de dados invalido');
+      throw new Error('Formato de dados inválido');
     }
 
     renderProjectsSimple(projects, 'all');
@@ -174,7 +174,7 @@ async function loadFeaturedProjects() {
     const projects = await fetchWithRetry(CONFIG.projectsPath);
 
     if (!Array.isArray(projects)) {
-      throw new Error('Formato de dados invalido');
+      throw new Error('Formato de dados inválido');
     }
 
     allProjects = projects;
@@ -284,7 +284,7 @@ async function loadAllProjects() {
     const projects = await fetchWithRetry(CONFIG.projectsPath);
 
     if (!Array.isArray(projects)) {
-      throw new Error('Formato de dados invalido');
+      throw new Error('Formato de dados inválido');
     }
 
     allProjects = projects;
@@ -459,7 +459,7 @@ function populateModal(project) {
     tipo,
     descricao,
     descricaoCompleta,
-    status = 'Concluido',
+    status = 'Concluído',
     screenshots = [],
     tecnologias = [],
     desafios = [],

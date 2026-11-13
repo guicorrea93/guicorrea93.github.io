@@ -28,11 +28,26 @@ export function makeCardAccessible(card, handler) {
   });
 }
 
-// Escape HTML para seguranca
+// Escape HTML para seguranca (tambem serve dentro de atributos: escapa aspas)
 export function escapeHTML(str) {
-  const div = document.createElement('div');
-  div.textContent = str;
-  return div.innerHTML;
+  return String(str ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+// Texto com **negrito** vindo do JSON: escapa tudo primeiro, depois formata.
+// Linhas so com "---" sao removidas e quebras de linha viram <br>.
+export function richText(str) {
+  return escapeHTML(str)
+    .split('\n')
+    .filter(linha => linha.trim() !== '---')
+    .join('\n')
+    .trim()
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\n/g, '<br>');
 }
 
 // Anuncia mensagem para leitores de tela

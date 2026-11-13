@@ -62,7 +62,7 @@
     "totalCertificados": 6,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Machine%20Learning%20na%20pr%C3%A1tica",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2025 - 2026",
     "lastUpdated": "2026-03-01T10:41:33.526895"
   },
   {
@@ -134,7 +134,7 @@
     "totalCertificados": 7,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Agilidade%20abordagens%20e%20pr%C3%A1ticas%20avan%C3%A7adas",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2024",
     "lastUpdated": "2026-03-01T10:41:09.467445"
   },
   {
@@ -307,7 +307,7 @@
     "totalCertificados": 9,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Business%20Agility",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2024",
     "lastUpdated": "2026-03-01T10:41:12.964068"
   },
   {
@@ -377,7 +377,7 @@
     "totalCertificados": 7,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Business%20Intelligence%20com%20Excel",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2023",
     "lastUpdated": "2026-03-01T10:41:14.072084"
   },
   {
@@ -449,7 +449,7 @@
     "totalCertificados": 7,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/BI%20e%20Data%20Warehouse%20com%20SQL%20Server%20e%20Power%20BI",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2023",
     "lastUpdated": "2026-03-01T10:41:11.765208"
   },
   {
@@ -815,7 +815,7 @@
     "totalCertificados": 9,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Python%20para%20Data%20Science",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2024 - 2025",
     "lastUpdated": "2026-03-01T10:41:41.307993"
   },
   {
@@ -898,7 +898,7 @@
     "totalCertificados": 9,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Digital%20%26%20Agile%20Thinking",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2024",
     "lastUpdated": "2026-03-01T10:41:21.672214"
   },
   {
@@ -970,7 +970,7 @@
     "totalCertificados": 7,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Dominando%20o%20Power%20BI",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2023 - 2026",
     "lastUpdated": "2026-03-01T10:41:22.769254"
   },
   {
@@ -1060,7 +1060,7 @@
     "totalCertificados": 10,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Empreendedorismo%20Digital",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2024",
     "lastUpdated": "2026-03-01T10:41:23.856984"
   },
   {
@@ -1244,40 +1244,8 @@
     "totalCertificados": 7,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Excel",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2023",
     "lastUpdated": "2026-03-01T10:41:26.089351"
-  },
-  {
-    "id": "ferramentas-essenciais-para-devs",
-    "titulo": "Ferramentas Essenciais Para Devs",
-    "tipo": "Formação",
-    "instituicao": "Alura",
-    "categoria": "Machine Learning",
-    "duracao": "8 horas",
-    "destaque": false,
-    "thumbnail": "assets/img/certificados/ferramentas-essenciais-para-devs/ferramentas-essenciais-para-devs-01-curso-git-e-gi.webp",
-    "competencias": [],
-    "descricao": "Certificação em Ferramentas Essenciais Para Devs pela Alura",
-    "descricaoCompleta": "Certificação em Ferramentas Essenciais Para Devs pela Alura",
-    "certificados": [
-      {
-        "nome": "Ferramentas essenciais para Devs 04 - Curso Windows Prompt - utilizando o CMD.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Ferramentas%20essenciais%20para%20Devs/Ferramentas%20essenciais%20para%20Devs%2004%20-%20Curso%20Windows%20Prompt%20-%20utilizando%20o%20CMD.pdf",
-        "preview": "assets/img/certificados/ferramentas-essenciais-para-devs/ferramentas-essenciais-para-devs-04-curso-windows.webp",
-        "isFormacao": false
-      },
-      {
-        "nome": "Ferramentas essenciais para Devs 01 - Curso Git e GitHub - compartilhando e colaborando em projetos.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Ferramentas%20essenciais%20para%20Devs/Ferramentas%20essenciais%20para%20Devs%2001%20-%20Curso%20Git%20e%20GitHub%20-%20compartilhando%20e%20colaborando%20em%20projetos.pdf",
-        "preview": "assets/img/certificados/ferramentas-essenciais-para-devs/ferramentas-essenciais-para-devs-01-curso-git-e-gi.webp",
-        "isFormacao": false
-      }
-    ],
-    "totalCertificados": 2,
-    "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Ferramentas%20essenciais%20para%20Devs",
-    "status": "Concluído",
-    "ano": "2026",
-    "lastUpdated": "2026-01-12T09:17:07.796460"
   },
   {
     "id": "ferramentas-desenvolvedores-produtividade-engenharia",
@@ -1320,7 +1288,7 @@
     "totalCertificados": 2,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Ferramentas%20essenciais%20para%20Devs",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2023 - 2026",
     "lastUpdated": "2026-03-01T10:41:27.228285"
   },
   {
@@ -1421,7 +1389,7 @@
     "totalCertificados": 12,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Gest%C3%A3o%20%C3%81gil%20de%20Projetos",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2024 - 2025",
     "lastUpdated": "2026-03-01T10:41:28.303458"
   },
   {
@@ -1465,7 +1433,7 @@
     "totalCertificados": 2,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Governan%C3%A7a%20de%20TI",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2026",
     "lastUpdated": "2026-03-01T10:41:29.375079"
   },
   {
@@ -1573,7 +1541,7 @@
     "totalCertificados": 13,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Lean%2C%20Governan%C3%A7a%20e%20Agilidade%20Escalada",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2024 - 2025",
     "lastUpdated": "2026-03-01T10:41:30.556509"
   },
   {
@@ -1625,7 +1593,7 @@
     "totalCertificados": 4,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Linguagem%20C",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2023 - 2024",
     "lastUpdated": "2026-03-01T10:41:31.633605"
   },
   {
@@ -1675,63 +1643,8 @@
     "totalCertificados": 4,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Machine%20Learning%20com%20Python%20-%20Regress%C3%A3o",
     "status": "Concluído",
-    "ano": "2026",
+    "ano": "2025 - 2026",
     "lastUpdated": "2026-11-13T14:55:43.080577"
-  },
-  {
-    "id": "machine-learning-na-pratica",
-    "titulo": "Machine Learning Na Prática",
-    "tipo": "Formação",
-    "instituicao": "Alura",
-    "categoria": "Machine Learning",
-    "duracao": "48 horas",
-    "destaque": false,
-    "thumbnail": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-formacao.webp",
-    "competencias": [],
-    "descricao": "Certificação em Machine Learning Na Prática pela Alura",
-    "descricaoCompleta": "Certificação em Machine Learning Na Prática pela Alura",
-    "certificados": [
-      {
-        "nome": "Machine Learning na prática - Formação.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Machine%20Learning%20na%20pr%C3%A1tica/Machine%20Learning%20na%20pr%C3%A1tica%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-formacao.webp",
-        "isFormacao": true
-      },
-      {
-        "nome": "Machine Learning na prática 01 - Curso Machine Learning - classificação com SKLearn.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Machine%20Learning%20na%20pr%C3%A1tica/Machine%20Learning%20na%20pr%C3%A1tica%2001%20-%20Curso%20Machine%20Learning%20-%20classifica%C3%A7%C3%A3o%20com%20SKLearn.pdf",
-        "preview": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-01-curso-machine-learn.webp",
-        "isFormacao": false
-      },
-      {
-        "nome": "Machine Learning na prática 02 - Curso Data Science - testando relações com Regressão Linear.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Machine%20Learning%20na%20pr%C3%A1tica/Machine%20Learning%20na%20pr%C3%A1tica%2002%20-%20Curso%20Data%20Science%20-%20testando%20rela%C3%A7%C3%B5es%20com%20Regress%C3%A3o%20Linear.pdf",
-        "preview": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-02-curso-data-science.webp",
-        "isFormacao": false
-      },
-      {
-        "nome": "Machine Learning na prática 03 - Curso Clusterização - lidando com dados sem rótulo.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Machine%20Learning%20na%20pr%C3%A1tica/Machine%20Learning%20na%20pr%C3%A1tica%2003%20-%20Curso%20Clusteriza%C3%A7%C3%A3o%20-%20lidando%20com%20dados%20sem%20r%C3%B3tulo.pdf",
-        "preview": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-03-curso-clusterizacao.webp",
-        "isFormacao": false
-      },
-      {
-        "nome": "Machine Learning na prática 04 - Curso NLP - aplicando processamento de linguagem natural para análise de sentimentos.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Machine%20Learning%20na%20pr%C3%A1tica/Machine%20Learning%20na%20pr%C3%A1tica%2004%20-%20Curso%20NLP%20-%20aplicando%20processamento%20de%20linguagem%20natural%20para%20an%C3%A1lise%20de%20sentimentos.pdf",
-        "preview": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-04-curso-nlp-aplicando.webp",
-        "isFormacao": false
-      },
-      {
-        "nome": "Machine Learning na prática 05 - Curso Dash - construindo dashboards para modelos de Machine Learning.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Machine%20Learning%20na%20pr%C3%A1tica/Machine%20Learning%20na%20pr%C3%A1tica%2005%20-%20Curso%20Dash%20-%20construindo%20dashboards%20para%20modelos%20de%20Machine%20Learning.pdf",
-        "preview": "assets/img/certificados/machine-learning-na-pratica/machine-learning-na-pratica-05-curso-dash-construi.webp",
-        "isFormacao": false
-      }
-    ],
-    "totalCertificados": 6,
-    "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Machine%20Learning%20na%20pr%C3%A1tica",
-    "status": "Concluído",
-    "ano": "2026"
   },
   {
     "id": "microsoft-sql-server-2022",
@@ -1807,7 +1720,7 @@
     "totalCertificados": 8,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Microsoft%20SQL%20Server%202022",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2023",
     "lastUpdated": "2026-03-01T10:41:34.726493"
   },
   {
@@ -1872,7 +1785,7 @@
     "totalCertificados": 6,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Modelagem%20de%20dados",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2023",
     "lastUpdated": "2026-03-01T10:41:35.791035"
   },
   {
@@ -2016,7 +1929,7 @@
     "totalCertificados": 4,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Negocia%C3%A7%C3%A3o",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2025 - 2026",
     "lastUpdated": "2026-03-01T10:41:38.045755"
   },
   {
@@ -2080,7 +1993,7 @@
     "totalCertificados": 6,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/SQL%20com%20MySQL%20Server%20da%20Oracle",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2023",
     "lastUpdated": "2026-03-01T10:41:43.786941"
   },
   {
@@ -2151,7 +2064,7 @@
     "totalCertificados": 7,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Pensamento%20Estrat%C3%A9gico",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2024",
     "lastUpdated": "2026-03-01T10:41:39.148024"
   },
   {
@@ -2222,7 +2135,7 @@
     "totalCertificados": 7,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Power%20Bi",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2023",
     "lastUpdated": "2026-03-01T10:41:40.204195"
   },
   {
@@ -2342,7 +2255,7 @@
     "totalCertificados": 8,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Tableau",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2023 - 2024",
     "lastUpdated": "2026-03-01T10:41:44.874225"
   },
   {
@@ -2407,7 +2320,7 @@
     "totalCertificados": 6,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Times%20de%20alta%20performance",
     "status": "Concluído",
-    "ano": "2025",
+    "ano": "2024 - 2025",
     "lastUpdated": "2026-03-01T10:41:46.245550"
   }
 ]

@@ -5436,3 +5436,60 @@ mark {
     margin: 1.5cm;
   }
 }
+
+/* ===============================
+   CHAMADAS PARA CONTATO
+   =============================== */
+.hero-actions,
+.contato-acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.contato-card {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius);
+}
+
+.contato-card h2 {
+  margin-bottom: 0.75rem;
+}
+
+.contato-card .contato-acoes {
+  justify-content: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.footer-links a {
+  color: var(--muted);
+  transition: var(--transition);
+}
+
+.footer-links a:hover,
+.footer-links a:focus-visible {
+  color: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .hero-actions .btn,
+  .contato-acoes .btn {
+    flex: 1 1 100%;
+  }
+
+  .contato-card {
+    padding: 2rem 1.25rem;
+  }
+}

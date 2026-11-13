@@ -1,9 +1,9 @@
 [
   {
     "id": "regressao-linear",
-    "titulo": "Regressao Linear - Transformacao de Variaveis",
+    "titulo": "Regressão Linear - Transformação de Variáveis",
     "plataforma": "Alura",
-    "descricao": "Construcao de modelos de regressao linear multipla com transformacao logaritmica para precificacao de imoveis e hospedagens - analise exploratoria completa, visualizacoes, correlacoes, residuos e interpretacao de coeficientes.",
+    "descricao": "Construção de modelos de regressão linear multipla com transformação logaritmica para precificação de imoveis e hospedagens - análise exploratoria completa, visualizacoes, correlacoes, residuos e interpretacao de coeficientes.",
     "descricaoCompleta": "",
     "thumbnail": "assets/img/estudos/regressao-linear.webp",
     "tecnologias": [
@@ -21,9 +21,9 @@
   },
   {
     "id": "arvores-de-regressao",
-    "titulo": "Arvores de Regressao - Precificacao de Entregas",
+    "titulo": "Árvores de Regressão - Precificação de Entregas",
     "plataforma": "Alura",
-    "descricao": "Construcao de modelos de regressao com Decision Tree e Random Forest para precificar o custo de entrega de esculturas artisticas — do overfitting a otimizacao com GridSearchCV e validacao cruzada.",
+    "descricao": "Construção de modelos de regressão com Decision Tree e Random Forest para precificar o custo de entrega de esculturas artisticas — do overfitting a otimização com GridSearchCV e validação cruzada.",
     "descricaoCompleta": "",
     "thumbnail": "assets/img/estudos/arvores-de-regressao.webp",
     "tecnologias": [
@@ -41,9 +41,9 @@
   },
   {
     "id": "regressao-xgboost",
-    "titulo": "Regressao com XGBoost - Precificacao de Automoveis",
+    "titulo": "Regressão com XGBoost - Precificação de Automóveis",
     "plataforma": "Alura",
-    "descricao": "Construcao de modelos de regressao com Gradient Boosting (XGBoost) para estimar o valor de automoveis — da modelagem base a otimizacao com GridSearchCV, early stopping e tuning de learning rate.",
+    "descricao": "Construção de modelos de regressão com Gradient Boosting (XGBoost) para estimar o valor de automóveis — da modelagem base a otimização com GridSearchCV, early stopping e tuning de learning rate.",
     "descricaoCompleta": "",
     "thumbnail": "assets/img/estudos/regressao-xgboost.webp",
     "tecnologias": [

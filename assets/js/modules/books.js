@@ -45,7 +45,7 @@ async function loadFeaturedBooks() {
     const books = await fetchWithRetry(CONFIG.booksPath);
 
     if (!Array.isArray(books)) {
-      throw new Error('Formato de dados invalido');
+      throw new Error('Formato de dados inválido');
     }
 
     allBooks = books;
@@ -182,7 +182,7 @@ async function loadAllBooks() {
     const books = await fetchWithRetry(CONFIG.booksPath);
 
     if (!Array.isArray(books)) {
-      throw new Error('Formato de dados invalido');
+      throw new Error('Formato de dados inválido');
     }
 
     allBooks = books;
@@ -201,6 +201,11 @@ async function loadAllBooks() {
 
     // Inicializa handlers do modal
     initBookModalHandlers();
+
+    // Veio de um card da pagina inicial: abre o livro pedido
+    const abrir = new URLSearchParams(window.location.search).get('abrir');
+    const pedido = abrir && books.find(b => b.id === abrir);
+    if (pedido) openBookModal(pedido);
 
   } catch (error) {
     console.error('Erro ao carregar livros:', error);
@@ -385,7 +390,7 @@ function generateBookStats(books) {
           <path d="M14 2V8H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
         <div class="book-stat-number">${totalPages.toLocaleString()}</div>
-        <div class="book-stat-label">Paginas</div>
+        <div class="book-stat-label">Páginas</div>
       </div>
 
       <div class="book-stat-card">
@@ -393,7 +398,7 @@ function generateBookStats(books) {
           <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
         </svg>
         <div class="book-stat-number">${avgRating}</div>
-        <div class="book-stat-label">Media</div>
+        <div class="book-stat-label">Média</div>
       </div>
     </div>
   `;
@@ -513,7 +518,11 @@ export function openBookModal(book) {
   currentBook = book;
 
   const modal = document.getElementById('bookModal');
-  if (!modal) return;
+  if (!modal) {
+    // Pagina sem modal (ex.: inicio): abre o livro na pagina de livros
+    window.location.href = `livros.html?abrir=${encodeURIComponent(book.id)}`;
+    return;
+  }
 
   populateBookModal(book);
 
