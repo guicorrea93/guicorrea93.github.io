@@ -7,7 +7,7 @@
     "categoria": "Data Science",
     "duracao": "48 horas",
     "destaque": true,
-    "thumbnail": "assets/img/certificados/machine-learning-thumb.png",
+    "thumbnail": "assets/img/certificados/machine-learning/machine-learning-na-pratica-formacao.png",
     "competencias": [
       "Machine Learning",
       "Classificação",
@@ -73,7 +73,7 @@
     "categoria": "Metodologias Ágeis",
     "duracao": "50 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/agilidade-abordagens-praticas-avancadas-thumb.png",
+    "thumbnail": "assets/img/certificados/agilidade-abordagens-praticas-avancadas/agilidade-abordagens-e-praticas-avancadas-formacao.png",
     "competencias": [
       "Agilidade",
       "Scrum",
@@ -145,7 +145,7 @@
     "categoria": "Data Science",
     "duracao": "86h",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/avancando-data-science-python-thumb.png",
+    "thumbnail": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-formacao.png",
     "competencias": [
       "Python",
       "Data Visualization",
@@ -235,7 +235,7 @@
     "categoria": "Agilidade",
     "duracao": "57 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/business-agility-thumb.png",
+    "thumbnail": "assets/img/certificados/business-agility/business-agility-formacao.png",
     "competencias": [
       "Business Agility",
       "Gestão Ágil",
@@ -318,7 +318,7 @@
     "categoria": "Excel e Business Intelligence",
     "duracao": "54 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/business-intelligence-excel-thumb.png",
+    "thumbnail": "assets/img/certificados/business-intelligence-excel/business-intelligence-com-excel-formacao.png",
     "competencias": [
       "Excel Avançado",
       "Business Intelligence",
@@ -388,7 +388,7 @@
     "categoria": "Business Intelligence",
     "duracao": "60 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/business-intelligence-data-warehouse-thumb.png",
+    "thumbnail": "assets/img/certificados/business-intelligence-data-warehouse/bi-e-data-warehouse-com-sql-server-e-power-bi-form.png",
     "competencias": [
       "Business Intelligence",
       "Data Warehouse",
@@ -460,7 +460,7 @@
     "categoria": "Soft Skills",
     "duracao": "54 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/comunicacao-thumb.png",
+    "thumbnail": "assets/img/certificados/comunicacao/comunicacao-formacao.png",
     "competencias": [
       "Comunicação",
       "Oratória",
@@ -537,7 +537,7 @@
     "categoria": "Liderança e Comunicação",
     "duracao": "46 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/comunicacao-lideres-thumb.png",
+    "thumbnail": "assets/img/certificados/comunicacao-lideres/comunicacao-para-lideres-formacao.png",
     "competencias": [
       "Comunicação Assertiva",
       "Liderança",
@@ -608,7 +608,7 @@
     "categoria": "Data Science",
     "duracao": "49h",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/data-science-thumb.png",
+    "thumbnail": "assets/img/certificados/data-science/data-science-formacao-formacao-data-science.png",
     "competencias": [
       "Python",
       "Pandas",
@@ -673,7 +673,7 @@
     "categoria": "Data Science",
     "duracao": "80 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/data-science-academy-thumb.png",
+    "thumbnail": "assets/img/certificados/data-science-academy/certificado-data-science-para-analise-multivariada.png",
     "competencias": [
       "Python",
       "Data Science",
@@ -743,7 +743,7 @@
     "categoria": "Data Science",
     "duracao": "69 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/data-science-python-thumb.png",
+    "thumbnail": "assets/img/certificados/data-science-python/python-para-data-science-formacao.png",
     "competencias": [
       "Python",
       "Data Science",
@@ -826,7 +826,7 @@
     "categoria": "Agilidade e Transformação Digital",
     "duracao": "69 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/digital-e-agile-thinking-thumb.png",
+    "thumbnail": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-formacao.png",
     "competencias": [
       "Agile Thinking",
       "Transformação Digital",
@@ -909,7 +909,7 @@
     "categoria": "Power BI",
     "duracao": "55 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/dominando-power-bi-thumb.png",
+    "thumbnail": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-formacao.png",
     "competencias": [
       "Power BI",
       "Power Query",
@@ -981,7 +981,7 @@
     "categoria": "Empreendedorismo e Negócios",
     "duracao": "76 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/empreendedorismo-digital-thumb.png",
+    "thumbnail": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-formacao.png",
     "competencias": [
       "Empreendedorismo",
       "Criação de Negócios",
@@ -1101,7 +1101,7 @@
     "categoria": "Estatística e Data Science",
     "duracao": "71 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/estatistica-python-thumb.png",
+    "thumbnail": "assets/img/certificados/estatistica-python/estatistica-com-python-formacao.png",
     "competencias": [
       "Estatística Descritiva",
       "Probabilidade",
@@ -1185,7 +1185,7 @@
     "categoria": "Excel e Análise de Dados",
     "duracao": "58 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/excel-thumb.png",
+    "thumbnail": "assets/img/certificados/excel/excel-formacao.png",
     "competencias": [
       "Excel",
       "Análise de Dados",
@@ -1287,7 +1287,7 @@
     "categoria": "Ferramentas de Desenvolvimento",
     "duracao": "8 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/ferramentas-desenvolvedores-produtividade-engenharia-thumb.png",
+    "thumbnail": "assets/img/certificados/ferramentas-desenvolvedores-produtividade-engenharia/ferramentas-essenciais-para-devs-01-curso-git-e-gi.png",
     "competencias": [
       "Git e GitHub",
       "Controle de Versão",
@@ -1331,7 +1331,7 @@
     "categoria": "Gestão Ágil e Projetos",
     "duracao": "85 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/gestao-agil-projetos-thumb.png",
+    "thumbnail": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-formacao.png",
     "competencias": [
       "Gestão Ágil",
       "Scrum",
@@ -1432,7 +1432,7 @@
     "categoria": "Governança e Gestão de TI",
     "duracao": "8 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/governanca-ti-estrategia-gestao-valor-thumb.png",
+    "thumbnail": "assets/img/certificados/governanca-ti-estrategia-gestao-valor/governanca-de-ti-01-curso-governanca-de-ti-alinham.png",
     "competencias": [
       "Governança de TI",
       "Alinhamento Estratégico",
@@ -1476,7 +1476,7 @@
     "categoria": "Agilidade Escalada e Governança",
     "duracao": "94 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/lean-governanca-agilidade-escalada-thumb.png",
+    "thumbnail": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-formacao.png",
     "competencias": [
       "Lean Agile",
       "Agilidade Escalada",
@@ -1584,7 +1584,7 @@
     "categoria": "Programação",
     "duracao": "26 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/linguagem-c-thumb.png",
+    "thumbnail": "assets/img/certificados/linguagem-c/linguagem-c-formacao.png",
     "competencias": [
       "Linguagem C",
       "Lógica de Programação",
@@ -1741,7 +1741,7 @@
     "categoria": "Banco de Dados",
     "duracao": "79 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/microsoft-sql-server-2022-thumb.png",
+    "thumbnail": "assets/img/certificados/microsoft-sql-server-2022/microsoft-sql-server-2022-formacao.png",
     "competencias": [
       "SQL",
       "T-SQL",
@@ -1818,7 +1818,7 @@
     "categoria": "Banco de Dados",
     "duracao": "33 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/modelagem-dados-thumb.png",
+    "thumbnail": "assets/img/certificados/modelagem-dados/modelagem-de-dados-formacao.png",
     "competencias": [
       "Modelagem de Dados",
       "Banco de Dados Relacional",
@@ -1883,7 +1883,7 @@
     "categoria": "Processos e Governança",
     "duracao": "68 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/modelagem-melhoria-processos-negocios-thumb.png",
+    "thumbnail": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-for.png",
     "competencias": [
       "Gestão de Processos",
       "BPM",
@@ -1974,7 +1974,7 @@
     "categoria": "Negociação e Comunicação",
     "duracao": "31 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/negociacao-praticas-estrategias-avancadas-thumb.png",
+    "thumbnail": "assets/img/certificados/negociacao-praticas-estrategias-avancadas/negociacao-formacao.png",
     "competencias": [
       "Negociação",
       "Comunicação Estratégica",
@@ -2027,7 +2027,7 @@
     "categoria": "Banco de Dados",
     "duracao": "66 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/oracle-mysql-thumb.png",
+    "thumbnail": "assets/img/certificados/oracle-mysql/sql-com-mysql-server-da-oracle-formacao.png",
     "competencias": [
       "MySQL",
       "SQL",
@@ -2091,7 +2091,7 @@
     "categoria": "Estratégia e Gestão",
     "duracao": "42 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/pensamento-estrategico-thumb.png",
+    "thumbnail": "assets/img/certificados/pensamento-estrategico/pensamento-estrategico-formacao.png",
     "competencias": [
       "Pensamento Estratégico",
       "Gestão Estratégica",
@@ -2162,7 +2162,7 @@
     "categoria": "Business Intelligence",
     "duracao": "55 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/power-bi-thumb.png",
+    "thumbnail": "assets/img/certificados/power-bi/power-bi-formacao.png",
     "competencias": [
       "Power BI",
       "Business Intelligence",
@@ -2233,7 +2233,7 @@
     "categoria": "Business Intelligence",
     "duracao": "10 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/refuturiza-thumb.png",
+    "thumbnail": "assets/img/certificados/refuturiza/curso-de-lgpd.png",
     "competencias": [
       "Power BI",
       "LGPD",
@@ -2276,7 +2276,7 @@
     "categoria": "Business Intelligence",
     "duracao": "92 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/tableau-thumb.png",
+    "thumbnail": "assets/img/certificados/tableau/tableau-formacao.png",
     "competencias": [
       "Tableau",
       "Business Intelligence",
@@ -2353,7 +2353,7 @@
     "categoria": "Liderança e Gestão",
     "duracao": "46 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/times-alta-performance-thumb.png",
+    "thumbnail": "assets/img/certificados/times-alta-performance/times-de-alta-performance-formacao.png",
     "competencias": [
       "Liderança",
       "Gestão de Pessoas",
