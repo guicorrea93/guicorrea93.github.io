@@ -36,6 +36,34 @@ import { initBooks, openBookModal, closeBookModal } from './modules/books.js';
 
 // --- Studies ---
 import { initStudies } from './modules/studies.js';
+import { CONFIG } from './modules/config.js';
+
+// ===============================
+// NUMEROS DO TOPO (calculados dos dados, para nao envelhecerem)
+// ===============================
+
+async function fillHeroStats() {
+  const alvo = (nome) => document.querySelectorAll(`[data-stat="${nome}"]`);
+  if (!alvo('projetos').length) return;
+  const preencher = (nome, valor) => alvo(nome).forEach(el => { el.textContent = valor; });
+
+  // Analista de dados/BI desde ago/2022
+  const anos = Math.floor((Date.now() - new Date(2022, 7, 1)) / (365.25 * 24 * 3600 * 1000));
+  preencher('anos', anos);
+
+  try {
+    const [projetos, certificados] = await Promise.all([
+      fetch(CONFIG.projectsPath).then(r => r.json()),
+      fetch(CONFIG.certsPath).then(r => r.json()),
+    ]);
+    preencher('projetos', projetos.length);
+    preencher('formacoes', certificados.length);
+    preencher('certificados', certificados.reduce((s, c) => s + (c.totalCertificados || 0), 0));
+  } catch (erro) {
+    // Mantem os numeros escritos no HTML
+    console.warn('Numeros do topo nao atualizados:', erro);
+  }
+}
 
 // ===============================
 // NAMESPACE GLOBAL (para onclick inline no HTML gerado)
@@ -69,6 +97,7 @@ function init() {
     setTopbar();
     setYear();
     initSmoothScroll();
+    fillHeroStats();
     initScrollSpy();
     initLazyLoading();
     manageFocus();

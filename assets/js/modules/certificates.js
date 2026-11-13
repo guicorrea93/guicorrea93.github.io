@@ -367,20 +367,43 @@ function animateCertCards(container) {
 // GERACAO DINAMICA DE FILTROS
 // ===============================
 
+// Nome legivel do curso a partir do nome do arquivo PDF
+function nomeDoCurso(nomeArquivo = '') {
+  const nome = nomeArquivo.replace(/\.pdf$/i, '').trim();
+  if (/-\s*Forma\u00e7\u00e3o$/i.test(nome)) return 'Certificado da forma\u00e7\u00e3o';
+  const curso = nome.match(/\b\d{2}\s-\s(?:Curso\s+)?(.+)$/);
+  if (curso) return curso[1];
+  return nome.replace(/^Certificado\s*-\s*/i, '');
+}
+
+const ORDEM_GRUPOS = [
+  'Dados & BI',
+  'Data Science & ML',
+  'Banco de Dados & SQL',
+  'Programação & IA',
+  'Gestão & Agilidade',
+  'Processos & Governança',
+  'Comunicação & Liderança',
+];
+
 function generateDynamicFilters(certificates) {
   const filtersSection = document.querySelector('.filters');
   if (!filtersSection) return;
 
-  // Coleta categorias unicas e conta certificados
+  // Conta formacoes por grupo (o card continua mostrando a categoria especifica)
   const categoryCounts = {};
 
   certificates.forEach(cert => {
-    const categoria = cert.categoria || 'Sem Categoria';
-    categoryCounts[categoria] = (categoryCounts[categoria] || 0) + 1;
+    const grupo = cert.grupo || cert.categoria || 'Outros';
+    categoryCounts[grupo] = (categoryCounts[grupo] || 0) + 1;
   });
 
-  // Ordena categorias alfabeticamente
-  const sortedCategories = Object.keys(categoryCounts).sort();
+  // Ordem fixa: o que e de dados primeiro; grupos novos vao para o fim
+  const sortedCategories = Object.keys(categoryCounts).sort((a, b) => {
+    const ia = ORDEM_GRUPOS.indexOf(a);
+    const ib = ORDEM_GRUPOS.indexOf(b);
+    return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.localeCompare(b);
+  });
 
   // Conta total
   const totalCount = certificates.length;
@@ -397,8 +420,8 @@ function generateDynamicFilters(certificates) {
       const count = categoryCounts[categoria];
       const slug = categoria.toLowerCase().replace(/\s+/g, '-');
 
-      return `<button class="chip" data-filter="${categoria}" aria-label="Filtrar ${categoria}">
-        ${categoria} <span style="opacity: 0.7; font-size: 0.75em; margin-left: 4px;">(${count})</span>
+      return `<button class="chip" data-filter="${escapeHTML(categoria)}" aria-label="Filtrar ${escapeHTML(categoria)}">
+        ${escapeHTML(categoria)} <span style="opacity: 0.7; font-size: 0.75em; margin-left: 4px;">(${count})</span>
       </button>`;
     })
   ].join('');
@@ -421,13 +444,7 @@ function renderAllCertificates(certificates, filter = 'all', searchTerm = '') {
 
   // Aplica filtro de categoria
   if (filter !== 'all') {
-    filtered = filtered.filter(cert => {
-      const categoria = (cert.categoria || '').toLowerCase();
-      const filterLower = filter.toLowerCase();
-
-      // Match exato ou parcial
-      return categoria === filterLower || categoria.includes(filterLower);
-    });
+    filtered = filtered.filter(cert => (cert.grupo || cert.categoria || 'Outros') === filter);
   }
 
   // Aplica busca textual
@@ -628,7 +645,7 @@ function showCertStatistics(certificates) {
 
   const total = certificates.length;
   const emDestaque = certificates.filter(c => c.destaque).length;
-  const categorias = new Set(certificates.map(c => c.categoria)).size;
+  const categorias = new Set(certificates.map(c => c.grupo || c.categoria)).size;
   const instituicoes = new Set(certificates.map(c => c.instituicao)).size;
 
   statsContainer.innerHTML = `
@@ -724,11 +741,11 @@ function populateCertModal(cert) {
       </div>
       <div class="cert-gallery">
         ${certificados.map((c, idx) => `
-          <div class="cert-gallery-item" data-cert-index="${idx}">
+          <a class="cert-gallery-item" data-cert-index="${idx}" href="${escapeHTML(c.url)}" target="_blank" rel="noopener noreferrer">
             <div class="cert-gallery-thumb">
               <img
                 src="${c.preview || 'assets/img/certificados/placeholder-cert.webp'}"
-                alt="${escapeHTML(c.nome)}"
+                alt="${escapeHTML(nomeDoCurso(c.nome))}"
                 loading="lazy"
               />
               <div class="cert-gallery-overlay">
@@ -737,18 +754,13 @@ function populateCertModal(cert) {
                 </svg>
               </div>
             </div>
-            <div class="cert-gallery-name">${escapeHTML(c.nome)}</div>
-          </div>
+            <div class="cert-gallery-name">${escapeHTML(nomeDoCurso(c.nome))}</div>
+          </a>
         `).join('')}
       </div>
     `;
     previewContainer.style.display = 'block';
 
-    previewContainer.querySelectorAll('.cert-gallery-item').forEach((item, idx) => {
-      item.addEventListener('click', () => {
-        window.open(certificados[idx].url, '_blank', 'noopener,noreferrer');
-      });
-    });
 
   } else if (preview) {
     previewContainer.innerHTML = `

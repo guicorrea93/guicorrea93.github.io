@@ -35,15 +35,15 @@ export function setTopbar() {
   // MENU: so existe completo no index.html
   const menuHTML = (currentPage === 'index.html')
     ? `
-      <div class="menu">
+      <div class="menu menu-index" id="menuPrincipal">
         <a href="index.html#inicio" aria-label="Ir para o in\u00edcio">In\u00edcio</a>
-
-        <a href="index.html#sobre" aria-label="Ir para se\u00e7\u00e3o sobre">
-          Sobre
-        </a>
 
         <a href="index.html#projetos" aria-label="Ir para se\u00e7\u00e3o de projetos">
           Projetos
+        </a>
+
+        <a href="index.html#sobre" aria-label="Ir para se\u00e7\u00e3o sobre">
+          Sobre
         </a>
 
         <a href="index.html#diplomas" aria-label="Ir para se\u00e7\u00e3o de diplomas">
@@ -86,32 +86,58 @@ export function setTopbar() {
         <span>
           Guilherme <b>Corr\u00eaa</b>
 
-          <a class="btn small primary"
+          <a class="btn small primary brand-link"
              href="https://www.linkedin.com/in/guilherme-corr%C3%AAa-893781169/"
              target="_blank"
              rel="noopener">
             LinkedIn
           </a>
 
-          <a class="btn small ghost"
+          <a class="btn small ghost brand-link"
              href="https://github.com/guicorrea93"
              target="_blank"
              rel="noopener">
             GitHub
           </a>
 
-          <a class="btn small ghost"
+          <a class="btn small ghost brand-link"
              href="mailto:guilherme93_correa@hotmail.com">
             Email
           </a>
         </span>
       </div>
 
+      ${currentPage === 'index.html' ? `
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menuPrincipal">
+        <span aria-hidden="true">☰</span> Menu
+      </button>` : ''}
+
       ${menuHTML}
     </nav>
   `;
 
   topbarElement.innerHTML = navHTML;
+
+  // Celular: o menu fica recolhido atras do botao "Menu"
+  const nav = topbarElement.querySelector('.nav');
+  const toggle = topbarElement.querySelector('.menu-toggle');
+  if (toggle) {
+    const fechar = () => {
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    };
+    toggle.addEventListener('click', () => {
+      const aberto = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', String(aberto));
+    });
+    topbarElement.querySelectorAll('#menuPrincipal a').forEach(a => a.addEventListener('click', fechar));
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && nav.classList.contains('open')) {
+        fechar();
+        toggle.focus();
+      }
+    });
+  }
 }
 
 // ===============================

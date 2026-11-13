@@ -1,10 +1,168 @@
 [
   {
+    "id": "data-science-python",
+    "titulo": "Data Science com Python",
+    "tipo": "Formação",
+    "instituicao": "Alura",
+    "categoria": "Data Science",
+    "grupo": "Data Science & ML",
+    "duracao": "69 horas",
+    "destaque": true,
+    "thumbnail": "assets/img/certificados/data-science-python/python-para-data-science-formacao.png",
+    "competencias": [
+      "Python",
+      "Data Science",
+      "Análise de Dados",
+      "NumPy",
+      "Pandas",
+      "Manipulação de Dados",
+      "Limpeza de Dados",
+      "ETL"
+    ],
+    "descricao": "Formação focada em **Data Science com Python**, cobrindo fundamentos da linguagem, análise de dados e uso das principais bibliotecas do ecossistema.",
+    "descricaoCompleta": "A formação **Data Science com Python** da Alura oferece uma base sólida para atuação em projetos de análise e ciência de dados, utilizando **Python** como linguagem principal.\n\nAo longo da formação, são abordados desde os fundamentos da linguagem e estruturas de dados até o uso intensivo das bibliotecas **NumPy** e **Pandas**, amplamente adotadas no mercado. O foco está na **leitura, transformação, limpeza, manipulação e análise de dados**, preparando o profissional para lidar com bases reais e cenários comuns em projetos de dados.\n\nA formação cobre práticas essenciais de **ETL**, análise exploratória e organização de dados, criando uma base robusta para avançar em estatística, machine learning e visualização de dados.\n\n---",
+    "certificados": [
+      {
+        "nome": "Python para Data Science - Formação.pdf",
+        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%20-%20Forma%C3%A7%C3%A3o.pdf",
+        "preview": "assets/img/certificados/data-science-python/python-para-data-science-formacao.png",
+        "isFormacao": true
+      },
+      {
+        "nome": "Python para Data Science 01 - Curso Python para Data Science - primeiros passos.pdf",
+        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2001%20-%20Curso%20Python%20para%20Data%20Science%20-%20primeiros%20passos.pdf",
+        "preview": "assets/img/certificados/data-science-python/python-para-data-science-01-curso-python-para-data.png",
+        "isFormacao": false
+      },
+      {
+        "nome": "Python para Data Science 02 - Curso Python para Data Science - trabalhando com funções, estruturas de dados e exceções.pdf",
+        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2002%20-%20Curso%20Python%20para%20Data%20Science%20-%20trabalhando%20com%20fun%C3%A7%C3%B5es%2C%20estruturas%20de%20dados%20e%20exce%C3%A7%C3%B5es.pdf",
+        "preview": "assets/img/certificados/data-science-python/python-para-data-science-02-curso-python-para-data.png",
+        "isFormacao": false
+      },
+      {
+        "nome": "Python para Data Science 03 - Curso NumPy - análise numérica eficiente com Python.pdf",
+        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2003%20-%20Curso%20NumPy%20-%20an%C3%A1lise%20num%C3%A9rica%20eficiente%20com%20Python.pdf",
+        "preview": "assets/img/certificados/data-science-python/python-para-data-science-03-curso-numpy-analise-nu.png",
+        "isFormacao": false
+      },
+      {
+        "nome": "Python para Data Science 04 - Curso Pandas - conhecendo a biblioteca.pdf",
+        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2004%20-%20Curso%20Pandas%20-%20conhecendo%20a%20biblioteca.pdf",
+        "preview": "assets/img/certificados/data-science-python/python-para-data-science-04-curso-pandas-conhecend.png",
+        "isFormacao": false
+      },
+      {
+        "nome": "Python para Data Science 05 - Curso Pandas I_O - trabalhando com diferentes formatos de arquivos.pdf",
+        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2005%20-%20Curso%20Pandas%20I_O%20-%20trabalhando%20com%20diferentes%20formatos%20de%20arquivos.pdf",
+        "preview": "assets/img/certificados/data-science-python/python-para-data-science-05-curso-pandas-i_o-traba.png",
+        "isFormacao": false
+      },
+      {
+        "nome": "Python para Data Science 06 - Curso Pandas - selecionando e agrupando dados.pdf",
+        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2006%20-%20Curso%20Pandas%20-%20selecionando%20e%20agrupando%20dados.pdf",
+        "preview": "assets/img/certificados/data-science-python/python-para-data-science-06-curso-pandas-seleciona.png",
+        "isFormacao": false
+      },
+      {
+        "nome": "Python para Data Science 07 - Curso Pandas - transformação e manipulação de dados.pdf",
+        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2007%20-%20Curso%20Pandas%20-%20transforma%C3%A7%C3%A3o%20e%20manipula%C3%A7%C3%A3o%20de%20dados.pdf",
+        "preview": "assets/img/certificados/data-science-python/python-para-data-science-07-curso-pandas-transform.png",
+        "isFormacao": true
+      },
+      {
+        "nome": "Python para Data Science 08 - Curso Pandas - limpeza e tratamento de dados.pdf",
+        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2008%20-%20Curso%20Pandas%20-%20limpeza%20e%20tratamento%20de%20dados.pdf",
+        "preview": "assets/img/certificados/data-science-python/python-para-data-science-08-curso-pandas-limpeza-e.png",
+        "isFormacao": false
+      }
+    ],
+    "totalCertificados": 9,
+    "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Python%20para%20Data%20Science",
+    "status": "Concluído",
+    "ano": "2024 - 2025",
+    "lastUpdated": "2026-03-01T10:41:41.307993"
+  },
+  {
+    "id": "dominando-power-bi",
+    "titulo": "Dominando o Power BI",
+    "tipo": "Formação",
+    "instituicao": "Alura",
+    "categoria": "Power BI",
+    "grupo": "Dados & BI",
+    "duracao": "55 horas",
+    "destaque": true,
+    "thumbnail": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-formacao.png",
+    "competencias": [
+      "Power BI",
+      "Power Query",
+      "Linguagem M",
+      "Modelagem de Dados",
+      "DAX",
+      "Row Level Security (RLS)",
+      "Visualização de Dados",
+      "Python",
+      "Business Intelligence"
+    ],
+    "descricao": "Formação focada no **domínio do Power BI**, abordando desde transformação e modelagem de dados até DAX, segurança e criação de visuais avançados.",
+    "descricaoCompleta": "A formação **Dominando o Power BI** da Alura é voltada para profissionais que desejam utilizar o Power BI de forma completa e profissional, explorando todas as etapas do fluxo analítico.\n\nO conteúdo percorre **transformação de dados com Power Query (Linguagem M)**, **modelagem de dados**, **criação de medidas com DAX**, **implementação de segurança com RLS** e **construção de visuais customizados**, além de integrar **Python ao Power BI** para análises mais avançadas.\n\nA formação prepara o aluno para criar dashboards robustos, performáticos e seguros, alinhados às necessidades do negócio e às boas práticas de Business Intelligence.\n\n---",
+    "certificados": [
+      {
+        "nome": "Dominando o Power BI - Formação.pdf",
+        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%20-%20Forma%C3%A7%C3%A3o.pdf",
+        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-formacao.png",
+        "isFormacao": true
+      },
+      {
+        "nome": "Dominando o Power BI 01 - Curso Power BI - mergulhando na linguagem M.pdf",
+        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%2001%20-%20Curso%20Power%20BI%20-%20mergulhando%20na%20linguagem%20M.pdf",
+        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-01-curso-power-bi-mergulhando.png",
+        "isFormacao": false
+      },
+      {
+        "nome": "Dominando o Power BI 02 - Curso Power BI - modelagem de dados.pdf",
+        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%2002%20-%20Curso%20Power%20BI%20-%20modelagem%20de%20dados.pdf",
+        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-02-curso-power-bi-modelagem-d.png",
+        "isFormacao": false
+      },
+      {
+        "nome": "Dominando o Power BI 03 - Curso Power BI - aplicando DAX ao negócio.pdf",
+        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%2003%20-%20Curso%20Power%20BI%20-%20aplicando%20DAX%20ao%20neg%C3%B3cio.pdf",
+        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-03-curso-power-bi-aplicando-d.png",
+        "isFormacao": false
+      },
+      {
+        "nome": "Dominando o Power BI 04 - Curso Power BI - aplicando a RLS.pdf",
+        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%2004%20-%20Curso%20Power%20BI%20-%20aplicando%20a%20RLS.pdf",
+        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-04-curso-power-bi-aplicando-a.png",
+        "isFormacao": false
+      },
+      {
+        "nome": "Dominando o Power BI 05 - Curso Power BI - criando visuais customizados.pdf",
+        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%2005%20-%20Curso%20Power%20BI%20-%20criando%20visuais%20customizados.pdf",
+        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-05-curso-power-bi-criando-vis.png",
+        "isFormacao": false
+      },
+      {
+        "nome": "Dominando o Power BI 06 - Curso Python e Power BI - analisando dados do mercado financeiro.pdf",
+        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%2006%20-%20Curso%20Python%20e%20Power%20BI%20-%20analisando%20dados%20do%20mercado%20financeiro.pdf",
+        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-06-curso-python-e-power-bi-an.png",
+        "isFormacao": false
+      }
+    ],
+    "totalCertificados": 7,
+    "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Dominando%20o%20Power%20BI",
+    "status": "Concluído",
+    "ano": "2023 - 2026",
+    "lastUpdated": "2026-03-01T10:41:22.769254"
+  },
+  {
     "id": "machine-learning",
     "titulo": "Machine Learning",
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Data Science",
+    "grupo": "Data Science & ML",
     "duracao": "48 horas",
     "destaque": true,
     "thumbnail": "assets/img/certificados/machine-learning/machine-learning-na-pratica-formacao.png",
@@ -71,6 +229,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Metodologias Ágeis",
+    "grupo": "Gestão & Agilidade",
     "duracao": "50 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/agilidade-abordagens-praticas-avancadas/agilidade-abordagens-e-praticas-avancadas-formacao.png",
@@ -143,6 +302,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Data Science",
+    "grupo": "Data Science & ML",
     "duracao": "86h",
     "destaque": false,
     "thumbnail": "assets/img/certificados/avancando-data-science-python/avancando-em-data-science-com-python-formacao.png",
@@ -233,6 +393,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Agilidade",
+    "grupo": "Gestão & Agilidade",
     "duracao": "57 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/business-agility/business-agility-formacao.png",
@@ -316,6 +477,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Excel e Business Intelligence",
+    "grupo": "Dados & BI",
     "duracao": "54 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/business-intelligence-excel/business-intelligence-com-excel-formacao.png",
@@ -386,6 +548,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Business Intelligence",
+    "grupo": "Dados & BI",
     "duracao": "60 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/business-intelligence-data-warehouse/bi-e-data-warehouse-com-sql-server-e-power-bi-form.png",
@@ -458,6 +621,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Soft Skills",
+    "grupo": "Comunicação & Liderança",
     "duracao": "54 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/comunicacao/comunicacao-formacao.png",
@@ -535,6 +699,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Liderança e Comunicação",
+    "grupo": "Comunicação & Liderança",
     "duracao": "46 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/comunicacao-lideres/comunicacao-para-lideres-formacao.png",
@@ -606,6 +771,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Data Science",
+    "grupo": "Data Science & ML",
     "duracao": "49h",
     "destaque": false,
     "thumbnail": "assets/img/certificados/data-science/data-science-formacao-formacao-data-science.png",
@@ -671,6 +837,7 @@
     "tipo": "Formação",
     "instituicao": "Data Science Academy",
     "categoria": "Data Science",
+    "grupo": "Data Science & ML",
     "duracao": "80 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/data-science-academy/analise-multivariada-de-dados.png",
@@ -736,94 +903,12 @@
     "lastUpdated": "2026-03-01T10:41:18.943622"
   },
   {
-    "id": "data-science-python",
-    "titulo": "Data Science com Python",
-    "tipo": "Formação",
-    "instituicao": "Alura",
-    "categoria": "Data Science",
-    "duracao": "69 horas",
-    "destaque": false,
-    "thumbnail": "assets/img/certificados/data-science-python/python-para-data-science-formacao.png",
-    "competencias": [
-      "Python",
-      "Data Science",
-      "Análise de Dados",
-      "NumPy",
-      "Pandas",
-      "Manipulação de Dados",
-      "Limpeza de Dados",
-      "ETL"
-    ],
-    "descricao": "Formação focada em **Data Science com Python**, cobrindo fundamentos da linguagem, análise de dados e uso das principais bibliotecas do ecossistema.",
-    "descricaoCompleta": "A formação **Data Science com Python** da Alura oferece uma base sólida para atuação em projetos de análise e ciência de dados, utilizando **Python** como linguagem principal.\n\nAo longo da formação, são abordados desde os fundamentos da linguagem e estruturas de dados até o uso intensivo das bibliotecas **NumPy** e **Pandas**, amplamente adotadas no mercado. O foco está na **leitura, transformação, limpeza, manipulação e análise de dados**, preparando o profissional para lidar com bases reais e cenários comuns em projetos de dados.\n\nA formação cobre práticas essenciais de **ETL**, análise exploratória e organização de dados, criando uma base robusta para avançar em estatística, machine learning e visualização de dados.\n\n---",
-    "certificados": [
-      {
-        "nome": "Python para Data Science - Formação.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/data-science-python/python-para-data-science-formacao.png",
-        "isFormacao": true
-      },
-      {
-        "nome": "Python para Data Science 01 - Curso Python para Data Science - primeiros passos.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2001%20-%20Curso%20Python%20para%20Data%20Science%20-%20primeiros%20passos.pdf",
-        "preview": "assets/img/certificados/data-science-python/python-para-data-science-01-curso-python-para-data.png",
-        "isFormacao": false
-      },
-      {
-        "nome": "Python para Data Science 02 - Curso Python para Data Science - trabalhando com funções, estruturas de dados e exceções.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2002%20-%20Curso%20Python%20para%20Data%20Science%20-%20trabalhando%20com%20fun%C3%A7%C3%B5es%2C%20estruturas%20de%20dados%20e%20exce%C3%A7%C3%B5es.pdf",
-        "preview": "assets/img/certificados/data-science-python/python-para-data-science-02-curso-python-para-data.png",
-        "isFormacao": false
-      },
-      {
-        "nome": "Python para Data Science 03 - Curso NumPy - análise numérica eficiente com Python.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2003%20-%20Curso%20NumPy%20-%20an%C3%A1lise%20num%C3%A9rica%20eficiente%20com%20Python.pdf",
-        "preview": "assets/img/certificados/data-science-python/python-para-data-science-03-curso-numpy-analise-nu.png",
-        "isFormacao": false
-      },
-      {
-        "nome": "Python para Data Science 04 - Curso Pandas - conhecendo a biblioteca.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2004%20-%20Curso%20Pandas%20-%20conhecendo%20a%20biblioteca.pdf",
-        "preview": "assets/img/certificados/data-science-python/python-para-data-science-04-curso-pandas-conhecend.png",
-        "isFormacao": false
-      },
-      {
-        "nome": "Python para Data Science 05 - Curso Pandas I_O - trabalhando com diferentes formatos de arquivos.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2005%20-%20Curso%20Pandas%20I_O%20-%20trabalhando%20com%20diferentes%20formatos%20de%20arquivos.pdf",
-        "preview": "assets/img/certificados/data-science-python/python-para-data-science-05-curso-pandas-i_o-traba.png",
-        "isFormacao": false
-      },
-      {
-        "nome": "Python para Data Science 06 - Curso Pandas - selecionando e agrupando dados.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2006%20-%20Curso%20Pandas%20-%20selecionando%20e%20agrupando%20dados.pdf",
-        "preview": "assets/img/certificados/data-science-python/python-para-data-science-06-curso-pandas-seleciona.png",
-        "isFormacao": false
-      },
-      {
-        "nome": "Python para Data Science 07 - Curso Pandas - transformação e manipulação de dados.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2007%20-%20Curso%20Pandas%20-%20transforma%C3%A7%C3%A3o%20e%20manipula%C3%A7%C3%A3o%20de%20dados.pdf",
-        "preview": "assets/img/certificados/data-science-python/python-para-data-science-07-curso-pandas-transform.png",
-        "isFormacao": true
-      },
-      {
-        "nome": "Python para Data Science 08 - Curso Pandas - limpeza e tratamento de dados.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Python%20para%20Data%20Science/Python%20para%20Data%20Science%2008%20-%20Curso%20Pandas%20-%20limpeza%20e%20tratamento%20de%20dados.pdf",
-        "preview": "assets/img/certificados/data-science-python/python-para-data-science-08-curso-pandas-limpeza-e.png",
-        "isFormacao": false
-      }
-    ],
-    "totalCertificados": 9,
-    "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Python%20para%20Data%20Science",
-    "status": "Concluído",
-    "ano": "2024 - 2025",
-    "lastUpdated": "2026-03-01T10:41:41.307993"
-  },
-  {
     "id": "digital-e-agile-thinking",
     "titulo": "Digital e Agile Thinking",
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Agilidade e Transformação Digital",
+    "grupo": "Gestão & Agilidade",
     "duracao": "69 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/digital-e-agile-thinking/digital-agile-thinking-formacao.png",
@@ -902,83 +987,12 @@
     "lastUpdated": "2026-03-01T10:41:21.672214"
   },
   {
-    "id": "dominando-power-bi",
-    "titulo": "Dominando o Power BI",
-    "tipo": "Formação",
-    "instituicao": "Alura",
-    "categoria": "Power BI",
-    "duracao": "55 horas",
-    "destaque": false,
-    "thumbnail": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-formacao.png",
-    "competencias": [
-      "Power BI",
-      "Power Query",
-      "Linguagem M",
-      "Modelagem de Dados",
-      "DAX",
-      "Row Level Security (RLS)",
-      "Visualização de Dados",
-      "Python",
-      "Business Intelligence"
-    ],
-    "descricao": "Formação focada no **domínio do Power BI**, abordando desde transformação e modelagem de dados até DAX, segurança e criação de visuais avançados.",
-    "descricaoCompleta": "A formação **Dominando o Power BI** da Alura é voltada para profissionais que desejam utilizar o Power BI de forma completa e profissional, explorando todas as etapas do fluxo analítico.\n\nO conteúdo percorre **transformação de dados com Power Query (Linguagem M)**, **modelagem de dados**, **criação de medidas com DAX**, **implementação de segurança com RLS** e **construção de visuais customizados**, além de integrar **Python ao Power BI** para análises mais avançadas.\n\nA formação prepara o aluno para criar dashboards robustos, performáticos e seguros, alinhados às necessidades do negócio e às boas práticas de Business Intelligence.\n\n---",
-    "certificados": [
-      {
-        "nome": "Dominando o Power BI - Formação.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%20-%20Forma%C3%A7%C3%A3o.pdf",
-        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-formacao.png",
-        "isFormacao": true
-      },
-      {
-        "nome": "Dominando o Power BI 01 - Curso Power BI - mergulhando na linguagem M.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%2001%20-%20Curso%20Power%20BI%20-%20mergulhando%20na%20linguagem%20M.pdf",
-        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-01-curso-power-bi-mergulhando.png",
-        "isFormacao": false
-      },
-      {
-        "nome": "Dominando o Power BI 02 - Curso Power BI - modelagem de dados.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%2002%20-%20Curso%20Power%20BI%20-%20modelagem%20de%20dados.pdf",
-        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-02-curso-power-bi-modelagem-d.png",
-        "isFormacao": false
-      },
-      {
-        "nome": "Dominando o Power BI 03 - Curso Power BI - aplicando DAX ao negócio.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%2003%20-%20Curso%20Power%20BI%20-%20aplicando%20DAX%20ao%20neg%C3%B3cio.pdf",
-        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-03-curso-power-bi-aplicando-d.png",
-        "isFormacao": false
-      },
-      {
-        "nome": "Dominando o Power BI 04 - Curso Power BI - aplicando a RLS.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%2004%20-%20Curso%20Power%20BI%20-%20aplicando%20a%20RLS.pdf",
-        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-04-curso-power-bi-aplicando-a.png",
-        "isFormacao": false
-      },
-      {
-        "nome": "Dominando o Power BI 05 - Curso Power BI - criando visuais customizados.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%2005%20-%20Curso%20Power%20BI%20-%20criando%20visuais%20customizados.pdf",
-        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-05-curso-power-bi-criando-vis.png",
-        "isFormacao": false
-      },
-      {
-        "nome": "Dominando o Power BI 06 - Curso Python e Power BI - analisando dados do mercado financeiro.pdf",
-        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Dominando%20o%20Power%20BI/Dominando%20o%20Power%20BI%2006%20-%20Curso%20Python%20e%20Power%20BI%20-%20analisando%20dados%20do%20mercado%20financeiro.pdf",
-        "preview": "assets/img/certificados/dominando-power-bi/dominando-o-power-bi-06-curso-python-e-power-bi-an.png",
-        "isFormacao": false
-      }
-    ],
-    "totalCertificados": 7,
-    "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Dominando%20o%20Power%20BI",
-    "status": "Concluído",
-    "ano": "2023 - 2026",
-    "lastUpdated": "2026-03-01T10:41:22.769254"
-  },
-  {
     "id": "empreendedorismo-digital",
     "titulo": "Empreendedorismo Digital",
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Empreendedorismo e Negócios",
+    "grupo": "Gestão & Agilidade",
     "duracao": "76 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/empreendedorismo-digital/empreendedorismo-digital-formacao.png",
@@ -1069,6 +1083,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Inteligência Artificial",
+    "grupo": "Programação & IA",
     "duracao": "8h",
     "destaque": false,
     "thumbnail": "assets/img/certificados/especialista-em-ia/01-curso-pensamento-computacional-fundamentos-da-c.png",
@@ -1099,6 +1114,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Estatística e Data Science",
+    "grupo": "Data Science & ML",
     "duracao": "71 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/estatistica-python/estatistica-com-python-formacao.png",
@@ -1183,6 +1199,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Excel e Análise de Dados",
+    "grupo": "Dados & BI",
     "duracao": "58 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/excel/excel-formacao.png",
@@ -1253,6 +1270,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Ferramentas de Desenvolvimento",
+    "grupo": "Programação & IA",
     "duracao": "8 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/ferramentas-desenvolvedores-produtividade-engenharia/ferramentas-essenciais-para-devs-01-curso-git-e-gi.png",
@@ -1297,6 +1315,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Gestão Ágil e Projetos",
+    "grupo": "Gestão & Agilidade",
     "duracao": "85 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/gestao-agil-projetos/gestao-agil-de-projetos-formacao.png",
@@ -1398,6 +1417,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Governança e Gestão de TI",
+    "grupo": "Processos & Governança",
     "duracao": "8 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/governanca-ti-estrategia-gestao-valor/governanca-de-ti-01-curso-governanca-de-ti-alinham.png",
@@ -1442,6 +1462,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Agilidade Escalada e Governança",
+    "grupo": "Gestão & Agilidade",
     "duracao": "94 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/lean-governanca-agilidade-escalada/lean-governanca-e-agilidade-escalada-formacao.png",
@@ -1550,6 +1571,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Programação",
+    "grupo": "Programação & IA",
     "duracao": "26 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/linguagem-c/linguagem-c-formacao.png",
@@ -1602,6 +1624,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Machine Learning",
+    "grupo": "Data Science & ML",
     "duracao": "32h",
     "destaque": false,
     "thumbnail": "assets/img/certificados/machine-learning-com-python-regressao/machine-learning-com-python-regressao-01-data-scie.png",
@@ -1652,6 +1675,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Banco de Dados",
+    "grupo": "Banco de Dados & SQL",
     "duracao": "79 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/microsoft-sql-server-2022/microsoft-sql-server-2022-formacao.png",
@@ -1729,6 +1753,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Banco de Dados",
+    "grupo": "Banco de Dados & SQL",
     "duracao": "33 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/modelagem-dados/modelagem-de-dados-formacao.png",
@@ -1794,6 +1819,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Processos e Governança",
+    "grupo": "Processos & Governança",
     "duracao": "68 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/modelagem-melhoria-processos-negocios/modelagem-e-melhorias-de-processos-de-negocios-for.png",
@@ -1885,6 +1911,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Negociação e Comunicação",
+    "grupo": "Comunicação & Liderança",
     "duracao": "31 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/negociacao-praticas-estrategias-avancadas/negociacao-formacao.png",
@@ -1938,6 +1965,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Banco de Dados",
+    "grupo": "Banco de Dados & SQL",
     "duracao": "66 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/oracle-mysql/sql-com-mysql-server-da-oracle-formacao.png",
@@ -2002,6 +2030,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Estratégia e Gestão",
+    "grupo": "Gestão & Agilidade",
     "duracao": "42 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/pensamento-estrategico/pensamento-estrategico-formacao.png",
@@ -2073,6 +2102,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Business Intelligence",
+    "grupo": "Dados & BI",
     "duracao": "55 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/power-bi/power-bi-formacao.png",
@@ -2144,6 +2174,7 @@
     "tipo": "Cursos Avulsos",
     "instituicao": "Refuturiza",
     "categoria": "Business Intelligence",
+    "grupo": "Dados & BI",
     "duracao": "10 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/refuturiza/curso-de-lgpd.png",
@@ -2187,6 +2218,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Business Intelligence",
+    "grupo": "Dados & BI",
     "duracao": "92 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/tableau/tableau-formacao.png",
@@ -2264,6 +2296,7 @@
     "tipo": "Formação",
     "instituicao": "Alura",
     "categoria": "Liderança e Gestão",
+    "grupo": "Comunicação & Liderança",
     "duracao": "46 horas",
     "destaque": false,
     "thumbnail": "assets/img/certificados/times-alta-performance/times-de-alta-performance-formacao.png",

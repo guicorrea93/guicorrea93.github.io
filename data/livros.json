@@ -54,7 +54,7 @@
     "capa": "assets/img/livros/furia-reis.webp",
     "anoLeitura": 2011,
     "mesLeitura": "Junho",
-    "destaque": true,
+    "destaque": false,
     "generos": [
       "Fantasia",
       "Épico",
@@ -99,7 +99,7 @@
     "capa": "assets/img/livros/tormenta-espadas.webp",
     "anoLeitura": 2012,
     "mesLeitura": "Setembro",
-    "destaque": true,
+    "destaque": false,
     "generos": [
       "Fantasia",
       "Épico",
@@ -144,7 +144,7 @@
     "capa": "assets/img/livros/festim-corvos.webp",
     "anoLeitura": 2013,
     "mesLeitura": "Fevereiro",
-    "destaque": true,
+    "destaque": false,
     "generos": [
       "Fantasia",
       "Épico",
@@ -189,7 +189,7 @@
     "capa": "assets/img/livros/danca-dragoes.webp",
     "anoLeitura": 2014,
     "mesLeitura": "Novembro",
-    "destaque": true,
+    "destaque": false,
     "generos": [
       "Fantasia",
       "Épico",
@@ -1127,7 +1127,7 @@
     "capa": "assets/img/livros/dan-brown-4.webp",
     "anoLeitura": 2014,
     "mesLeitura": "Abril",
-    "destaque": false,
+    "destaque": true,
     "generos": [
       "Thriller",
       "Mistério",
@@ -2287,7 +2287,7 @@
     "capa": "assets/img/livros/essencialismo.webp",
     "anoLeitura": 2021,
     "mesLeitura": "Abril",
-    "destaque": false,
+    "destaque": true,
     "generos": [
       "Produtividade",
       "Desenvolvimento Pessoal"
@@ -2465,7 +2465,7 @@
     "capa": "assets/img/livros/o-poder-do-habito.webp",
     "anoLeitura": 2019,
     "mesLeitura": "Setembro",
-    "destaque": false,
+    "destaque": true,
     "generos": [
       "Psicologia",
       "Comportamento",
@@ -2510,7 +2510,7 @@
     "capa": "assets/img/livros/storytelling-com-dados.webp",
     "anoLeitura": 2022,
     "mesLeitura": "Agosto",
-    "destaque": false,
+    "destaque": true,
     "generos": [
       "Dados",
       "Visualização",
