@@ -673,7 +673,7 @@
     "categoria": "Data Science",
     "duracao": "80 horas",
     "destaque": false,
-    "thumbnail": "assets/img/certificados/data-science-academy/certificado-data-science-para-analise-multivariada.png",
+    "thumbnail": "assets/img/certificados/data-science-academy/analise-multivariada-de-dados.png",
     "competencias": [
       "Python",
       "Data Science",
@@ -689,43 +689,43 @@
       {
         "nome": "Certificado - Data Science para análise multivariada de dados - Inglês.pdf",
         "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Data%20Science%20Academy/Certificado%20-%20Data%20Science%20para%20an%C3%A1lise%20multivariada%20de%20dados%20-%20Ingl%C3%AAs.pdf",
-        "preview": "assets/img/certificados/data-science-academy/certificado-data-science-para-analise-multivariada.png",
+        "preview": "assets/img/certificados/data-science-academy/analise-multivariada-de-dados-ingles.png",
         "isFormacao": false
       },
       {
         "nome": "Certificado - Data Science para análise multivariada de dados.pdf",
         "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Data%20Science%20Academy/Certificado%20-%20Data%20Science%20para%20an%C3%A1lise%20multivariada%20de%20dados.pdf",
-        "preview": "assets/img/certificados/data-science-academy/certificado-data-science-para-analise-multivariada.png",
+        "preview": "assets/img/certificados/data-science-academy/analise-multivariada-de-dados.png",
         "isFormacao": false
       },
       {
         "nome": "Certificado - Matemática e Estatística Aplicada para DS, ML e IA - Inglês.pdf",
         "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Data%20Science%20Academy/Certificado%20-%20Matem%C3%A1tica%20e%20Estat%C3%ADstica%20Aplicada%20para%20DS%2C%20ML%20e%20IA%20-%20Ingl%C3%AAs.pdf",
-        "preview": "assets/img/certificados/data-science-academy/certificado-matematica-e-estatistica-aplicada-para.png",
+        "preview": "assets/img/certificados/data-science-academy/matematica-e-estatistica-aplicada-ingles.png",
         "isFormacao": false
       },
       {
         "nome": "Certificado - Matemática e Estatística Aplicada para DS, ML e IA.pdf",
         "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Data%20Science%20Academy/Certificado%20-%20Matem%C3%A1tica%20e%20Estat%C3%ADstica%20Aplicada%20para%20DS%2C%20ML%20e%20IA.pdf",
-        "preview": "assets/img/certificados/data-science-academy/certificado-matematica-e-estatistica-aplicada-para.png",
+        "preview": "assets/img/certificados/data-science-academy/matematica-e-estatistica-aplicada.png",
         "isFormacao": false
       },
       {
         "nome": "Fundamentos de linguagem python para analise de dados e data science - nível básico.pdf",
         "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Data%20Science%20Academy/Fundamentos%20de%20linguagem%20python%20para%20analise%20de%20dados%20e%20data%20science%20-%20n%C3%ADvel%20b%C3%A1sico.pdf",
-        "preview": "assets/img/certificados/data-science-academy/fundamentos-de-linguagem-python-para-analise-de-da.png",
+        "preview": "assets/img/certificados/data-science-academy/fundamentos-python-nivel-basico.png",
         "isFormacao": false
       },
       {
         "nome": "Fundamentos de linguagem python para analise de dados e data science - nível intermediário.pdf",
         "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Data%20Science%20Academy/Fundamentos%20de%20linguagem%20python%20para%20analise%20de%20dados%20e%20data%20science%20-%20n%C3%ADvel%20intermedi%C3%A1rio.pdf",
-        "preview": "assets/img/certificados/data-science-academy/fundamentos-de-linguagem-python-para-analise-de-da.png",
+        "preview": "assets/img/certificados/data-science-academy/fundamentos-python-nivel-intermediario.png",
         "isFormacao": false
       },
       {
         "nome": "Fundamentos de linguagem python para analise de dados e data science - nível introdutório.pdf",
         "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Data%20Science%20Academy/Fundamentos%20de%20linguagem%20python%20para%20analise%20de%20dados%20e%20data%20science%20-%20n%C3%ADvel%20introdut%C3%B3rio.pdf",
-        "preview": "assets/img/certificados/data-science-academy/fundamentos-de-linguagem-python-para-analise-de-da.png",
+        "preview": "assets/img/certificados/data-science-academy/fundamentos-python-nivel-introdutorio.png",
         "isFormacao": false
       }
     ],
