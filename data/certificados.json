@@ -1064,6 +1064,36 @@
     "lastUpdated": "2026-03-01T10:41:23.856984"
   },
   {
+    "id": "especialista-em-ia",
+    "titulo": "Especialista em IA",
+    "tipo": "Formação",
+    "instituicao": "Alura",
+    "categoria": "Inteligência Artificial",
+    "duracao": "8h",
+    "destaque": false,
+    "thumbnail": "assets/img/certificados/especialista-em-ia/01-curso-pensamento-computacional-fundamentos-da-c.png",
+    "competencias": [
+      "Pensamento computacional",
+      "Lógica de programação",
+      "Fundamentos da computação"
+    ],
+    "descricao": "Formação em **Inteligência Artificial** da Alura, em andamento, começando pelos **fundamentos da computação**.",
+    "descricaoCompleta": "Trilha para atuar com Inteligência Artificial. O primeiro curso concluído trabalha **pensamento computacional** e **lógica de programação**, a base para os próximos módulos da formação.",
+    "certificados": [
+      {
+        "nome": "01 - Curso Pensamento computacional - fundamentos da computação e lógica de programação.pdf",
+        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Especialista%20em%20IA/01%20-%20Curso%20Pensamento%20computacional%20-%20fundamentos%20da%20computa%C3%A7%C3%A3o%20e%20l%C3%B3gica%20de%20programa%C3%A7%C3%A3o.pdf",
+        "preview": "assets/img/certificados/especialista-em-ia/01-curso-pensamento-computacional-fundamentos-da-c.png",
+        "isFormacao": false
+      }
+    ],
+    "totalCertificados": 1,
+    "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Especialista%20em%20IA",
+    "status": "Em andamento",
+    "ano": "2026",
+    "lastUpdated": "2026-11-13T14:55:43.080577"
+  },
+  {
     "id": "estatistica-python",
     "titulo": "Estatística com Python",
     "tipo": "Formação",
@@ -1600,16 +1630,22 @@
   },
   {
     "id": "machine-learning-com-python-regressao",
-    "titulo": "Machine Learning Com Python   Regressão",
+    "titulo": "Machine Learning com Python - Regressão",
     "tipo": "Formação",
     "instituicao": "Alura",
-    "categoria": "Programação",
-    "duracao": "8 horas",
+    "categoria": "Machine Learning",
+    "duracao": "32h",
     "destaque": false,
     "thumbnail": "assets/img/certificados/machine-learning-com-python-regressao/machine-learning-com-python-regressao-01-data-scie.png",
-    "competencias": [],
-    "descricao": "Certificação em Machine Learning Com Python   Regressão pela Alura",
-    "descricaoCompleta": "Certificação em Machine Learning Com Python   Regressão pela Alura",
+    "competencias": [
+      "Regressão linear",
+      "Transformação de variáveis",
+      "Árvores de regressão",
+      "XGBoost",
+      "Avaliação de desempenho preditivo"
+    ],
+    "descricao": "Trilha de Machine Learning focada em **modelos de regressão**, da regressão linear ao **XGBoost**.",
+    "descricaoCompleta": "Quatro cursos que constroem o repertório de regressão passo a passo: testar relações com **regressão linear**, **transformar variáveis** para melhorar o ajuste, construir **árvores de regressão** e aprimorar os resultados com **XGBoost**, sempre avaliando o desempenho preditivo dos modelos.",
     "certificados": [
       {
         "nome": "Machine Learning com Python Regressão 01 - Data Science - testando relações com Regressão Linear.pdf",
@@ -1628,13 +1664,19 @@
         "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Machine%20Learning%20com%20Python%20-%20Regress%C3%A3o/Machine%20Learning%20com%20Python%20Regress%C3%A3o%2003%20-%20Curso%20Regress%C3%A3o%20-%20construindo%20%C3%81rvores%20de%20Regress%C3%A3o.pdf",
         "preview": "assets/img/certificados/machine-learning-com-python-regressao/machine-learning-com-python-regressao-03-curso-reg.png",
         "isFormacao": false
+      },
+      {
+        "nome": "Machine Learning com Python Regressão 04 - Curso Regressão - aprimorando os resultados com XGBoost.pdf",
+        "url": "https://github.com/guicorrea93/portfolio-certificados/blob/main/Machine%20Learning%20com%20Python%20-%20Regress%C3%A3o/Machine%20Learning%20com%20Python%20Regress%C3%A3o%2004%20-%20Curso%20Regress%C3%A3o%20-%20aprimorando%20os%20resultados%20com%20XGBoost.pdf",
+        "preview": "assets/img/certificados/machine-learning-com-python-regressao/machine-learning-com-python-regressao-04-curso-reg.png",
+        "isFormacao": false
       }
     ],
-    "totalCertificados": 3,
+    "totalCertificados": 4,
     "githubFolder": "https://github.com/guicorrea93/portfolio-certificados/tree/main/Machine%20Learning%20com%20Python%20-%20Regress%C3%A3o",
     "status": "Concluído",
-    "ano": "2025",
-    "lastUpdated": "2026-03-01T10:41:32.485467"
+    "ano": "2026",
+    "lastUpdated": "2026-11-13T14:55:43.080577"
   },
   {
     "id": "machine-learning-na-pratica",
