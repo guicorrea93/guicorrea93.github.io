@@ -27,13 +27,13 @@ O site inclui:
 | # | Projeto | Tipo | Destaques |
 |---|---------|------|-----------|
 | 6 | **[Dashboard Analitico das Copas do Mundo FIFA](https://guicorrea93.github.io/projetos/copa-do-mundo/)** | HTML + JS | Dashboard executivo e exploratorio das Copas do Mundo, com visao geral, edicoes, selecoes, gols, jogos, chaveamentos e detalhes por partida. |
-| 5 | **[Segmentacao de Municipios Brasileiros](https://guicorrea93.github.io/PortifolioProjetos/projeto_5/)** | Data Science + Machine Learning | 5.204 municipios segmentados com cobertura total do territorio nacional, Linha Regional (Linha 3) alcancou Silhouette... |
-| 4 | **[Forecasting de Vendas com ML](https://guicorrea93.github.io/PortifolioProjetos/projeto_4/)** | Data Science + Machine Learning | Modelo XGBoost com R² de 96,1% em dados de teste, Erro percentual medio (MAPE) inferior a 8%, Identificacao clara dos... |
+| 5 | **[Segmentacao de Municipios Brasileiros](https://guicorrea93.github.io/portfolio-projetos/05-clusterbr-municipios/)** | Data Science + Machine Learning | 5.204 municipios segmentados com cobertura total do territorio nacional, Linha Regional (Linha 3) alcancou Silhouette... |
+| 4 | **[Forecasting de Vendas com ML](https://guicorrea93.github.io/portfolio-projetos/04-rossmann-previsao-vendas/)** | Data Science + Machine Learning | Modelo XGBoost com R² de 96,1% em dados de teste, Erro percentual medio (MAPE) inferior a 8%, Identificacao clara dos... |
 | 3 | **[Dashboard de Performance e Negocios](https://app.powerbi.com/view?r=eyJrIjoiN2JmMDFiOGItMzAxMS00NjI1LWE2ZGMtNmIzOTI0YzBlMjk4IiwidCI6IjhjYzJkZWQ2LWEzYjktNDk4My04ZDcxLTY3OGZjN2E2NjRiZSJ9)** | Power BI | Dashboard acessivel com narrativa visual clara e objetiva, Analises comparativas facilitam identificacao de oportunid... |
-| 2 | **[Dashboard Interativo em HTML/JavaScript](https://guicorrea93.github.io/PortifolioProjetos/projeto_2/report/)** | HTML + JS | Carregamento ultra-rapido (< 2 segundos), 100% de disponibilidade via GitHub Pages, Acessivel de qualquer dispositivo... |
+| 2 | **[Dashboard Interativo em HTML/JavaScript](https://guicorrea93.github.io/portfolio-projetos/02-superstore-eda-interativa/report/)** | HTML + JS | Carregamento ultra-rapido (< 2 segundos), 100% de disponibilidade via GitHub Pages, Acessivel de qualquer dispositivo... |
 | 1 | **[Dashboard Executivo de Indicadores](https://app.powerbi.com/view?r=eyJrIjoiNWJkNzQyMzUtOTcxMC00NDI2LWJiNTUtMDRkMTMzNjVjZGRmIiwidCI6IjhjYzJkZWQ2LWEzYjktNDk4My04ZDcxLTY3OGZjN2E2NjRiZSJ9)** | Power BI | Dashboard acessivel online via Power BI Service, Reducao significativa no tempo de analise de indicadores, Interface ... |
 
-> Todos os projetos estao disponiveis no repositorio [PortifolioProjetos](https://github.com/guicorrea93/PortifolioProjetos).
+> Todos os projetos estao disponiveis no repositorio [portfolio-projetos](https://github.com/guicorrea93/portfolio-projetos).
 
 ---
 

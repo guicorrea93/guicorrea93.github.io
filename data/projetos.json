@@ -1,15 +1,15 @@
 [
   {
-    "id": "projeto-1",
+    "id": "dashboard-macroeconomico-bcb",
     "titulo": "Dashboard Executivo de Indicadores",
     "tipo": "Power BI",
     "descricao": "Dashboard publicado no Power BI Service com foco em indicadores e análise executiva, facilitando tomada de decisão estratégica.",
     "descricaoCompleta": "Dashboard executivo desenvolvido no Power BI Service focado em entregar insights acionáveis para a alta gestão. Implementa KPIs críticos com análise de tendências e drill-down interativo. Utiliza DAX avançado para cálculos dinâmicos e modelagem de dados otimizada para performance. A estrutura modular permite fácil manutenção e evolução do projeto.",
     "destaque": false,
-    "thumbnail": "assets/img/projetos/projeto1-thumb.webp",
+    "thumbnail": "assets/img/projetos/dashboard-macroeconomico-bcb-thumb.webp",
     "screenshots": [
-      "assets/img/projetos/projeto1-screen1.webp",
-      "assets/img/projetos/projeto1-screen2.webp"
+      "assets/img/projetos/dashboard-macroeconomico-bcb-screen1.webp",
+      "assets/img/projetos/dashboard-macroeconomico-bcb-screen2.webp"
     ],
     "tags": ["Power BI", "DAX", "Modelagem", "KPIs", "Drill-down"],
     "tecnologias": ["Power BI Desktop", "Power Query", "DAX", "Power BI Service", "Modelagem de Dados"],
@@ -25,22 +25,22 @@
     ],
     "links": {
       "ver": "https://app.powerbi.com/view?r=eyJrIjoiNWJkNzQyMzUtOTcxMC00NDI2LWJiNTUtMDRkMTMzNjVjZGRmIiwidCI6IjhjYzJkZWQ2LWEzYjktNDk4My04ZDcxLTY3OGZjN2E2NjRiZSJ9",
-      "repo": "https://github.com/guicorrea93/PortifolioProjetos/tree/main/projeto_1"
+      "repo": "https://github.com/guicorrea93/portfolio-projetos/tree/main/01-dashboard-macroeconomico-bcb"
     },
     "dataPublicacao": "2024-11",
     "status": "Concluído"
   },
   {
-    "id": "projeto-2",
+    "id": "superstore-eda-interativa",
     "titulo": "Dashboard Interativo em HTML/JavaScript",
     "tipo": "HTML + JS",
     "descricao": "Dashboard interativo estático em HTML/CSS/JS (Plotly), publicado via GitHub Pages com atualização automática e design responsivo.",
     "descricaoCompleta": "Solução leve e responsiva desenvolvida em HTML/CSS/JavaScript puro, utilizando Plotly.js para gráficos interativos. Publicado via GitHub Pages, oferece acesso instantâneo sem necessidade de servidor. Design mobile-first permite acompanhamento de qualquer dispositivo. Implementa boas práticas de web design moderno com performance otimizada.",
     "destaque": false,
-    "thumbnail": "assets/img/projetos/projeto2-thumb.webp",
+    "thumbnail": "assets/img/projetos/superstore-eda-interativa-thumb.webp",
     "screenshots": [
-      "assets/img/projetos/projeto2-screen1.webp",
-      "assets/img/projetos/projeto2-screen2.webp"
+      "assets/img/projetos/superstore-eda-interativa-screen1.webp",
+      "assets/img/projetos/superstore-eda-interativa-screen2.webp"
     ],
     "tags": ["HTML", "CSS", "JavaScript", "Plotly", "GitHub Pages", "Responsivo"],
     "tecnologias": ["HTML5", "CSS3", "JavaScript ES6", "Plotly.js", "GitHub Pages", "Design Responsivo"],
@@ -55,23 +55,23 @@
       "Acessível de qualquer dispositivo com experiência otimizada"
     ],
     "links": {
-      "ver": "https://guicorrea93.github.io/PortifolioProjetos/projeto_2/report/",
-      "repo": "https://github.com/guicorrea93/PortifolioProjetos/tree/main/projeto_2"
+      "ver": "https://guicorrea93.github.io/portfolio-projetos/02-superstore-eda-interativa/report/",
+      "repo": "https://github.com/guicorrea93/portfolio-projetos/tree/main/02-superstore-eda-interativa"
     },
     "dataPublicacao": "2024-10",
     "status": "Concluído"
   },
   {
-    "id": "projeto-3",
+    "id": "ecommerce-360",
     "titulo": "Dashboard de Performance e Negócios",
     "tipo": "Power BI",
     "descricao": "Dashboard publicado no Power BI Service com foco em performance operacional e indicadores estratégicos do negócio com storytelling visual.",
     "descricaoCompleta": "Dashboard completo focado em performance operacional e indicadores estratégicos, desenvolvido com técnicas de storytelling visual para guiar a análise. Implementa análise comparativa entre períodos, identificação de tendências e drill-through para análises detalhadas. Utiliza DAX avançado e modelagem eficiente para garantir agilidade na exploração dos dados.",
     "destaque": true,
-    "thumbnail": "assets/img/projetos/projeto3-thumb.webp",
+    "thumbnail": "assets/img/projetos/ecommerce-360-thumb.webp",
     "screenshots": [
-      "assets/img/projetos/projeto3-screen1.webp",
-      "assets/img/projetos/projeto3-screen2.webp"
+      "assets/img/projetos/ecommerce-360-screen1.webp",
+      "assets/img/projetos/ecommerce-360-screen2.webp"
     ],
     "tags": ["Power BI", "DAX", "Storytelling", "Performance", "Análise Comparativa"],
     "tecnologias": ["Power BI Desktop", "DAX Avançado", "Power Query M", "Power BI Service", "Storytelling Visual"],
@@ -87,22 +87,22 @@
     ],
     "links": {
       "ver": "https://app.powerbi.com/view?r=eyJrIjoiN2JmMDFiOGItMzAxMS00NjI1LWE2ZGMtNmIzOTI0YzBlMjk4IiwidCI6IjhjYzJkZWQ2LWEzYjktNDk4My04ZDcxLTY3OGZjN2E2NjRiZSJ9",
-      "repo": "https://github.com/guicorrea93/PortifolioProjetos/tree/main/projeto_3"
+      "repo": "https://github.com/guicorrea93/portfolio-projetos/tree/main/03-ecommerce-360"
     },
     "dataPublicacao": "2024-09",
     "status": "Concluído"
   },
   {
-    "id": "projeto-4",
+    "id": "rossmann-previsao-vendas",
     "titulo": "Forecasting de Vendas com ML",
     "tipo": "Data Science + Machine Learning",
     "descricao": "Projeto completo de previsão de vendas utilizando séries temporais e Machine Learning, com análise exploratória, feature engineering avançado e relatório executivo interativo em HTML.",
     "descricaoCompleta": "Projeto de Data Science aplicado ao problema real de forecasting de vendas no varejo, utilizando o dataset da rede Rossmann. Inclui análise exploratória aprofundada, engenharia de atributos temporais e de histórico (lags e médias móveis), validação temporal adequada e comparação entre múltiplos algoritmos de Machine Learning. O resultado final é apresentado em um relatório interativo em HTML, voltado para decisão executiva e comunicação clara de insights de negócio.",
     "destaque": true,
-    "thumbnail": "assets/img/projetos/projeto4-thumb.webp",
+    "thumbnail": "assets/img/projetos/rossmann-previsao-vendas-thumb.webp",
     "screenshots": [
-      "assets/img/projetos/projeto4-screen1.webp",
-      "assets/img/projetos/projeto4-screen2.webp"
+      "assets/img/projetos/rossmann-previsao-vendas-screen1.webp",
+      "assets/img/projetos/rossmann-previsao-vendas-screen2.webp"
     ],
     "tags": [
       "Machine Learning",
@@ -138,23 +138,23 @@
       "Relatório executivo interativo pronto para tomada de decisão"
     ],
     "links": {
-      "ver": "https://guicorrea93.github.io/PortifolioProjetos/projeto_4/",
-      "repo": "https://github.com/guicorrea93/PortifolioProjetos/tree/main/projeto_4"
+      "ver": "https://guicorrea93.github.io/portfolio-projetos/04-rossmann-previsao-vendas/",
+      "repo": "https://github.com/guicorrea93/portfolio-projetos/tree/main/04-rossmann-previsao-vendas"
     },
     "dataPublicacao": "2026-01",
     "status": "Concluído"
   },
   {
-    "id": "projeto-5",
+    "id": "clusterbr-municipios",
     "titulo": "Segmentação de Municípios Brasileiros",
     "tipo": "Data Science + Machine Learning",
     "descricao": "Projeto completo de clustering não supervisionado aplicado aos 5.204 municípios do Brasil, com coleta via API do IBGE, 3 linhas de pesquisa complementares e relatório interativo em HTML.",
     "descricaoCompleta": "Estudo de segmentação territorial do Brasil construído de ponta a ponta: coleta de dados socioeconômicos via API IBGE/SIDRA, pré-processamento, feature engineering, busca exaustiva do K ideal com múltiplas métricas (Silhouette, Davies-Bouldin, Elbow Method) e comparação entre algoritmos (KMeans, HDBSCAN, Agglomerative Clustering). O diferencial do projeto está nas 3 linhas de pesquisa complementares: subclusters hierárquicos (K=4 → 16 grupos), granularidade direta com K=10 e segmentação regional com K automático via silhueta. Todos os resultados são apresentados em um relatório interativo em HTML com visualizações Plotly, mapas e análise comparativa das abordagens.",
     "destaque": true,
-    "thumbnail": "assets/img/projetos/projeto5-thumb.webp",
+    "thumbnail": "assets/img/projetos/clusterbr-municipios-thumb.webp",
     "screenshots": [
-      "assets/img/projetos/projeto5-screen1.webp",
-      "assets/img/projetos/projeto5-screen2.webp"
+      "assets/img/projetos/clusterbr-municipios-screen1.webp",
+      "assets/img/projetos/clusterbr-municipios-screen2.webp"
     ],
     "tags": [
       "Machine Learning",
@@ -196,23 +196,23 @@
       "Relatório executivo interativo com 13 seções e visualizações dinâmicas"
     ],
     "links": {
-      "ver": "https://guicorrea93.github.io/PortifolioProjetos/projeto_5/",
-      "repo": "https://github.com/guicorrea93/PortifolioProjetos/tree/main/projeto_5"
+      "ver": "https://guicorrea93.github.io/portfolio-projetos/05-clusterbr-municipios/",
+      "repo": "https://github.com/guicorrea93/portfolio-projetos/tree/main/05-clusterbr-municipios"
     },
     "dataPublicacao": "2026-02",
     "status": "Concluído"
   },
   {
-    "id": "projeto-6",
+    "id": "copa-do-mundo",
     "titulo": "Dashboard Analítico das Copas do Mundo FIFA",
     "tipo": "HTML + JS",
     "descricao": "Dashboard executivo e exploratório sobre todas as Copas do Mundo FIFA, com visão macro, análise por edição, seleções, gols, jogos, fases e detalhes de partidas.",
     "descricaoCompleta": "Dashboard analítico completo das Copas do Mundo FIFA, desenvolvido como uma experiência web interativa em HTML, CSS e JavaScript com visualizações Plotly. O projeto estrutura a análise do macro ao micro: panorama histórico das edições, desempenho por seleção, rankings, artilharia, gols, públicos, fases de grupos, mata-mata em chaveamento visual e modal detalhado por partida com placar, marcadores, ficha técnica e escalações. A base foi construída a partir de dados da Wikipedia em português, enriquecida com auditorias, padronização de nomes de seleções e jogadores, bandeiras, estatísticas históricas e atualizações parciais da Copa de 2026.",
     "destaque": true,
-    "thumbnail": "assets/img/projetos/copa-mundo/thumb.png",
+    "thumbnail": "assets/img/projetos/copa-do-mundo-thumb.png",
     "screenshots": [
-      "assets/img/projetos/copa-mundo/screen1.png",
-      "assets/img/projetos/copa-mundo/screen2.png"
+      "assets/img/projetos/copa-do-mundo-screen1.png",
+      "assets/img/projetos/copa-do-mundo-screen2.png"
     ],
     "tags": [
       "HTML",
