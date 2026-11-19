@@ -6,7 +6,7 @@
 assets/img_backup/
 
 # Scripts utilitarios e documentacao interna
-scripts/
+/scripts/
 GUIA_ATUALIZACAO.md
 
 # Claude Code

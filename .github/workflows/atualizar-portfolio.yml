@@ -1,0 +1,101 @@
+# Robo do portfolio: le o repositorio de certificados, atualiza os dados do site
+# e ABRE UM PEDIDO DE APROVACAO (pull request). Nada vai para o ar sem o merge.
+#
+# Roda pelo botao "Run workflow" (aba Actions) e toda segunda as 08:00 (Brasilia).
+# Obs.: o GitHub desliga agendamentos de repositorios publicos apos 60 dias sem
+# atividade; o botao manual sempre funciona.
+#
+# Requisito unico (uma vez): Settings > Actions > General > Workflow permissions >
+# marcar "Allow GitHub Actions to create and approve pull requests".
+
+name: Atualizar portfólio (robô)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 11 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: robo-portfolio
+  cancel-in-progress: true
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o site
+        uses: actions/checkout@v4
+        with:
+          path: site
+
+      - name: Baixar o repositório de certificados
+        uses: actions/checkout@v4
+        with:
+          repository: guicorrea93/portfolio-certificados
+          path: portfolio-certificados
+
+      - name: Baixar o repositório de diplomas
+        uses: actions/checkout@v4
+        with:
+          repository: guicorrea93/portfolio-diplomas
+          path: portfolio-diplomas
+
+      - name: Preparar o Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install pymupdf pillow numpy pyyaml
+
+      - name: Robô de certificados
+        working-directory: site
+        run: >
+          python .github/scripts/sincronizar_certificados.py
+          --certificados ../portfolio-certificados --aplicar --relatorio ../relatorio.md
+
+      - name: Validar os dados
+        id: validar
+        working-directory: site
+        run: |
+          set +e
+          python .github/scripts/validar_dados.py --certificados ../portfolio-certificados --diplomas ../portfolio-diplomas > ../validacao.txt
+          codigo=$?
+          cat ../validacao.txt
+          if [ $codigo -eq 0 ]; then echo "situacao=ok" >> "$GITHUB_OUTPUT"; else echo "situacao=erro" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Montar a descrição do pedido
+        run: |
+          {
+            if [ "${{ steps.validar.outputs.situacao }}" = "erro" ]; then
+              echo "> ❌ **O validador encontrou erros.** Não aprove antes de corrigir (veja abaixo)."
+            else
+              echo "> ✅ Validador: dados OK."
+            fi
+            echo
+            cat relatorio.md
+            echo
+            echo "<details><summary>Saída do validador</summary>"
+            echo
+            echo '```'
+            cat validacao.txt
+            echo '```'
+            echo "</details>"
+            echo
+            echo "Para publicar: revise os arquivos alterados e clique em **Merge**. Para descartar: **Close**."
+          } > corpo.md
+
+      - name: Abrir ou atualizar o pedido de aprovação
+        uses: peter-evans/create-pull-request@v7
+        with:
+          path: site
+          branch: robo/atualizacao
+          delete-branch: true
+          commit-message: "Robô: atualiza certificados a partir do repositório"
+          title: "${{ steps.validar.outputs.situacao == 'erro' && '⚠️ Robô - atualização do portfólio (com erros)' || 'Robô - atualização do portfólio' }}"
+          body-path: corpo.md
+          author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"

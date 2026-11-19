@@ -1,0 +1,4 @@
+# PDFs digitalizados (sem texto) conferidos visualmente: sem CPF/RG/nascimento.
+# Formato: sha256  arquivo. Se o arquivo mudar, o validador volta a avisar.
+59bdd88b9a02356b160c196fc4a8b8f5835ab4a373537489a8ef7fca24e4d2c5  portfolio-diplomas/Especialização.pdf  (conferido em 13/11/2026; RG e nascimento tarjados)
+e6f9f0f194f6bb1e03084e5e6a775aa9222555fefffe471eb175a362b2ef9df5  portfolio-diplomas/Graduação.pdf  (conferido em 13/11/2026; RG e nascimento tarjados)

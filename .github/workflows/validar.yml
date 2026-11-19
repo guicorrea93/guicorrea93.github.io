@@ -1,0 +1,41 @@
+# Confere os dados do site a cada envio para o main (e pelo botao manual).
+# Se falhar, o GitHub avisa por e-mail: ha dado pessoal, rascunho, imagem
+# faltando ou PDF citado que nao existe.
+
+name: Validar dados do site
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "assets/docs/**"
+      - "assets/img/**"
+      - ".github/scripts/**"
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: site
+      - uses: actions/checkout@v4
+        with:
+          repository: guicorrea93/portfolio-certificados
+          path: portfolio-certificados
+      - uses: actions/checkout@v4
+        with:
+          repository: guicorrea93/portfolio-diplomas
+          path: portfolio-diplomas
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pymupdf
+      - name: Validar
+        working-directory: site
+        run: python .github/scripts/validar_dados.py --certificados ../portfolio-certificados --diplomas ../portfolio-diplomas
