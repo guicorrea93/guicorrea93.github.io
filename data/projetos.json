@@ -209,10 +209,10 @@
     "descricao": "Dashboard executivo e exploratório sobre todas as Copas do Mundo FIFA, com visão macro, análise por edição, seleções, gols, jogos, fases e detalhes de partidas.",
     "descricaoCompleta": "Dashboard analítico completo das Copas do Mundo FIFA, desenvolvido como uma experiência web interativa em HTML, CSS e JavaScript com visualizações Plotly. O projeto estrutura a análise do macro ao micro: panorama histórico das edições, desempenho por seleção, rankings, artilharia, gols, públicos, fases de grupos, mata-mata em chaveamento visual e modal detalhado por partida com placar, marcadores, ficha técnica e escalações. A base foi construída a partir de dados da Wikipedia em português, enriquecida com auditorias, padronização de nomes de seleções e jogadores, bandeiras, estatísticas históricas e atualizações parciais da Copa de 2026.",
     "destaque": true,
-    "thumbnail": "assets/img/projetos/copa-do-mundo-thumb.png",
+    "thumbnail": "assets/img/projetos/copa-do-mundo-thumb.webp",
     "screenshots": [
-      "assets/img/projetos/copa-do-mundo-screen1.png",
-      "assets/img/projetos/copa-do-mundo-screen2.png"
+      "assets/img/projetos/copa-do-mundo-screen1.webp",
+      "assets/img/projetos/copa-do-mundo-screen2.webp"
     ],
     "tags": [
       "HTML",
