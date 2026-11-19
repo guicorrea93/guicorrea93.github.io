@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /.claude/
-Disallow: /assets/img_backup/
 
 Sitemap: https://guicorrea93.github.io/sitemap.xml

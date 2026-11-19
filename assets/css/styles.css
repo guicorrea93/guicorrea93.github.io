@@ -1398,7 +1398,7 @@ h3 {
 .modal-status {
   font-size: 0.8125rem;
   font-weight: 600;
-  color: var(--success);
+  color: var(--success-soft);
   background: rgba(27, 127, 92, 0.15);
   border: 1px solid rgba(27, 127, 92, 0.3);
   padding: 0.375rem 0.75rem;
@@ -1500,7 +1500,7 @@ h3 {
 
 .modal-list-success li::before {
   content: '✓';
-  color: var(--success);
+  color: var(--success-soft);
 }
 
 .modal-actions {
@@ -2130,7 +2130,7 @@ body.modal-open {
 .featured-cert-category {
   font-size: 0.75rem;
   font-weight: 600;
-  color: var(--success);
+  color: var(--success-soft);
   background: rgba(27, 127, 92, 0.15);
   border: 1px solid rgba(27, 127, 92, 0.3);
   padding: 0.25rem 0.625rem;
@@ -2141,7 +2141,7 @@ body.modal-open {
   display: flex;
   align-items: center;
   gap: 0.375rem;
-  color: var(--success);
+  color: var(--success-soft);
   font-weight: 600;
   font-size: 0.875rem;
   transition: var(--transition);
@@ -2219,14 +2219,14 @@ body.modal-open {
 .cert-info-item svg {
   width: 16px;
   height: 16px;
-  color: var(--success);
+  color: var(--success-soft);
   flex-shrink: 0;
 }
 
 .cert-status {
   background: rgba(27, 127, 92, 0.2);
   border-color: rgba(27, 127, 92, 0.4);
-  color: var(--success);
+  color: var(--success-soft);
 }
 
 .cert-preview {
@@ -2258,7 +2258,7 @@ body.modal-open {
 .cert-competencias .tag {
   background: rgba(27, 127, 92, 0.15);
   border-color: rgba(27, 127, 92, 0.3);
-  color: var(--success);
+  color: var(--success-soft);
   font-weight: 600;
   padding: 0.5rem 0.875rem;
   text-align: center;
@@ -2345,7 +2345,7 @@ body.modal-open {
 .cert-seal svg {
   width: 32px;
   height: 32px;
-  color: var(--success);
+  color: var(--success-soft);
 }
 
 /* ===============================
@@ -2515,7 +2515,7 @@ body.modal-open {
 .featured-cert-category {
   font-size: 0.75rem;
   font-weight: 600;
-  color: var(--success);
+  color: var(--success-soft);
   background: rgba(27, 127, 92, 0.15);
   border: 1px solid rgba(27, 127, 92, 0.3);
   padding: 0.25rem 0.625rem;
@@ -2526,7 +2526,7 @@ body.modal-open {
   display: flex;
   align-items: center;
   gap: 0.375rem;
-  color: var(--success);
+  color: var(--success-soft);
   font-weight: 600;
   font-size: 0.875rem;
   transition: var(--transition);
@@ -2605,14 +2605,14 @@ body.modal-open {
 .cert-info-item svg {
   width: 16px;
   height: 16px;
-  color: var(--success);
+  color: var(--success-soft);
   flex-shrink: 0;
 }
 
 .cert-status {
   background: rgba(27, 127, 92, 0.2);
   border-color: rgba(27, 127, 92, 0.4);
-  color: var(--success);
+  color: var(--success-soft);
 }
 
 .cert-preview {
@@ -2644,7 +2644,7 @@ body.modal-open {
 .cert-competencias .tag {
   background: rgba(27, 127, 92, 0.15);
   border-color: rgba(27, 127, 92, 0.3);
-  color: var(--success);
+  color: var(--success-soft);
   font-weight: 600;
   padding: 0.5rem 0.875rem;
   text-align: center;
@@ -2731,7 +2731,7 @@ body.modal-open {
 .cert-seal svg {
   width: 32px;
   height: 32px;
-  color: var(--success);
+  color: var(--success-soft);
 }
 
 /* ===============================
@@ -2857,7 +2857,7 @@ body.modal-open {
 }
 
 .cert-gallery-item:hover .cert-gallery-name {
-  color: var(--success);
+  color: var(--success-soft);
 }
 
 /* Badge de contagem de certificados */
@@ -2935,7 +2935,7 @@ body.modal-open {
 
 .search-input:focus {
   outline: none;
-  border-color: var(--success);
+  border-color: var(--success-soft);
   background: rgba(27, 127, 92, 0.12);
   box-shadow: 
     0 0 0 3px rgba(27, 127, 92, 0.15),
@@ -2957,7 +2957,7 @@ body.modal-open {
 }
 
 .search-input:focus ~ .search-icon {
-  color: var(--success);
+  color: var(--success-soft);
 }
 
 .search-clear {
@@ -3106,7 +3106,7 @@ body.modal-open {
 .stat-number {
   font-size: 2rem;
   font-weight: 800;
-  color: var(--success);
+  color: var(--success-soft);
   line-height: 1;
   margin-bottom: 0.5rem;
 }
@@ -3146,7 +3146,7 @@ mark {
   width: 3rem;
   height: 3rem;
   border: 3px solid rgba(27, 127, 92, 0.2);
-  border-top-color: var(--success);
+  border-top-color: var(--success-soft);
   border-radius: 50%;
   animation: spin 0.8s linear infinite;
 }
@@ -3841,7 +3841,7 @@ mark {
 .diploma-status {
   background: rgba(27, 127, 92, 0.2);
   border-color: rgba(27, 127, 92, 0.4);
-  color: var(--success);
+  color: var(--success-soft);
 }
 
 .diploma-info {

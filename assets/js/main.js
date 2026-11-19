@@ -42,6 +42,46 @@ import { CONFIG } from './modules/config.js';
 // NUMEROS DO TOPO (calculados dos dados, para nao envelhecerem)
 // ===============================
 
+// ===============================
+// FOCO NOS MODAIS (acessibilidade por teclado)
+// Ao abrir: foco no botao de fechar e Tab preso dentro do modal.
+// Ao fechar: foco volta para quem abriu. Vale para todos os modais.
+// ===============================
+
+function initModalFocus() {
+  const seletor = 'a[href], button:not([disabled]), input, select, textarea, [tabindex]:not([tabindex="-1"])';
+  document.querySelectorAll('.modal[role="dialog"]').forEach(modal => {
+    let anterior = null;
+    const focaveis = () => [...modal.querySelectorAll(seletor)].filter(el => el.offsetParent !== null);
+
+    new MutationObserver(() => {
+      const aberto = modal.classList.contains('active');
+      if (aberto && !anterior) {
+        anterior = document.activeElement;
+        (modal.querySelector('.modal-close') || focaveis()[0])?.focus();
+      } else if (!aberto && anterior) {
+        if (document.contains(anterior)) anterior.focus();
+        anterior = null;
+      }
+    }).observe(modal, { attributes: true, attributeFilter: ['class'] });
+
+    modal.addEventListener('keydown', (e) => {
+      if (e.key !== 'Tab') return;
+      const lista = focaveis();
+      if (!lista.length) return;
+      const primeiro = lista[0];
+      const ultimo = lista[lista.length - 1];
+      if (e.shiftKey && document.activeElement === primeiro) {
+        e.preventDefault();
+        ultimo.focus();
+      } else if (!e.shiftKey && document.activeElement === ultimo) {
+        e.preventDefault();
+        primeiro.focus();
+      }
+    });
+  });
+}
+
 async function fillHeroStats() {
   const alvo = (nome) => document.querySelectorAll(`[data-stat="${nome}"]`);
   if (!alvo('projetos').length) return;
@@ -98,6 +138,7 @@ function init() {
     setYear();
     initSmoothScroll();
     fillHeroStats();
+    initModalFocus();
     initScrollSpy();
     initLazyLoading();
     manageFocus();

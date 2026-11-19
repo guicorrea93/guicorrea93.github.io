@@ -18,14 +18,7 @@ export async function fetchWithRetry(url, options = {}, retries = CONFIG.maxRetr
   // Tenta fazer o fetch
   for (let i = 0; i < retries; i++) {
     try {
-      const response = await fetch(url, {
-        ...options,
-        cache: 'no-store',
-        headers: {
-          'Content-Type': 'application/json',
-          ...options.headers
-        }
-      });
+      const response = await fetch(url, options);
 
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);

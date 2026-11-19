@@ -80,7 +80,7 @@ export function setTopbar() {
           src="assets/img/avatares/avatar.webp"
           alt="Foto de perfil de Guilherme Corr\u00eaa"
           class="avatar"
-          loading="lazy"
+          loading="eager"
         />
 
         <span>

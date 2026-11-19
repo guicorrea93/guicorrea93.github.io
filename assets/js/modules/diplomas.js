@@ -320,7 +320,7 @@ function renderDiplomaTimeline(diplomas, container) {
     return `
       <div class="diploma-timeline-item ${side}">
         <div class="timeline-dot"></div>
-        <div class="timeline-card" onclick="window.portfolioApp.openDiplomaModal(allDiplomas.find(d => d.id === '${diploma.id}'))">
+        <div class="timeline-card" data-diploma-id="${escapeHTML(diploma.id)}">
           <div class="timeline-year">${escapeHTML(diploma.ano)}</div>
           <h3 class="timeline-title">${escapeHTML(diploma.titulo)}</h3>
           <p class="timeline-institution">${escapeHTML(diploma.instituicao)}</p>
@@ -331,6 +331,11 @@ function renderDiplomaTimeline(diplomas, container) {
   }).join('');
 
   container.innerHTML = timelineHTML;
+
+  container.querySelectorAll('.timeline-card[data-diploma-id]').forEach(card => {
+    const diploma = diplomas.find(d => d.id === card.dataset.diplomaId);
+    if (diploma) makeCardAccessible(card, () => openDiplomaModal(diploma));
+  });
 }
 
 // ===============================
