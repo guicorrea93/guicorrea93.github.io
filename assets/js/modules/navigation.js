@@ -21,11 +21,6 @@ export function getCurrentPage() {
   return path.toLowerCase();
 }
 
-function isActivePage(fileName) {
-  const currentPage = getCurrentPage();
-  return currentPage === fileName ? 'active' : '';
-}
-
 export function setTopbar() {
   const topbarElement = document.getElementById('topbar');
   if (!topbarElement) return;

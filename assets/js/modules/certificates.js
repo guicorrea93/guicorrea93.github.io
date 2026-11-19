@@ -625,50 +625,9 @@ async function loadAllCertificates() {
 // HIGHLIGHT DE BUSCA (OPCIONAL)
 // ===============================
 
-function highlightSearchTerm(text, searchTerm) {
-  if (!searchTerm) return escapeHTML(text);
-
-  const escapedText = escapeHTML(text);
-  const escapedTerm = escapeHTML(searchTerm);
-
-  const regex = new RegExp(`(${escapedTerm})`, 'gi');
-  return escapedText.replace(regex, '<mark style="background: rgba(242, 140, 40, 0.3); color: var(--accent); padding: 0 2px; border-radius: 2px;">$1</mark>');
-}
-
 // ===============================
 // ESTATISTICAS
 // ===============================
-
-function showCertStatistics(certificates) {
-  const statsContainer = document.querySelector('.cert-stats');
-  if (!statsContainer) return;
-
-  const total = certificates.length;
-  const emDestaque = certificates.filter(c => c.destaque).length;
-  const categorias = new Set(certificates.map(c => c.grupo || c.categoria)).size;
-  const instituicoes = new Set(certificates.map(c => c.instituicao)).size;
-
-  statsContainer.innerHTML = `
-    <div class="stats-grid">
-      <div class="stat-card">
-        <div class="stat-number">${total}</div>
-        <div class="stat-label">Total de Certificados</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number">${categorias}</div>
-        <div class="stat-label">Categorias</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number">${instituicoes}</div>
-        <div class="stat-label">Instituicoes</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number">${emDestaque}</div>
-        <div class="stat-label">Em Destaque</div>
-      </div>
-    </div>
-  `;
-}
 
 // ===============================
 // MODAL DE CERTIFICADO
@@ -760,7 +719,6 @@ function populateCertModal(cert) {
       </div>
     `;
     previewContainer.style.display = 'block';
-
 
   } else if (preview) {
     previewContainer.innerHTML = `
